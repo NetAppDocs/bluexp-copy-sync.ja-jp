@@ -55,6 +55,7 @@ Cloud Sync でサポートされるストレージタイプは次のとおりで
 * Cloud Volumes Service
 * Cloud Volumes ONTAP
 * Google クラウドストレージ
+* Googleドライブ
 * IBM クラウドオブジェクトストレージ
 * オンプレミスの ONTAP クラスタ
 * ONTAP S3 ストレージ

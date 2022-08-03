@@ -18,6 +18,55 @@ Cloud Sync の新機能をご確認ください。
 
 
 
+== 2022年7月31日
+
+
+
+=== Googleドライブ
+
+NFSサーバまたはSMBサーバからGoogle Driveにデータを同期できるようになりました。「マイドライブ」と「共有ドライブ」の両方がターゲットとしてサポートされています。
+
+Googleドライブを含む同期関係を作成する前に、必要な権限と秘密鍵を持つサービスアカウントを設定する必要があります。 https://docs.netapp.com/us-en/cloud-manager-sync/reference-requirements.html#google-drive["Googleドライブの要件について詳しくは、こちらをご覧ください"]。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["サポートされている同期関係のリストを表示します"]。
+
+
+
+=== Azure Data Lakeのサポートが追加されています
+
+Cloud Sync で、Azure Data Lake Storage Gen2：
+
+* Amazon S3からAzure Data Lake Storage Gen2への接続に対応しています
+* IBM Cloud Object StorageからAzure Data Lake Storage Gen2への接続
+* StorageGRID からAzureデータレイクストレージGen2への接続
+
+
+https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["サポートされている同期関係のリストを表示します"]。
+
+
+
+=== 同期関係の新しいセットアップ方法が追加されました
+
+Cloud ManagerのCanvasから直接同期関係を設定する方法が追加されました。
+
+
+
+==== ドラッグアンドドロップ
+
+ある作業環境を別の作業環境の上にドラッグアンドドロップして、キャンバスから同期関係を設定できるようになりました。
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-drag-and-drop.png["Cloud Managerの通知センターを示すスクリーンショット。"]
+
+
+
+==== 右パネル設定
+
+Canvasから作業環境を選択し、右パネルから同期オプションを選択することで、Azure Blob StorageまたはGoogle Cloud Storageの同期関係を設定できるようになりました。
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-panel.png["Cloud Managerの通知センターを示すスクリーンショット。"]
+
+
+
 == 2022年7月3日
 
 
@@ -28,7 +77,7 @@ NFSサーバまたはSMBサーバからAzure Data Lake Storage Gen2へデータ�
 
 Azureデータレイクを含む同期関係を作成する場合は、Cloud Sync にストレージアカウントの接続文字列を指定する必要があります。共有アクセスシグニチャ（SAS）ではなく、通常の接続文字列である必要があります。
 
-link:reference-supported-relationships.html["サポートされている同期関係のリストを表示します"]。
+https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["サポートされている同期関係のリストを表示します"]。
 
 
 
@@ -53,7 +102,7 @@ Cloud Sync は、初回のデータ同期後、ソースのGoogle Cloud Storage�
 - pubsub.topics.setIamPolicy
 - storage.buckets.update
 ----
-link:task-creating-relationships.html#settings["Continuous Syncの詳細については、こちらをご覧ください"]。
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Continuous Syncの詳細については、こちらをご覧ください"]。
 
 
 
@@ -95,7 +144,7 @@ Google Cloudのデータブローカーのデフォルトのマシンタイプ�
 ----
 これらの権限は、新しく作成したすべてのデータブローカーに自動的に追加されます。
 
-link:task-creating-relationships.html#settings["Continuous Syncの詳細については、こちらをご覧ください"]。
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Continuous Syncの詳細については、こちらをご覧ください"]。
 
 
 

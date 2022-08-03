@@ -217,6 +217,29 @@ Google Cloud Storage を含む同期関係を確立するには、 Google Cloud 
 
 
 
+== Googleドライブ
+
+Googleドライブを含む同期関係を設定する場合は、次の情報を入力する必要があります。
+
+* データを同期するGoogleドライブの場所にアクセスできるユーザーの電子メールアドレス
+* Google Driveへのアクセス権限を持つGoogle CloudサービスアカウントのEメールアドレスです
+* サービスアカウントの秘密鍵
+
+
+サービスアカウントを設定するには、Googleのドキュメントに記載されている手順に従います。
+
+* https://developers.google.com/admin-sdk/directory/v1/guides/delegation#create_the_service_account_and_credentials["サービスアカウントとクレデンシャルを作成します"^]
+* https://developers.google.com/admin-sdk/directory/v1/guides/delegation#delegate_domain-wide_authority_to_your_service_account["ドメイン全体の権限をサービスアカウントに委任します"^]
+
+
+OAuth Scopesフィールドを編集する場合は、次のスコープを入力します。
+
+* \ https://www.googleapis.com/auth/drive
+* \ https://www.googleapis.com/auth/drive.file
+
+
+
+
 == NFS サーバの要件
 
 * NFS サーバには、 NetApp システムまたは NetApp 以外のシステムを使用できます。
