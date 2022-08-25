@@ -1556,4 +1556,5 @@
   <block id="79074218529972fce8a6ccab7f00095d" category="paragraph">Canvasから作業環境を選択し、右パネルから同期オプションを選択することで、Azure Blob StorageまたはGoogle Cloud Storageの同期関係を設定できるようになりました。</block>
   <block id="b0b9021c705a42adb2b41c27fd7502f5" category="paragraph"><block ref="b0b9021c705a42adb2b41c27fd7502f5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9fffb7017709a369d0e0ce563839fee2" category="paragraph"><block ref="74635618081bc819b4c328f5ee049800" category="inline-link-rx"></block>。</block>
+  <block id="20ef58d225f15c6c7617c04b34bd0ff8" category="list-text">[*データブローカーグループ*]ページで、[*データブローカーの作成*]をクリックし、[* Google Cloud Platform*]を選択します。</block>
 </blocks>
