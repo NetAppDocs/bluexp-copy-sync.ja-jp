@@ -1183,7 +1183,6 @@
   <block id="438c134de8e5d04ae91ce2fc1f48f114" category="list-text">Red Hat Enterprise Linux 7.7 および 8.0</block>
   <block id="083265255bba92c059791cd3a9803274" category="list-text">Ubuntu Server 20.04 LTS の場合は</block>
   <block id="473733802c02f67f489689f787461e62" category="list-text">SUSE Linux Enterprise Server 15 SP1</block>
-  <block id="ba21a73e643ef93cb57c384740c98f3c" category="paragraph">コマンド 'yum update all' は ' データ・ブローカをインストールする前に ' ホスト上で実行する必要があります</block>
   <block id="35ec85020897e56acfca830003a03e8c" category="paragraph">Red Hat Enterprise Linux システムは、 Red Hat サブスクリプション管理に登録する必要があります。登録されていない場合、システムはインストール中に必要なサードパーティソフトウェアをアップデートするためのリポジトリにアクセスできません。</block>
   <block id="b4951d06315b1f9ffb6d04ceb4346101" category="list-text">* RAM * ： 16GB</block>
   <block id="53a3e84f8dd7775216fa9eaac8d2ba6d" category="list-text">* CPU * ： 4 コア</block>
@@ -1557,4 +1556,5 @@
   <block id="b0b9021c705a42adb2b41c27fd7502f5" category="paragraph"><block ref="b0b9021c705a42adb2b41c27fd7502f5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9fffb7017709a369d0e0ce563839fee2" category="paragraph"><block ref="74635618081bc819b4c328f5ee049800" category="inline-link-rx"></block>。</block>
   <block id="20ef58d225f15c6c7617c04b34bd0ff8" category="list-text">[*データブローカーグループ*]ページで、[*データブローカーの作成*]をクリックし、[* Google Cloud Platform*]を選択します。</block>
+  <block id="a855786065eb842829e76727ee601d59" category="paragraph">データ・ブローカーをインストールする前に'yum updateコマンドをホストで実行する必要があります</block>
 </blocks>
