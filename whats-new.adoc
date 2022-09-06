@@ -18,6 +18,48 @@ Cloud Sync の新機能をご確認ください。
 
 
 
+== 2022年9月4日
+
+
+
+=== Googleドライブの追加サポート
+
+* Cloud Sync でGoogleドライブの同期関係が新たにサポートされるようになりました。
++
+** Google DriveからNFSサーバーへ
+** GoogleドライブからSMBサーバーへ
+
+
+* Google Driveを含む同期関係に関するレポートを生成することもできます。
++
+https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-reports.html["レポートの詳細については、こちらをご覧ください"]。
+
+
+
+
+
+=== 継続的な同期機能の強化
+
+次のタイプの同期関係で、継続的同期設定を有効にできるようになりました。
+
+* NFSサーバへのS3バケット
+* Google Cloud StorageをNFSサーバに接続している
+
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Continuous Syncの詳細については、こちらをご覧ください"]。
+
+
+
+=== Eメール通知
+
+Cloud Sync 通知をEメールで受信できるようになりました。
+
+Eメールで通知を受け取るには、同期関係で* Notifications *の設定を有効にしてから、Cloud Managerでアラートと通知の設定を構成する必要があります。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#setting-up-notifications["通知を設定する方法について説明します"]。
+
+
+
 == 2022年7月31日
 
 

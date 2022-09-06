@@ -113,7 +113,7 @@ image:screenshot_bucket_setup.gif["このスクリーンショットは、バケ
 継続的同期:: Cloud Sync は、初回のデータ同期後、ソースのS3バケットまたはGoogle Cloud Storageバケットで変更をリスンし、変更が発生した場合はターゲットに継続的に同期します。ソースを定期的に再スキャンする必要はありません。
 +
 --
-この設定は、同期関係を作成する場合、およびS3バケットまたはGoogle Cloud StorageからS3、Google Cloud Storage、Azure Blob Storage、StorageGRID 、IBM Storageへの同期でのみ使用できます。
+この設定は、同期関係を作成する場合、およびS3バケットまたはGoogle Cloud StorageからAzure Blob Storage、CIFS、Google Cloud Storage、IBM Cloud Object Storage、NFS、S3、StorageGRID のいずれかのターゲットにデータを同期する場合にのみ使用できます。
 
 この設定を有効にすると、他の機能に次のように影響します。
 

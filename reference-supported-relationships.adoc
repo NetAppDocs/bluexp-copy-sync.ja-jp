@@ -181,6 +181,13 @@ Cloud Sync を使用すると、ソースからターゲットへデータを同
 
 
 
+| Googleドライブ  a| 
+* NFS サーバ
+* SMB サーバ
+
+
+
+
 | IBM クラウドオブジェクトストレージ  a| 
 * Amazon EFS
 * ONTAP 対応の Amazon FSX
