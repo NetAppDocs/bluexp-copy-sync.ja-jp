@@ -242,9 +242,9 @@ Cloud Sync では、問題のトラブルシューティングに役立つ各デ
 .手順
 . ステータスが「 Unknown 」または「 Failed 」のデータブローカーを特定します。
 +
-image:screenshot_sync_broker_status.gif[""]
+image:screenshot_sync_broker_status.gif["データブローカーのステータスが「不明」であるCloud Sync ステータスのスクリーンショットが表示されます。"]
 
-. の上にカーソルを置きます image:screenshot_sync_status_icon.gif[""] アイコンをクリックして失敗の理由を確認してください。
+. の上にカーソルを置きます image:screenshot_sync_status_icon.gif["「情報」アイコン。"] アイコンをクリックして失敗の理由を確認してください。
 . 問題を修正します。
 +
 たとえば、オフラインのデータブローカーを再起動するだけで、初期導入に失敗した場合はデータブローカーの削除が必要になることがあります。

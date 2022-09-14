@@ -98,8 +98,6 @@
   <block id="1fdbc560a67348af4e76fd59fe5ba957" category="paragraph">Cloud Sync では、問題のトラブルシューティングに役立つ各データブローカーのステータスが表示されます。</block>
   <block id="417555a2380aa45dc52608834062b293" category="list-text">ステータスが「 Unknown 」または「 Failed 」のデータブローカーを特定します。</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-image-macro"></block>
-  <block id="fb735d46258c860500df045bd72f563f" category="paragraph"><block ref="fb735d46258c860500df045bd72f563f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7bab02d802b38084f68f9bb810f1ca53" category="list-text">の上にカーソルを置きます <block ref="a74720392297d66ac1ab9a90296912c9" category="inline-image-macro-rx" type="image"></block> アイコンをクリックして失敗の理由を確認してください。</block>
   <block id="cb1293ddc33121613d8b44ddf7bddebc" category="list-text">問題を修正します。</block>
   <block id="4c23f2743e95cade04a6991678e7c813" category="paragraph">たとえば、オフラインのデータブローカーを再起動するだけで、初期導入に失敗した場合はデータブローカーの削除が必要になることがあります。</block>
   <block id="b913043c4767c72e8bbb3ed88c33dd15" category="paragraph">同期プロセス中に同期関係でエラーが発生した場合は、データブローカーグループの同時実行を統合すると、同期エラーの数を減らすことができます。グループの設定を変更すると、転送速度が遅くなるため、パフォーマンスに影響する可能性があります。</block>
@@ -1582,4 +1580,8 @@
   <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">[ 適用（ Apply ） ] をクリックします。</block>
   <block id="8096099be8d06d4be1f099db06d90dd5" category="paragraph">Cloud Sync 通知をCloud Managerの通知センターに送信します。このオプションを設定している場合は、通知がいくつかEメールで送信されます。</block>
   <block id="7ca5aa2b579039b92d9aed9f84201f04" category="paragraph">の通知を受信する場合は</block>
+  <block id="e48d5ea54c85373b23a289d375bf989d" category="inline-image-macro">データブローカーのステータスが「不明」であるCloud Sync ステータスのスクリーンショットが表示されます。</block>
+  <block id="63bb41e88e2d3501b4c30c3d982ddada" category="paragraph"><block ref="63bb41e88e2d3501b4c30c3d982ddada" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d57e234a2b4332ebe0b7d721befcace" category="inline-image-macro">「情報」アイコン。</block>
+  <block id="69f36491bce31dc81bbaeca0cbd9e9a7" category="list-text">の上にカーソルを置きます <block ref="a83fa8ab64292d507b50e25c113057be" category="inline-image-macro-rx" type="image"></block> アイコンをクリックして失敗の理由を確認してください。</block>
 </blocks>
