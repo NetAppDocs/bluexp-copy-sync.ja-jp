@@ -17,8 +17,8 @@ summary: Cloud Sync は、SMB共有間およびSMB共有とオブジェクトス
 Cloud Sync は、SMB共有間およびSMB共有とオブジェクトストレージ（ONTAP S3を除く）間でAccess Control List（ACL；アクセス制御リスト）をコピーできます。必要に応じて、 Robocopy を使用して SMB 共有間の ACL を手動で保持することもできます。
 
 .選択肢
-* <<Setting up Cloud Sync to copy ACLs from an SMB server,ACL を自動的にコピーするように Cloud Sync を設定します>>
-* <<Manually copying ACLs between SMB shares,SMB 共有間で ACL を手動でコピーします>>
+*  up Cloud Sync to copy ACLs from an SMB server,ACL を自動的にコピーするように Cloud Sync を設定します
+*  copying ACLs between SMB shares,SMB 共有間で ACL を手動でコピーします
 
 
 
