@@ -16,6 +16,25 @@ summary: Cloud Sync サービスを開始するには、いくつかの手順を
 Cloud Sync サービスを開始するには、いくつかの手順を実行します。
 
 [role="quick-margin-para"]
+Cloud Managerを使い始めておきます。これには、ログイン、アカウントのセットアップ、場合によってはコネクタの導入、作業環境の作成が含まれます。
+
+[role="quick-margin-para"]
+次のいずれかの同期関係を作成する場合は、最初に作業環境を作成または検出する必要があります。
+
+* ONTAP 対応の Amazon FSX
+* Azure NetApp Files の特長
+* Cloud Volumes ONTAP
+* オンプレミスの ONTAP クラスタ
+
+
+[role="quick-margin-para"]
+Cloud Volumes ONTAP クラスタとオンプレミスのONTAP クラスタにはコネクタが必要です。
+
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["Cloud Managerの利用を開始する方法をご確認ください"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["コネクタの詳細については、こちらをご覧ください"^]
+
+
+[role="quick-margin-para"]
 ソースとターゲットがサポートされ、セットアップされていることを確認します。最も重要な要件は、データブローカーグループと、ソースおよびターゲットの場所との間の接続を検証することです。
 
 * link:reference-supported-relationships.html["サポートされている関係を表示する"]
