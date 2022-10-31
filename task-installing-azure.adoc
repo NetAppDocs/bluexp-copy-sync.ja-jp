@@ -87,14 +87,51 @@ Cloud Sync は、データブローカーを Azure に導入するときに、�
                     "Microsoft.Network/publicIPAddresses/read",
                     "Microsoft.Network/virtualNetworks/subnets/join/action",
                     "Microsoft.Network/publicIPAddresses/join/action",
-                    "Microsoft.Network/networkInterfaces/join/action"
+                    "Microsoft.Network/networkInterfaces/join/action",
+                    "Microsoft.Storage/storageAccounts/read",
+                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/write",
+                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/read",
+                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/delete",
+                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/getFullUrl/action",
+                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/getDeliveryAttributes/action",
+                    "Microsoft.EventGrid/systemTopics/read",
+                    "Microsoft.EventGrid/systemTopics/write",
+                    "Microsoft.EventGrid/systemTopics/delete",
+                    "Microsoft.EventGrid/eventSubscriptions/write",
+                    "Microsoft.Storage/storageAccounts/write"
+----
+....
     ],
     "NotActions": [],
     "AssignableScopes": [],
     "Description": "Azure Data Broker",
     "IsCustom": "true"
 }
-----
+....
+注：
+
+. 次の権限は、Azureから別のクラウドストレージの場所への同期関係で継続的な同期設定を有効にする場合にのみ必要です。
++
+** 'microsoft.StorageAccounts/read'、
+** 'microsoft.EventGrid/systemTopics/eventSubscriptions/write'、
+** 'microsoft.EventGrid/systemTopics/eventSubscriptions/read'、
+** 'microsoft.EventGrid/systemTopics/eventSubscripts/delete'、
+** 'microsoft.EventGrid/systemTopics/eventSubscripts/getFullUrl/action'、
+** 'microsoft.EventGrid/systemTopics/eventSubscripts/getDeliveryAttributes/action'、
+** 'microsoft.EventGrid/systemTopics/read'、
+** 'microsoft.EventGrid/systemTopics/write'、
+** 'microsoft.EventGrid/systemTopics/delete'、
+** 'microsoft.EventGrid/eventSubscriptions/write'、
+** 'microsoft.StorageAccounts/write'
+
+
++
+また、AzureにContinuous Syncを実装する場合は、割り当て可能な範囲をサブスクリプションの範囲に設定し、*リソースグループの範囲ではない*に設定する必要があります。
+
+
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Continuous Syncの詳細については、こちらをご覧ください"]。
+
 
 
 == 認証方式
@@ -127,6 +164,10 @@ image:screenshot-azure.png["AWS 、 Azure 、 Google Cloud 、オンプレミス
 . データブローカーの場所を選択し、仮想マシンに関する基本的な詳細を入力します。
 +
 image:screenshot_azure_data_broker.gif["「サブスクリプション、 Azure リージョン、 VNet 、サブネット、 VM 名、ユーザ名、認証方法、およびリソースグループの各フィールドを示す、 Azure 導入ページのスクリーンショット」"]
+
++
+
+NOTE: Continuous Sync関係を実装する場合は、データブローカーにカスタムロールを割り当てる必要があります。これは、ブローカーの作成後に手動で行うこともできます。
 
 . VNet でのインターネットアクセスにプロキシが必要な場合は、プロキシ設定を指定します。
 . [* Continue （続行） ] をクリックし、展開が完了するまでページを開いたままにします。

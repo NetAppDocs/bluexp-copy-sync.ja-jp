@@ -28,7 +28,7 @@ Cloud Managerを使い始めておきます。これには、ログイン、ア�
 
 
 [role="quick-margin-para"]
-Cloud Volumes ONTAP クラスタとオンプレミスのONTAP クラスタにはコネクタが必要です。
+Cloud Volumes ONTAP 、オンプレミスONTAP クラスタ、およびONTAP 対応Amazon FSXには、コネクタが必要です。
 
 * https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["Cloud Managerの利用を開始する方法をご確認ください"^]
 * https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["コネクタの詳細については、こちらをご覧ください"^]

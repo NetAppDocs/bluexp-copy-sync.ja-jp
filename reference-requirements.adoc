@@ -138,6 +138,9 @@ SA は、 BLOB サービスとすべてのリソースタイプ（サービス�
 image:screenshot_connection_string_sas.gif["「は、共有アクセス署名を示しています。この署名は、 Azure ポータルでストレージアカウントを選択し、共有アクセス署名をクリックすることで使用できます。」"]
 
 
+NOTE: Azure BLOBコンテナを含むContinuous Sync関係を実装する場合は、通常の接続文字列またはSAS接続文字列を使用できます。SAS接続文字列を使用している場合は、近い将来有効期限が切れるように設定しないでください。
+
+
 
 == Azure Data Lake Storage Gen2
 

@@ -18,6 +18,36 @@ Cloud Sync の新機能をご確認ください。
 
 
 
+== 2022年10月30日
+
+
+
+=== Microsoft Azureからの継続的な同期
+
+Azureデータブローカーを使用し、ソースのAzureストレージバケットからクラウドストレージへの継続的な同期設定がサポートされるようになりました。
+
+Cloud Sync は、最初のデータ同期の完了後、ソースのAzureストレージバケットで変更をリスンし、ターゲットへの変更が発生した場合はその変更を継続的に同期します。この設定は、AzureストレージバケットからAzure BLOBストレージ、CIFS、Google Cloud Storage、IBM Cloud Object Storage、NFS、およびStorageGRID に同期する場合に使用できます。
+
+Azureデータブローカーでは、この設定を使用するためのカスタムロールと次の権限が必要です。
+
+[source, json]
+----
+'Microsoft.Storage/storageAccounts/read',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/write',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/read',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/delete',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/getFullUrl/action',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/getDeliveryAttributes/action',
+'Microsoft.EventGrid/systemTopics/read',
+'Microsoft.EventGrid/systemTopics/write',
+'Microsoft.EventGrid/systemTopics/delete',
+'Microsoft.EventGrid/eventSubscriptions/write',
+'Microsoft.Storage/storageAccounts/write'
+----
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Continuous Syncの詳細については、こちらをご覧ください"]。
+
+
+
 == 2022年9月4日
 
 
