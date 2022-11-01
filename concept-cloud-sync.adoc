@@ -27,7 +27,7 @@ video::oZNJtLvgNfQ[youtube,width=848,height=480]
 
 == Cloud Sync の仕組み
 
-Cloud Sync は、データブローカーグループ、 Cloud Manager から提供されるクラウドベースのインターフェイス、ソースとターゲットで構成されるソフトウェアサービス（ SaaS ）プラットフォームです。
+Cloud Sync は、データブローカーグループ、BlueXPで使用可能なクラウドベースのインターフェイス、ソースとターゲットで構成されるソフトウェアサービス（SaaS）プラットフォームです。
 
 次の図は、 Cloud Sync コンポーネント間の関係を示しています。
 

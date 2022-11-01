@@ -84,7 +84,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 Cloud Sync 通知をEメールで受信できるようになりました。
 
-Eメールで通知を受け取るには、同期関係で* Notifications *の設定を有効にしてから、Cloud Managerでアラートと通知の設定を構成する必要があります。
+電子メールで通知を受信するには、同期関係で*Notification*設定を有効にしてから、BlueXPでAlerts and Notification設定を構成する必要があります。
 
 https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#setting-up-notifications["通知を設定する方法について説明します"]。
 
@@ -119,7 +119,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationshi
 
 === 同期関係の新しいセットアップ方法が追加されました
 
-Cloud ManagerのCanvasから直接同期関係を設定する方法が追加されました。
+BlueXPのCanvasから同期関係を直接設定する方法が追加されました。
 
 
 
@@ -127,7 +127,7 @@ Cloud ManagerのCanvasから直接同期関係を設定する方法が追加さ�
 
 ある作業環境を別の作業環境の上にドラッグアンドドロップして、キャンバスから同期関係を設定できるようになりました。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-drag-and-drop.png["Cloud Managerの通知センターを示すスクリーンショット。"]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-drag-and-drop.png["BlueXPの通知センターを示すスクリーンショット"]
 
 
 
@@ -135,7 +135,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 Canvasから作業環境を選択し、右パネルから同期オプションを選択することで、Azure Blob StorageまたはGoogle Cloud Storageの同期関係を設定できるようになりました。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-panel.png["Cloud Managerの通知センターを示すスクリーンショット。"]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-panel.png["BlueXPの通知センターを示すスクリーンショット"]
 
 
 
@@ -254,9 +254,9 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.htm
 
 === 通知
 
-新しい* Notifications *設定を同期関係に使用できるようになりました。この設定を使用すると、Cloud Sync 通知をCloud Managerの通知センターで受信するかどうかを選択できます。データの同期が成功した場合、データの同期が失敗した場合、データの同期がキャンセルされた場合の通知を有効にできます。
+新しい* Notifications *設定を同期関係に使用できるようになりました。この設定では、BlueXPの通知センターでCloud Sync 通知を受信するかどうかを選択できます。データの同期が成功した場合、データの同期が失敗した場合、データの同期がキャンセルされた場合の通知を有効にできます。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["Cloud Managerの通知センターを示すスクリーンショット。"]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["BlueXPの通知センターを示すスクリーンショット"]
 
 https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["同期関係の設定の変更の詳細については、こちらをご覧ください"]。
 
@@ -621,9 +621,9 @@ link:task-managing-relationships.html#changing-the-settings-for-a-sync-relations
 
 === スタンドアロンの Cloud Sync サービスは廃止されました
 
-スタンドアロンの Cloud Sync サービスは廃止されました。Cloud Sync には Cloud Manager から直接アクセスできるようになりました。同じ機能がすべて利用可能です。
+スタンドアロンの Cloud Sync サービスは廃止されました。Cloud Sync にはBlueXPから直接アクセスできるようになりました。BlueXPでは、同じ機能をすべて利用できます。
 
-Cloud Manager にログインしたら、上部の Sync タブに切り替えて、以前と同様に関係を表示できます。
+BlueXPにログインした後、上部の[同期]タブに切り替えて、以前と同様に関係を表示できます。
 
 
 

@@ -16,7 +16,7 @@ summary: Cloud Sync サービスを開始するには、いくつかの手順を
 Cloud Sync サービスを開始するには、いくつかの手順を実行します。
 
 [role="quick-margin-para"]
-Cloud Managerを使い始めておきます。これには、ログイン、アカウントのセットアップ、場合によってはコネクタの導入、作業環境の作成が含まれます。
+BlueXPを使い始めました。これにはログイン、アカウントの設定、コネクタの展開、作業環境の作成などが含まれます。
 
 [role="quick-margin-para"]
 次のいずれかの同期関係を作成する場合は、最初に作業環境を作成または検出する必要があります。
@@ -30,7 +30,7 @@ Cloud Managerを使い始めておきます。これには、ログイン、ア�
 [role="quick-margin-para"]
 Cloud Volumes ONTAP 、オンプレミスONTAP クラスタ、およびONTAP 対応Amazon FSXには、コネクタが必要です。
 
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["Cloud Managerの利用を開始する方法をご確認ください"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["BlueXPの使用を開始する方法について説明します"^]
 * https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["コネクタの詳細については、こちらをご覧ください"^]
 
 
@@ -54,7 +54,7 @@ Cloud Sync のインストールプロセスに従って、同期関係を作成
 
 
 [role="quick-margin-para"]
-にログインします https://cloudmanager.netapp.com/["クラウドマネージャ"^]をクリックし、 * 同期 * をクリックして、ソースとターゲットの選択をドラッグアンドドロップします。プロンプトに従ってセットアップを完了します。 link:task-creating-relationships.html["詳細はこちら。"]。
+にログインします https://cloudmanager.netapp.com/["BlueXP"^]をクリックし、 * 同期 * をクリックして、ソースとターゲットの選択をドラッグアンドドロップします。プロンプトに従ってセットアップを完了します。 link:task-creating-relationships.html["詳細はこちら。"]。
 
 [role="quick-margin-para"]
 AWS または Azure から従量課金制または年間の支払いを申し込むことができます。または、ネットアップから直接ライセンスを購入することもできます。Cloud Sync のライセンス設定ページに移動して設定します。 link:task-licensing.html["詳細はこちら。"]。

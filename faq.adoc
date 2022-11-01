@@ -86,7 +86,7 @@ Cloud Sync をクラウドの外部で使用する場合、次の点に注意し
 
 === Cloud Sync へのアクセス方法を教えてください。
 
-Cloud Sync は、 Cloud Manager の * Sync * タブで使用できます。
+Cloud Sync は、BlueXPの[同期]タブで入手できます。
 
 
 

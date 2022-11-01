@@ -86,9 +86,9 @@ Cloud Sync でデータブローカーのクレデンシャルが更新されま
 
 == 通知を設定する
 
-各同期関係の* Notifications *を設定すると、Cloud Sync 通知を受信するかどうかをCloud Managerの通知センターで選択できます。データの同期が成功した場合、データの同期が失敗した場合、データの同期がキャンセルされた場合の通知を有効にできます。
+各同期関係の*Notification*設定を使用すると'BlueXPの通知センターでCloud Sync 通知を受信するかどうかを選択できますデータの同期が成功した場合、データの同期が失敗した場合、データの同期がキャンセルされた場合の通知を有効にできます。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["Cloud Managerの通知センターを示すスクリーンショット。"]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["BlueXPの通知センターを示すスクリーンショット"]
 
 また、Eメールで通知を受け取ることもできます。
 
@@ -110,7 +110,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 
 
-Cloud Sync 通知をCloud Managerの通知センターに送信します。このオプションを設定している場合は、通知がいくつかEメールで送信されます。
+Cloud Sync 通知はBlueXPの通知センターで受信されます。このオプションを設定している場合は、電子メールで通知がいくつか届きます。
 
 
 
@@ -130,7 +130,7 @@ image:screenshot_sync_settings.png["同期関係の設定を示すスクリー�
 +
 スケジュール:: 以降の同期に対して繰り返し実行するスケジュールを選択するか、同期スケジュールをオフにします。データを 1 分ごとに同期するように関係をスケジュールできます。
 同期タイムアウト:: 指定した時間数または日数以内に同期が完了しなかった場合に、Cloud Sync がデータの同期をキャンセルするかどうかを定義します。
-通知:: Cloud Managerの通知センターでCloud Sync 通知を受信するかどうかを選択できます。データの同期が成功した場合、データの同期が失敗した場合、データの同期がキャンセルされた場合の通知を有効にできます。
+通知:: BlueXPの通知センターでCloud Sync 通知を受信するかどうかを選択できますデータの同期が成功した場合、データの同期が失敗した場合、データの同期がキャンセルされた場合の通知を有効にできます。
 +
 --
 の通知を受信する場合は

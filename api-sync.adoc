@@ -20,10 +20,10 @@ Web UI から使用できる Cloud Sync 機能は、 RESTful API からも使用
 
 == はじめに
 
-Cloud Sync API を使用するには、ユーザトークンと Cloud Central アカウント ID を取得する必要があります。API 呼び出しを行うときは、トークンとアカウント ID を Authorization ヘッダーに追加する必要があります。
+Cloud Sync APIを使い始めるには、ユーザートークンとBlueXPアカウントIDを取得する必要があります。API 呼び出しを行うときは、トークンとアカウント ID を Authorization ヘッダーに追加する必要があります。
 
 .手順
-. NetApp Cloud Central からユーザトークンを取得します。
+. NetApp BlueXPからユーザートークンを取得します。
 +
 [source, http]
 ----
@@ -39,7 +39,7 @@ Body:
               "password": "<user_password>"
 }
 ----
-. Cloud Central アカウント ID を取得します。
+. BlueXpアカウントIDを取得します
 +
 [source, http]
 ----
@@ -80,7 +80,7 @@ Body: { "name": "databroker1", "type": "AZURE" }
 
 .トークンの有効期限が切れた場合はどうすればよいですか。
 ****
-NetApp Cloud Central のユーザトークンの有効期限が切れています。トークンを更新するには、手順 1 から API を再度呼び出す必要があります。
+NetApp BlueXpのユーザトークンには有効期限があります。トークンを更新するには、手順 1 から API を再度呼び出す必要があります。
 
 API 応答には、トークンの有効期限を示す「 expires_in 」フィールドが含まれています。
 
