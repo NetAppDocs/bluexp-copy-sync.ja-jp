@@ -54,7 +54,7 @@ Cloud Sync のインストールプロセスに従って、同期関係を作成
 
 
 [role="quick-margin-para"]
-にログインします https://cloudmanager.netapp.com/["BlueXP"^]をクリックし、 * 同期 * をクリックして、ソースとターゲットの選択をドラッグアンドドロップします。プロンプトに従ってセットアップを完了します。 link:task-creating-relationships.html["詳細はこちら。"]。
+にログインします https://console.bluexp.netapp.com/["BlueXP"^]をクリックし、 * 同期 * をクリックして、ソースとターゲットの選択をドラッグアンドドロップします。プロンプトに従ってセットアップを完了します。 link:task-creating-relationships.html["詳細はこちら。"]。
 
 [role="quick-margin-para"]
 AWS または Azure から従量課金制または年間の支払いを申し込むことができます。または、ネットアップから直接ライセンスを購入することもできます。Cloud Sync のライセンス設定ページに移動して設定します。 link:task-licensing.html["詳細はこちら。"]。
