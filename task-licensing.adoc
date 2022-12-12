@@ -28,7 +28,7 @@ link:concept-licensing.html["ライセンスの仕組みについては、こち
 ****
 
 
-== AWS からの登録
+== [AWS] AWSからサブスクライブしています
 
 AWS を使用すると、従量課金制または年払いが可能です。
 
@@ -52,10 +52,11 @@ video::video_cloud_sync_registering.mp4[width=848,height=480]
 
 
 
-== Azure からのサブスクリプション
+== [[azure]] Azureから購読しています
 
 Azure では、従量課金制または年間の支払いが可能です。
 
+.必要なもの
 関連するサブスクリプションの投稿者または所有者権限を持つ Azure ユーザーアカウント。
 
 .手順
@@ -77,10 +78,11 @@ video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
 
 
 
-== ネットアップからライセンスを購入し、 Cloud Sync に追加する
+== [[licenses]]ネットアップからライセンスを購入してCloud Sync に追加する
 
 同期関係の料金を事前に支払うには、 1 つ以上のライセンスを購入して Cloud Sync サービスに追加する必要があります。
 
+.必要なもの
 ライセンスのシリアル番号、およびライセンスが関連付けられているネットアップサポートサイトのアカウントのユーザ名とパスワードが必要です。
 
 .手順
@@ -117,4 +119,5 @@ video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
 
 
 
+.結果
 Cloud Sync は、既存のライセンスを新しい有効期限で更新します。

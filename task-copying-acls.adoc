@@ -17,8 +17,8 @@ summary: Cloud Sync は、SMB共有間およびSMB共有とオブジェクトス
 Cloud Sync は、SMB共有間およびSMB共有とオブジェクトストレージ（ONTAP S3を除く）間でAccess Control List（ACL；アクセス制御リスト）をコピーできます。必要に応じて、 Robocopy を使用して SMB 共有間の ACL を手動で保持することもできます。
 
 .選択肢
-*  up Cloud Sync to copy ACLs from an SMB server,ACL を自動的にコピーするように Cloud Sync を設定します
-*  copying ACLs between SMB shares,SMB 共有間で ACL を手動でコピーします
+* <<Setting up Cloud Sync to copy ACLs from an SMB server,ACL を自動的にコピーするように Cloud Sync を設定します>>
+* <<SMB 共有間での ACL の手動コピー,SMB 共有間で ACL を手動でコピーします>>
 
 
 
@@ -27,6 +27,7 @@ Cloud Sync は、SMB共有間およびSMB共有とオブジェクトストレー
 
 SMB共有間およびSMB共有とオブジェクトストレージ間でACLをコピーするには、関係の作成時または作成後に設定を有効にします。
 
+.必要なもの
 この機能は、 _any_type のデータブローカー（ AWS 、 Azure 、 Google Cloud Platform 、オンプレミスのデータブローカー）と連携します。オンプレミスのデータブローカーを実行できます link:task-installing-linux.html["サポートされているオペレーティングシステム"]。
 
 .新しい関係の手順
@@ -61,6 +62,7 @@ image:screenshot-sync-tags-metadata.png["オブジェクトストレージにコ
 . [ 設定の保存 *] をクリックします。
 
 
+.結果
 データを同期する場合、Cloud Sync はソースとターゲットの間でACLを保持します。
 
 

@@ -17,12 +17,15 @@ Amazon S3 、 Azure 、または Google Cloud のクレデンシャルが必要�
 
 この機能は、 Cloud Sync API を使用し、 Amazon S3 、 Azure 、または Google Cloud のクレデンシャルを必要とする同期関係をサポートします。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1つ"] ボルトを準備します
 [role="quick-margin-para"]
 URL を設定して、データブローカーグループにクレデンシャルを提供するようにヴォールトを準備します。ボールトのシークレットの URL は、 _creds__ で終わる必要があります。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2 つ"] データブローカーグループを準備
 [role="quick-margin-para"]
 グループ内の各データブローカーのローカル構成ファイルを変更して、外部ボルトからクレデンシャルを取得するようにデータブローカーグループを準備します。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["3つ"] API を使用して同期関係を作成してください
 [role="quick-margin-para"]
 すべての設定が完了したら、 API 呼び出しを送信して、ヴォールトを使用してシークレットを取得する同期関係を作成できます。
 

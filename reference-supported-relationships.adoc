@@ -71,6 +71,7 @@ Cloud Sync を使用すると、ソースからターゲットへデータを同
 * IBM クラウドオブジェクトストレージ
 * NFS サーバ
 * オンプレミスの ONTAP クラスタ
+* ONTAP S3 ストレージ
 * SMB サーバ
 * StorageGRID
 
@@ -247,6 +248,7 @@ Cloud Sync を使用すると、ソースからターゲットへデータを同
 
 
 | ONTAP S3 ストレージ  a| 
+* Amazon S3
 * Google クラウドストレージ
 * SMB サーバ
 * StorageGRID

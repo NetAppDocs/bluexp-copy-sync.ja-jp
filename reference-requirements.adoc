@@ -56,7 +56,7 @@ NOTE: データブローカーでは、デフォルトで、 .snapshot 、 ~snap
 
 
 
-== Amazon S3 バケットの要件
+== [s3] Amazon S3バケットの要件
 
 Amazon S3 バケットが次の要件を満たしていることを確認します。
 
@@ -103,7 +103,7 @@ image:screenshot_iam_role_arn.gif["ロール ARN を示す AWS IAM コンソー�
 
 
 
-== Azure BLOB ストレージの要件
+== [[blob]] Azure BLOBストレージの要件
 
 Azure BLOB ストレージが次の要件を満たしていることを確認します。
 
@@ -186,7 +186,7 @@ link:task-managing-data-brokers.html#define-a-unified-configuration-for-a-data-b
 
 
 
-== Google クラウドストレージバケットの要件
+== [[Google]] Google Cloud Storageバケットの要件
 
 Google クラウドストレージバケットが次の要件を満たしていることを確認します。
 
