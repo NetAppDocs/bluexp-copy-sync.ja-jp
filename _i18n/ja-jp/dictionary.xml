@@ -1689,7 +1689,6 @@
   <block id="4faa53699bc5575d520ebbbdbdcb3676" category="section-title">[[licenses]]ネットアップからライセンスを購入してCloud Sync に追加する</block>
   <block id="5912630061434e78e733b8d5e5e3dc88" category="section-title">2022年12月11日</block>
   <block id="9709c6ba9ff4b10cb5ec3f4f956d3226" category="section-title">ディレクトリを名前でフィルタリングします</block>
-  <block id="7b9790a244d066462a8602bd0a61ba73" category="paragraph">同期関係に新しい*ディレクトリ名を除外*設定を使用できるようになりました。ユーザは、最大15個のディレクトリ名を同期から除外できます。</block>
   <block id="84a8ea117dd9c6b8ddbbe8f47665f923" category="inline-link">[ディレクトリ名を除外する]設定の詳細を確認してください</block>
   <block id="8391e3aac2d2f8dd1b8e38350d072463" category="paragraph"><block ref="018123db357961d73398ef3066f74a1b" category="inline-link-rx"></block>。</block>
   <block id="211e17aac7e6f53a17024d84713e8c34" category="section-title">Amazon S3およびONTAP S3ストレージのサポートが追加されています</block>
@@ -1709,4 +1708,5 @@
   <block id="157e0bfc3909da4f9907f6377e70c5d2" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block> 無料トライアルが終了したら、同期関係の料金をお支払いください</block>
   <block id="f8fb6587a32dba313e626666cb0364a8" category="list-text">ディレクトリ名を除外します</block>
   <block id="baf659a0894b31eff8d9e87af59af9e5" category="list-text">名前を入力し、*Enter*キーを押して、同期から除外するディレクトリを最大15個指定します。デフォルトでは、.copy-Offload、.snapshot、~snapshotディレクトリが除外されます。これらの情報を同期に含めたい場合は、こちらまでお問い合わせください。</block>
+  <block id="43b44f78e255d05aac846a6181095cd6" category="paragraph">同期関係に新しい*ディレクトリ名を除外*設定を使用できるようになりました。ユーザは、最大15個のディレクトリ名を同期から除外できます。デフォルトでは、.copy-Offload、.snapshot、~snapshotディレクトリが除外されます。</block>
 </blocks>

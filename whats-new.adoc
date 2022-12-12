@@ -24,13 +24,13 @@ Cloud Sync の新機能をご確認ください。
 
 === ディレクトリを名前でフィルタリングします
 
-同期関係に新しい*ディレクトリ名を除外*設定を使用できるようになりました。ユーザは、最大15個のディレクトリ名を同期から除外できます。
+同期関係に新しい*ディレクトリ名を除外*設定を使用できるようになりました。ユーザは、最大15個のディレクトリ名を同期から除外できます。デフォルトでは、.copy-Offload、.snapshot、~snapshotディレクトリが除外されます。
 
 https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["[ディレクトリ名を除外する]設定の詳細を確認してください"]。
 
 
 
-== Amazon S3およびONTAP S3ストレージのサポートが追加されています
+=== Amazon S3およびONTAP S3ストレージのサポートが追加されています
 
 Cloud Sync でAWS S3およびONTAP S3ストレージの追加の同期関係がサポートされるようになりました。
 
