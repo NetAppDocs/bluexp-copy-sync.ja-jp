@@ -39,6 +39,11 @@ Body:
               "password": "<user_password>"
 }
 ----
+
+
+
+NOTE: クライアントIDのない個人用メールアカウントを使用している場合は、デフォルトのクライアントID「QC3AgHk6qdbmC7Yr82ApBwaaJLwRNO」を使用できます。
+
 . BlueXpアカウントIDを取得します
 +
 [source, http]

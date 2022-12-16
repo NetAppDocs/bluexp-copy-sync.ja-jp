@@ -1709,4 +1709,5 @@
   <block id="f8fb6587a32dba313e626666cb0364a8" category="list-text">ディレクトリ名を除外します</block>
   <block id="baf659a0894b31eff8d9e87af59af9e5" category="list-text">名前を入力し、*Enter*キーを押して、同期から除外するディレクトリを最大15個指定します。デフォルトでは、.copy-Offload、.snapshot、~snapshotディレクトリが除外されます。これらの情報を同期に含めたい場合は、こちらまでお問い合わせください。</block>
   <block id="43b44f78e255d05aac846a6181095cd6" category="paragraph">同期関係に新しい*ディレクトリ名を除外*設定を使用できるようになりました。ユーザは、最大15個のディレクトリ名を同期から除外できます。デフォルトでは、.copy-Offload、.snapshot、~snapshotディレクトリが除外されます。</block>
+  <block id="109c4a4872ddbe9910e974f2b3dd0211" category="admonition">クライアントIDのない個人用メールアカウントを使用している場合は、デフォルトのクライアントID「QC3AgHk6qdbmC7Yr82ApBwaaJLwRNO」を使用できます。</block>
 </blocks>
