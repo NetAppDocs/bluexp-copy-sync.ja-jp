@@ -18,6 +18,28 @@ Cloud Sync の新機能をご確認ください。
 
 
 
+== 2023年1月3日
+
+
+
+=== データブローカーのローカル設定をUIに表示します
+
+ユーザがUIで各データブローカーのローカル設定を表示できるように、構成を表示*オプションが追加されました。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html["データブローカーグループの管理に関する詳細情報"]。
+
+
+
+=== AzureとGoogle Cloudデータブローカーオペレーティングシステムにアップグレード
+
+AzureとGoogle Cloudのデータブローカー向けオペレーティングシステムがRocky Linux 9.0にアップグレードされました。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-azure.html#details-about-the-data-broker-vm["Azureのデータブローカーインスタンスの詳細については、こちらをご覧ください"]。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-gcp.html#details-about-the-data-broker-vm-instance["Google Cloudのデータブローカーインスタンスに関する詳細を確認できます"]。
+
+
+
 == 2022年12月11日
 
 

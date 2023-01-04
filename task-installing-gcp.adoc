@@ -166,6 +166,6 @@ Cloud Sync は、 Google Cloud に次の構成でデータブローカーを作�
 マシンのタイプ:: N2 - 標準 -4
 vCPU:: 4.
 RAM:: 15 GB
-オペレーティングシステム:: Red Hat Enterprise Linux 7.7
+オペレーティングシステム:: Rocky Linux 9.0
 ディスクのサイズとタイプ:: 20 GB HDD pd-standard
 

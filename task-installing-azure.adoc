@@ -208,6 +208,6 @@ Cloud Sync は、次の構成を使用して Azure にデータブローカー�
 VM タイプ:: 標準 DS4 v2
 vCPU:: 8.
 RAM:: 28 GB
-オペレーティングシステム:: CentOS 7.7
+オペレーティングシステム:: Rocky Linux 9.0
 ディスクのサイズとタイプ:: 64 GB Premium SSD
 

@@ -642,7 +642,6 @@
   <block id="c233ea2db8aa00ac96e4e0317d97f7ed" category="paragraph">Cloud Sync は、 Google Cloud に次の構成でデータブローカーを作成します。</block>
   <block id="3ea4bf9da7622edeeae1bf80e9c5cded" category="list-text">マシンのタイプ</block>
   <block id="9f101c0e6e5929a04c9e7663fdf91eda" category="list-text">15 GB</block>
-  <block id="935b9daeec310c8e2291d043d3e14f44" category="list-text">Red Hat Enterprise Linux 7.7</block>
   <block id="f3796c63e27caa7881ad0844ee9e9544" category="list-text">20 GB HDD pd-standard</block>
   <block id="b7313c752ca12081edfba2212c0cc2e4" category="summary">データの即時同期やスケジュールの変更などにより、いつでも同期関係を管理できます。</block>
   <block id="d45779d5d4d94ce3569ba04a2f510bdc" category="doc">同期関係の管理</block>
@@ -1022,7 +1021,6 @@
   <block id="de66cb8e421123abb772a3664a897531" category="list-text">標準 DS4 v2</block>
   <block id="c9f0f895fb98ab9159f51fd0297e236d" category="list-text">8.</block>
   <block id="472d573b9b96b332aa4fd565b8a78c68" category="list-text">28 GB</block>
-  <block id="b0a4a3d9e04daf57d04de7ad03004279" category="list-text">CentOS 7.7</block>
   <block id="d6856312a90199668ecb7d8f4a9f1322" category="list-text">64 GB Premium SSD</block>
   <block id="f549fa5a7b8a70265d3f6f6fc5ae1943" category="summary">ソースとターゲットが次の要件を満たしていることを確認します。</block>
   <block id="91271a9aaf4442f8d73b827c3ba05c53" category="doc">ソースとターゲットを準備します</block>
@@ -1710,4 +1708,16 @@
   <block id="baf659a0894b31eff8d9e87af59af9e5" category="list-text">名前を入力し、*Enter*キーを押して、同期から除外するディレクトリを最大15個指定します。デフォルトでは、.copy-Offload、.snapshot、~snapshotディレクトリが除外されます。これらの情報を同期に含めたい場合は、こちらまでお問い合わせください。</block>
   <block id="43b44f78e255d05aac846a6181095cd6" category="paragraph">同期関係に新しい*ディレクトリ名を除外*設定を使用できるようになりました。ユーザは、最大15個のディレクトリ名を同期から除外できます。デフォルトでは、.copy-Offload、.snapshot、~snapshotディレクトリが除外されます。</block>
   <block id="109c4a4872ddbe9910e974f2b3dd0211" category="admonition">クライアントIDのない個人用メールアカウントを使用している場合は、デフォルトのクライアントID「QC3AgHk6qdbmC7Yr82ApBwaaJLwRNO」を使用できます。</block>
+  <block id="003d136e5089a4f9ae0f1df3f6fc37fa" category="list-text">Rocky Linux 9.0</block>
+  <block id="bfc6fe3f8d2577420634f29daac2cfe3" category="section-title">2023年1月3日</block>
+  <block id="2ce75b34222d130ea74078b75eb79cc0" category="section-title">データブローカーのローカル設定をUIに表示します</block>
+  <block id="88dcb8d0dd987f4f5606df5981050a8d" category="paragraph">ユーザがUIで各データブローカーのローカル設定を表示できるように、構成を表示*オプションが追加されました。</block>
+  <block id="44580ec91e2012543452f790258e1ccf" category="inline-link">データブローカーグループの管理に関する詳細情報</block>
+  <block id="1bc15ec9e137e3d7653e9f04a08b840b" category="paragraph"><block ref="cbafc7311a6970273ad5a1c3b2c0b656" category="inline-link-rx"></block>。</block>
+  <block id="02840b44154535342dd4cf6739d2c77d" category="section-title">AzureとGoogle Cloudデータブローカーオペレーティングシステムにアップグレード</block>
+  <block id="69e30db11dbff8b5efd6091166af232f" category="paragraph">AzureとGoogle Cloudのデータブローカー向けオペレーティングシステムがRocky Linux 9.0にアップグレードされました。</block>
+  <block id="1c01c907ca0a713df58ba8f4b21fd39c" category="inline-link">Azureのデータブローカーインスタンスの詳細については、こちらをご覧ください</block>
+  <block id="696fb1a24aae70782cbc2deebfd01ec3" category="paragraph"><block ref="721924a927b7206a5d8775fe840ddbcd" category="inline-link-rx"></block>。</block>
+  <block id="648e059d69339d82d82738abf0bd4016" category="inline-link">Google Cloudのデータブローカーインスタンスに関する詳細を確認できます</block>
+  <block id="6619068f4ac101fa3e8003ee6618d9da" category="paragraph"><block ref="fa611f614e55d9a2ca38028d5a5ab5b7" category="inline-link-rx"></block>。</block>
 </blocks>
