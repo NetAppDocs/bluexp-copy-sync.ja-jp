@@ -1,6 +1,7 @@
 ---
 settings:
   name: Cloud Sync
+  harmony_integration: maestro
   platform: cloud
   internal:
     pdf_enabled: true
@@ -8,7 +9,7 @@ settings:
     pdf_enabled: true
     harmony_enabled: false
   rss_page: whats-new.html
-  langs: ja-jp,us-en,zh-cn,zh-tw,ko-kr,fr-fr,de-de
+  langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,fr-fr
 sidebar:
   entries:
   - title: Cloud Sync ドキュメント
