@@ -96,6 +96,16 @@ Cloud Sync を使用すると、ソースからターゲットへデータを同
 
 
 
+| Azure Data Lake Storage Gen2  a| 
+* IBM クラウドオブジェクトストレージ
+* NFS サーバ
+* ONTAP S3 ストレージ
+* SMB サーバ
+* StorageGRID
+
+
+
+
 | Azure NetApp Files の特長  a| 
 * Amazon EFS
 * ONTAP 対応の Amazon FSX
@@ -223,6 +233,7 @@ Cloud Sync を使用すると、ソースからターゲットへデータを同
 * IBM クラウドオブジェクトストレージ
 * NFS サーバ
 * オンプレミスの ONTAP クラスタ
+* ONTAP S3 ストレージ
 * SMB サーバ
 * StorageGRID
 
@@ -249,7 +260,9 @@ Cloud Sync を使用すると、ソースからターゲットへデータを同
 
 | ONTAP S3 ストレージ  a| 
 * Amazon S3
+* Azure Data Lake Storage Gen2
 * Google クラウドストレージ
+* NFS サーバ
 * SMB サーバ
 * StorageGRID
 * ONTAP S3 ストレージ
