@@ -1224,8 +1224,6 @@
   <block id="55430fccd9c75a6ec1bc44bb1d637619" category="paragraph">Marketplace サブスクリプションを使用して、ネットアップからライセンスを使用することもできます。たとえば、 25 の同期関係がある場合は、ライセンスを使用して最初の 20 の同期関係に料金を支払い、残りの 5 つの同期関係を持つ AWS または Azure から従量課金制で支払うことができます。</block>
   <block id="eee2650e10b32734e3b3f1bc627337f5" category="inline-link-macro">ライセンスの仕組みについては、こちらをご覧ください。</block>
   <block id="f65ca7baf45cc92aec55770c0b36841f" category="paragraph"><block ref="7cfabb5964e9e36c902fe67d3082ea34" category="inline-link-macro-rx"></block>。</block>
-  <block id="d04dfaa744331ac37502cd7e1da7e4cb" category="sidebar-title">無料トライアルの終了後すぐに支払いをしない場合はどうすればよいですか？</block>
-  <block id="06396044ae8f00acb30bd57de4d6bf59" category="paragraph">追加の関係を作成することはできません。既存の関係は削除されませんが、ライセンスを登録または入力するまでは変更を加えることはできません。</block>
   <block id="7f1e5fcf21192da891eea1c1f4f6e6f0" category="paragraph">AWS を使用すると、従量課金制または年払いが可能です。</block>
   <block id="f06e94914580a228484d54783ffeb2bb" category="list-title">従量課金制の手順</block>
   <block id="f4e86f9d0f6800384c773bd03834297d" category="list-text">[ 同期 ] 、 [ ライセンス ] の順にクリックします。</block>
@@ -1253,7 +1251,6 @@
   <block id="441eaafe617acae90fac942cbac1d2a0" category="list-text">追加するライセンスに関連付けられているネットアップサポートサイトのアカウントを選択します。</block>
   <block id="93bad0f0398a452d035b9d52ba2724f5" category="list-text">アカウントがまだ追加されていない場合は、 *[Add NSS Credentials] をクリックし、ユーザー名とパスワードを入力し、 [*Register] をクリックして、ドロップダウンリストから選択します。</block>
   <block id="e0fd71ec05fc637037be9da3ff2103b0" category="section-title">ライセンスの更新</block>
-  <block id="621d7bdf797506a6b1724c30c6f72e88" category="paragraph">ネットアップから購入した Cloud Sync ライセンスを延長しても、新しい有効期限は Cloud Sync で自動的に更新されません。有効期限を更新するには、ライセンスを再度追加する必要があります。</block>
   <block id="83893211fb004302e2b1216eda1eb1f8" category="list-text">追加するライセンスに関連付けられているネットアップサポートサイトのアカウントを選択します。</block>
   <block id="172d12b0279cc8a60f5a9ab00242df4e" category="paragraph">Cloud Sync は、既存のライセンスを新しい有効期限で更新します。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">サポートに登録します</block>
@@ -1736,4 +1733,7 @@
   <block id="56b81b60dec6a853cc4a71acf27e639b" category="paragraph">AWSデータブローカーのオペレーティングシステムがAmazon Linux 2022にアップグレードされました。</block>
   <block id="0dd728efd36ee3f96597b07096922b08" category="inline-link">AWSのデータブローカーインスタンスに関する詳細を確認できます</block>
   <block id="ab1608bfe0e155c43b562df0832f62cb" category="paragraph"><block ref="f5f6281702689de644df10baf88bc982" category="inline-link-rx"></block>。</block>
+  <block id="eec85122fe4236e8000e41a3f717acba" category="paragraph">ライセンスは、Cloud Sync または該当するWebサイトを通じて管理する必要があり、*デジタルウォレットでは管理できません。</block>
+  <block id="ea456f2c2f8433045e0abd1d56195f2d" category="paragraph">無償トライアルの終了後すぐに支払いを行わないと、追加の関係を作成することはできません。既存の関係は削除されませんが、ライセンスを登録または入力するまでは変更を加えることはできません。</block>
+  <block id="99fbad4150cbcaf5ed561c48046b6f75" category="paragraph">ネットアップから購入した Cloud Sync ライセンスを延長しても、新しい有効期限は Cloud Sync で自動的に更新されません。有効期限を更新するには、ライセンスを再度追加する必要があります。ライセンスは、Cloud Sync または該当するWebサイトを通じて管理する必要があり、*デジタルウォレットでは管理できません。</block>
 </blocks>
