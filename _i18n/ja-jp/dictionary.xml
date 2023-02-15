@@ -972,7 +972,6 @@
   <block id="45edaabb1caa8cd386fc00e4913729ca" category="inline-link">S3 エンドポイントの一覧については、 AWS のドキュメントを参照してください</block>
   <block id="9f63373541da1493d909ee0e1ec22846" category="cell">¥ https://s3._region_.amazonaws.com （例： s3.us-east-2.amazonaws.com:443 ）<block ref="d8eaf9479c9110a7b925275e0e7c77be" category="inline-link-rx"></block></block>
   <block id="1331ac21e3550225dbf1a2a59e8e5854" category="cell">同期関係に S3 バケットが含まれている場合に Amazon S3 に連絡する。</block>
-  <block id="e539bdc84a7ad2c400eb37a683413da0" category="cell">\ https://s3.us-east-1.amazonaws.com</block>
   <block id="aa3f7e10351bf8715f83a7b981f0d036" category="cell">Cloud Sync からデータブローカーログをダウンロードすると、データブローカーは、ログディレクトリを zip で保存し、 us-east-1 リージョン内の事前定義された S3 バケットにログをアップロードします。</block>
   <block id="af9cee3d0b730812cc44778c77dac990" category="cell">¥ https://cf.cloudsync.netapp.com ¥ https://repo.cloudsync.netapp.com</block>
   <block id="0085c0d222fb9e00710dfd4737377552" category="cell">Cloud Sync サービスに連絡します。</block>
@@ -1736,4 +1735,13 @@
   <block id="eec85122fe4236e8000e41a3f717acba" category="paragraph">ライセンスは、Cloud Sync または該当するWebサイトを通じて管理する必要があり、*デジタルウォレットでは管理できません。</block>
   <block id="ea456f2c2f8433045e0abd1d56195f2d" category="paragraph">無償トライアルの終了後すぐに支払いを行わないと、追加の関係を作成することはできません。既存の関係は削除されませんが、ライセンスを登録または入力するまでは変更を加えることはできません。</block>
   <block id="99fbad4150cbcaf5ed561c48046b6f75" category="paragraph">ネットアップから購入した Cloud Sync ライセンスを延長しても、新しい有効期限は Cloud Sync で自動的に更新されません。有効期限を更新するには、ライセンスを再度追加する必要があります。ライセンスは、Cloud Sync または該当するWebサイトを通じて管理する必要があり、*デジタルウォレットでは管理できません。</block>
+  <block id="e46ce6b98b1f39550f722c298fdb33a7" category="cell">\ https://s3.amazonaws.com/</block>
+  <block id="410854d72f81ddbce62fd5e69e47d7ca" category="cell">\ https://storage.googleapis.com/</block>
+  <block id="9a0fd273aee1cf8a769c1b999cacf89a" category="cell">同期関係でGCPバケットを使用している場合にGoogle Cloudに連絡するには、次の手順に従います。</block>
+  <block id="b551e27fff37843412867d9b83f93ece" category="cell"><block ref="7e48312ae0f59f2ef044bd982e8f7f9d" category="inline-link-rx"></block>Azure Data Lake Gen2を使用する場合：<block ref="88fc93a3f957963f811734b1373f239a" category="inline-link-rx"></block>storage-account_はユーザのソースストレージアカウントです。</block>
+  <block id="ab1f4fe880debf39d6d2c82a8b44dd19" category="cell">ユーザのAzureストレージアカウントアドレスへのプロキシを開きます。</block>
+  <block id="8f606ab2764de8092de1ca0d967cfb8d" category="cell">\ https://pubsub.googleapis.com</block>
+  <block id="df94b5032f4c4edc418da1de5a985935" category="cell">Googleストレージアカウントから継続的な同期関係を作成する場合。</block>
+  <block id="cfcdd9e78004b91f8c395165fdb5e282" category="cell"><block ref="e36a49efb19686edd0dc8263877ab168" category="inline-link-rx"></block>\https://management.azure.com/subscriptions/${_subscriptionId_}/resourceGroups/${_resourcegroup_}/providers /microsoft.EventGrid/*ここで、_storage-account_はユーザーのソースストレージアカウント、_SubscriptionID_は ソースサブスクリプションID、_resourcegroup_は ソースリソースグループです。</block>
+  <block id="86725349e0c402312a901a9555773dbd" category="cell">Azureストレージアカウントから継続的な同期関係を作成する場合。</block>
 </blocks>

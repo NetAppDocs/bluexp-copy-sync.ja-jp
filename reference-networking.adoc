@@ -85,7 +85,13 @@ image:diagram_networking_onprem.png["「 Cloud Sync サービス、オンプレ�
 | ¥ https://s3._region_.amazonaws.com （例： s3.us-east-2.amazonaws.com:443 ）https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region["S3 エンドポイントの一覧については、 AWS のドキュメントを参照してください"^] | 同期関係に S3 バケットが含まれている場合に Amazon S3 に連絡する。 
 
 
-| \ https://s3.us-east-1.amazonaws.com | Cloud Sync からデータブローカーログをダウンロードすると、データブローカーは、ログディレクトリを zip で保存し、 us-east-1 リージョン内の事前定義された S3 バケットにログをアップロードします。 
+| \ https://s3.amazonaws.com/ | Cloud Sync からデータブローカーログをダウンロードすると、データブローカーは、ログディレクトリを zip で保存し、 us-east-1 リージョン内の事前定義された S3 バケットにログをアップロードします。 
+
+
+| \ https://storage.googleapis.com/ | 同期関係でGCPバケットを使用している場合にGoogle Cloudに連絡するには、次の手順に従います。 
+
+
+| https://_storage-account_.blob.core.windows.net[]Azure Data Lake Gen2を使用する場合：https://_storage-account_.dfs.core.windows.net[]storage-account_はユーザのソースストレージアカウントです。 | ユーザのAzureストレージアカウントアドレスへのプロキシを開きます。 
 
 
 | ¥ https://cf.cloudsync.netapp.com ¥ https://repo.cloudsync.netapp.com | Cloud Sync サービスに連絡します。 
@@ -101,6 +107,12 @@ image:diagram_networking_onprem.png["「 Cloud Sync サービス、オンプレ�
 
 
 | ¥https://console.bluexp.netapp.com/¥https://netapp-cloud-account.auth0.com | データセンスを使用して新しい同期関係のソースファイルを選択するときに Cloud Data Sense に連絡するには、次の手順に従います。 
+
+
+| \ https://pubsub.googleapis.com | Googleストレージアカウントから継続的な同期関係を作成する場合。 
+
+
+| https://_storage-account_.queue.core.windows.net[]\https://management.azure.com/subscriptions/${_subscriptionId_}/resourceGroups/${_resourcegroup_}/providers /microsoft.EventGrid/*ここで、_storage-account_はユーザーのソースストレージアカウント、_SubscriptionID_は ソースサブスクリプションID、_resourcegroup_は ソースリソースグループです。 | Azureストレージアカウントから継続的な同期関係を作成する場合。 
 |===
 
 
