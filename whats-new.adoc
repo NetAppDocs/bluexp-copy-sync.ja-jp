@@ -18,6 +18,18 @@ Cloud Sync の新機能をご確認ください。
 
 
 
+== 2023年3月7日
+
+
+
+=== AWSデータブローカー向けのEBS Encryption
+
+アカウントのKMSキーを使用して、AWSデータブローカーのボリュームを暗号化できるようになりました。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#creating-the-data-broker["AWSでデータブローカーを作成する方法については、こちらをご覧ください"]。
+
+
+
 == 2023年2月5日
 
 
