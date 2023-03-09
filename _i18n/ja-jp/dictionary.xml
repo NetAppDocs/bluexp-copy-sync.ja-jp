@@ -1145,9 +1145,7 @@
   <block id="e9b07c7994659b124430d0e4daaeabba" category="paragraph">新しいデータブローカーグループを作成する場合は、オンプレミスのデータブローカーオプションを選択して、オンプレミスの Linux ホストまたはクラウド内の既存の Linux ホストにデータブローカーソフトウェアをインストールします。Cloud Sync ではインストールプロセスがガイドされますが、インストールの準備に役立つように、このページの要件と手順が繰り返されています。</block>
   <block id="ace028fe1c5dc8fb39091440d89fd9fd" category="section-title">Linux ホストの要件</block>
   <block id="17308c76959fcb971603b7274a57c128" category="list-text">* オペレーティング・システム * ：</block>
-  <block id="1a2698aea8c50e468148bb22c28bf853" category="list-text">CentOS 7.0 、 7.7 、および 8.0</block>
   <block id="735736a0904d4dd4641f1c0b6e93ac7a" category="paragraph">CentOS ストリームはサポートされていません。</block>
-  <block id="438c134de8e5d04ae91ce2fc1f48f114" category="list-text">Red Hat Enterprise Linux 7.7 および 8.0</block>
   <block id="083265255bba92c059791cd3a9803274" category="list-text">Ubuntu Server 20.04 LTS の場合は</block>
   <block id="473733802c02f67f489689f787461e62" category="list-text">SUSE Linux Enterprise Server 15 SP1</block>
   <block id="35ec85020897e56acfca830003a03e8c" category="paragraph">Red Hat Enterprise Linux システムは、 Red Hat サブスクリプション管理に登録する必要があります。登録されていない場合、システムはインストール中に必要なサードパーティソフトウェアをアップデートするためのリポジトリにアクセスできません。</block>
@@ -1785,4 +1783,7 @@
   <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">これはシステムによって生成されたIDで、電子メールにマッピングされます。[*NSS Management*]ページで、から電子メールを表示できます <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
   <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">ログイン認証情報トークンを更新する必要がある場合は、の[認証情報の更新*]オプションも使用できます <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">このオプションを使用すると、再度ログインするように求められます。これらのアカウントのトークンは90日後に期限切れになります。このことを通知する通知が投稿されます。</block>
+  <block id="deb96f2e04c20206372a663fc1e22a63" category="list-text">CentOS 8.0および8.5</block>
+  <block id="baefe41a5ed4db05fd518fa49dfbd17d" category="list-text">Red Hat Enterprise Linux 8.0および8.5</block>
+  <block id="cf76271f717860ca93c6825568b0690d" category="list-text">Rocky Linux 9</block>
 </blocks>
