@@ -769,8 +769,6 @@
   <block id="28e72eb89ddfdb4da0dd6569b502b074" category="admonition">Cloud Volumes Service と Azure NetApp Files には Cloud Sync 関係が無償で用意されています。</block>
   <block id="d14d70754e8322b819c6bc86af6beefd" category="paragraph">* リソース料金 *</block>
   <block id="bdf9c0b5a2bb19426e68000000a0fa8e" category="paragraph">リソース料金は、クラウドでデータブローカーを実行するためのコンピューティングコストとストレージコストに関連しています。</block>
-  <block id="f901b2d4ea8e5a7abc863a0eea4b5b27" category="section-title">Cloud Sync の料金はどのように設定されますか</block>
-  <block id="5ef87a5af222d72dd5dd2554039e1baf" category="paragraph">14 日間の無料トライアル終了後に、同期関係の料金を支払う方法は 2 通りあります。最初のオプションは、 AWS または Azure から購読することです。 AWS または Azure を使用すると、従量課金制または年払いが可能になります。2 つ目の選択肢は、ネットアップから直接ライセンスを購入することです。</block>
   <block id="d48011c59919ad7d6dbbbfd7b93b8a1d" category="section-title">クラウドの外部でクラウド同期を使用できますか。</block>
   <block id="21257847b1628900e37090da9e642da2" category="paragraph">はい。クラウド同期は非クラウドアーキテクチャで使用できます。ソースとターゲットはオンプレミスに配置できるため、データブローカーソフトウェアを使用することもできます。</block>
   <block id="cf2134fa111a18f1f2949af03a0b455d" category="paragraph">Cloud Sync をクラウドの外部で使用する場合、次の点に注意してください。</block>
@@ -1786,4 +1784,6 @@
   <block id="deb96f2e04c20206372a663fc1e22a63" category="list-text">CentOS 8.0および8.5</block>
   <block id="baefe41a5ed4db05fd518fa49dfbd17d" category="list-text">Red Hat Enterprise Linux 8.0および8.5</block>
   <block id="cf76271f717860ca93c6825568b0690d" category="list-text">Rocky Linux 9</block>
+  <block id="596076690835c26754302829a7e9d63a" category="section-title">Cloud Sync の請求方法とサブスクリプションの管理方法を教えてください。</block>
+  <block id="0e7db6545d4c588d1ef20cc2f2744070" category="paragraph">14 日間の無料トライアル終了後に、同期関係の料金を支払う方法は 2 通りあります。最初のオプションは、 AWS または Azure から購読することです。 AWS または Azure を使用すると、従量課金制または年払いが可能になります。2 つ目の選択肢は、ネットアップから直接ライセンスを購入することです。いずれの場合も、サブスクリプションはプロバイダーマーケットプレイスを通じて管理され、Cloud Sync ユーザーインターフェイスを介しては管理されません。</block>
 </blocks>
