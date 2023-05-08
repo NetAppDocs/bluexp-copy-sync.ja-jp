@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-installing-gcp.html 
 keywords: data broker, install, gcp, google, networking, permissions, regions, install data broker in gcp, install in gcp, deploy in gcp, deploy data broker in gcp, install data broker in google, install in google, deploy in google, deploy data broker in google, networking requirements, port, ports, 443, port 443, ntp, network time protocol, gcp data broker, service account 
-summary: 新しいデータブローカーを作成する場合、 Google Cloud Data Broker オプションを選択して、 VPC 内の新しい仮想マシンインスタンスにデータブローカーソフトウェアを導入します。Cloud Sync ではインストールプロセスがガイドされますが、インストールの準備に役立つように、このページの要件と手順が繰り返されています。 
+summary: 新しいデータブローカーを作成する場合、 Google Cloud Data Broker オプションを選択して、 VPC 内の新しい仮想マシンインスタンスにデータブローカーソフトウェアを導入します。BlueXPのコピーと同期の手順に従ってインストールプロセスを実行できますが、インストールの準備に役立つように、このページでは要件と手順を繰り返します。 
 ---
 = Google Cloud で新しいデータブローカーを作成
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 新しいデータブローカーを作成する場合、 Google Cloud 
 
 
 [role="lead"]
-新しいデータブローカーグループを作成するときは、 Google Cloud Platform を選択して、 Google Cloud VPC 内の新しい仮想マシンインスタンスにデータブローカーソフトウェアを導入します。Cloud Sync ではインストールプロセスがガイドされますが、インストールの準備に役立つように、このページの要件と手順が繰り返されています。
+新しいデータブローカーグループを作成するときは、 Google Cloud Platform を選択して、 Google Cloud VPC 内の新しい仮想マシンインスタンスにデータブローカーソフトウェアを導入します。BlueXPのコピーと同期の手順に従ってインストールプロセスを実行できますが、インストールの準備に役立つように、このページでは要件と手順を繰り返します。
 
 また、クラウド内または社内の既存の Linux ホストにデータブローカーをインストールすることもできます。 link:task-installing-linux.html["詳細はこちら。"]。
 
@@ -34,9 +34,9 @@ summary: 新しいデータブローカーを作成する場合、 Google Cloud 
 
 == ネットワーク要件
 
-* データブローカーは、アウトバウンドインターネット接続を必要としているため、クラウド同期サービスにポート 443 経由のタスクをポーリングできます。
+* データブローカーは、BlueXPのコピーと同期サービスにポーリングしてポート443経由のタスクを実行できるように、アウトバウンドインターネット接続を必要とします。
 +
-Cloud Sync が Google Cloud にデータブローカーを導入すると、必要なアウトバウンド通信を可能にするセキュリティグループが作成されます。
+BlueXPのコピーと同期でGoogle Cloudにデータブローカーを導入すると、必要なアウトバウンド通信を可能にするセキュリティグループが作成されます。
 
 +
 アウトバウンド接続を制限する必要がある場合は、を参照してください link:reference-networking.html["データブローカーが連絡するエンドポイントのリスト"]。
@@ -128,9 +128,9 @@ image:screenshot_data_broker_gcp.png["Google Cloud にデータブローカー�
 +
 インターネットアクセスにプロキシが必要な場合は、データブローカーと同じサービスアカウントを Google Cloud で使用してプロキシを設定する必要があります。
 
-. データブローカーが利用可能になったら、 Cloud Sync で [* 続行 ] をクリックします。
+. データブローカーが利用可能になったら、BlueXPのコピーと同期で*[続行]*をクリックします。
 +
-このインスタンスの導入には、約 5 ～ 10 分かかります。Cloud Sync サービスから進捗状況を監視できます。このサービスは、インスタンスが使用可能になると自動的に更新されます。
+このインスタンスの導入には、約 5 ～ 10 分かかります。進捗状況はBlueXPのコピーおよび同期サービスで監視できます。このサービスは、インスタンスが使用可能になると自動的に更新されます。
 
 . ウィザードのページに入力して、新しい同期関係を作成します。
 
@@ -142,7 +142,7 @@ Google Cloud にデータブローカーを導入し、新しい同期関係を�
 
 == 他の Google Cloud プロジェクトでバケットを使用する権限を付与する
 
-同期関係 Cloud Sync を作成し、ソースまたはターゲットとして Google Cloud Storage を選択すると、データブローカーのサービスアカウントに使用する権限があるバケットから選択できるようになります。デフォルトでは、これにはデータブローカーサービスアカウントと同じ _PROJECT に含まれるバケットが含まれます。ただし、必要な権限を指定した場合は、 _other_projects からバケットを選択できます。
+同期関係を作成し、ソースまたはターゲットとしてGoogle Cloud Storageを選択すると、BlueXPのコピーと同期では、データブローカーのサービスアカウントに使用する権限があるバケットから選択できます。デフォルトでは、これにはデータブローカーサービスアカウントと同じ _PROJECT に含まれるバケットが含まれます。ただし、必要な権限を指定した場合は、 _other_projects からバケットを選択できます。
 
 .手順
 . Google Cloud Platform コンソールを開き、 Cloud Storage サービスをロードします。
@@ -161,7 +161,7 @@ Google Cloud にデータブローカーを導入し、新しい同期関係を�
 
 == データブローカー VM インスタンスの詳細
 
-Cloud Sync は、 Google Cloud に次の構成でデータブローカーを作成します。
+BlueXPのコピーと同期では、以下の構成を使用してGoogle Cloudにデータブローカーが作成されます。
 
 マシンのタイプ:: N2 - 標準 -4
 vCPU:: 4.

@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Cloud Sync
+  name: BlueXP copy and sync
   harmony_integration: maestro
   platform: cloud
   internal:
@@ -12,7 +12,7 @@ settings:
   langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr
 sidebar:
   entries:
-  - title: Cloud Sync ドキュメント
+  - title: BlueXPのコピーと同期のドキュメント
     url: "/index.html"
   - title: リリースノート
     entries:
@@ -22,7 +22,7 @@ sidebar:
       url: "/reference-limitations.html"
   - title: はじめに
     entries:
-    - title: クラウドの同期についてご確認ください
+    - title: BlueXPのコピーと同期について説明します
       url: "/concept-cloud-sync.html"
     - title: クイックスタート
       url: "/task-quick-start.html"
@@ -42,7 +42,7 @@ sidebar:
         url: "/task-installing-gcp.html"
       - title: Linux ホストにをインストールします
         url: "/task-installing-linux.html"
-  - title: Cloud Sync を使用します
+  - title: BlueXPのコピーと同期を使用
     entries:
     - title: ソースとターゲットの間でデータを同期します
       entries:
@@ -86,13 +86,13 @@ homepage:
   tiles:
   - title: はじめに
     links:
-    - title: Cloud Sync の概要
+    - title: BlueXPのコピーと同期の概要
       url: concept-cloud-sync.html
     - title: クイックスタート
       url: task-quick-start.html
     - title: よく寄せられる質問
       url: faq.html
-  - title: Cloud Sync を使用します
+  - title: BlueXPのコピーと同期を使用
     links:
     - title: 同期関係を作成します
       url: task-creating-relationships.html

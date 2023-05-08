@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, enhancements, fixes' 
-summary: Cloud Sync の新機能をご確認ください。 
+summary: BlueXPのコピーと同期の新機能をご紹介します。 
 ---
-= Cloud Sync の新機能
+= BlueXPのコピーと同期の最新情報
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,43 @@ summary: Cloud Sync の新機能をご確認ください。
 
 
 [role="lead"]
-Cloud Sync の新機能をご確認ください。
+BlueXPのコピーと同期の新機能をご紹介します。
+
+
+
+== 2023年5月8日
+
+
+
+=== ハードリンク機能
+
+セキュアでないNFSとNFSの関係を含む同期のハードリンクを含めることができるようになりました。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["ファイルタイプ設定の詳細については、こちらを参照してください"]。
+
+
+
+=== セキュアなNFS関係にあるデータブローカーのユーザ証明書を追加できるようになりました
+
+セキュアなNFS関係を作成する際に、ターゲットデータブローカー用に独自の証明書を設定できるようになりました。サーバ名を設定し、秘密鍵と証明書IDを提供する必要があります。この機能は、すべてのデータブローカーで使用できます。
+
+
+
+=== 最近変更されたファイルの除外期間が延長されました
+
+スケジュールされた同期の365日前までに変更されたファイルを除外できるようになりました。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["「最近変更されたファイル」設定の詳細については、こちらを参照してください"]。
+
+
+
+=== UIで関係を関係IDでフィルタリングします
+
+RESTful APIを使用するユーザは、関係IDを使用して関係をフィルタできるようになりました。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/api-sync.html["BlueXPのコピーと同期でRESTful APIを使用する方法の詳細については、こちらをご覧ください"]。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["[ディレクトリを除外する]設定の詳細については、こちらを参照してください"]。
 
 
 

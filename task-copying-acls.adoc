@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-copying-acls.html 
 keywords: permissions, access control list, acls, ntfs, cifs, smb, shares, robocopy, copy, transfer, activate, operating system, os, ram, cpu, networking, copy acls to the target 
-summary: Cloud Sync は、SMB共有間およびSMB共有とオブジェクトストレージ（ONTAP S3を除く）間でAccess Control List（ACL；アクセス制御リスト）をコピーできます。必要に応じて、 Robocopy を使用して SMB 共有間の ACL を手動で保持することもできます。 
+summary: BlueXPのコピーと同期では、SMB共有間、およびSMB共有とオブジェクトストレージ（ONTAP S3を除く）間でAccess Control List（ACL；アクセス制御リスト）をコピーできます。必要に応じて、 Robocopy を使用して SMB 共有間の ACL を手動で保持することもできます。 
 ---
 = SMB 共有から ACL をコピーする
 :hardbreaks:
@@ -14,16 +14,16 @@ summary: Cloud Sync は、SMB共有間およびSMB共有とオブジェクトス
 
 
 [role="lead"]
-Cloud Sync は、SMB共有間およびSMB共有とオブジェクトストレージ（ONTAP S3を除く）間でAccess Control List（ACL；アクセス制御リスト）をコピーできます。必要に応じて、 Robocopy を使用して SMB 共有間の ACL を手動で保持することもできます。
+BlueXPのコピーと同期では、SMB共有間、およびSMB共有とオブジェクトストレージ（ONTAP S3を除く）間でAccess Control List（ACL；アクセス制御リスト）をコピーできます。必要に応じて、 Robocopy を使用して SMB 共有間の ACL を手動で保持することもできます。
 
 .選択肢
-* <<Setting up Cloud Sync to copy ACLs from an SMB server,ACL を自動的にコピーするように Cloud Sync を設定します>>
+* <<Setting up BlueXP copy and sync to copy ACLs from an SMB server,ACLを自動的にコピーするようにBlueXPのコピーと同期を設定>>
 * <<SMB 共有間での ACL の手動コピー,SMB 共有間で ACL を手動でコピーします>>
 
 
 
 
-== ACLをコピーするためのCloud Sync の設定
+== BlueXPのコピーと同期を設定してACLをコピー
 
 SMB共有間およびSMB共有とオブジェクトストレージ間でACLをコピーするには、関係の作成時または作成後に設定を有効にします。
 
@@ -31,7 +31,7 @@ SMB共有間およびSMB共有とオブジェクトストレージ間でACLを�
 この機能は、 _any_type のデータブローカー（ AWS 、 Azure 、 Google Cloud Platform 、オンプレミスのデータブローカー）と連携します。オンプレミスのデータブローカーを実行できます link:task-installing-linux.html["サポートされているオペレーティングシステム"]。
 
 .新しい関係の手順
-. Cloud Sync で、 * 新しい同期を作成 * をクリックします。
+. BlueXPのコピーと同期で、*[Create New Sync]*をクリックします。
 . SMBサーバまたはオブジェクトストレージをソースとしてドラッグアンドドロップし、SMBサーバまたはオブジェクトストレージをターゲットとしてドラッグアンドドロップして、* Continue *をクリックします。
 . [* SMB サーバー * ] ページで、次の操作を行います。
 +
@@ -63,7 +63,7 @@ image:screenshot-sync-tags-metadata.png["オブジェクトストレージにコ
 
 
 .結果
-データを同期する場合、Cloud Sync はソースとターゲットの間でACLを保持します。
+BlueXPのコピーと同期では、データの同期時にソースとターゲットの間のACLが保持されます。
 
 
 
@@ -77,7 +77,7 @@ Windows の Robocopy コマンドを使用すると、 SMB 共有間で ACL を�
 +
 Robocopy を使用する前に、この手順を実行する必要があります。
 
-. Cloud Sync で、ソースとターゲットの SMB 共有間の新しい関係を作成するか、既存の関係を同期します。
+. BlueXPのコピーと同期から、ソースとターゲットのSMB共有間に新しい関係を作成するか、既存の関係を同期します。
 . データの同期が完了したら、 Windows ホストから次のコマンドを実行して、 ACL と所有権を同期します。
 +
  robocopy /E /COPY:SOU /secfix [source] [target] /w:0 /r:0 /XD ~snapshots /UNILOG:”[logfilepath]

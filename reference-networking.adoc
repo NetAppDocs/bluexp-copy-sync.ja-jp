@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: reference-networking.html 
 keywords: networking, 443, port, ports, port 443, connections, connectivity, path, paths, vpn 
-summary: Cloud Sync 用のネットワークでは、データブローカーグループとソースおよびターゲットの場所との間の接続、およびデータブローカーからのポート 443 経由のアウトバウンドインターネット接続が確立されます。 
+summary: BlueXPのコピーと同期のネットワークには、データブローカーグループとソースとターゲットの場所の間の接続、データブローカーからのポート443経由のアウトバウンドインターネット接続が含まれます。 
 ---
-= Cloud Sync のネットワークの概要
+= BlueXPのコピーと同期のネットワークの概要
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Cloud Sync 用のネットワークでは、データブローカーグ
 
 
 [role="lead"]
-Cloud Sync 用のネットワークでは、データブローカーグループとソースおよびターゲットの場所との間の接続、およびデータブローカーからのポート 443 経由のアウトバウンドインターネット接続が確立されます。
+BlueXPのコピーと同期のネットワークには、データブローカーグループとソースとターゲットの場所の間の接続、データブローカーからのポート443経由のアウトバウンドインターネット接続が含まれます。
 
 
 
@@ -29,9 +29,9 @@ Cloud Sync 用のネットワークでは、データブローカーグループ
 次の図は、クラウド、 AWS 、 Google Cloud 、 Azure で実行されるデータブローカーを示しています。データブローカーへの接続が確立されていれば、ソースとターゲットはどの場所にも存在できます。たとえば、データセンターからクラウドプロバイダーへの VPN 接続があるとします。
 
 
-NOTE: Cloud Sync がデータブローカーを AWS 、 Azure 、または Google Cloud に導入すると、必要なアウトバウンド通信を有効にするセキュリティグループが作成されます。
+NOTE: BlueXPのコピーと同期でデータブローカーをAWS、Azure、Google Cloudに導入すると、必要なアウトバウンド通信を可能にするセキュリティグループが作成されます。
 
-image:diagram_networking_cloud.png["「 Cloud Sync サービス、クラウドで実行されているデータブローカー、ソースとターゲットへの接続を示す図。」"]
+image:diagram_networking_cloud.png["BlueXPのコピーと同期サービス、クラウドで実行されるデータブローカー、ソースとターゲットへの接続を示す図。"]
 
 
 
@@ -39,7 +39,7 @@ image:diagram_networking_cloud.png["「 Cloud Sync サービス、クラウド�
 
 次の図は、データセンターでオンプレミスで実行されているデータブローカーを示しています。この場合も、データブローカーに接続が確立されていれば、ソースとターゲットはどの場所にも存在できます。
 
-image:diagram_networking_onprem.png["「 Cloud Sync サービス、オンプレミスで実行されているデータブローカー、ソースとターゲットへの接続を示す図。」"]
+image:diagram_networking_onprem.png["BlueXPのコピーと同期サービス、オンプレミスで実行されるデータブローカー、ソースとターゲットへの接続を示す図。"]
 
 
 
@@ -49,7 +49,7 @@ image:diagram_networking_onprem.png["「 Cloud Sync サービス、オンプレ�
 +
 たとえば、 NFS サーバがデータセンターにあり、データブローカーが AWS にある場合、ネットワークから VPC へのネットワーク接続（ VPN または Direct Connect ）が必要です。
 
-* データブローカーでは、ポート 443 経由で Cloud Sync サービスにタスクをポーリングできるように、アウトバウンドのインターネット接続が必要です。
+* データブローカーがBlueXPのコピーと同期サービスにポーリングしてポート443経由のタスクを実行できるようにするには、アウトバウンドインターネット接続が必要です。
 * ネットワークタイムプロトコル（ NTP ）サービスを使用するようにソース、ターゲット、データブローカーを設定することを推奨します。3 つのコンポーネント間の時間差は 5 分を超えないようにしてください。
 
 
@@ -57,7 +57,7 @@ image:diagram_networking_onprem.png["「 Cloud Sync サービス、オンプレ�
 
 == ネットワークエンドポイント
 
-ネットアップのデータブローカーは、 Cloud Sync サービスと通信したり、他のいくつかのサービスやリポジトリと通信したりするために、ポート 443 を介したアウトバウンドインターネットアクセスを必要とします。ローカル Web ブラウザでは、特定の操作を実行するためにエンドポイントへのアクセスも必要です。発信接続を制限する必要がある場合は、発信トラフィック用にファイアウォールを設定する際に、次のエンドポイントのリストを参照してください。
+ネットアップのデータブローカーがBlueXPのコピーおよび同期サービスと通信し、他のいくつかのサービスやリポジトリにアクセスするには、ポート443経由のアウトバウンドインターネットアクセスが必要です。ローカル Web ブラウザでは、特定の操作を実行するためにエンドポイントへのアクセスも必要です。発信接続を制限する必要がある場合は、発信トラフィック用にファイアウォールを設定する際に、次のエンドポイントのリストを参照してください。
 
 
 
@@ -76,16 +76,16 @@ image:diagram_networking_onprem.png["「 Cloud Sync サービス、オンプレ�
 | ¥ https://rpm.nodesource.com ¥ https://registry.npmjs.org ¥ https://nodejs.org: | node.js 、 NPM 、および開発に使用されているその他のサードパーティパッケージを更新するためのリポジトリに問い合わせます。 
 
 
-| \ https://tgz.pm2.io | PM2 を更新するためのリポジトリにアクセスするには、クラウドの同期を監視するために使用されるサードパーティパッケージです。 
+| \ https://tgz.pm2.io | では、PM2を更新するためのリポジトリにアクセスします。PM2は、BlueXPのコピーと同期の監視に使用するサードパーティパッケージです。 
 
 
-| ¥ https://sqs.us-east-1.amazonaws.com ¥ https://kinesis.us-east-1.amazonaws.com | Cloud Sync が処理に使用する AWS サービスに連絡する（ファイルのキューイング、アクションの登録、データブローカーへの更新の配信）。 
+| ¥ https://sqs.us-east-1.amazonaws.com ¥ https://kinesis.us-east-1.amazonaws.com | BlueXPのコピーと同期が処理（ファイルのキューイング、アクションの登録、データブローカーへの更新の配信）に使用するAWSのサービスにアクセスするため。 
 
 
 | ¥ https://s3._region_.amazonaws.com （例： s3.us-east-2.amazonaws.com:443 ）https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region["S3 エンドポイントの一覧については、 AWS のドキュメントを参照してください"^] | 同期関係に S3 バケットが含まれている場合に Amazon S3 に連絡する。 
 
 
-| \ https://s3.amazonaws.com/ | Cloud Sync からデータブローカーログをダウンロードすると、データブローカーは、ログディレクトリを zip で保存し、 us-east-1 リージョン内の事前定義された S3 バケットにログをアップロードします。 
+| \ https://s3.amazonaws.com/ | BlueXPのコピーと同期からデータブローカーのログをダウンロードすると、データブローカーはログディレクトリをzip圧縮し、us-east-1リージョン内の事前定義されたS3バケットにログをアップロードします。 
 
 
 | \ https://storage.googleapis.com/ | 同期関係でGCPバケットを使用している場合にGoogle Cloudに連絡するには、次の手順に従います。 
@@ -94,7 +94,7 @@ image:diagram_networking_onprem.png["「 Cloud Sync サービス、オンプレ�
 | https://_storage-account_.blob.core.windows.net[]Azure Data Lake Gen2を使用する場合：https://_storage-account_.dfs.core.windows.net[]storage-account_はユーザのソースストレージアカウントです。 | ユーザのAzureストレージアカウントアドレスへのプロキシを開きます。 
 
 
-| ¥ https://cf.cloudsync.netapp.com ¥ https://repo.cloudsync.netapp.com | Cloud Sync サービスに連絡します。 
+| ¥ https://cf.cloudsync.netapp.com ¥ https://repo.cloudsync.netapp.com | BlueXPのコピーと同期サービスにお問い合わせください。 
 
 
 | \ https://support.netapp.com | 同期関係に BYOL ライセンスを使用する場合は、ネットアップのサポートにお問い合わせください。 

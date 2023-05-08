@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-installing-linux.html 
 keywords: data broker, install, linux, on-prem data broker, on-prem, on prem, on premises, networking, permissions, os, operating system, rhel, red hat, ram, cpu, disk space, install data broker, installing data broker, install a data broker, data broker installation, linux installation, linux operating system, aws access, aws keys, keys, gcp access, aws permissions, gcp permissions, google permissions 
-summary: 新しいデータブローカーを作成する場合は、オンプレミスのデータブローカーオプションを選択して、オンプレミスの Linux ホストまたはクラウド内の既存の Linux ホストにデータブローカーソフトウェアをインストールします。Cloud Sync ではインストールプロセスがガイドされますが、インストールの準備に役立つように、このページの要件と手順が繰り返されています。 
+summary: 新しいデータブローカーを作成する場合は、オンプレミスのデータブローカーオプションを選択して、オンプレミスの Linux ホストまたはクラウド内の既存の Linux ホストにデータブローカーソフトウェアをインストールします。BlueXPのコピーと同期の手順に従ってインストールプロセスを実行できますが、インストールの準備に役立つように、このページでは要件と手順を繰り返します。 
 ---
 = Linux ホストへのデータブローカーのインストール
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 新しいデータブローカーを作成する場合は、オンプ�
 
 
 [role="lead"]
-新しいデータブローカーグループを作成する場合は、オンプレミスのデータブローカーオプションを選択して、オンプレミスの Linux ホストまたはクラウド内の既存の Linux ホストにデータブローカーソフトウェアをインストールします。Cloud Sync ではインストールプロセスがガイドされますが、インストールの準備に役立つように、このページの要件と手順が繰り返されています。
+新しいデータブローカーグループを作成する場合は、オンプレミスのデータブローカーオプションを選択して、オンプレミスの Linux ホストまたはクラウド内の既存の Linux ホストにデータブローカーソフトウェアをインストールします。BlueXPのコピーと同期の手順に従ってインストールプロセスを実行できますが、インストールの準備に役立つように、このページでは要件と手順を繰り返します。
 
 
 
@@ -158,7 +158,7 @@ curl <uri>-o data_broker_installer.sh -x <proxy_host>: <proxy_port>`
 curl <uri>-o data_broker_installer.sh -x <proxy_username>:<proxy_password>@<proxy_host>:<proxy_port>`
 
 +
-URI:: Cloud Sync の指示ページにインストールファイルの URI が表示され、オンプレミスのデータブローカーを導入するプロンプトに従ってロードされます。この URI はリンクが動的に生成され、 1 回しか使用できないため、ここでは繰り返し使用されません。 <<データブローカーのインストール,Cloud Sync から URI を取得するには、次の手順を実行します。>>。
+URI:: BlueXPのコピーと同期の手順ページにインストールファイルのURIが表示されます。プロンプトに従ってオンプレミスのデータブローカーを導入すると、このURIがロードされます。この URI はリンクが動的に生成され、 1 回しか使用できないため、ここでは繰り返し使用されません。 <<データブローカーのインストール,BlueXPのコピーと同期からURIを取得するには、次の手順を実行します>>。
 
 
 
@@ -190,6 +190,6 @@ JSON ファイル:: この JSON ファイルにサービスアカウントが含
 
 
 
-. データブローカーが利用可能になったら、 Cloud Sync で [* 続行 ] をクリックします。
+. データブローカーが利用可能になったら、BlueXPのコピーと同期で*[続行]*をクリックします。
 . ウィザードのページに入力して、新しい同期関係を作成します。
 

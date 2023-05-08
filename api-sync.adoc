@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: api-sync.html 
 keywords: api, apis, rest, restful, authorization, getting started, body, header, token, reference, expired token, expires, expired, token expired, list apis, 202, https status code 202, status code 202, id, id field, box 
-summary: Web UI で使用できるクラウド同期機能は、 RESTful API でも使用できます。 
+summary: Web UIから利用できるBlueXPのコピーと同期の機能は、RESTful APIからも利用できます。 
 ---
-= クラウド同期 API
+= BlueXPのコピーと同期のAPI
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: Web UI で使用できるクラウド同期機能は、 RESTful API で
 
 
 [role="lead"]
-Web UI から使用できる Cloud Sync 機能は、 RESTful API からも使用できます。
+Web UIから利用できるBlueXPのコピーと同期の機能は、RESTful APIからも利用できます。
 
 
 
 == はじめに
 
-Cloud Sync APIを使い始めるには、ユーザートークンとBlueXPアカウントIDを取得する必要があります。API 呼び出しを行うときは、トークンとアカウント ID を Authorization ヘッダーに追加する必要があります。
+BlueXPのコピーと同期APIの使用を開始するには、ユーザトークンとBlueXPアカウントIDを取得する必要があります。API 呼び出しを行うときは、トークンとアカウント ID を Authorization ヘッダーに追加する必要があります。
 
 .手順
 . NetApp BlueXPからユーザートークンを取得します。
@@ -94,7 +94,7 @@ API 応答には、トークンの有効期限を示す「 expires_in 」フィ�
 
 == API リファレンス
 
-各 Cloud Sync API のドキュメントは、から入手できます https://api.cloudsync.netapp.com/docs[]。
+BlueXPのコピーと同期の各APIのドキュメントは、から入手できます https://api.cloudsync.netapp.com/docs[]。
 
 
 

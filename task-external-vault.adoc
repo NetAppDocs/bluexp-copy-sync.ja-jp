@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-external-vault.html 
 keywords: hashicorp, vault, credentials, secrets, API 
-summary: Amazon S3 、 Azure 、または Google Cloud のクレデンシャルが必要な同期関係を作成する場合は、 Cloud Sync のユーザインターフェイスまたは API を使用してそれらのクレデンシャルを指定する必要があります。別の方法として、データブローカーをセットアップして、外部の橋本 Corp ボールトから直接クレデンシャルにアクセスする方法もあります。 
+summary: Amazon S3、Azure、またはGoogle Cloudのクレデンシャルを必要とする同期関係を作成する場合は、BlueXPのコピーと同期のユーザインターフェイスまたはAPIでクレデンシャルを指定する必要があります。別の方法として、データブローカーをセットアップして、外部の橋本 Corp ボールトから直接クレデンシャルにアクセスする方法もあります。 
 ---
 = 外部の橋本社ボールトを使用するようにデータブローカーグループを設定する
 :hardbreaks:
@@ -13,9 +13,9 @@ summary: Amazon S3 、 Azure 、または Google Cloud のクレデンシャル�
 :imagesdir: ./media/
 
 
-Amazon S3 、 Azure 、または Google Cloud のクレデンシャルが必要な同期関係を作成する場合は、 Cloud Sync のユーザインターフェイスまたは API を使用してそれらのクレデンシャルを指定する必要があります。別の方法として、外部の橋本社ボールトから直接クレデンシャル（または _secrets_） にアクセスするようにデータブローカーグループを設定する方法もあります。
+Amazon S3、Azure、またはGoogle Cloudのクレデンシャルを必要とする同期関係を作成する場合は、BlueXPのコピーと同期のユーザインターフェイスまたはAPIでクレデンシャルを指定する必要があります。別の方法として、外部の橋本社ボールトから直接クレデンシャル（または _secrets_） にアクセスするようにデータブローカーグループを設定する方法もあります。
 
-この機能は、 Cloud Sync API を使用し、 Amazon S3 、 Azure 、または Google Cloud のクレデンシャルを必要とする同期関係をサポートします。
+この機能は、Amazon S3、Azure、Google Cloudのクレデンシャルを必要とする同期関係を備えたBlueXPのコピーおよび同期APIでサポートされます。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1つ"] ボルトを準備します
 [role="quick-margin-para"]
@@ -33,7 +33,7 @@ URL を設定して、データブローカーグループにクレデンシャ�
 
 == ヴォールトを準備しています
 
-ボールトのシークレットに Cloud Sync の URL を指定する必要があります。URL を設定してボールトを準備します。作成する同期関係の各ソースとターゲットのクレデンシャルへの URL を設定する必要があります。
+BlueXPのコピーを提供し、ボルト内のシークレットのURLと同期する必要があります。URL を設定してボールトを準備します。作成する同期関係の各ソースとターゲットのクレデンシャルへの URL を設定する必要があります。
 
 URL は次のように設定する必要があります。
 
@@ -217,7 +217,7 @@ link:task-installing-gcp.html#permissions-required-for-the-service-account["デ�
 
 すべての設定が完了したら、 API 呼び出しを送信して、ヴォールトを使用してシークレットを取得する同期関係を作成できます。
 
-Cloud Sync REST API を使用して関係をポストします。
+BlueXPのコピーを使用して関係をPOSTし、REST APIを同期
 
 ....
 Headers:

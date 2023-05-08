@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-quick-start.html 
 keywords: quick start, overview, deploying, getting started, get started, signing up, free trial 
-summary: Cloud Sync サービスを開始するには、いくつかの手順を実行します。 
+summary: BlueXPのコピーと同期サービスは、いくつかの手順で開始できます。 
 ---
-= Cloud Sync のクイックスタート
+= BlueXPのコピーと同期のクイックスタート
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -13,7 +13,7 @@ summary: Cloud Sync サービスを開始するには、いくつかの手順を
 :imagesdir: ./media/
 
 
-Cloud Sync サービスを開始するには、いくつかの手順を実行します。
+BlueXPのコピーと同期サービスは、いくつかの手順で開始できます。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1つ"] ログインしてBlueXPをセットアップします
 [role="quick-margin-para"]
@@ -48,10 +48,10 @@ Cloud Volumes ONTAP 、オンプレミスONTAP クラスタ、およびONTAP 対
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["3つ"] ネットアップデータブローカーの設置場所を準備します
 [role="quick-margin-para"]
-ネットアップのデータブローカーソフトウェアは、ソースからターゲットへデータを同期します（これを「 a_sync relationship_ 」と呼びます）。データブローカーは、 AWS 、 Azure 、 Google クラウドプラットフォーム、または社内で実行できます。1 つ以上のデータブローカーで構成されるデータブローカーグループには、 Cloud Sync サービスと通信して他のいくつかのサービスやリポジトリに接続するために、ポート 443 経由のアウトバウンドインターネット接続が必要です。 link:reference-networking.html#networking-endpoints["エンドポイントのリストを表示します。"]。
+ネットアップのデータブローカーソフトウェアは、ソースからターゲットへデータを同期します（これを「 a_sync relationship_ 」と呼びます）。データブローカーは、 AWS 、 Azure 、 Google クラウドプラットフォーム、または社内で実行できます。1つ以上のデータブローカーで構成されるデータブローカーグループは、BlueXPのコピーおよび同期サービスと通信し、他のいくつかのサービスやリポジトリに接続できるように、ポート443経由のアウトバウンドインターネット接続が必要です。 link:reference-networking.html#networking-endpoints["エンドポイントのリストを表示します。"]。
 
 [role="quick-margin-para"]
-Cloud Sync のインストールプロセスに従って、同期関係を作成します。この段階で、クラウドにデータブローカーを導入したり、ご使用の Linux ホスト用のインストールスクリプトをダウンロードしたりできます。
+BlueXPのコピーと同期は、ガイドに従ってインストールプロセスを実行して同期関係を作成します。同期関係を作成したら、データブローカーをクラウドに導入したり、自社のLinuxホスト用のインストールスクリプトをダウンロードしたりできます。
 
 [role="quick-margin-list"]
 * link:task-installing-aws.html["AWS のインストールを確認します"]
@@ -66,4 +66,4 @@ Cloud Sync のインストールプロセスに従って、同期関係を作成
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["5 つ"] 無料トライアルが終了したら、同期関係の料金をお支払いください
 [role="quick-margin-para"]
-AWS または Azure から従量課金制または年間の支払いを申し込むことができます。または、ネットアップから直接ライセンスを購入することもできます。Cloud Sync のライセンス設定ページに移動して設定します。 link:task-licensing.html["詳細はこちら。"]。
+AWS または Azure から従量課金制または年間の支払いを申し込むことができます。または、ネットアップから直接ライセンスを購入することもできます。BlueXPのコピーの[License Settings]ページに移動して同期するだけでセットアップできます。 link:task-licensing.html["詳細はこちら。"]。
