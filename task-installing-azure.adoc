@@ -132,7 +132,7 @@ BlueXPのコピーと同期でAzureにデータブローカーを導入すると
 
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Continuous Syncの詳細については、こちらをご覧ください"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Continuous Syncの詳細については、こちらをご覧ください"]。
 
 
 

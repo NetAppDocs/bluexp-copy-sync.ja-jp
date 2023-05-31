@@ -26,7 +26,7 @@ BlueXPのコピーと同期の新機能をご紹介します。
 
 セキュアでないNFSとNFSの関係を含む同期のハードリンクを含めることができるようになりました。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["ファイルタイプ設定の詳細については、こちらを参照してください"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["ファイルタイプ設定の詳細については、こちらを参照してください"]。
 
 
 
@@ -40,7 +40,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 スケジュールされた同期の365日前までに変更されたファイルを除外できるようになりました。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["「最近変更されたファイル」設定の詳細については、こちらを参照してください"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["「最近変更されたファイル」設定の詳細については、こちらを参照してください"]。
 
 
 
@@ -48,9 +48,9 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 RESTful APIを使用するユーザは、関係IDを使用して関係をフィルタできるようになりました。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/api-sync.html["BlueXPのコピーと同期でRESTful APIを使用する方法の詳細については、こちらをご覧ください"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/api-sync.html["BlueXPのコピーと同期でRESTful APIを使用する方法の詳細については、こちらをご覧ください"]。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["[ディレクトリを除外する]設定の詳細については、こちらを参照してください"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["[ディレクトリを除外する]設定の詳細については、こちらを参照してください"]。
 
 
 
@@ -68,7 +68,7 @@ Azure Data Lake Storage Gen2をソースおよびターゲットとして使用�
 * On-Prem ONTAP の略
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["サポートされている同期関係の詳細を確認できます"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["サポートされている同期関係の詳細を確認できます"]。
 
 
 
@@ -76,7 +76,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationshi
 
 ディレクトリを名前でフィルタリングするだけでなく、完全パスでディレクトリをフィルタリングできるようになりました。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["[ディレクトリを除外する]設定の詳細については、こちらを参照してください"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["[ディレクトリを除外する]設定の詳細については、こちらを参照してください"]。
 
 
 
@@ -88,7 +88,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 アカウントのKMSキーを使用して、AWSデータブローカーのボリュームを暗号化できるようになりました。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#creating-the-data-broker["AWSでデータブローカーを作成する方法については、こちらをご覧ください"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating-the-data-broker["AWSでデータブローカーを作成する方法については、こちらをご覧ください"]。
 
 
 
@@ -113,7 +113,7 @@ Cloud Sync では、Azure Data Lake Storage Gen2もサポートしています�
 * IBM クラウドオブジェクトストレージ
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["サポートされている同期関係の詳細を確認できます"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["サポートされている同期関係の詳細を確認できます"]。
 
 
 
@@ -121,7 +121,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationshi
 
 AWSデータブローカーのオペレーティングシステムがAmazon Linux 2022にアップグレードされました。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#details-about-the-data-broker-instance["AWSのデータブローカーインスタンスに関する詳細を確認できます"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#details-about-the-data-broker-instance["AWSのデータブローカーインスタンスに関する詳細を確認できます"]。
 
 
 
@@ -133,7 +133,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#detail
 
 ユーザがUIで各データブローカーのローカル設定を表示できるように、構成を表示*オプションが追加されました。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html["データブローカーグループの管理に関する詳細情報"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html["データブローカーグループの管理に関する詳細情報"]。
 
 
 
@@ -141,9 +141,9 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html
 
 AzureとGoogle Cloudのデータブローカー向けオペレーティングシステムがRocky Linux 9.0にアップグレードされました。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-azure.html#details-about-the-data-broker-vm["Azureのデータブローカーインスタンスの詳細については、こちらをご覧ください"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#details-about-the-data-broker-vm["Azureのデータブローカーインスタンスの詳細については、こちらをご覧ください"]。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-gcp.html#details-about-the-data-broker-vm-instance["Google Cloudのデータブローカーインスタンスに関する詳細を確認できます"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-gcp.html#details-about-the-data-broker-vm-instance["Google Cloudのデータブローカーインスタンスに関する詳細を確認できます"]。
 
 
 
@@ -155,7 +155,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-gcp.html#detail
 
 同期関係に新しい*ディレクトリ名を除外*設定を使用できるようになりました。ユーザは、最大15個のディレクトリ名を同期から除外できます。デフォルトでは、.copy-Offload、.snapshot、~snapshotディレクトリが除外されます。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["[ディレクトリ名を除外する]設定の詳細を確認してください"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["[ディレクトリ名を除外する]設定の詳細を確認してください"]。
 
 
 
@@ -167,7 +167,7 @@ Cloud Sync でAWS S3およびONTAP S3ストレージの追加の同期関係が�
 * ONTAP S3ストレージからAWS S3へ
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["サポートされている同期関係の詳細を確認できます"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["サポートされている同期関係の詳細を確認できます"]。
 
 
 
@@ -197,7 +197,7 @@ Azureデータブローカーでは、この設定を使用するためのカス
 'Microsoft.EventGrid/eventSubscriptions/write',
 'Microsoft.Storage/storageAccounts/write'
 ----
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Continuous Syncの詳細については、こちらをご覧ください"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Continuous Syncの詳細については、こちらをご覧ください"]。
 
 
 
@@ -215,7 +215,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 * Google Driveを含む同期関係に関するレポートを生成することもできます。
 +
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-reports.html["レポートの詳細については、こちらをご覧ください"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html["レポートの詳細については、こちらをご覧ください"]。
 
 
 
@@ -229,7 +229,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-reports.html["レ
 * Google Cloud StorageをNFSサーバに接続している
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Continuous Syncの詳細については、こちらをご覧ください"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Continuous Syncの詳細については、こちらをご覧ください"]。
 
 
 
@@ -239,7 +239,7 @@ Cloud Sync 通知をEメールで受信できるようになりました。
 
 電子メールで通知を受信するには、同期関係で*Notification*設定を有効にしてから、BlueXPでAlerts and Notification設定を構成する必要があります。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#setting-up-notifications["通知を設定する方法について説明します"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#setting-up-notifications["通知を設定する方法について説明します"]。
 
 
 
@@ -251,9 +251,9 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.htm
 
 NFSサーバまたはSMBサーバからGoogle Driveにデータを同期できるようになりました。「マイドライブ」と「共有ドライブ」の両方がターゲットとしてサポートされています。
 
-Googleドライブを含む同期関係を作成する前に、必要な権限と秘密鍵を持つサービスアカウントを設定する必要があります。 https://docs.netapp.com/us-en/cloud-manager-sync/reference-requirements.html#google-drive["Googleドライブの要件について詳しくは、こちらをご覧ください"]。
+Googleドライブを含む同期関係を作成する前に、必要な権限と秘密鍵を持つサービスアカウントを設定する必要があります。 https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-drive["Googleドライブの要件について詳しくは、こちらをご覧ください"]。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["サポートされている同期関係のリストを表示します"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["サポートされている同期関係のリストを表示します"]。
 
 
 
@@ -266,7 +266,7 @@ Cloud Sync で、Azure Data Lake Storage Gen2：
 * StorageGRID からAzureデータレイクストレージGen2への接続
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["サポートされている同期関係のリストを表示します"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["サポートされている同期関係のリストを表示します"]。
 
 
 
@@ -280,7 +280,7 @@ BlueXPのCanvasから同期関係を直接設定する方法が追加されま�
 
 ある作業環境を別の作業環境の上にドラッグアンドドロップして、キャンバスから同期関係を設定できるようになりました。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-drag-and-drop.png["BlueXPの通知センターを示すスクリーンショット"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-enable-drag-and-drop.png["BlueXPの通知センターを示すスクリーンショット"]
 
 
 
@@ -288,7 +288,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 Canvasから作業環境を選択し、右パネルから同期オプションを選択することで、Azure Blob StorageまたはGoogle Cloud Storageの同期関係を設定できるようになりました。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-panel.png["BlueXPの通知センターを示すスクリーンショット"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-enable-panel.png["BlueXPの通知センターを示すスクリーンショット"]
 
 
 
@@ -302,7 +302,7 @@ NFSサーバまたはSMBサーバからAzure Data Lake Storage Gen2へデータ�
 
 Azureデータレイクを含む同期関係を作成する場合は、Cloud Sync にストレージアカウントの接続文字列を指定する必要があります。共有アクセスシグニチャ（SAS）ではなく、通常の接続文字列である必要があります。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["サポートされている同期関係のリストを表示します"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["サポートされている同期関係のリストを表示します"]。
 
 
 
@@ -327,7 +327,7 @@ Cloud Sync は、初回のデータ同期後、ソースのGoogle Cloud Storage�
 - pubsub.topics.setIamPolicy
 - storage.buckets.update
 ----
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Continuous Syncの詳細については、こちらをご覧ください"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Continuous Syncの詳細については、こちらをご覧ください"]。
 
 
 
@@ -369,7 +369,7 @@ Google Cloudのデータブローカーのデフォルトのマシンタイプ�
 ----
 これらの権限は、新しく作成したすべてのデータブローカーに自動的に追加されます。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["Continuous Syncの詳細については、こちらをご覧ください"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Continuous Syncの詳細については、こちらをご覧ください"]。
 
 
 
@@ -401,7 +401,7 @@ Azure Blobがターゲットである同期関係を作成する際に、Cloud S
 
 新しい* Sync Timeout *設定を同期関係に使用できるようになりました。この設定を使用すると、指定した時間数または日数内に同期が完了していない場合にCloud Sync でデータの同期をキャンセルするかどうかを定義できます。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["同期関係の設定の変更の詳細については、こちらをご覧ください"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["同期関係の設定の変更の詳細については、こちらをご覧ください"]。
 
 
 
@@ -409,9 +409,9 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.htm
 
 新しい* Notifications *設定を同期関係に使用できるようになりました。この設定では、BlueXPの通知センターでCloud Sync 通知を受信するかどうかを選択できます。データの同期が成功した場合、データの同期が失敗した場合、データの同期がキャンセルされた場合の通知を有効にできます。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["BlueXPの通知センターを示すスクリーンショット"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["BlueXPの通知センターを示すスクリーンショット"]
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["同期関係の設定の変更の詳細については、こちらをご覧ください"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["同期関係の設定の変更の詳細については、こちらをご覧ください"]。
 
 
 
@@ -428,7 +428,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.htm
 * 最後に、データブローカーグループを削除することもできます。
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html["データブローカーグループの管理方法について説明します"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html["データブローカーグループの管理方法について説明します"]。
 
 
 
@@ -436,7 +436,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html
 
 Sync Dashboard の内容をフィルタリングして、特定のステータスに一致する同期関係を簡単に見つけることができるようになりました。たとえば、ステータスが「失敗」の同期関係をフィルタリングできます
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-filter.png["ダッシュボードの上部にある ［ 同期によるフィルタ ］ ステータスオプションを示すスクリーンショット。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-filter.png["ダッシュボードの上部にある ［ 同期によるフィルタ ］ ステータスオプションを示すスクリーンショット。"]
 
 
 
@@ -448,7 +448,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 ダッシュボードを同期関係名でソートできるようになりました。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-sort.png["ダッシュボードで使用できる [ 名前でソート ] オプションを示すスクリーンショット。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-sort.png["ダッシュボードで使用できる [ 名前でソート ] オプションを示すスクリーンショット。"]
 
 
 
@@ -456,7 +456,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 以前のリリースでは、 Cloud Sync とクラウドデータセンスの統合を導入しました。この更新プログラムでは、同期関係を簡単に作成できるように統合を強化しました。Cloud Data Sense からデータ同期を開始すると、すべてのソース情報が 1 つの手順で表示されるため、重要な情報をいくつか入力するだけで済みます。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-data-sense.png["Cloud Data Sense から直接新しい同期を開始した後に表示される Data Sense Integration ページを示すスクリーンショット。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-data-sense.png["Cloud Data Sense から直接新しい同期を開始した後に表示される Data Sense Integration ページを示すスクリーンショット。"]
 
 
 
@@ -470,11 +470,11 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 たとえば、新しい同期関係を作成する場合は、特定のデータブローカーではなく、データブローカーの _GROP_To がその関係で使用するように選択します。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-select-data-broker-group.png["データブローカーグループの選択を示す同期関係ウィザードのスクリーンショット。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-select-data-broker-group.png["データブローカーグループの選択を示す同期関係ウィザードのスクリーンショット。"]
 
 [ データブローカーの管理 *] タブには、データブローカーグループが管理している同期関係の数も表示されます。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-group-relationships.png["データブローカーグループの管理ページのスクリーンショット。管理しているリレーションシップの数など、データブローカーグループとそのグループの詳細が表示されます。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-group-relationships.png["データブローカーグループの管理ページのスクリーンショット。管理しているリレーションシップの数など、データブローカーグループとそのグループの詳細が表示されます。"]
 
 
 
@@ -482,7 +482,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 レポートの PDF をダウンロードできるようになりました。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-reports.html["レポートの詳細については、こちらをご覧ください"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html["レポートの詳細については、こちらをご覧ください"]。
 
 
 
@@ -641,7 +641,7 @@ link:api-sync.html["API を使用して同期関係を設定する方法につ�
 
 Amazon FSX for ONTAP ファイルシステムとの間でデータを同期できるようになりました。
 
-* https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/concept-fsx-aws.html["Amazon FSX for ONTAP の詳細をご覧ください"^]
+* https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html["Amazon FSX for ONTAP の詳細をご覧ください"^]
 * link:reference-requirements.html["サポートされている同期関係を表示する"]
 * link:task-creating-relationships.html["Amazon FSX for ONTAP の同期関係を作成する方法について説明します"]
 
