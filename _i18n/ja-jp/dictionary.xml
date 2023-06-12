@@ -1595,7 +1595,6 @@
   <block id="fafec3da88dda2aaace57da0275aa418" category="list-text">このソース/ターゲットとの同期関係は、BlueXPのコピーおよび同期APIでのみサポートされます。</block>
   <block id="9884de3e76b128738e9b044e854c59b2" category="summary">同期関係を作成すると、BlueXPのコピーおよび同期サービスによってソースからターゲットにファイルがコピーされます。最初のコピーの後、変更されたデータは 24 時間ごとに同期されます。</block>
   <block id="17a22599667444c8ead2e620d24daa16" category="paragraph">BlueXPのコピーと同期でエクスポートを取得できない場合は、*[エクスポートを手動で追加]*をクリックし、NFSエクスポートの名前を入力します。</block>
-  <block id="5cd54d605c54fc35f035298798014895" category="list-text">指定した時間数または日数内に同期が完了していない場合に、BlueXPのコピーと同期をキャンセルするかどうかを定義します。</block>
   <block id="bd171db960b7fb2897e98bf00be4815f" category="list-text">BlueXPのコピーと同期の通知をBlueXPの通知センターで受け取るかどうかを選択できます。データの同期が成功した場合、データの同期が失敗した場合、データの同期がキャンセルされた場合の通知を有効にできます。</block>
   <block id="667141ecdc736f3d7ccf9a5f6e74cc7b" category="list-text">BlueXPのコピーと同期がファイルの同期をスキップするまでに再試行する回数を定義します。</block>
   <block id="c7153d054eed1ef19444b255974772ee" category="list-text">初回のデータ同期後、BlueXPのコピーと同期はソースのS3バケットまたはGoogle Cloud Storageバケットに対する変更をリスンし、ターゲットへの変更が発生したときに継続的に同期します。ソースを定期的に再スキャンする必要はありません。</block>
@@ -1817,4 +1816,15 @@
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAP ソフトウェアを最新リリースにアップグレードしています</block>
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">NSSクレデンシャルをBlueXPアカウントに関連付ける方法は、BlueXPユーザログインに関連付けられたNSSアカウントとは異なります。</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXPアカウントIDに関連付けられています。BlueXPアカウントに属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
+  <block id="860b2fc9627ec3a5cc3396995584e75b" category="list-text">指定した時間、時間、または日数内に同期が完了していない場合に、BlueXPのコピーと同期をキャンセルするかどうかを定義します。</block>
+  <block id="26d399293c97f500657ad4983fd0d9fa" category="list-text">指定した時間、時間、または日数内に同期が完了していない場合に、BlueXPのコピーと同期をキャンセルするかどうかを定義します。</block>
+  <block id="9b7d935c674579c8c8e305e2dcadc1b9" category="section-title">2023年6月11日</block>
+  <block id="b18ac5fa90a568a24f98c73b9192cb6d" category="section-title">分単位での自動中止をサポートします</block>
+  <block id="33c110842a0fe3f7891980d750e48fa2" category="paragraph">完了していないアクティブな同期は、*同期タイムアウト*機能を使用して15分後に中止できるようになりました。</block>
+  <block id="44856e8753e0c19c0341499a434c7c97" category="inline-link">同期タイムアウト設定の詳細については、こちらを参照してください</block>
+  <block id="3266d16b8714caecb4f4231dca5dae65" category="paragraph"><block ref="bfd432c58dd0bb0c71b937c5a3336867" category="inline-link-rx"></block>。</block>
+  <block id="69540ae9a9da395711f1e900d88e4cc5" category="section-title">アクセス時間のメタデータをコピーします</block>
+  <block id="a706d4045e92e504f4aa9e79191d81f5" category="paragraph">ファイルシステムを含む関係では、* Copy for Objects *機能によってアクセス時間のメタデータがコピーされるようになりました。</block>
+  <block id="bac04a3b125486e43e5adcb9275b0cb7" category="inline-link">[オブジェクトのコピー]設定の詳細については、こちらを参照してください</block>
+  <block id="b9101f79b22863de2373d338b3f2fd49" category="paragraph"><block ref="61cd45fc857d1053eae8b58e970eda27" category="inline-link-rx"></block>。</block>
 </blocks>

@@ -18,6 +18,26 @@ BlueXPのコピーと同期の新機能をご紹介します。
 
 
 
+== 2023年6月11日
+
+
+
+=== 分単位での自動中止をサポートします
+
+完了していないアクティブな同期は、*同期タイムアウト*機能を使用して15分後に中止できるようになりました。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["同期タイムアウト設定の詳細については、こちらを参照してください"]。
+
+
+
+=== アクセス時間のメタデータをコピーします
+
+ファイルシステムを含む関係では、* Copy for Objects *機能によってアクセス時間のメタデータがコピーされるようになりました。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["[オブジェクトのコピー]設定の詳細については、こちらを参照してください"]。
+
+
+
 == 2023年5月8日
 
 
