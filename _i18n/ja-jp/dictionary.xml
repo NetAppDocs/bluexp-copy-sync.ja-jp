@@ -1827,4 +1827,5 @@
   <block id="a706d4045e92e504f4aa9e79191d81f5" category="paragraph">ファイルシステムを含む関係では、* Copy for Objects *機能によってアクセス時間のメタデータがコピーされるようになりました。</block>
   <block id="bac04a3b125486e43e5adcb9275b0cb7" category="inline-link">[オブジェクトのコピー]設定の詳細については、こちらを参照してください</block>
   <block id="b9101f79b22863de2373d338b3f2fd49" category="paragraph"><block ref="61cd45fc857d1053eae8b58e970eda27" category="inline-link-rx"></block>。</block>
+  <block id="b9a11b90960ff803269429887ab4cff3" category="admonition">ユーザはローカルユーザである必要があります。ドメインユーザはサポートされません。</block>
 </blocks>
