@@ -92,7 +92,7 @@ JSON ファイルに含まれる権限については、次の点に注意して
 ** データブローカーを Linux ホストに手動でインストールした場合、データブローカーの導入時に AWS クレデンシャルを指定した AWS ユーザの ARN を _Rolears_should be the ARN when deploying a AWS credentials
 ** CloudFormation テンプレートを使用して AWS にデータブローカーを導入した場合は、テンプレートによって作成された IAM ロールの ARN を _RoleARN _ にする必要があります。
 +
-ロール ARN を見つけるには、 EC2 コンソールに移動し、データブローカーインスタンスを選択して、 Description タブから IAM ロールをクリックします。次に、ロール ARN を含む IAM コンソールに概要ページが表示されます。
+ロールARNを確認するには、EC2コンソールに移動してデータブローカーインスタンスを選択し、概要タブからIAMロールを選択します。次に、ロール ARN を含む IAM コンソールに概要ページが表示されます。
 
 +
 image:screenshot_iam_role_arn.gif["ロール ARN を示す AWS IAM コンソールのスクリーンショット。"]
@@ -125,7 +125,7 @@ Azure BLOB ストレージが次の要件を満たしていることを確認し
 
 Azure BlobコンテナとNFSまたはSMBサーバの間の同期関係を作成する場合は、BlueXPのコピーとストレージアカウント接続文字列との同期を指定する必要があります。
 
-image:screenshot_connection_string.gif["に接続文字列を示します。この文字列は、 Azure ポータルでストレージアカウントを選択し、 [ アクセスキー ] をクリックすることで使用できます。"]
+image:screenshot_connection_string.gif["は接続文字列を示しています。接続文字列は、Azureポータルでストレージアカウントを選択し、[Access Keys]を選択すると表示されます。"]
 
 2 つの Azure Blob コンテナ間でデータを同期する場合は、接続文字列にを含める必要があります https://docs.microsoft.com/en-us/azure/storage/common/storage-dotnet-shared-access-signature-part-1["共有アクセスシグニチャ"^] （ SAS ）。BLOB コンテナと NFS サーバまたは SMB サーバの間で同期する場合は、 SAS を使用することもできます。
 
@@ -135,7 +135,7 @@ SA は、 BLOB サービスとすべてのリソースタイプ（サービス�
 * ターゲット BLOB コンテナの場合：読み取り、書き込み、一覧表示、追加、作成
 
 
-image:screenshot_connection_string_sas.gif["「は、共有アクセス署名を示しています。この署名は、 Azure ポータルでストレージアカウントを選択し、共有アクセス署名をクリックすることで使用できます。」"]
+image:screenshot_connection_string_sas.gif["に共有アクセスシグネチャを示します。共有アクセスシグネチャは、Azureポータルでストレージアカウントを選択し、[共有アクセスシグネチャ]を選択すると表示されます。"]
 
 
 NOTE: Azure BLOBコンテナを含むContinuous Sync関係を実装する場合は、通常の接続文字列またはSAS接続文字列を使用できます。SAS接続文字列を使用している場合は、近い将来有効期限が切れるように設定しないでください。

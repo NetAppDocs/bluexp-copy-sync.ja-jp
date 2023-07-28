@@ -26,15 +26,12 @@
   <block id="3a3d1b7e5044442dcfbd5cd464cc3e74" category="list-text">新しい同期関係を作成する場合</block>
   <block id="d55c5ae4dbd0da4961b63d579f9712fd" category="inline-link-macro">作成時に新しいデータブローカーを作成する方法について説明します 同期関係</block>
   <block id="c7b4e71c7182550e433faac117c2ecfb" category="paragraph"><block ref="331eae664c6d6049ca8cf9db41aef0e1" category="inline-link-macro-rx"></block>。</block>
-  <block id="6dac2c23bc94d633506738bd36101caa" category="list-text">[ データブローカーの管理 ] ページで、 [ 新規追加 ] をクリックします データブローカー * 。新しいストレージにデータブローカーを作成します グループ</block>
   <block id="33356a7534e9c58e7ebf9c0a2a815a6a" category="list-text">新しいを作成して、 [ データブローカーの管理（ Manage Data Brokers ） ] ページからアクセスします 既存のグループのデータブローカー</block>
   <block id="3eabf8e614efa513058a3d3dbb1a59e1" category="list-title">知っておくべきこと</block>
   <block id="035ddc07f088acce2ce7b9f5f3adbf75" category="list-text">暗号化された同期関係を管理するグループにデータブローカーを追加することはできません。</block>
   <block id="bd7c77e0797aa0ace4fe53476f5bd1eb" category="list-text">既存のグループにデータブローカーを作成する場合、データブローカーはオンプレミスのデータブローカーであるか、同じタイプのデータブローカーである必要があります。</block>
   <block id="cdb42fff9480ae666d8bc83254c6669c" category="paragraph">たとえば、グループに AWS データブローカーが含まれている場合、そのグループに AWS データブローカーまたはオンプレミスのデータブローカーを作成できます。Azure データブローカーと Google Cloud データブローカーは、同じタイプのデータブローカーではないため、作成できません。</block>
   <block id="df41669b003a060e8aaf939d172dabdc" category="list-title">新しいグループにデータブローカーを作成する手順</block>
-  <block id="01139d234037ac0c0218e33f45274355" category="list-text">［ * 同期 ］ &gt; ［ データブローカーの管理 * ］ をクリックします。</block>
-  <block id="ce4433b25c45524977fc8fe7cbdf459c" category="list-text">[ 新しいデータブローカーの追加 ] をクリックします。</block>
   <block id="802f803fcc1e47690eb3743e68b82a33" category="list-text">プロンプトに従ってデータブローカーを作成します。</block>
   <block id="8eb912b10c5a70a32cb5864415b764bb" category="paragraph">ヘルプについては、次のページを参照してください。</block>
   <block id="0b217f05323b361308650155f01a7091" category="inline-link-macro">AWS にデータブローカーを作成</block>
@@ -46,7 +43,6 @@
   <block id="85e5ddcb30088cd6cfefc0e824599627" category="inline-link-macro">Linux ホストへのデータブローカーのインストール</block>
   <block id="5fc5be02ef143289af0e6a031decff5d" category="list-text"><block ref="5fc5be02ef143289af0e6a031decff5d" category="inline-link-macro-rx"></block></block>
   <block id="b20c8730a010d433fedb7241d0a0335a" category="list-title">既存のグループにデータブローカーを作成する手順</block>
-  <block id="9c129f9a970d427b507541a4c3a7e53a" category="list-text">アクションメニューをクリックし、 * データブローカーの追加 * を選択します。</block>
   <block id="b65b4c1a581a43f257ad99ae84281816" category="inline-image-macro">グループ内の個々のデータブローカーで使用可能なアクションメニューのスクリーンショット。</block>
   <block id="b86abc18838bbcc96f4aba5f9e7400b2" category="list-text">プロンプトに従って、グループにデータブローカーを作成します。</block>
   <block id="301ebdf8067a213d5a55c65fbb488290" category="section-title">セキュリティに関する推奨事項</block>
@@ -65,21 +61,15 @@
   <block id="11a83e6b96c9efdc97f63abd9c00ad55" category="admonition">スキャナはソースとターゲットをスキャンし、コピーする対象を決定します。転送元は実際のコピーを行います。ネットアップの担当者は、これらの構成の詳細を使用して、パフォーマンスを最適化するための推奨アクションを提示することが</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
   <block id="40c73a255636bb999d6831cf4ac7e7a1" category="inline-image-macro">グループ内のデータブローカーのリストを展開できるボタンのスクリーンショット。</block>
-  <block id="447de7a1cac78a70d6df20a5b1ee66aa" category="list-text">をクリックします <block ref="787db84ec9404328cdc4a6264b9959c1" category="inline-image-macro-rx" type="image"></block> をクリックして、グループ内のデータブローカーのリストを展開します。</block>
   <block id="4e2a058312f76a6733fa5f04b09d0b12" category="inline-image-macro">データブローカーの詳細を展開できるボタンのスクリーンショット。</block>
-  <block id="d9428db3891df0c6837599d9004dc84b" category="list-text">をクリックします <block ref="470bfce73839324984be8a7b9dbc97eb" category="inline-image-macro-rx" type="image"></block> をクリックしてください。</block>
   <block id="b3f5b024c925d18f1fad38e34f6adeb7" category="inline-image-macro">データブローカーに関する情報のスクリーンショット。</block>
   <block id="2aca713208ede5e338187d8acfc59e45" category="paragraph"><block ref="2aca713208ede5e338187d8acfc59e45" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cd001e84be2b1eb58fae93119764a424" category="section-title">データブローカーをグループから削除</block>
   <block id="86809a552db6628d8c5fdff212824259" category="list-text">グループを使用している関係がある場合、そのグループから最後のデータブローカーを削除することはできません。</block>
-  <block id="9b1ed3beff3574463addd20120a54d9d" category="list-text">データブローカーのアクションメニューをクリックし、 * データブローカーの削除 * を選択します。</block>
   <block id="fa09436a4bdfebc03ee36943e6a1b450" category="inline-image-macro">個々のデータブローカーグループごとに使用可能なアクションメニューのスクリーンショット。</block>
   <block id="72d8c1c0fb68d009ccb1cae8adc51597" category="paragraph"><block ref="72d8c1c0fb68d009ccb1cae8adc51597" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c3bab48341baf2f6368e3f474352dfef" category="list-text">[ データブローカーの削除 ] をクリックします。</block>
   <block id="d673b528f864db55fcb67876966355b2" category="paragraph">データブローカーグループの名前は、いつでも変更できます。</block>
-  <block id="6101d898adb1b689572ae10844666fb9" category="list-text">アクションメニューをクリックし、 * グループ名の編集 * を選択します。</block>
   <block id="81a916358892fc8fbd08a770c2e50715" category="paragraph"><block ref="81a916358892fc8fbd08a770c2e50715" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="155ba6c2c0d0fdfa0760ba73549d665c" category="list-text">新しい名前を入力し、 * 保存 * をクリックします。</block>
   <block id="d84b9ff2a26165aea44e08c53ac24735" category="section-title">データブローカーの問題に対処</block>
   <block id="417555a2380aa45dc52608834062b293" category="list-text">ステータスが「 Unknown 」または「 Failed 」のデータブローカーを特定します。</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-image-macro"></block>
@@ -87,11 +77,8 @@
   <block id="4c23f2743e95cade04a6991678e7c813" category="paragraph">たとえば、オフラインのデータブローカーを再起動するだけで、初期導入に失敗した場合はデータブローカーの削除が必要になることがあります。</block>
   <block id="b913043c4767c72e8bbb3ed88c33dd15" category="paragraph">同期プロセス中に同期関係でエラーが発生した場合は、データブローカーグループの同時実行を統合すると、同期エラーの数を減らすことができます。グループの設定を変更すると、転送速度が遅くなるため、パフォーマンスに影響する可能性があります。</block>
   <block id="e0341128a5853714165581951816b70b" category="paragraph">自分で設定を変更することはお勧めしません。設定を変更するタイミングと変更方法については、ネットアップに相談してください。</block>
-  <block id="6fea4f8d81c041ddb786f1edf604f6b0" category="list-text">［ * データブローカーの管理 * ］ をクリックします。</block>
-  <block id="947dda123a9676ba06895d96ee598405" category="list-text">データブローカーグループの [ 設定 ] アイコンをクリックします。</block>
   <block id="270f82e457e8fa76d7c5a3cc51be200a" category="inline-image-macro">データブローカーグループの設定アイコンを示すスクリーンショット。</block>
   <block id="e7670e4280933a11f42bb2080cc42f84" category="paragraph"><block ref="e7670e4280933a11f42bb2080cc42f84" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="28d40eeab8fd28bbdf5b092f4784b274" category="list-text">必要に応じて設定を変更し、 * Unify Configuration* をクリックします。</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">次の点に注意してください。</block>
   <block id="63c7b65895eb2fbd662e3ab0e4de3d12" category="list-text">変更する設定を選択できます。 4 つすべてを一度に変更する必要はありません。</block>
   <block id="ee04adf201931e953bab143cd61c5e34" category="list-text">新しい構成がデータブローカーに送信されると、データブローカーは自動的に再起動し、新しい構成を使用します。</block>
@@ -131,7 +118,6 @@
   <block id="254d5c87d5ab437395f866390ea49cd0" category="inline-link">Google Cloud で Cloud Volumes ONTAP を起動しています</block>
   <block id="366f7e58814bef5e88fbb6881239ff46" category="inline-link">既存の Cloud Volumes ONTAP システムの追加</block>
   <block id="e845620e391b62ad3163cdb0e100a862" category="inline-link">ONTAP クラスタの検出</block>
-  <block id="e17d9d52c8208dfce3fde1af20447264" category="list-text">「 * キャンバス * 」をクリックします。</block>
   <block id="b5f4d0a91c515f4bd54cae36d52f1af7" category="list-text">上記のいずれかのタイプに一致する作業環境を選択してください。</block>
   <block id="1cffa027f06c83c15096bfe069d63282" category="list-text">[ 同期 ] の横のアクションメニューを選択します。</block>
   <block id="ab116a076c96e5657e8e3c778ee684b2" category="inline-image-macro">作業環境を選択した後の同期メニューで使用可能なアクションを示すスクリーンショット。</block>
@@ -146,7 +132,6 @@
   <block id="f40f1d9dc0b9fe761c1fae85c5642f2b" category="list-text">NFS Server * ページで、 AWS と同期する NFS サーバの IP アドレスまたは完全修飾ドメイン名を入力します。</block>
   <block id="a31f37dcd17877cea841776e751a5c03" category="list-text">[*Data Broker Group*] ページで、プロンプトに従って AWS 、 Azure 、または Google Cloud Platform にデータブローカー仮想マシンを作成するか、データブローカーソフトウェアを既存の Linux ホストにインストールします。</block>
   <block id="598b1711dd67bf120b85d858cb7087c3" category="paragraph">詳細については、次のページを参照してください。</block>
-  <block id="8ee76d81cd3bca0a06766cada54e9900" category="list-text">データブローカーをインストールしたら、 [* 続行 ] をクリックします。</block>
   <block id="78f8e06b33ffb5e1a53c6685b329afd5" category="inline-image-macro">このスクリーンショットは、正常に導入されたインスタンスを示していますこのインターフェイスには、 AWS ネットワーキングを含むインスタンスの詳細が表示されます。</block>
   <block id="460dd7003c9711e5459ed0a96f7c8281" category="paragraph"><block ref="460dd7003c9711e5459ed0a96f7c8281" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a271de5321e2a04796460ebc14e59eb4" category="list-text">[[filter]] [*Directories* ] ページで、最上位のディレクトリまたはサブディレクトリを選択します。</block>
@@ -154,7 +139,6 @@
   <block id="daae3c3e845ae4c3697e01616f4f7b93" category="list-text">「 * AWS S3 Bucket * 」ページで、バケットを選択します。</block>
   <block id="8e32410b962702f10a4b3b0600f973c1" category="list-text">ドリルダウンして、バケット内の既存のフォルダを選択するか、バケット内に作成した新しいフォルダを選択します。</block>
   <block id="c0e557736b1b4c22df8edfd8d06214ca" category="inline-link-macro">S3 バケットには特定の権限を適用する必要があります。</block>
-  <block id="2ad4a0a772b07953e8d882b7fe21cf11" category="list-text">リストに追加 * をクリックして、 AWS アカウントに関連付けられていない S3 バケットを選択します。 <block ref="772fe08f8ccc4de2babce33261957aed" category="inline-link-macro-rx"></block>。</block>
   <block id="c04f4488434ced226bcb0be4d5ecf0e6" category="list-text">[* Bucket Setup* ] ページで、バケットを設定します。</block>
   <block id="d0108dd861797c657c5b430a731cd0d9" category="list-text">S3 バケットの暗号化を有効にするかどうかを選択し、 AWS KMS キーの ARN を入力するか、 AES-256 暗号化を選択します。</block>
   <block id="90970afda72d4e681afa2bb416cbd684" category="inline-link-macro">サポートされているストレージクラスを表示します。</block>
@@ -195,13 +179,8 @@
   <block id="96eb50fa77567b33546d85a4d6adc2f4" category="inline-image-macro">Amazon S3 との同期関係を作成する際のタグ / メタデータページを示すスクリーンショット。</block>
   <block id="72786dbf28b6222cb6b90ef1853e64d5" category="paragraph"><block ref="72786dbf28b6222cb6b90ef1853e64d5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3b2c91269ae0c67c26fe59bbb10eb6a2" category="admonition">この機能は、 StorageGRID と IBM Cloud Object Storage にデータを同期する場合にも使用できます。Azure と Google Cloud Storage では、メタデータオプションのみを使用できます。</block>
-  <block id="abf843ce80b23a0209755d1e397c8333" category="list-text">同期関係の詳細を確認し、 * 関係の作成 * をクリックします。</block>
   <block id="600901e70afccc50e18676048766ba78" category="paragraph">* 結果 *</block>
-  <block id="991900a0204b24a05efe45e0b0b3bb96" category="section-title">Cloud Data Sense から同期関係を作成</block>
-  <block id="0a3762f065e87e761291235c3f42e8d4" category="paragraph">Cloud Data Sense からデータ同期を開始すると、すべてのソース情報が 1 つの手順で表示されるため、重要な情報をいくつか入力するだけで済みます。その後、新しい同期関係の作成先を選択します。</block>
   <block id="f3b62c43bc969f6b5b30d96b8171a06d" category="inline-image-macro">Cloud Data Sense から直接新しい同期を開始した後に表示される Data Sense Integration ページを示すスクリーンショット。</block>
-  <block id="c52509e09917e0e29ac603ef598d3f69" category="paragraph"><block ref="c52509e09917e0e29ac603ef598d3f69" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="20718255a13eb2f29be8b068228e69bc" category="inline-link">Cloud Data Sense から同期関係を開始する方法について説明します</block>
   <block id="34a36f0a41c390743b7c28311304c570" category="doc">外部の橋本社ボールトを使用するようにデータブローカーグループを設定する</block>
   <block id="2428fdd39f5ab3cbda5b5bac12ab8f84" category="paragraph">URL を設定して、データブローカーグループにクレデンシャルを提供するようにヴォールトを準備します。ボールトのシークレットの URL は、 _creds__ で終わる必要があります。</block>
   <block id="e0e88dfcd253d5d5ea89a9985f2101cf" category="paragraph">グループ内の各データブローカーのローカル構成ファイルを変更して、外部ボルトからクレデンシャルを取得するようにデータブローカーグループを準備します。</block>
@@ -313,15 +292,10 @@
   <block id="63430717bb1e3b33a858e3661c1627a0" category="paragraph">データブローカーを導入する際に IAM ロールを指定するには、次の手順に従います。</block>
   <block id="9727c41167b4d3a89168d9e2a6bf1fbe" category="section-title">データブローカーの作成</block>
   <block id="c371ecc54445590f3e356493638d02db" category="paragraph">新しいデータブローカーを作成する方法はいくつかあります。以下の手順では、同期関係を作成する際にデータブローカーを AWS にインストールする方法について説明します。</block>
-  <block id="05b03110970a5e69bee8654fc24ccf0b" category="list-text">[ 新しい同期の作成 *] をクリックします。</block>
-  <block id="699986c3a8b1dd3a3143973b450c229d" category="list-text">[ 同期関係の定義 *] ページで、ソースとターゲットを選択し、 [ 続行 *] をクリックします。</block>
   <block id="f0fff4676c779987735fc7ee633da03c" category="paragraph">「 * データブローカーグループ * 」ページが表示されるまで、手順を完了します。</block>
-  <block id="c26c6fab489734aee5276f7e590f8b18" category="list-text">[ * データブローカーグループ * ] ページで、 [ * データブローカーの作成 * ] をクリックし、 [ * Amazon Web Services * ] を選択します。</block>
   <block id="0fc6ea2f37f8948c8630ffb60d5e0265" category="inline-image-macro">AWS 、 Azure 、 Google Cloud 、オンプレミスのデータブローカーを選択できるデータブローカーページのスクリーンショット。</block>
   <block id="7af53fb4b55f3887a3b7d59e2a119aa2" category="paragraph"><block ref="7af53fb4b55f3887a3b7d59e2a119aa2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8d5f3c11505e061fa1ae30de2766106b" category="list-text">データブローカーの名前を入力し、 [* 続行 ] をクリックします。</block>
   <block id="5c06da7ffcfe27fbe1ca6a288b6d46c8" category="paragraph">キーは保存されず、他の目的に使用されることもありません。</block>
-  <block id="ea274abab109d43436d6d4dd8e13bab8" category="paragraph">アクセスキーを指定しない場合は、ページの下部にあるリンクをクリックして CloudFormation テンプレートを使用します。このオプションを使用する場合は、 AWS に直接ログインするため、クレデンシャルを指定する必要はありません。</block>
   <block id="fac489f42d32a183751d7250d0d6ddf8" category="paragraph">[[cft]] CloudFormation テンプレートを使用してデータブローカーインスタンスを起動する方法を紹介したビデオを次に示します。</block>
   <block id="17cc78aee78be2a54a8cc1a5a2172559" category="inline-xref">必要な権限を指定する必要があります</block>
   <block id="115b5af8cfd138d39f5b56bb5b1b53d7" category="paragraph">独自の IAM ロールを選択した場合は、 <block ref="1faadad7a4ef01b0a8464fdda070fd6f" category="inline-xref-macro-rx"></block>。</block>
@@ -381,7 +355,6 @@
   <block id="2470150bd9a4e04a2e189d3ae6e56fe0" category="list-text">* データブローカー * ：新しいソースデータブローカーを追加するか、既存のデータブローカーを選択するよう求められます。</block>
   <block id="39a513eb21ebe3c708dcaa6942b6d31d" category="list-text">ソースデータブローカーがリスナーとして機能する場合は、新しいデータブローカーである必要があります。</block>
   <block id="cdba25c9167c61c57652be77cd6bc4e2" category="list-text">* ディレクトリ *: すべてのディレクトリを選択するか、ドリルダウンしてサブディレクトリを選択して、同期するディレクトリを選択します。</block>
-  <block id="de6d5031bb824b97bc739136ed0ca12f" category="paragraph">「 * ソースオブジェクトのフィルター * 」をクリックして、ソースファイルとフォルダーの同期方法とターゲットの場所での維持方法を定義する設定を変更します。</block>
   <block id="17cc825827711a2fbb35f034caf806fc" category="inline-image-macro">" トップレベルのディレクトリを選択し、ドリルダウンして、 [ ソースオブジェクトのフィルタ ] オプションを選択するオプションを示すスクリーンショット。 "</block>
   <block id="ec512e2862c8dda2563d8ba47436b65b" category="paragraph"><block ref="ec512e2862c8dda2563d8ba47436b65b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="60af823ef7e6a707f1ea0d358c745e23" category="list-text">* ターゲット NFS サーバー */ * ターゲット Azure NetApp Files * ： NFS バージョンを選択し、新しい NFS ターゲットを入力するか、既存のサーバーを選択します。</block>
@@ -392,7 +365,6 @@
   <block id="d7d921b770410daba11fa5b08364a9b2" category="paragraph"><block ref="d7d921b770410daba11fa5b08364a9b2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d745b7ea2fe3a1dffe9d30c5f25e422b" category="list-text">* ターゲットディレクトリ * ：トップレベルのディレクトリを選択するか、ドリルダウンして既存のサブディレクトリを選択するか、エクスポート内に新しいフォルダを作成します。</block>
   <block id="b1574b82988204b1ea2b4391bc2b62cc" category="list-text">* 設定 * ：ソースファイルとフォルダをターゲットの場所で同期および維持する方法を定義します。</block>
-  <block id="376588358d7683b8caa450f37e1678c1" category="list-text">* 確認 * ：同期関係の詳細を確認し、 * 関係の作成 * をクリックします。</block>
   <block id="31b876010e591a7e8b00068dcabd80b7" category="inline-image-macro">レビュー画面を示すスクリーンショット。それぞれの NFS サーバ、データブローカー、およびネットワーク情報が表示されます。」</block>
   <block id="39cd9e3fa50eeb2b66a750a04c154460" category="paragraph"><block ref="39cd9e3fa50eeb2b66a750a04c154460" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d8247e494d1e03bac9b29cc7ea4c0eca" category="section-title">ダッシュボードでソートします</block>
@@ -429,7 +401,6 @@
   <block id="b0ca823b10873e7a925ef5adac883c88" category="section-title">S3 への SFTP を使用します</block>
   <block id="cc7323173039fb96b345cbcfd28877b6" category="paragraph">SFTP から Amazon S3 への同期関係の作成がユーザインターフェイスでサポートされるようになりました。この同期関係は、以前は API でのみサポートされていました。</block>
   <block id="5eafde1d0f1c17904e2751e719da1538" category="section-title">テーブルビューの拡張機能</block>
-  <block id="dae101521243289c0a713ed367646615" category="paragraph">ダッシュボードのテーブルビューを再設計して使いやすくしました。詳細情報 * をクリックすると、ダッシュボードが Cloud Sync でフィルタされ、その関係に関する詳細情報が表示されます。</block>
   <block id="90395f713f122ec567368986af441ba7" category="inline-image-macro">ダッシュボードのテーブルビューのスクリーンショット。</block>
   <block id="464bce8418108e11fbc67663fc64376a" category="paragraph"><block ref="464bce8418108e11fbc67663fc64376a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="55692a3e08e518d1aa7c38db6b703907" category="section-title">Jarkarta 地域のサポート</block>
@@ -546,7 +517,6 @@
   <block id="b979ccf0a630de029ca4f0949d2a4da5" category="paragraph">データブローカーを導入する場合、次の権限を持つサービスアカウントを選択する必要があります。</block>
   <block id="10c5ef3d81c591aadadb7817f4e79de0" category="admonition">「 iam.serviceAccounts.signJwt" 」権限が必要なのは、外部の橋本ボルトを使用するようにデータブローカーを設定する予定の場合のみです。</block>
   <block id="0fbb3a69ab0abf1cabee38002a3846f3" category="paragraph">新しいデータブローカーを作成する方法はいくつかあります。以下の手順では、同期関係を作成するときにデータブローカーを Google Cloud にインストールする方法について説明します。</block>
-  <block id="01341420bc02ccee78de02f8a53bc10d" category="list-text">[ * データブローカーグループ * ] ページで、 [ * データブローカーの作成 * ] をクリックし、 [Microsoft Azure* ] を選択します。</block>
   <block id="3a22f44ed11b974b3666e987fe41b909" category="paragraph"><block ref="3a22f44ed11b974b3666e987fe41b909" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dc35ce1752664930f658f7059d7b8f9c" category="list-text">メッセージが表示されたら、 Google アカウントでログインします。</block>
   <block id="29b28ad1793cec26548948fbe79ebfd5" category="paragraph">このフォームは Google が所有およびホストしています。クレデンシャルがネットアップに提供されていません。</block>
@@ -558,13 +528,9 @@
   <block id="ed7160396fcfefca3c1997b02ccbe37c" category="paragraph">Google Cloud にデータブローカーを導入し、新しい同期関係を作成しました。このデータブローカーは、追加の同期関係とともに使用できます。</block>
   <block id="8743cf4fd5bd75723f626be1d4af6bb5" category="section-title">他の Google Cloud プロジェクトでバケットを使用する権限を付与する</block>
   <block id="6ab8649cc222312c90daa98ef292a592" category="list-text">Google Cloud Platform コンソールを開き、 Cloud Storage サービスをロードします。</block>
-  <block id="a0f456d59c57c1111f650c11ad24fa5d" category="list-text">同期関係のソースまたはターゲットとして使用するバケットの名前をクリックします。</block>
-  <block id="715460ccdde6385d4b2f9b34475e2704" category="list-text">[*Permissions*] をクリックします</block>
-  <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">[ 追加（ Add ） ] をクリックします。</block>
   <block id="75d2935b39ceeb13d10ba4ced792a75b" category="list-text">データブローカーのサービスアカウントの名前を入力します。</block>
   <block id="bee41d170929fb7fc4e79dde87e71a86" category="inline-xref">上記と同じ権限</block>
   <block id="babe42abe7decc70b98a517bfcc466aa" category="list-text">提供するロールを選択します <block ref="bcb4c6e7b3e58289927e5f4cf9be10af" category="inline-xref-macro-rx"></block>。</block>
-  <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">[ 保存（ Save ） ] をクリックします。</block>
   <block id="18e32f4b46f7365779a3d1fe9eb08721" category="paragraph">同期関係を設定するときに、そのバケットを同期関係のソースまたはターゲットとして選択できるようになりました。</block>
   <block id="9177317d32a41a0982be70109425240b" category="section-title">データブローカー VM インスタンスの詳細</block>
   <block id="3ea4bf9da7622edeeae1bf80e9c5cded" category="list-text">マシンのタイプ</block>
@@ -574,36 +540,25 @@
   <block id="d45779d5d4d94ce3569ba04a2f510bdc" category="doc">同期関係の管理</block>
   <block id="01db9e7829acc4899b2e0742925feea9" category="paragraph">スケジュールされた次回の同期を待つのではなく、ボタンを押すと、ソースとターゲットの間でデータをすぐに同期できます。</block>
   <block id="0f5f1ed19e5f92c9f1aad34019c5c065" category="inline-image-macro">同期関係に対して操作を実行できるボタンのスクリーンショット</block>
-  <block id="781a4e1aefac4f9409210de2df0f2992" category="list-text">ダッシュボード * で同期関係に移動し、をクリックします <block ref="1452da4272733702009675a0aac63ae1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="90881819e96a317a0b9cbd8a17bea734" category="list-text">[ 今すぐ同期 ] をクリックし、 [* 同期 *] をクリックして確定します。</block>
   <block id="9011e4e296b23e35e2729606b1923581" category="paragraph">同期関係を管理するグループにデータブローカーを追加することで、同期関係のパフォーマンスを向上できます。追加のデータブローカーには、 _NET_DATA ブローカーを指定する必要があります。</block>
   <block id="30da1c6cc964eebe723aacff25362055" category="paragraph">データブローカーグループが他の同期関係を管理している場合、グループに追加した新しいデータブローカーを使用することで、同期関係のパフォーマンスも向上します。</block>
   <block id="77835e3bdea4c9060a1ddb296840c2f2" category="list-text">関係にある既存のデータブローカーの少なくとも 1 つがオンラインであることを確認します。</block>
-  <block id="f0f405cf23a3551636665b7b031e8fac" category="list-text">[*Accelerate] をクリックします。</block>
   <block id="bef7c0526a136d74698b8d535b65bafd" category="list-text">プロンプトに従って、新しいデータブローカーを作成します。</block>
   <block id="b9d30d436a8a56d3713a2ec699c1b4b4" category="paragraph">データブローカーを、既存の同期関係にあるソースまたはターゲットの最新のクレデンシャルで更新できます。クレデンシャルの更新は、セキュリティポリシーで定期的にクレデンシャルの更新が要求される場合に役立ちます。</block>
-  <block id="bd815be6d32df77592fb5fe811a33258" category="list-text">* 同期ダッシュボード * で、資格情報が必要な同期関係に移動し、 * 資格情報の更新 * をクリックします。</block>
-  <block id="78529df6bbf68e1bc56a7c5921101ba9" category="list-text">クレデンシャルを入力し、 * Update * をクリックします。</block>
   <block id="023dd20b31e9240e9be755e28a211310" category="paragraph">SMB サーバに関する注意：新しいドメインの場合は、クレデンシャルを更新するときにドメインを指定する必要があります。ドメインが変更されていない場合は、再度入力する必要はありません。</block>
   <block id="374e9d4e51accd7075f4287b4b793c1b" category="paragraph">ソースファイルとフォルダの同期方法とターゲットの場所での保持方法を定義する設定を変更します。</block>
-  <block id="bdcd619e6df173b859ed2a1a86e17328" category="list-text">[* 設定 * ] をクリックします。</block>
   <block id="822ae51936517f095a62c2446cee4c00" category="list-text">設定を変更します。</block>
   <block id="81619d38a88bd76ccf0c4ffa8f70f298" category="inline-image-macro">同期関係の設定を示すスクリーンショット。</block>
   <block id="ebc3c303231e5e786f0078a52c4d81c7" category="paragraph"><block ref="ebc3c303231e5e786f0078a52c4d81c7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b849337d97139a6f11fd0de2bdfe63ed" category="paragraph">[ 削除ソース ] 各設定の簡単な説明を次に示します。</block>
   <block id="358b02ae4c5737f45e3823c255aeb87e" category="list-text">ソースからファイルが削除された場合は、ターゲットの場所からファイルを削除することを選択します。デフォルトでは、ターゲットの場所からファイルが削除されることはありません。</block>
-  <block id="14242c99845a0bf338d45c648e061643" category="list-text">[ 設定の保存 *] をクリックします。</block>
   <block id="f493e490805f4eb86f124bae3d9da833" category="paragraph">ソースとターゲットの間でデータを同期する必要がなくなった場合は、同期関係を削除できます。このアクションでは、データブローカーグループ（または個々のデータブローカーインスタンス）は削除されず、ターゲットからデータが削除されることもありません。</block>
-  <block id="68771d6d7b1536e9127a6d046d30c825" category="list-text">[ 削除 ] をクリックし、もう一度 [ 削除 ] をクリックして確定します。</block>
   <block id="f68b92ee815675ae3018eca060b553b7" category="summary">レポートを作成して表示すると、 NetApp の担当者がデータブローカーの構成を調整し、パフォーマンスを向上させるために役立つ情報を入手できます。</block>
   <block id="66a57cf55e06ad77b01c27e38766b83a" category="doc">レポートを作成および表示して、設定を調整します</block>
   <block id="428c9ca45dc8f0b8e1eda231aef5b08f" category="paragraph">レポートを作成して表示すると、ネットアップの担当者が支援する情報を入手して、データブローカーの設定を調整し、パフォーマンスを向上させることができます。</block>
   <block id="d065612e0b27393ca9ed8b8e18bc869f" category="paragraph">各レポートには、同期関係にあるパスに関する詳細情報が表示されます。たとえば、ファイルシステムのレポートには、ディレクトリとファイルの数、ファイルサイズの分布、ディレクトリの深さと幅などが表示されます。</block>
   <block id="0389649d1c6e65625a57cd6c84149999" category="section-title">レポートの作成</block>
-  <block id="f538684aa236fdad4b93e1b71f94526f" category="list-text">[ * 同期 &gt; レポート * ] をクリックします。</block>
   <block id="26126443d44ba2723fb7a7ede8dda75c" category="paragraph">同期関係のそれぞれのパス（ソースまたはターゲット）が表形式で表示されます。</block>
-  <block id="1c64df2a4dcd75c3fa3f6d99a5843437" category="list-text">[ * レポートアクション * （ * Reports Actions * ） ] 列で、特定のパスに移動して [ * 作成 * （ * Create * ） ] をクリックするか、アクションメニューをクリックして [ * 新規作成 * （ * Create New * ） ] を選択します。</block>
-  <block id="575833de1768effbb8d15904d2822d68" category="list-text">レポートの準備ができたら、アクションメニューをクリックし、 * 表示 * を選択します。</block>
   <block id="94954fba60bab7206fb4f66c4a7750cb" category="paragraph">ファイルシステムパスのサンプルレポートを次に示します。</block>
   <block id="3cd71212de067629b841a10ceaf4f32f" category="inline-image-macro">同期アイテムの量、ファイルサイズ、最大値、アクセス時間、変更時間、および変更時間を表示するレポート。</block>
   <block id="a95d57514b72e95aeaca84b9f5d7e43a" category="paragraph"><block ref="a95d57514b72e95aeaca84b9f5d7e43a" category="inline-image-macro-rx" type="image"></block></block>
@@ -612,21 +567,15 @@
   <block id="a9c50da4c27210dd95cbf6916b6c3b34" category="paragraph"><block ref="a9c50da4c27210dd95cbf6916b6c3b34" category="inline-image-macro-rx" type="image"></block></block>
   <block id="03901baec19e5e2a784f13acaa06127a" category="section-title">レポートのダウンロード</block>
   <block id="f0d2e62b1c7572c743aab0d7c9b969c5" category="paragraph">レポートを PDF 形式でダウンロードして、オフラインで表示したり共有したりできます。</block>
-  <block id="4f1a7b585eef080503c8e5f586b7673e" category="list-text">[ * レポートアクション * （ * Reports Actions * ） ] 列で、アクションメニューをクリックし、 [ * 表示 * （ * View * ） ] を選択します。</block>
-  <block id="17b8d7c4db9e21e8c01f1b793f8bf325" category="list-text">レポートの右上にあるアクションメニューをクリックし、 * PDF のダウンロード * を選択します。</block>
-  <block id="e45fcd91afd8b29019f92fa0f919f6d2" category="inline-image-macro">レポートのアクションメニューをクリックした後に表示される PDF のダウンロードオプションのスクリーンショット。</block>
-  <block id="ef3e79a56ff208de546ac0714ccae4eb" category="paragraph"><block ref="ef3e79a56ff208de546ac0714ccae4eb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="90e1319509db72baceccb5d8f4c2c472" category="section-title">レポートエラーの表示</block>
   <block id="d86cb2fe66402168c1c894043151d228" category="paragraph">エラーのリストを確認したら、問題に対処してからレポートを再実行できます。</block>
   <block id="57ba4added426d6aea423b1e70f1b94c" category="list-text">[ エラー *] 列で、レポートにエラーがあるかどうかを確認します。</block>
-  <block id="10a0d9a4ad96880fef72d02fd9dcd2c5" category="list-text">エラーがある場合は、エラーの数の横にある矢印をクリックします。</block>
   <block id="d029ebc8f7b2e2aa789dc0e27797846f" category="inline-image-macro">エラーの数を示す [Paths] テーブルのスクリーンショット。 [Errors] 列にはクリック可能な小さな矢印が表示されています。</block>
   <block id="e01f862fe61f1c44179e61c69a18938d" category="paragraph"><block ref="e01f862fe61f1c44179e61c69a18938d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="591d860278697b4e6dbce26639961630" category="list-text">エラーの情報を使用して、問題を修正します。</block>
   <block id="aa8765cc437da97ac36fcf5b9e8bd67c" category="paragraph">問題を解決すると、次回レポートを実行したときにエラーが表示されなくなります。</block>
   <block id="1b3463b3026822e4c8d6ad54c16a507a" category="section-title">レポートの削除</block>
   <block id="37100a26242d4deb28feac7db8d366de" category="paragraph">修正したエラーが含まれているレポートや、削除した同期関係に関連するレポートを削除することができます。</block>
-  <block id="6d084eaa09a94fecc5582a104b0053da" category="list-text">[ * レポートアクション * （ * Reports Actions * ） ] 列で、パスのアクションメニューをクリックし、 [ * 最後のレポートを削除（ * Delete last report ） ] または [ * すべてのレポートを削除（ * Delete all reports ） ] を選択します。</block>
   <block id="4051a60e091a5882a67c28985f8c22c7" category="list-text">レポートを削除することを確認します。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを表示します</block>
   <block id="ac317451221f9a760b0fb4d93a8bec9c" category="doc">サポートされている同期関係</block>
@@ -817,7 +766,6 @@
   <block id="ebd974875888e4cb1567f55e3466cda1" category="cell">インストールおよび更新中にデータブローカー仮想マシンに 7z をインストールするには、AutoSupport メッセージをネットアップテクニカルサポートに送信するには 7z が必要です。</block>
   <block id="6af6c652626660023ec712f6c15bbc0a" category="cell">\ https://sts.amazonaws.com</block>
   <block id="89100474e7faee0c34727c4b2b471007" category="cell">データブローカーが AWS に導入されたときや、オンプレミスに導入されて AWS のクレデンシャルが指定されたときに、 AWS のクレデンシャルを確認することができます。データブローカーは、導入時、更新時、および再起動時にこのエンドポイントにアクセスします。</block>
-  <block id="7f13eefefc02d429e3f594cb6d48d10e" category="cell">データセンスを使用して新しい同期関係のソースファイルを選択するときに Cloud Data Sense に連絡するには、次の手順に従います。</block>
   <block id="6a3cdc9a7bccf7b319d4cd575bb3b01f" category="section-title">Web ブラウザエンドポイント</block>
   <block id="fd0cb271f0ac093ecb033a2bfea34fbd" category="paragraph">トラブルシューティングの目的でログをダウンロードするには、 Web ブラウザから次のエンドポイントにアクセスする必要があります。</block>
   <block id="c964e3aec545a38db906e6bb0b6a705f" category="paragraph">logs.cloudsync.netapp.com:443</block>
@@ -829,13 +777,11 @@
   <block id="4e2153a19cb9d86adf7b5ba332e78a45" category="paragraph">キー・ペアの作成方法については、を参照してください<block ref="3bfff4aa3d3a3eae965cce9b3b615a4a" category="inline-link-rx"></block>。</block>
   <block id="896293b91a375c72889dc16e1c816e72" category="paragraph">新しいデータブローカーを作成する方法はいくつかあります。以下の手順では、同期関係を作成する際にデータブローカーを Azure にインストールする方法について説明します。</block>
   <block id="ff7156dc72b8081c2a9c6e0150647ace" category="paragraph"><block ref="ff7156dc72b8081c2a9c6e0150647ace" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="75dce0fc68d0351230bf9f9d8de2431c" category="list-text">プロンプトが表示されたら、 Microsoft アカウントにログインします。プロンプトが表示されない場合は、 * 「 * Azure へのログイン * 」をクリックします。</block>
   <block id="e0f74d06e87b3ad6fc9f3b3cfc573c38" category="paragraph">このフォームは、 Microsoft が所有およびホストしています。クレデンシャルがネットアップに提供されていません。</block>
   <block id="eb326e1f884a5d84e7b70887f7874b42" category="list-text">データブローカーの場所を選択し、仮想マシンに関する基本的な詳細を入力します。</block>
   <block id="4e150fdd87e97e0d1398184219062d41" category="inline-image-macro">「サブスクリプション、 Azure リージョン、 VNet 、サブネット、 VM 名、ユーザ名、認証方法、およびリソースグループの各フィールドを示す、 Azure 導入ページのスクリーンショット」</block>
   <block id="f38f2fdb5d5d38ec31dd9074ee28e224" category="paragraph"><block ref="f38f2fdb5d5d38ec31dd9074ee28e224" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2eabf7b67b6c5e6d78b08dd754db7951" category="list-text">VNet でのインターネットアクセスにプロキシが必要な場合は、プロキシ設定を指定します。</block>
-  <block id="9a7c0eeeaa34923c384afd6768155386" category="list-text">[* Continue （続行） ] をクリックし、展開が完了するまでページを開いたままにします。</block>
   <block id="d053334dcf5dac4968bf6d994e4ed7ec" category="paragraph">この処理には最大 7 分かかることがあります。</block>
   <block id="affdd8fc6be1e86de36efaee713f54e2" category="paragraph">Azure にデータブローカーを導入し、新しい同期関係を作成しました。このデータブローカーは、追加の同期関係とともに使用できます。</block>
   <block id="3ce174ce4b84d9bb24dbad7ede08fc56" category="sidebar-title">管理者の同意が必要なことを示すメッセージを受信しますか？</block>
@@ -878,22 +824,17 @@
   <block id="2feeb126323f3368d5b67555099e8c26" category="list-text">_&lt;Rolear&gt;_ は次のいずれかに置き換える必要があります。</block>
   <block id="64382286854eaefaa762d894a81fc3ff" category="list-text">データブローカーを Linux ホストに手動でインストールした場合、データブローカーの導入時に AWS クレデンシャルを指定した AWS ユーザの ARN を _Rolears_should be the ARN when deploying a AWS credentials</block>
   <block id="e2fd71d5e0089aec445e3585846600a5" category="list-text">CloudFormation テンプレートを使用して AWS にデータブローカーを導入した場合は、テンプレートによって作成された IAM ロールの ARN を _RoleARN _ にする必要があります。</block>
-  <block id="e12f2cb93ea8b0df53b39ccf052346cd" category="paragraph">ロール ARN を見つけるには、 EC2 コンソールに移動し、データブローカーインスタンスを選択して、 Description タブから IAM ロールをクリックします。次に、ロール ARN を含む IAM コンソールに概要ページが表示されます。</block>
   <block id="27b29b1148f0a8d10712b93a6b2f07c0" category="inline-image-macro">ロール ARN を示す AWS IAM コンソールのスクリーンショット。</block>
   <block id="5413d4eaee8e3ec886af67b45688f61a" category="paragraph"><block ref="5413d4eaee8e3ec886af67b45688f61a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7e2fc8b47c3caa089d5e9782e7d982d2" category="paragraph">Azure BLOB ストレージが次の要件を満たしていることを確認します。</block>
   <block id="47a68bd0994db3020f105c7c17c88fc6" category="section-title">Azure BLOB でサポートされるデータブローカーの場所</block>
   <block id="8ae4a8919ff640cac901c5170789725b" category="paragraph">データブローカーは、同期関係に Azure BLOB ストレージが含まれている場合でも、任意の場所に配置できます。</block>
   <block id="cd0559cbb36e8ae61712a5e3085023f0" category="section-title">Azure Blob および NFS / SMB を含む関係の接続文字列</block>
-  <block id="1e9af9bf420c920c526a831d6d40e038" category="inline-image-macro">に接続文字列を示します。この文字列は、 Azure ポータルでストレージアカウントを選択し、 [ アクセスキー ] をクリックすることで使用できます。</block>
-  <block id="0898c993025b0ff5f0e5ec87ebf5842d" category="paragraph"><block ref="0898c993025b0ff5f0e5ec87ebf5842d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4b353a92f9cd802272f6be2754b692e1" category="inline-link">共有アクセスシグニチャ</block>
   <block id="4910e65af2eedc6fa7ed53c1aebddd87" category="paragraph">2 つの Azure Blob コンテナ間でデータを同期する場合は、接続文字列にを含める必要があります<block ref="1b83926908223c09ad8189ca7e78f06a" category="inline-link-rx"></block> （ SAS ）。BLOB コンテナと NFS サーバまたは SMB サーバの間で同期する場合は、 SAS を使用することもできます。</block>
   <block id="f59a16e82b8115f2b51037c416a69a67" category="paragraph">SA は、 BLOB サービスとすべてのリソースタイプ（サービス、コンテナ、オブジェクト）へのアクセスを許可する必要があります。SAS には、次の権限も含まれている必要があります。</block>
   <block id="eca1274468926e041a10a4b1a84c2e53" category="list-text">ソース BLOB コンテナの場合： read および list</block>
   <block id="4f3d02d4ca2c2acd501754f1c7f092b8" category="list-text">ターゲット BLOB コンテナの場合：読み取り、書き込み、一覧表示、追加、作成</block>
-  <block id="6d984d40359970bc3ca298e54c9c10ee" category="inline-image-macro">「は、共有アクセス署名を示しています。この署名は、 Azure ポータルでストレージアカウントを選択し、共有アクセス署名をクリックすることで使用できます。」</block>
-  <block id="9e1406ab3768b6fdb53c46936555e01f" category="paragraph"><block ref="9e1406ab3768b6fdb53c46936555e01f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="93751358816dca5a6ae146bcd1bed8e1" category="section-title">Azure NetApp Files の要件</block>
   <block id="ad9729abd442965a4f73f30b0b517cf1" category="paragraph">Azure NetApp Files との間でデータを同期する場合は、 Premium または Ultra サービスレベルを使用します。ディスクのサービスレベルが Standard の場合は、エラーやパフォーマンスの問題が発生することがあります。</block>
   <block id="e9b40df30266f5af9c5798c022c86f33" category="admonition">適切なサービスレベルの決定に支援が必要な場合は、ソリューションアーキテクトに相談してください。取得できるスループットはボリュームサイズとボリューム階層によって決まります。</block>
@@ -997,7 +938,6 @@
   <block id="7af7eb8440af6bb7f9ffd64569367b5b" category="paragraph">Azure へのアクセスは、関係ごとに定義されます。そのためには、同期関係ウィザードでストレージアカウントと接続文字列を指定します。</block>
   <block id="b6e5e048443785c8f424048cf1b9e40e" category="section-title">データブローカーのインストール</block>
   <block id="1944006c73d02c718c69408861e1307c" category="paragraph">同期関係を作成するときに、 Linux ホストにデータブローカーをインストールできます。</block>
-  <block id="20bdbeece7707eb8c81d92234512a38d" category="list-text">[ * データブローカーグループ * ] ページで、 [ * データブローカーの作成 * ] をクリックし、 [ * オンプレミスのデータブローカー * ] を選択します。</block>
   <block id="df89dda1d1c7ea3cd71a127402ea04d7" category="paragraph"><block ref="df89dda1d1c7ea3cd71a127402ea04d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8020038698547625e7abf1eda36c8877" category="admonition">このオプションには「 * _ オンプレミス _ データブローカー * 」というラベルが付けられていますが、オンプレミスまたはクラウド上の Linux ホストにも該当します。</block>
   <block id="023c2e07bedf559d5fb81f1e623f1b6f" category="paragraph">手順ページがすぐにロードされます。これらの手順に従う必要があります。インストーラをダウンロードするための固有のリンクが含まれています。</block>
@@ -1035,27 +975,19 @@
   <block id="f65ca7baf45cc92aec55770c0b36841f" category="paragraph"><block ref="7cfabb5964e9e36c902fe67d3082ea34" category="inline-link-macro-rx"></block>。</block>
   <block id="7f1e5fcf21192da891eea1c1f4f6e6f0" category="paragraph">AWS を使用すると、従量課金制または年払いが可能です。</block>
   <block id="f06e94914580a228484d54783ffeb2bb" category="list-title">従量課金制の手順</block>
-  <block id="f4e86f9d0f6800384c773bd03834297d" category="list-text">[ 同期 ] 、 [ ライセンス ] の順にクリックします。</block>
   <block id="af3298973678fbb2b80974a8030f07ac" category="list-text">「 * AWS * 」を選択します</block>
-  <block id="01849158eeeec12ef2f893c8efd6c0e3" category="list-text">[*Subscribe*] をクリックし、 [* Continue *] をクリックします。</block>
   <block id="03909f0465e674709c33e446a2657166" category="paragraph">次のビデオは、プロセスを示しています。</block>
   <block id="d95d2545b9702aaa44811f90fd798b70" category="list-title">年間の支払い手順</block>
   <block id="b857da0ad28712a25e73c0907a2b3740" category="inline-link">AWS Marketplace ページに移動します。</block>
   <block id="b84483eacee20411f642e9b32a1532d3" category="list-text"><block ref="9a55e6c904391172078e71a0186ef751" category="inline-link-rx"></block>。</block>
-  <block id="6ce481dcdc8134b6b4c81db0911f0267" category="list-text">[* 購読の続行 *] をクリックします。</block>
-  <block id="1ee9033888539de2e81ddb29d255c405" category="list-text">契約オプションを選択し、 * 契約の作成 * をクリックします。</block>
   <block id="5b708f827f75588e652438e8d2977fb4" category="paragraph">Azure では、従量課金制または年間の支払いが可能です。</block>
   <block id="251910634a1b47d0359b6171382f3f9a" category="paragraph">関連するサブスクリプションの投稿者または所有者権限を持つ Azure ユーザーアカウント。</block>
   <block id="2164db8f01d0c0a0dc250abc3b9556f5" category="list-text">「 * Azure * 」を選択します。</block>
-  <block id="e70ccb5a825dd2a0a3daf679b5f23567" category="list-text">Azure ポータルで、 * 作成 * をクリックし、オプションを選択して * サブスクライブ * をクリックします。</block>
   <block id="981e7253aa8df6872dfd3d544c12ef23" category="paragraph">「毎月 * 」を選択すると、時間単位で支払います。または、「毎年」を選択すると、前払いした 1 年分の料金が支払われます。</block>
-  <block id="23a902dd0c4b97b70f0c79f7c46ed483" category="list-text">展開が完了したら、通知ポップアップで SaaS リソースの名前をクリックします。</block>
   <block id="97e3031ee8bcd0a19765ddc808e71590" category="paragraph">ライセンスのシリアル番号、およびライセンスが関連付けられているネットアップサポートサイトのアカウントのユーザ名とパスワードが必要です。</block>
   <block id="0f5161c9e18f97b653442fef34de1024" category="list-text">mailto ： ng-cloudsync-contact@netapp.com ？ subject= Cloud %20Sync%20Service%20-%20BYOL %20License%20Purchase%20Request までにライセンスを購入してください。 [Contacting NetApp] 。</block>
-  <block id="c705d1b4b3b9a5ab7a62cfb882e27612" category="list-text">[ ライセンスの追加 ] をクリックして、必要な情報を追加します。</block>
   <block id="a7a65c558a31a52f3a2570581f5170c2" category="list-text">シリアル番号を入力します。</block>
   <block id="441eaafe617acae90fac942cbac1d2a0" category="list-text">追加するライセンスに関連付けられているネットアップサポートサイトのアカウントを選択します。</block>
-  <block id="93bad0f0398a452d035b9d52ba2724f5" category="list-text">アカウントがまだ追加されていない場合は、 *[Add NSS Credentials] をクリックし、ユーザー名とパスワードを入力し、 [*Register] をクリックして、ドロップダウンリストから選択します。</block>
   <block id="e0fd71ec05fc637037be9da3ff2103b0" category="section-title">ライセンスの更新</block>
   <block id="83893211fb004302e2b1216eda1eb1f8" category="list-text">追加するライセンスに関連付けられているネットアップサポートサイトのアカウントを選択します。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">サポートに登録します</block>
@@ -1100,18 +1032,12 @@
   <block id="41b2fa65bd2051073cfc172ed6d944a7" category="list-text">データブローカーグループが同期関係を管理していて、グループにデータブローカーが 1 つしかない場合、そのデータブローカーを別のグループに移動することはできません。</block>
   <block id="3e0e9fccf9e35eb1a06e1c36bf885a2f" category="list-text">暗号化された同期関係を管理するグループとの間でデータブローカーを移動することはできません。</block>
   <block id="db90b652da494a61a1c01e5e5aef4315" category="list-text">現在導入中のデータブローカーは移動できません。</block>
-  <block id="dda0c1f183c1fccf92fffcd171b23e21" category="list-text">データブローカーのアクションメニューをクリックし、 * データブローカーの移動 * を選択します。</block>
   <block id="89c00533408de9d6ad1e44640394b315" category="paragraph"><block ref="89c00533408de9d6ad1e44640394b315" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cfd516ad37b4df608c16efb09914e1fc" category="list-text">新しいデータブローカーグループを作成するか、既存のデータブローカーグループを選択してください。</block>
-  <block id="55d7c27d3127f4494c358b638f4fc6ff" category="list-text">[ 移動（ Move ） ] をクリックします。</block>
   <block id="dbe6fde8cda66c70d52ac330a93b530e" category="section-title">プロキシ設定を更新します</block>
   <block id="f646f203e1dead2c4f220dc5943aa058" category="paragraph">データブローカーのプロキシ設定を更新するには、新しいプロキシ設定に関する詳細を追加するか、既存のプロキシ設定を編集します。</block>
-  <block id="550a2db189a4eb50771eeb91357d19cd" category="list-text">データブローカーのアクションメニューをクリックし、 * プロキシ構成の編集 * を選択します。</block>
   <block id="85a4803f127edd3390d65e41d8aaad98" category="list-text">プロキシに関する詳細を指定します。ホスト名、ポート番号、ユーザ名、パスワードです。</block>
-  <block id="04252e4e5460971d7f33943bd841f366" category="list-text">[ 更新（ Update ） ] をクリックします。</block>
   <block id="2bbd7c4d9d525b0e8675bf3663179545" category="section-title">データブローカーグループを削除</block>
-  <block id="4caa7a774039d94c9779b6e68946536b" category="list-text">アクションメニューをクリックし、 * グループの削除 * を選択します。</block>
-  <block id="a6f5a3bf619c49f582460d312e4f123a" category="list-text">確認するには、グループの名前を入力し、 * グループの削除 * をクリックします。</block>
   <block id="33c34b75ae4154295ed3cdeeccb3fd6a" category="section-title">データブローカーグループの機能拡張</block>
   <block id="9e85c5ace2120c3600ae07824bd6d1a9" category="paragraph">データブローカーグループには、次のような機能拡張が行われました。</block>
   <block id="d1dcf627a81e370076956675cf99d2b9" category="list-text">データブローカーを新規または既存のグループに移動できるようになりました。</block>
@@ -1147,8 +1073,6 @@
   <block id="60c52bea153a81519d33048970ec1005" category="list-text">S3 ストレージクラスを選択します。 <block ref="b6b337d654785cb938f2cf9fb35baf0c" category="inline-link-macro-rx"></block>。</block>
   <block id="586301717819197e24001cac47efdaaa" category="section-title">2022 年 1 月 2 日</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">[ ヘルプ ] メニューのスクリーンショット。サポートは最初に表示されるオプションです</block>
-  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">[*NSS Management] &gt; [Add NSS Account*] をクリックします。</block>
-  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">メッセージが表示されたら、 [* Continue （続行） ] をクリックして Microsoft ログインページにリダイレクトします。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">ネットアップは、サポートとライセンスに固有の認証サービスのアイデンティティプロバイダとして Microsoft Azure Active Directory を使用しています。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">ログインページで、ネットアップサポートサイトの登録 E メールアドレスとパスワードを入力して認証プロセスを実行します。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">著作権に関する声明、商標、特許などにアクセスできます。</block>
@@ -1242,7 +1166,6 @@
   <block id="fb11bebf83dcbce9727e98d284bdfd1b" category="list-text">\ https://www.googleapis.com/auth/drive</block>
   <block id="46cab9554d574d5b87fe427f9d758717" category="list-text">\ https://www.googleapis.com/auth/drive.file</block>
   <block id="c5c953c152db5adea8fcd2fc1ce5c904" category="paragraph">SMB共有間およびSMB共有とオブジェクトストレージ間でACLをコピーするには、関係の作成時または作成後に設定を有効にします。</block>
-  <block id="4eb7f5a2c981906a3398b40af3279ff4" category="list-text">SMBサーバまたはオブジェクトストレージをソースとしてドラッグアンドドロップし、SMBサーバまたはオブジェクトストレージをターゲットとしてドラッグアンドドロップして、* Continue *をクリックします。</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
   <block id="173bb19c121e8b179d4baa317b637722" category="paragraph">NFSサーバまたはSMBサーバからGoogle Driveにデータを同期できるようになりました。「マイドライブ」と「共有ドライブ」の両方がターゲットとしてサポートされています。</block>
   <block id="edb5ab0783f7fd41d24fc8a5ae44aef6" category="inline-link">Googleドライブの要件について詳しくは、こちらをご覧ください</block>
@@ -1256,7 +1179,6 @@
   <block id="bb444099cdb375196c5bb6444eabdc45" category="paragraph">ある作業環境を別の作業環境の上にドラッグアンドドロップして、キャンバスから同期関係を設定できるようになりました。</block>
   <block id="bf283dfa54b095b3eda8812752b158f9" category="section-title">右パネル設定</block>
   <block id="79074218529972fce8a6ccab7f00095d" category="paragraph">Canvasから作業環境を選択し、右パネルから同期オプションを選択することで、Azure Blob StorageまたはGoogle Cloud Storageの同期関係を設定できるようになりました。</block>
-  <block id="20ef58d225f15c6c7617c04b34bd0ff8" category="list-text">[*データブローカーグループ*]ページで、[*データブローカーの作成*]をクリックし、[* Google Cloud Platform*]を選択します。</block>
   <block id="a855786065eb842829e76727ee601d59" category="paragraph">データ・ブローカーをインストールする前に'yum updateコマンドをホストで実行する必要があります</block>
   <block id="da8b75d7f83536bef455f4cfcb81982f" category="section-title">2022年9月4日</block>
   <block id="a9b4886a93e658bc8692b215ae9412a0" category="section-title">Googleドライブの追加サポート</block>
@@ -1276,9 +1198,7 @@
   <block id="50685346648f799f564787da3aeaa3df" category="list-text">同期関係の設定を変更します。</block>
   <block id="e265f7dc29349c5c09e52af073ae2fdf" category="list-text">通知を有効にする*。</block>
   <block id="f9d4f53357700da18c4c21765dd9a257" category="list-text">Eメールで通知を受信する場合は、アラートと通知を設定します。</block>
-  <block id="2c97c497a9405e946d3eb1dd6266fe96" category="list-text">[*設定]&gt;[アラートと通知の設定*]をクリックします。</block>
   <block id="0f3cd015c1ca0bfb4d2fbb852b3d6a5e" category="list-text">ユーザまたは複数のユーザを選択し、「*情報」通知タイプを選択します。</block>
-  <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">[ 適用（ Apply ） ] をクリックします。</block>
   <block id="7ca5aa2b579039b92d9aed9f84201f04" category="paragraph">の通知を受信する場合は</block>
   <block id="0d57e234a2b4332ebe0b7d721befcace" category="inline-image-macro">「情報」アイコン。</block>
   <block id="69f36491bce31dc81bbaeca0cbd9e9a7" category="list-text">の上にカーソルを置きます <block ref="a83fa8ab64292d507b50e25c113057be" category="inline-image-macro-rx" type="image"></block> アイコンをクリックして失敗の理由を確認してください。</block>
@@ -1287,7 +1207,6 @@
   <block id="8867d44df7bbafbfb314d97a7c0cfb4c" category="paragraph">次のいずれかの同期関係を作成する場合は、最初に作業環境を作成または検出する必要があります。</block>
   <block id="649d75c6283da2a4b802839db32a41af" category="inline-link">コネクタの詳細については、こちらをご覧ください</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">上記のセルフサポートオプションに加え、サポートを有効にしたあとで問題が発生した場合は、ネットアップサポートの担当者と相談して解決できます。</block>
-  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">電話の相手と話したい場合は、「*お電話」をクリックしてください。netapp.comのページに移動し、電話番号が表示されます。</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*作業環境*：ストレージに該当する場合は、* Cloud Volumes ONTAP *または*オンプレミス*を選択し、関連する作業環境を選択します。</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*ケース優先度*：ケースの優先度を選択します。優先度は、[低]、[中]、[高]、[クリティカル]のいずれかになります。</block>
   <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">これらの優先度の詳細を確認するには、フィールド名の横にある情報アイコンの上にマウスポインタを合わせます。</block>
@@ -1295,7 +1214,6 @@
   <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*その他のメールアドレス*：この問題 を他のユーザーに知らせる場合は、追加のメールアドレスを入力します。</block>
   <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">ネットアップサポートでケースを作成できるケースの作成フォームのスクリーンショット。</block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">ポップアップにサポートケース番号が表示されます。ネットアップのサポート担当者がケースを確認し、すぐに対応させていただきます。</block>
-  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">サポートケースの履歴を確認するには、[*設定]、[タイムライン*]の順にクリックして、[サポートケースの作成]という名前のアクションを探します。 右端のボタンをクリックすると、アクションを展開して詳細を表示できます。</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">ケースを作成しようとすると、次のエラーメッセージが表示される場合があります。</block>
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"選択したサービスに対してケースを作成する権限がありません"</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">製品内のチャットを使用します</block>
@@ -1345,7 +1263,6 @@
   <block id="3cf98067a279c5afe27919c8acd25ea4" category="paragraph">Cloud Sync は、最初のデータ同期の完了後、ソースのAzureストレージバケットで変更をリスンし、ターゲットへの変更が発生した場合はその変更を継続的に同期します。この設定は、AzureストレージバケットからAzure BLOBストレージ、CIFS、Google Cloud Storage、IBM Cloud Object Storage、NFS、およびStorageGRID に同期する場合に使用できます。</block>
   <block id="91cba4a0b0d46011e31e848c61739e1e" category="paragraph">Azureデータブローカーでは、この設定を使用するためのカスタムロールと次の権限が必要です。</block>
   <block id="ddbbf48cd438f6c3a5d773f3c8249074" category="paragraph">一部の種類の同期関係を作成する前に、まずBlueXPで作業環境を作成する必要があります。</block>
-  <block id="f08beb9a11a66834f5e08f2bd7436fb0" category="list-text">BlueXPで、「*同期」をクリックします。</block>
   <block id="881a6a2a0c1e8d7bd1c4b11d9498ff12" category="paragraph">BlueXPを使い始めました。これにはログイン、アカウントの設定、コネクタの展開、作業環境の作成などが含まれます。</block>
   <block id="89e019c15bf54627a2a1e4918e66bab6" category="inline-link">BlueXPの使用を開始する方法について説明します</block>
   <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link">BlueXP</block>
@@ -1353,7 +1270,6 @@
   <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">BlueXPアカウントIDサポートサブスクリプションの登録(BlueXPの[サポートリソース]ページにある20桁の960xxxxxxxxxシリアル番号)。</block>
   <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">これは、BlueXP内のすべてのサービスのシングルサポートサブスクリプションIDとして機能します。各BlueXPアカウントレベルのサポート契約が登録されている必要があります。</block>
   <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">これらのシリアル番号は、通常PAY_GOシリアル番号と呼ばれ、Cloud Volumes ONTAP の導入時にBlueXPによって生成されます。</block>
-  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">BlueXPコンソールの右上にある[ヘルプ]アイコンをクリックし、[*Support*]を選択します。</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">これらのアクションにより、BlueXPはライセンスのダウンロード、ソフトウェアのアップグレード検証、および将来のサポート登録などの目的でNSSアカウントを使用できます。</block>
   <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">NSSアカウントをお持ちのネットアップのお客様は、BlueXPからサポートに登録するだけで済みます。</block>
   <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">必ず、上記のシリアル番号フィールドに使用されているBlueXPアカウントのシリアル番号(960xxxx)をコピーしてください。これにより、アカウント処理が高速化されます。</block>
@@ -1363,11 +1279,9 @@
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">BlueXPコミュニティに参加して、進行中のディスカッションをフォローしたり、新しいディスカッションを作成したりできます。</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">現在表示しているBlueXPのマニュアル。</block>
   <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">お客様のご意見をお考えください。フィードバックを送信して、BlueXPの改善に役立ててください。</block>
-  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">BlueXPで、[ヘルプ]、[サポート]の順にクリックします。</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Service*:問題 が関連付けられているサービスを選択します。たとえば、サービス内のワークフローまたは機能を備えたテクニカルサポート問題 に固有のBlueXPなどです。</block>
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したBlueXPアカウント、ワークスペース、コネクタの範囲内にあります。</block>
   <block id="255fe345cf98c4cc1d97da3902877f73" category="list-text">ユーザートークンとBlueXPアカウントIDを取得するには <block ref="270dc47ac77b7bdcd0ca5fb87f7199b0" category="inline-link-macro-rx"></block>。</block>
-  <block id="e8b441efabe30a472bc01ae49f99e1c5" category="list-text">BlueXPで、[同期]、[ライセンス]の順にクリックします。</block>
   <block id="8d91fda63040409e75bebd4d14b9a825" category="list-text">アカウントがBlueXPにすでに追加されている場合は、ドロップダウンリストから選択します。</block>
   <block id="b53e2cff9f1417fcc84365e2d567011e" category="list-text">NetApp BlueXPからユーザートークンを取得します。</block>
   <block id="415019870d0741b8c872f4ef1a528769" category="list-text">BlueXpアカウントIDを取得します</block>
@@ -1381,7 +1295,6 @@
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXPブログ</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
   <block id="e7972d5601badb4c5fcefad96c59c2fc" category="cell">¥https://console.bluexp.netapp.com/¥https://netapp-cloud-account.auth0.com</block>
-  <block id="5a6f95f0d3a768c4ec5fabda878a438c" category="paragraph">にログインします<block ref="a52ee1b87e73428b189d0907dc7fe59b" category="inline-link-rx"></block>をクリックし、 * 同期 * をクリックして、ソースとターゲットの選択をドラッグアンドドロップします。プロンプトに従ってセットアップを完了します。 <block ref="484d4f19cf4f8d33cb3a1a91aa23f363" category="inline-link-macro-rx"></block>。</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することはできますが、お客様レベルのアカウントと一緒に追加することはできません。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">サポート登録ページでアカウントIDのシリアル番号を確認します。</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">上記の手順2からアカウントのシリアル番号をコピーし、セキュリティチェックを完了して、ネットアップのグローバルデータプライバシーポリシーを確認します。</block>
@@ -1457,7 +1370,6 @@
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">セルフサポートオプションを使用します</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">ネットアップサポートと一緒にケースを作成します</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">[*Resources*]ページで、[Technical Support]で次のいずれかのオプションを選択します。</block>
-  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">[ケースの作成]*をクリックして、ネットアップサポートスペシャリストとのチケットをオープンします。</block>
   <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">サポートケースの管理（プレビュー）</block>
   <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">アクティブなサポートケースと解決済みのサポートケースは、BlueXPから直接表示および管理できます。NSSアカウントと会社に関連付けられたケースを管理できます。</block>
   <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">ケース管理はプレビューとして使用できます。今後のリリースでは、この点をさらに改良し、機能を強化する予定です。製品内のチャットでご意見をお寄せください。</block>
@@ -1468,10 +1380,8 @@
   <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">目的の列を追加または削除したり、[優先度]や[ステータス]などの列の内容をフィルタリングしたりできます。他の列には、並べ替え機能だけがあります。</block>
   <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">詳細については、以下の手順を参照してください。</block>
   <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">ケースごとに、ケースノートを更新したり、ステータスが「Closed」または「Pending Closed」でないケースをクローズしたりすることができます。</block>
-  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">[ケース管理]*をクリックし、プロンプトが表示されたらNSSアカウントをBlueXPに追加します。</block>
   <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">ケース管理*ページには、BlueXPユーザアカウントに関連付けられたNSSアカウントに関連するオープンケースが表示されます。これは、* NSS管理*ページの上部に表示されるNSSアカウントと同じです。</block>
   <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">必要に応じて、テーブルに表示される情報を変更します。</block>
-  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">[Organization's Cases]*で[View]*をクリックすると、会社に関連付けられているすべてのケースが表示されます。</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">正確な日付範囲を選択するか、別の期間を選択して、日付範囲を変更します。</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">[Case Management]ページのテーブルの上にあるオプションのスクリーンショット。正確な日付範囲、または過去7日、30日、または3カ月を選択できます。</block>
   <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">列の内容をフィルタリングします。</block>
@@ -1480,7 +1390,6 @@
   <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">表に表示できる列を示すスクリーンショット。</block>
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">テーブルの最後の列に表示される3つの点を持つアイコン</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*ケースの表示*:特定のケースの詳細を表示します。</block>
-  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*ケースをクローズ*：ケースをクローズする理由の詳細を入力し、*ケースをクローズ*をクリックします。</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">テーブルの最後の列でメニューを選択した後に実行できる操作を示すスクリーンショット。</block>
   <block id="c8420e741e74236d475d7e500b73f774" category="paragraph"><block ref="c8420e741e74236d475d7e500b73f774" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">2023年3月7日</block>
@@ -1582,7 +1491,6 @@
   <block id="e34ab50cbd0b1822634102ed78ca99d6" category="summary">BlueXPのコピーと同期を使用すると、ソースからターゲットにデータを同期できます。これを同期関係と呼びます。サポートされている関係を理解してから開始する必要があります。</block>
   <block id="fafec3da88dda2aaace57da0275aa418" category="list-text">このソース/ターゲットとの同期関係は、BlueXPのコピーおよび同期APIでのみサポートされます。</block>
   <block id="9884de3e76b128738e9b044e854c59b2" category="summary">同期関係を作成すると、BlueXPのコピーおよび同期サービスによってソースからターゲットにファイルがコピーされます。最初のコピーの後、変更されたデータは 24 時間ごとに同期されます。</block>
-  <block id="17a22599667444c8ead2e620d24daa16" category="paragraph">BlueXPのコピーと同期でエクスポートを取得できない場合は、*[エクスポートを手動で追加]*をクリックし、NFSエクスポートの名前を入力します。</block>
   <block id="bd171db960b7fb2897e98bf00be4815f" category="list-text">BlueXPのコピーと同期の通知をBlueXPの通知センターで受け取るかどうかを選択できます。データの同期が成功した場合、データの同期が失敗した場合、データの同期がキャンセルされた場合の通知を有効にできます。</block>
   <block id="667141ecdc736f3d7ccf9a5f6e74cc7b" category="list-text">BlueXPのコピーと同期がファイルの同期をスキップするまでに再試行する回数を定義します。</block>
   <block id="c7153d054eed1ef19444b255974772ee" category="list-text">初回のデータ同期後、BlueXPのコピーと同期はソースのS3バケットまたはGoogle Cloud Storageバケットに対する変更をリスンし、ターゲットへの変更が発生したときに継続的に同期します。ソースを定期的に再スキャンする必要はありません。</block>
@@ -1594,14 +1502,12 @@
   <block id="d00f5267d50bd8fc291109206d3ad858" category="list-text">各同期に含めるファイルタイプ（ファイル、ディレクトリ、シンボリックリンク、ハードリンク）を定義します。</block>
   <block id="e6bb715f6ce6607fa13566339effdb48" category="admonition">ハードリンクは、セキュリティ保護されていないNFSからNFSへの関係でのみ使用できます。ユーザーは1つのスキャナプロセスと1つのスキャナ同時実行に制限され、スキャンはルートディレクトリから実行する必要があります。</block>
   <block id="c81b15466cc89faa99024d734f63d070" category="paragraph">BlueXPのコピーと同期で、ソースとターゲット間のデータの同期が開始されます。</block>
-  <block id="ff3ea06fc0c8f759394b8942315d071f" category="paragraph">BlueXPのコピーと同期はCloud Data Senseに統合されています。Data Sense内からBlueXPのコピーと同期を使用して、ターゲットの場所に同期するソースファイルを選択できます。</block>
   <block id="4a8110d7baed5bb188d9ea48ab78e0e6" category="summary">ネットアップでは、BlueXPのコピーと同期サービスの使用中に提供されたクレデンシャルには一切アクセスできません。クレデンシャルは、ネットワーク内のデータブローカーマシンに直接保存されます。</block>
   <block id="bad5b485fd3620e21ec885f8037708e8" category="paragraph">選択した構成によっては、BlueXPのコピーと同期で、新しい関係の作成時にクレデンシャルの入力を求められることがあります。たとえば、 SMB サーバを含む関係を設定する場合や、 AWS にデータブローカーを導入する場合などです。</block>
   <block id="48fdd045e3712fe8b8bf348baef2a5e3" category="summary">新しいデータブローカーを作成する場合、 Google Cloud Data Broker オプションを選択して、 VPC 内の新しい仮想マシンインスタンスにデータブローカーソフトウェアを導入します。BlueXPのコピーと同期の手順に従ってインストールプロセスを実行できますが、インストールの準備に役立つように、このページでは要件と手順を繰り返します。</block>
   <block id="ff0ab6e5cc918d0f34784d6b8fd73746" category="paragraph">新しいデータブローカーグループを作成するときは、 Google Cloud Platform を選択して、 Google Cloud VPC 内の新しい仮想マシンインスタンスにデータブローカーソフトウェアを導入します。BlueXPのコピーと同期の手順に従ってインストールプロセスを実行できますが、インストールの準備に役立つように、このページでは要件と手順を繰り返します。</block>
   <block id="760e513e4804bf2cda72ba5b6d5b7a6a" category="list-text">データブローカーは、BlueXPのコピーと同期サービスにポーリングしてポート443経由のタスクを実行できるように、アウトバウンドインターネット接続を必要とします。</block>
   <block id="617fa6ca8941919927e9677f8acb97f8" category="paragraph">BlueXPのコピーと同期でGoogle Cloudにデータブローカーを導入すると、必要なアウトバウンド通信を可能にするセキュリティグループが作成されます。</block>
-  <block id="7ba9b4e54874f0450b8869bc6d72ee86" category="list-text">データブローカーが利用可能になったら、BlueXPのコピーと同期で*[続行]*をクリックします。</block>
   <block id="d18db3d9c5f8587fa64b4e04218dc914" category="paragraph">このインスタンスの導入には、約 5 ～ 10 分かかります。進捗状況はBlueXPのコピーおよび同期サービスで監視できます。このサービスは、インスタンスが使用可能になると自動的に更新されます。</block>
   <block id="33969e378e95c52b40733d56432c09ea" category="paragraph">同期関係を作成し、ソースまたはターゲットとしてGoogle Cloud Storageを選択すると、BlueXPのコピーと同期では、データブローカーのサービスアカウントに使用する権限があるバケットから選択できます。デフォルトでは、これにはデータブローカーサービスアカウントと同じ _PROJECT に含まれるバケットが含まれます。ただし、必要な権限を指定した場合は、 _other_projects からバケットを選択できます。</block>
   <block id="6ea6212f5be2cc7885ac1f6d832f818a" category="paragraph">BlueXPのコピーと同期では、以下の構成を使用してGoogle Cloudにデータブローカーが作成されます。</block>
@@ -1616,7 +1522,6 @@
   <block id="eeec209b7367b324b78b8504507cca43" category="paragraph">BlueXPのコピーと同期でデータブローカーを導入すると、データブローカーインスタンス用のIAMロールが作成されます。必要に応じて、独自の IAM ロールを使用してデータブローカーを展開できます。組織に厳密なセキュリティポリシーがある場合は、このオプションを使用できます。</block>
   <block id="4aeed94a6e997eb99e2ee56acf52c9d9" category="list-text">AWSアクセスキーを入力して、BlueXPのコピーと同期がお客様に代わってAWSでデータブローカーを作成できるようにします。</block>
   <block id="9b9c7cf2519d51f6dbe3acb1138a5125" category="list-text">AWSアクセスキーを入力した場合は、インスタンスの場所を選択し、キーペアを選択し、パブリックIPアドレスを有効にするかどうかを選択して既存のIAMロールを選択します。または、このフィールドを空白のままにしてBlueXPのコピーと同期でロールが作成されます。また、KMSキーを使用してデータブローカーを暗号化することもできます。</block>
-  <block id="cf01363cb3b3aefee32677428a86d1df" category="list-text">データブローカーが利用可能になったら、BlueXPのコピーと同期で*[続行]*をクリックします。</block>
   <block id="6f6b78ed59ff96087b1c87e91e648bc4" category="paragraph">BlueXPのコピーと同期では、次の構成を使用してAWSにデータブローカーが作成されます。</block>
   <block id="52c793499d4fd02f2f2330b970f6162b" category="summary">新しいデータブローカーを作成する場合は、オンプレミスのデータブローカーオプションを選択して、オンプレミスの Linux ホストまたはクラウド内の既存の Linux ホストにデータブローカーソフトウェアをインストールします。BlueXPのコピーと同期の手順に従ってインストールプロセスを実行できますが、インストールの準備に役立つように、このページでは要件と手順を繰り返します。</block>
   <block id="890130d57677e99876dfa01749264d4d" category="paragraph">新しいデータブローカーグループを作成する場合は、オンプレミスのデータブローカーオプションを選択して、オンプレミスの Linux ホストまたはクラウド内の既存の Linux ホストにデータブローカーソフトウェアをインストールします。BlueXPのコピーと同期の手順に従ってインストールプロセスを実行できますが、インストールの準備に役立つように、このページでは要件と手順を繰り返します。</block>
@@ -1637,7 +1542,6 @@
   <block id="2f30d04a17f7f45ef1c41f6e15ccc628" category="paragraph">BlueXPのコピーと同期は、新しい設定を使用して同期関係を変更します。</block>
   <block id="d62aff038a63962fec73b4d2639d3ad3" category="paragraph">BlueXPのコピーと同期によって同期関係が削除されます。</block>
   <block id="8da3b5473f99b37e0a7e71a701f5a400" category="list-text">新しいデータブローカーが必要な場合は、BlueXPのコピーと同期によってインストール手順が表示されます。クラウドにデータブローカーを導入したり、独自の Linux ホスト用のインストールスクリプトをダウンロードしたりできます。</block>
-  <block id="2eda214e743322a19face3c28269f0fc" category="paragraph">BlueXPのコピーと同期が新しい同期関係の作成を開始します。完了したら、 [ ダッシュボードで表示 ] をクリックして、新しい関係の詳細を表示します。</block>
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
   <block id="b5db50639891fb34043604a5e3173a5e" category="summary">BlueXPのコピーと同期サービスは、いくつかの手順で開始できます。</block>
   <block id="6228befad91ffaa829b465dfedb27a74" category="doc">BlueXPのコピーと同期のクイックスタート</block>
@@ -1652,7 +1556,6 @@
   <block id="957b35928b8a0bf847c922e00243690d" category="summary">新しいデータブローカーを作成する場合、 Azure のデータブローカーオプションを選択して、 VNet 内の新しい仮想マシンにデータブローカーソフトウェアを導入します。BlueXPのコピーと同期の手順に従ってインストールプロセスを実行できますが、インストールの準備に役立つように、このページでは要件と手順を繰り返します。</block>
   <block id="a151aef665e52178b0d84244ecf2215e" category="paragraph">新しいデータブローカーグループを作成する場合は、 Microsoft Azure を選択して、 VNet 内の新しい仮想マシンにデータブローカーソフトウェアを導入します。BlueXPのコピーと同期の手順に従ってインストールプロセスを実行できますが、インストールの準備に役立つように、このページでは要件と手順を繰り返します。</block>
   <block id="07eb137be0de3d4ec4faeb42baa5f82c" category="paragraph">BlueXPのコピーと同期でAzureにデータブローカーを導入すると、必要なアウトバウンド通信を可能にするセキュリティグループが作成されます。</block>
-  <block id="77be4f1e4f287772c97ec1d404c65d79" category="list-text">BlueXPのコピーと同期で、データブローカーが利用可能になったら*[続行]*をクリックします。</block>
   <block id="709a77b53428394651e5702dc1d6cb78" category="paragraph">BlueXPのコピーと同期には組織内のリソースにユーザに代わってアクセスする権限が必要であるため、管理者の承認が必要であることをMicrosoftから通知された場合は、次の2つの方法があります。</block>
   <block id="7979374874e6c5c531b205d7a738fac7" category="paragraph">BlueXPのコピーと同期では、Azureで次の構成を使用してデータブローカーが作成されます。</block>
   <block id="c8f499f4661300d7b6cc58f37d33cdfe" category="summary">NetApp BlueXPのコピーと同期サービスは、クラウドかオンプレミスかを問わず、シンプルかつセキュアで自動化された方法でデータをあらゆるターゲットに移行します。</block>
@@ -1668,7 +1571,6 @@
   <block id="f34b6d76110ab7661039d45200f420f5" category="paragraph">BlueXPのコピーと同期では、次のストレージタイプがサポートされます。</block>
   <block id="a9645f9fd5c738babcb0a0b7564fafa8" category="paragraph">BlueXPのコピーと同期の使用に関連するコストには、リソース料金とサービス料金の2種類があります。</block>
   <block id="6169c8d461dd7f9996b17fcf210180a3" category="list-text">AWS Marketplaceから登録し、BlueXPのコピー&amp;同期サービスに再度ログインして登録を完了します。</block>
-  <block id="d6555e6f7172ab3b02bb7b9388844450" category="list-text">BlueXPのコピーと同期に戻るには、[アカウントの設定]*をクリックしてください。</block>
   <block id="b5ee50058b36eec1b9d5e452251d8123" category="section-title">[[licenses]ネットアップからライセンスを購入し、BlueXPのコピーと同期に追加します</block>
   <block id="a1c678174ddff43ed8cf229a96c7a003" category="paragraph">同期関係の料金を事前に支払うには、1つ以上のライセンスを購入してBlueXPのコピーおよび同期サービスに追加する必要があります。</block>
   <block id="b69b60c6eae94cb020b628bd40e1db2a" category="paragraph">ネットアップから購入したBlueXPのコピーと同期のライセンスを延長した場合、BlueXPのコピーと同期で新しい有効期限が自動的に更新されません。有効期限を更新するには、ライセンスを再度追加する必要があります。ライセンスの管理には、BlueXPのコピーと同期、または該当するWebサイトを使用する必要があります。デジタルウォレットを使用することはできません*。</block>
@@ -1761,9 +1663,7 @@
   <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">をクリックして、テーブルに表示される列を変更します <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 次に、表示する列を選択します。</block>
   <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">をクリックして既存のケースを管理します <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 使用可能なオプションのいずれかを選択します。</block>
   <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="334141378cc136fbeac9f49b8712a21c" category="list-text"><block ref="334141378cc136fbeac9f49b8712a21c" category="inline-link-rx"></block></block>
   <block id="e6e1607e58cd001b7c781a8f8bfa813a" category="list-text"><block ref="e6e1607e58cd001b7c781a8f8bfa813a" category="inline-link-rx"></block></block>
@@ -1772,7 +1672,6 @@
   <block id="f8c7ce78aaf937671ef25c9c931e368e" category="list-text"><block ref="f8c7ce78aaf937671ef25c9c931e368e" category="inline-link-rx"></block></block>
   <block id="5bef0b78e6ec321bf21d727ac503470d" category="list-text"><block ref="5bef0b78e6ec321bf21d727ac503470d" category="inline-link-rx"></block></block>
   <block id="85cd31980dc6fca292186015e6569783" category="list-text"><block ref="85cd31980dc6fca292186015e6569783" category="inline-link-rx"></block></block>
-  <block id="8e430579de892a93405f336e319e0650" category="paragraph"><block ref="40f48ef5ea0de0b0c1e5b47df6f8470c" category="inline-link-rx"></block>。</block>
   <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">BlueXPログインに関連付けられているクレデンシャルの管理方法について説明します</block>
   <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">[ケースの作成]*機能を使用するには、最初にNetApp Support SiteクレデンシャルをBlueXPログインに関連付ける必要があります。<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block>。</block>
   <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">シリアル番号のあるONTAPシステムのケースをオープンする場合は、そのシステムのシリアル番号にNSSアカウントを関連付ける必要があります。</block>
@@ -1782,10 +1681,7 @@
   <block id="e922b9aa0836a1d93e11cac0fe4c9004" category="paragraph">以下のクラウドプロバイダソリューションに関するテクニカルサポートについては、その製品のBlueXPドキュメントの「困ったときは」を参照してください。</block>
   <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">NetAppサポートにBlueXPアカウントを登録します</block>
   <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">サポートに登録してサポート利用資格をアクティブ化するには、BlueXPアカウントの1人のユーザがNetApp Support SiteアカウントをBlueXPログインに関連付ける必要があります。ネットアップサポートへの登録方法は、NetApp Support Site （NSS）アカウントがあるかどうかによって異なります。</block>
-  <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">BlueXPコンソールの右上にある[設定]アイコンをクリックし、[資格情報*]を選択します。</block>
-  <block id="41e1e3cff4a07ce2ecc08e6c09f11092" category="list-text">[ユーザクレデンシャル]*をクリックします。</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">[NSSクレデンシャルの追加]*を選択し、NetApp Support Site（NSS）認証プロンプトに従います。</block>
-  <block id="8c916e828e9e5a3592c8cac4e25928be" category="list-text">登録プロセスが正常に完了したことを確認するには、[ヘルプ]アイコンをクリックし、*[サポート]*を選択します。</block>
   <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">[リソース]ページに、アカウントがサポートに登録されていることが表示されます。</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">アカウントのシリアル番号、緑のチェックボックス、サポート登録済みのテキストを示すスクリーンショット。</block>
   <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
@@ -1837,7 +1733,6 @@
   <block id="fe59670d5deda9cb753645f774a47c00" category="list-text">[ダッシュボード]*で、同期関係に移動してを選択します <block ref="1452da4272733702009675a0aac63ae1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b838fb1a6e3a063ff847ead6c680b63b" category="section-title">オプション2：複数の同期関係を削除する</block>
   <block id="e228b5490db647150a658ff97a26549c" category="list-text">[Dashboard]*で、[Create New Sync]ボタンに移動し、を選択します <block ref="1452da4272733702009675a0aac63ae1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="17ae36fbbd79b2ff16d4f9f68caeb794" category="list-text">削除する同期関係を選択し、*[削除]*をクリックしてから*[削除]*をもう一度クリックして確認します。</block>
   <block id="8c2d829bea49e9a2588d62f78f366000" category="paragraph">BlueXPのコピーと同期によって同期関係が削除されます。</block>
   <block id="744c3e2d9eefd2af0d741a4bdf013531" category="section-title">2023年7月9日</block>
   <block id="0d31f76acc0f0585c0ce6603aae95bf9" category="section-title">複数の同期関係を一度に削除</block>
@@ -1850,4 +1745,107 @@
   <block id="f14be32be1b0e46b478529e782afc130" category="paragraph"><block ref="f14be32be1b0e46b478529e782afc130" category="inline-link-rx"></block></block>
   <block id="c3605c10e6753f736b31bbe56975b312" category="section-title">Node.js 20に更新</block>
   <block id="62ace2991e0846010d9d30c14cb37645" category="paragraph">コピーと同期がNode.js 20に更新されました。使用可能なすべてのデータブローカーが更新されます。この更新プログラムと互換性のないオペレーティングシステムはインストールできません。互換性のない既存のシステムではパフォーマンスの問題が発生する可能性があります。</block>
+  <block id="9c493a2645deede7e1d634171451c869" category="paragraph">ロールARNを確認するには、EC2コンソールに移動してデータブローカーインスタンスを選択し、概要タブからIAMロールを選択します。次に、ロール ARN を含む IAM コンソールに概要ページが表示されます。</block>
+  <block id="d7c075ca906ce69195757260c375322d" category="inline-image-macro">は接続文字列を示しています。接続文字列は、Azureポータルでストレージアカウントを選択し、[Access Keys]を選択すると表示されます。</block>
+  <block id="f73a08b9d40527fb034e3b8e5aea291e" category="paragraph"><block ref="f73a08b9d40527fb034e3b8e5aea291e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="974e187af76d9bdb79160a1747a99efd" category="inline-image-macro">に共有アクセスシグネチャを示します。共有アクセスシグネチャは、Azureポータルでストレージアカウントを選択し、[共有アクセスシグネチャ]を選択すると表示されます。</block>
+  <block id="440e14da8980c937115a1654cb964bce" category="paragraph"><block ref="440e14da8980c937115a1654cb964bce" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">BlueXPコンソールの右上で、[設定]アイコンを選択し、*[クレデンシャル]*を選択します。</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">[ユーザクレデンシャル]*を選択します。</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">登録プロセスが正常に完了したことを確認するには、[ヘルプ]アイコンを選択し、*[サポート]*を選択します。</block>
+  <block id="d889e6e7cc4c5509ab5b37f8fc894e46" category="list-text">BlueXPコンソールの右上で、[ヘルプ]アイコンを選択し、*[サポート]*を選択します。</block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">[NSS Management]&gt;[Add NSS Account]*を選択します。</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">プロンプトが表示されたら、*続行*を選択してMicrosoftログインページにリダイレクトします。</block>
+  <block id="a7cf68034bb0427f14ac8f27b6befc6e" category="list-text">SMBサーバまたはオブジェクトストレージをソースとして、SMBサーバまたはオブジェクトストレージをターゲットとしてドラッグアンドドロップし、*[続行]*を選択します。</block>
+  <block id="07fd1a9bba5ed1d65155cb7196d9fff7" category="cell">新しい同期関係のソースファイルを分類を使用して選択する場合に、BlueXPの分類に連絡します。</block>
+  <block id="b23f7626598790c5bc3f3411ca8bc647" category="list-text">[新しい同期の作成]*を選択します。</block>
+  <block id="a98b7b8c1513bf265104275f8483ba4d" category="list-text">[同期関係の定義]ページで、ソースとターゲットを選択し、*[続行]*を選択します。</block>
+  <block id="bb85773e2c6a87875a9bb0f89efa1fab" category="list-text">[データブローカーグループ]ページで、*[データブローカーの作成]*を選択し、*[Google Cloud Platform]*を選択します。</block>
+  <block id="768a76795adb85fe8b2001a0f399abf2" category="list-text">データブローカーの名前を入力し、*[続行]*を選択します。</block>
+  <block id="5cb5a4f4fe6d4cbbe707e63a954ad57b" category="list-text">データブローカーが利用可能になったら、BlueXPのコピーと同期で*[続行]*を選択します。</block>
+  <block id="2367a082ae2ae448b941e4f4c2dabed4" category="list-text">同期関係のソースまたはターゲットとして使用するバケットの名前を選択します。</block>
+  <block id="70d2a1a4dce0d4601d9d7ccb4730c171" category="list-text">[権限]*を選択します。</block>
+  <block id="fa12509cfb8e8ccded16e2a254e988c4" category="list-text">「 * 追加」を選択します。</block>
+  <block id="10492389e94efdebbb66f7b0cd8a1324" category="list-text">[ 保存（ Save ） ] を選択します。</block>
+  <block id="b3475f82bce5cbf95b975ed65e3d258e" category="paragraph">ダッシュボードのテーブルビューを再設計して使いやすくしました。[詳細情報]*を選択すると、Cloud Syncはダッシュボードをフィルタリングして特定の関係に関する詳細情報を表示します。</block>
+  <block id="5850da1fc8b844460820f41143c14a5d" category="list-text">[データブローカーの管理]ページで*[新しいデータブローカーの追加]*を選択すると、新しいグループにデータブローカーが作成されます。</block>
+  <block id="3f2a5c8d39fecd79e3a2a67e27c89975" category="list-text">[同期]&gt;[データブローカーの管理]*を選択します。</block>
+  <block id="052d8bf5e14a8c511479470d76567896" category="list-text">[新しいデータブローカーの追加]*を選択します。</block>
+  <block id="5062224ebe3fee3febcb171546faa6fb" category="list-text">操作メニューを選択し、*[データブローカーの追加]*を選択します。</block>
+  <block id="d7b7562790ff23b3cf69ff2d8e2c9135" category="list-text">アクションメニューを選択し、*グループ名の編集*を選択します。</block>
+  <block id="981a53d41f58197b983935d8515a8a1b" category="list-text">新しい名前を入力し、*[保存]*を選択します。</block>
+  <block id="67633f6453e939bb031824371e27e55f" category="list-text">[データブローカーの管理]*を選択します。</block>
+  <block id="b61fc711bd2997eb8dddcfe1c68f52d8" category="list-text">データブローカーグループの[Settings]アイコンを選択します。</block>
+  <block id="9c5b22f4eb3a2a84d6f78993d40e5e11" category="list-text">必要に応じて設定を変更し、* Unify Configuration *を選択します。</block>
+  <block id="0fa553ef384c02c0ed69820824979c65" category="list-text">選択するオプション <block ref="787db84ec9404328cdc4a6264b9959c1" category="inline-image-macro-rx" type="image"></block> をクリックして、グループ内のデータブローカーのリストを展開します。</block>
+  <block id="68a0287ebcc4f6e28023462e570b7b3e" category="list-text">データブローカーの操作メニューを選択し、*[データブローカーの移動]*を選択します。</block>
+  <block id="c3eb9435da3ee7c0ac02ef30983ba9d2" category="list-text">[移動]*を選択します。</block>
+  <block id="84efe326528fa8de6894af686c9ad4a6" category="list-text">データブローカーの操作メニューを選択し、*[プロキシ設定の編集]*を選択します。</block>
+  <block id="35165f9b14f6cde03fa7f6f9b03732ba" category="list-text">「 * Update * 」を選択します。</block>
+  <block id="0b84899995529839327fe3051a5f13b0" category="list-text">選択するオプション <block ref="470bfce73839324984be8a7b9dbc97eb" category="inline-image-macro-rx" type="image"></block> をクリックしてください。</block>
+  <block id="0500ac872687a21fa42b7c0274a1b4b2" category="list-text">データブローカーの操作メニューを選択し、*[データブローカーの削除]*を選択します。</block>
+  <block id="af625aac66960e71c291115cae745a4e" category="list-text">[データブローカーの削除]*を選択します。</block>
+  <block id="ada3f05f232feeed1dfb7c4afcdffe6a" category="list-text">アクションメニューを選択し、*グループの削除*を選択します。</block>
+  <block id="826f8292d9dd1df0d5e3440a37c5015b" category="list-text">確認のために、グループの名前を入力し、*[グループの削除]*を選択します。</block>
+  <block id="563b9ebf5f1676e7c73351df0df68d70" category="paragraph">にログインします<block ref="a52ee1b87e73428b189d0907dc7fe59b" category="inline-link-rx"></block>をクリックし、*[同期]*を選択し、ソースとターゲットの選択内容をドラッグアンドドロップします。プロンプトに従ってセットアップを完了します。 <block ref="484d4f19cf4f8d33cb3a1a91aa23f363" category="inline-link-macro-rx"></block>。</block>
+  <block id="46ea05c6ec616f5482a6ae7265cb289a" category="list-text">[キャンバス]*を選択します。</block>
+  <block id="846c0cd63135bcbdaa57f314f9667667" category="list-text">BlueXPで、* Sync *を選択します。</block>
+  <block id="0389f118b4a12f879dace09873bfe8d5" category="list-text">データブローカーをインストールしたら、*[続行]*を選択します。</block>
+  <block id="2940f879485a90e38c70bad277e952bc" category="paragraph">BlueXPのコピーと同期でエクスポートを取得できない場合は、*[エクスポートを手動で追加]*を選択し、NFSエクスポートの名前を入力します。</block>
+  <block id="d3b515ad997487682cabad8cc3037528" category="list-text">[リストに追加]*を選択して、AWSアカウントに関連付けられていないS3バケットを選択します。 <block ref="772fe08f8ccc4de2babce33261957aed" category="inline-link-macro-rx"></block>。</block>
+  <block id="d4882dc545d7780382888fbbe7a423de" category="list-text">同期関係の詳細を確認し、*[関係の作成]*を選択します。</block>
+  <block id="ccb8e8d162cd0852214f94317fe9ff12" category="section-title">BlueXPの分類から同期関係を作成</block>
+  <block id="80bf5b29f498d053d7445284d3d93ca5" category="paragraph">BlueXPのコピーと同期はBlueXPの分類機能に統合されています。BlueXPの分類から、BlueXPのコピーと同期を使用して、ターゲットの場所に同期するソースファイルを選択できます。</block>
+  <block id="539e8564a4ed161824dff3b7104b2470" category="paragraph">BlueXPの分類からデータの同期を開始すると、すべてのソース情報が1つの手順で格納され、重要な詳細情報をいくつか入力するだけで済みます。その後、新しい同期関係の作成先を選択します。</block>
+  <block id="42d50bbcb3b366a20657a24b7644e345" category="inline-image-macro">BlueXPの分類から直接新しい同期を開始したあとに表示されるBlueXPの分類の統合ページを示すスクリーンショット。</block>
+  <block id="d849d90980b2ab0f9613bf772807378f" category="paragraph"><block ref="d849d90980b2ab0f9613bf772807378f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cf2270b456b1dc7f69b6efb8903adb83" category="inline-link">BlueXPの分類から同期関係を開始する方法</block>
+  <block id="1139a253d171a7969c094e38ba8066d8" category="paragraph"><block ref="c65a8202f1a26826d29063b255b385d3" category="inline-link-rx"></block>。</block>
+  <block id="0479f6fe1008f761c6bd228300072a66" category="list-text">[データブローカーグループ]ページで、*[データブローカーの作成]*を選択し、*[Microsoft Azure]*を選択します。</block>
+  <block id="f8149e5272474293b308b5387c6e0eab" category="list-text">プロンプトが表示されたら、 Microsoft アカウントにログインします。プロンプトが表示されない場合は、* Azureにログイン*を選択します。</block>
+  <block id="62aca030fc0ae0886728293f4df155b2" category="list-text">[続行]*を選択し、展開が完了するまでページを開いたままにします。</block>
+  <block id="ad16396812bea804a1980d079b968f53" category="list-text">BlueXPのコピーと同期で、データブローカーが利用可能になったら*[続行]*を選択します。</block>
+  <block id="b9c67bb0bae9993217d3413e493a9d52" category="list-text">[同期]&gt;[ライセンス]*を選択します。</block>
+  <block id="a5fb6f9fbd972c02e5329e1ff986d9d5" category="list-text">[サブスクライブ]*を選択し、*[続行]*を選択します。</block>
+  <block id="9afef6b2e6bfae3c1516f6a5615e147a" category="list-text">[*購読を続行する*]を選択します。</block>
+  <block id="7d5dc2ab8bafad8f8a587f44b30dc6f0" category="list-text">契約オプションを選択し、*契約の作成*を選択します。</block>
+  <block id="8bf624ad0ff2e9fd580f8cf2ccbfb01b" category="list-text">Azureポータルで、*[作成]*を選択し、オプションを選択して*[サブスクライブ]*を選択します。</block>
+  <block id="50663aa7afb45a9a800941c0bc89dcf1" category="list-text">導入が完了したら、通知ポップアップでSaaSリソースの名前を選択します。</block>
+  <block id="610e8ce14d61f13ee15be5f296487890" category="list-text">BlueXPのコピーと同期に戻るには、[アカウントの設定]*を選択します。</block>
+  <block id="8a16f41efcb781e6645783df6cb0e97b" category="list-text">BlueXPで、*[同期]&gt;[ライセンス]*を選択します。</block>
+  <block id="0be0367eff89e989e3751d45bd6caf93" category="list-text">[ライセンスの追加]*を選択し、必要な情報を追加します。</block>
+  <block id="46d344ee2c7e916b914b2b031a79a880" category="list-text">アカウントがまだ追加されていない場合は、*[Add NSS Credentials]*を選択し、ユーザ名とパスワードを入力して*[Register]*を選択し、ドロップダウンリストから選択します。</block>
+  <block id="6a44822bf57bcae55604cb610b227f67" category="paragraph">[ソースオブジェクトのフィルタ]*を選択して、ソースファイルとフォルダをターゲットの場所で同期および維持する方法を定義する設定を変更します。</block>
+  <block id="1aca046f97c331e986d5fab61366a4e6" category="list-text">*確認*：同期関係の詳細を確認し、*[関係の作成]*を選択します。</block>
+  <block id="579c21a9a30c92f081aafc35f6788b43" category="paragraph">BlueXPのコピーと同期が新しい同期関係の作成を開始します。完了したら、*[ダッシュボードで表示]*を選択して、新しい関係の詳細を表示します。</block>
+  <block id="5eab603ec483095f3786c2e47537d800" category="list-text">[今すぐ同期]*を選択し、*[同期]*を選択して確定します。</block>
+  <block id="3d18303a8bc1b24ad7263bcc9797e5b5" category="list-text">[高速化]*を選択します。</block>
+  <block id="89fd3d02840a539075c4235f4b211573" category="list-text">[同期ダッシュボード]*で、クレデンシャルが必要な同期関係に移動し、*[クレデンシャルの更新]*を選択します。</block>
+  <block id="206f666b19f13f25bad53b2109edacb4" category="list-text">クレデンシャルを入力し、*[更新]*を選択します。</block>
+  <block id="448fe9f410fc86c359b1bf31ac68cd9f" category="list-text">[設定]&gt;[アラートと通知の設定]*を選択します。</block>
+  <block id="24347b3ddf5a25cc9c27e54ae285ade1" category="list-text">* 適用 * を選択します。</block>
+  <block id="774b7bb8cc1adb7cb5b5605c3d53249f" category="list-text">[削除]*を選択し、もう一度*[削除]*を選択して確定します。</block>
+  <block id="a06cbdd471532709a20804cd9a60cf7b" category="list-text">削除する同期関係を選択し、*[削除]*を選択し、*[削除]*をもう一度選択して確認します。</block>
+  <block id="6ffcf259f9af8546dcdf4daad239e89b" category="list-text">[同期]&gt;[レポート]*を選択します。</block>
+  <block id="7caff74e8ad612143e6505e42c480693" category="list-text">[レポートアクション（Reports Actions）]列で、特定のパスに移動して*[作成（Create）]*を選択するか、アクションメニューを選択して*[新規作成（Create New）]*を選択します。</block>
+  <block id="034ebe64c95d6881f42b9860db62257a" category="list-text">レポートの準備ができたら、アクションメニューを選択して*表示*を選択します。</block>
+  <block id="c3e2319c8f33283f02e4d18078c3e026" category="list-text">[レポートアクション]列で、アクションメニューを選択し、*[表示]*を選択します。</block>
+  <block id="b6b1c484e920a4cebbc7cdf2ac43d7ef" category="list-text">レポートの右上で、アクションメニューを選択し、* PDFのダウンロード*を選択します。</block>
+  <block id="8bd64cd944e930439dfc9b8d32597010" category="inline-image-macro">レポートのアクションメニューを選択した後に表示される[Download PDF]オプションのスクリーンショット。</block>
+  <block id="1a9d7b3b25da6533268f3139437f4d3d" category="paragraph"><block ref="1a9d7b3b25da6533268f3139437f4d3d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bf6097b869b6cd694d1a22235d83341d" category="list-text">エラーがある場合は、エラー数の横にある矢印を選択します。</block>
+  <block id="8f678ca452a56dc17c7c9fc13e2e5f36" category="list-text">[レポートアクション]列で、パスのアクションメニューを選択し、*[最後のレポートを削除]*または*[すべてのレポートを削除]*を選択します。</block>
+  <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">BlueXPで、*[ヘルプ]&gt;[サポート]*を選択します。</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">電話で誰かと話をしたい場合は、*[電話]*を選択します。netapp.comのページに移動し、電話番号が表示されます。</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">[ケースの作成]*を選択して、NetAppサポートスペシャリストとのチケットをオープンします。</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">サポートケースの履歴を確認するには、*[設定]&gt;[タイムライン]*を選択し、「サポートケースの作成」というアクションを検索します。 右端のボタンをクリックすると、アクションを展開して詳細を表示できます。</block>
+  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">[ケース管理]*を選択し、プロンプトが表示されたらNSSアカウントをBlueXPに追加します。</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">[Organization's Cases]*で[View]*を選択すると、会社に関連付けられているすべてのケースが表示されます。</block>
+  <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">テーブルに表示される列を変更するには、 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 次に、表示する列を選択します。</block>
+  <block id="348552521b849746260fe8d296d34c15" category="list-text">既存のケースを管理するには、 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 使用可能なオプションのいずれかを選択します。</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*ケースをクローズ*：ケースをクローズする理由の詳細を入力し、*ケースをクローズ*を選択します。</block>
+  <block id="4efee990fd4b83dc06a00811bfa7e55d" category="list-text">[データブローカーグループ]ページで、*[データブローカーの作成]*を選択し、*[Amazon Web Services]*を選択します。</block>
+  <block id="4f63dcacb975691fb706f866f5467707" category="paragraph">アクセスキーを提供しない場合は、ページの下部にあるリンクを選択して、代わりにCloudFormationテンプレートを使用します。このオプションを使用する場合は、 AWS に直接ログインするため、クレデンシャルを指定する必要はありません。</block>
+  <block id="417a67ddf3f7a9afe391dcd0968ded03" category="list-text">データブローカーが利用可能になったら、BlueXPのコピーと同期で*[続行]*を選択します。</block>
+  <block id="8f1cf53c93c91532c10f4779cc067c94" category="list-text">[データブローカーグループ]*ページで、*[データブローカーの作成]*を選択し、*[オンプレミスのデータブローカー]*を選択します。</block>
 </blocks>

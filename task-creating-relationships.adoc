@@ -42,7 +42,7 @@ summary: 同期関係を作成すると、BlueXPのコピーおよび同期サ�
 ** https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["ONTAP クラスタの検出"^]
 
 
-. 「 * キャンバス * 」をクリックします。
+. [キャンバス]*を選択します。
 . 上記のいずれかのタイプに一致する作業環境を選択してください。
 . [ 同期 ] の横のアクションメニューを選択します。
 +
@@ -57,7 +57,7 @@ image:screenshot_sync_we.gif["作業環境を選択した後の同期メニュ�
 
 ONTAP 、 Azure NetApp Files 、 Cloud Volumes ONTAP 、オンプレミスの ONTAP クラスタで、 Amazon FSX 以外のサポートされているストレージタイプとの間でデータを同期するには、次の手順を実行します。以下の手順は、 NFS サーバから S3 バケットへの同期関係を設定する方法の例を示しています。
 
-. BlueXPで、「*同期」をクリックします。
+. BlueXPで、* Sync *を選択します。
 . [ 同期関係の定義 *] ページで、ソースとターゲットを選択します。
 +
 次の手順では、 NFS サーバから S3 バケットへの同期関係を作成する方法の例を示します。
@@ -77,13 +77,13 @@ image:screenshot_nfs_to_s3.png["新しい同期関係で、ソースとして NF
 ** link:task-installing-linux.html["Linux ホストへのデータブローカーのインストール"]
 
 
-. データブローカーをインストールしたら、 [* 続行 ] をクリックします。
+. データブローカーをインストールしたら、*[続行]*を選択します。
 +
 image:screenshot-data-broker-group.png["このスクリーンショットは、正常に導入されたインスタンスを示していますこのインターフェイスには、 AWS ネットワーキングを含むインスタンスの詳細が表示されます。"]
 
 . [[filter]] [*Directories* ] ページで、最上位のディレクトリまたはサブディレクトリを選択します。
 +
-BlueXPのコピーと同期でエクスポートを取得できない場合は、*[エクスポートを手動で追加]*をクリックし、NFSエクスポートの名前を入力します。
+BlueXPのコピーと同期でエクスポートを取得できない場合は、*[エクスポートを手動で追加]*を選択し、NFSエクスポートの名前を入力します。
 
 +
 
@@ -92,7 +92,7 @@ NOTE: NFS サーバ上の複数のディレクトリを同期する場合は、�
 . 「 * AWS S3 Bucket * 」ページで、バケットを選択します。
 +
 ** ドリルダウンして、バケット内の既存のフォルダを選択するか、バケット内に作成した新しいフォルダを選択します。
-** リストに追加 * をクリックして、 AWS アカウントに関連付けられていない S3 バケットを選択します。 link:reference-requirements.html#s3["S3 バケットには特定の権限を適用する必要があります。"]。
+** [リストに追加]*を選択して、AWSアカウントに関連付けられていないS3バケットを選択します。 link:reference-requirements.html#s3["S3 バケットには特定の権限を適用する必要があります。"]。
 
 
 . [* Bucket Setup* ] ページで、バケットを設定します。
@@ -198,7 +198,7 @@ image:screenshot_relationship_tags.png["Amazon S3 との同期関係を作成す
 
 TIP: この機能は、 StorageGRID と IBM Cloud Object Storage にデータを同期する場合にも使用できます。Azure と Google Cloud Storage では、メタデータオプションのみを使用できます。
 
-. 同期関係の詳細を確認し、 * 関係の作成 * をクリックします。
+. 同期関係の詳細を確認し、*[関係の作成]*を選択します。
 
 
 * 結果 *
@@ -207,12 +207,12 @@ BlueXPのコピーと同期で、ソースとターゲット間のデータの�
 
 
 
-== Cloud Data Sense から同期関係を作成
+== BlueXPの分類から同期関係を作成
 
-BlueXPのコピーと同期はCloud Data Senseに統合されています。Data Sense内からBlueXPのコピーと同期を使用して、ターゲットの場所に同期するソースファイルを選択できます。
+BlueXPのコピーと同期はBlueXPの分類機能に統合されています。BlueXPの分類から、BlueXPのコピーと同期を使用して、ターゲットの場所に同期するソースファイルを選択できます。
 
-Cloud Data Sense からデータ同期を開始すると、すべてのソース情報が 1 つの手順で表示されるため、重要な情報をいくつか入力するだけで済みます。その後、新しい同期関係の作成先を選択します。
+BlueXPの分類からデータの同期を開始すると、すべてのソース情報が1つの手順で格納され、重要な詳細情報をいくつか入力するだけで済みます。その後、新しい同期関係の作成先を選択します。
 
-image:screenshot-sync-data-sense.png["Cloud Data Sense から直接新しい同期を開始した後に表示される Data Sense Integration ページを示すスクリーンショット。"]
+image:screenshot-sync-data-sense.png["BlueXPの分類から直接新しい同期を開始したあとに表示されるBlueXPの分類の統合ページを示すスクリーンショット。"]
 
-https://docs.netapp.com/us-en/bluexp-classification/task-managing-highlights.html#copying-and-synchronizing-source-files-to-a-target-system["Cloud Data Sense から同期関係を開始する方法について説明します"^]。
+https://docs.netapp.com/us-en/bluexp-classification/task-managing-highlights.html#copying-and-synchronizing-source-files-to-a-target-system["BlueXPの分類から同期関係を開始する方法"^]。

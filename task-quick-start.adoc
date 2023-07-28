@@ -62,7 +62,7 @@ BlueXPのコピーと同期は、ガイドに従ってインストールプロ�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["4."] 最初の同期関係を作成します
 [role="quick-margin-para"]
-にログインします https://console.bluexp.netapp.com/["BlueXP"^]をクリックし、 * 同期 * をクリックして、ソースとターゲットの選択をドラッグアンドドロップします。プロンプトに従ってセットアップを完了します。 link:task-creating-relationships.html["詳細はこちら。"]。
+にログインします https://console.bluexp.netapp.com/["BlueXP"^]をクリックし、*[同期]*を選択し、ソースとターゲットの選択内容をドラッグアンドドロップします。プロンプトに従ってセットアップを完了します。 link:task-creating-relationships.html["詳細はこちら。"]。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["5 つ"] 無料トライアルが終了したら、同期関係の料金をお支払いください
 [role="quick-margin-para"]
