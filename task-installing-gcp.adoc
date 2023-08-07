@@ -89,11 +89,14 @@ BlueXPのコピーと同期でGoogle Cloudにデータブローカーを導入�
 - pubsub.topics.list
 - pubsub.topics.setIamPolicy
 - storage.buckets.update
+- cloudkms.cryptoKeys.list
+- cloudkms.keyRings.list
 ----
 注：
 
 . 「 iam.serviceAccounts.signJwt" 」権限が必要なのは、外部の橋本ボルトを使用するようにデータブローカーを設定する予定の場合のみです。
 . 「pubsub.*」権限と「storage.enable」は、Google Cloud Storageから別のクラウドストレージ上の同期関係に対してContinuous Sync設定を有効にする場合にのみ必要です。 link:task-creating-relationships.html#settings["継続的同期オプションの詳細については、こちらをご覧ください"]。
+. 「cloudkms.cryptoKeys.list」権限と「cloudkms.keyrings.list」権限は、ターゲットのGoogle Cloud Storageバケットで顧客管理KMSキーを使用する場合にのみ必要です。
 
 
 

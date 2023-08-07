@@ -220,6 +220,14 @@ Google Cloud Storage を含む同期関係を確立するには、 Google Cloud 
 
 
 
+=== Google Cloudバケットの暗号化
+
+お客様が管理するKMSキーまたはGoogleが管理するデフォルトのキーを使用して、ターゲットのGoogle Cloudバケットを暗号化できます。バケットにKMS暗号化がすでに追加されている場合は、Googleが管理するデフォルトの暗号化よりも優先されます。
+
+お客様が管理するKMSキーを追加するには、 https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-gcp.html#permissions-required-for-the-service-account["正しい権限"]、およびキーはバケットと同じリージョンに存在する必要があります。
+
+
+
 == Googleドライブ
 
 Googleドライブを含む同期関係を設定する場合は、次の情報を入力する必要があります。

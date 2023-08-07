@@ -780,7 +780,6 @@
   <block id="e0f74d06e87b3ad6fc9f3b3cfc573c38" category="paragraph">このフォームは、 Microsoft が所有およびホストしています。クレデンシャルがネットアップに提供されていません。</block>
   <block id="eb326e1f884a5d84e7b70887f7874b42" category="list-text">データブローカーの場所を選択し、仮想マシンに関する基本的な詳細を入力します。</block>
   <block id="4e150fdd87e97e0d1398184219062d41" category="inline-image-macro">「サブスクリプション、 Azure リージョン、 VNet 、サブネット、 VM 名、ユーザ名、認証方法、およびリソースグループの各フィールドを示す、 Azure 導入ページのスクリーンショット」</block>
-  <block id="f38f2fdb5d5d38ec31dd9074ee28e224" category="paragraph"><block ref="f38f2fdb5d5d38ec31dd9074ee28e224" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2eabf7b67b6c5e6d78b08dd754db7951" category="list-text">VNet でのインターネットアクセスにプロキシが必要な場合は、プロキシ設定を指定します。</block>
   <block id="d053334dcf5dac4968bf6d994e4ed7ec" category="paragraph">この処理には最大 7 分かかることがあります。</block>
   <block id="affdd8fc6be1e86de36efaee713f54e2" category="paragraph">Azure にデータブローカーを導入し、新しい同期関係を作成しました。このデータブローカーは、追加の同期関係とともに使用できます。</block>
@@ -1077,15 +1076,11 @@
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">ログインページで、ネットアップサポートサイトの登録 E メールアドレスとパスワードを入力して認証プロセスを実行します。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">著作権に関する声明、商標、特許などにアクセスできます。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp のロゴ、および NetApp の商標ページに記載されているマークは、 NetApp, Inc. の商標です。その他の会社名および製品名は、それぞれの所有者の商標である場合があります。</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">特許</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">ネットアップが所有する特許の最新リストは、次のサイトで入手できます。</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">プライバシーポリシー</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">次のオプションは、 1 日 24 時間、週 7 日間無料でご利用いただけます。</block>
@@ -1242,7 +1237,6 @@
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">このプロセスについては、ネットアップからご連絡ください。これは、新規ユーザ向けの1回限りのオンボーディング演習です。</block>
   <block id="fd89e3644f08c7cff88f1db4361c5e60" category="paragraph">データブローカーの導入に使用するAzureユーザアカウントに、次の権限があることを確認してください。</block>
   <block id="fc9d3df613063ee57906c461320744e2" category="paragraph">注：</block>
-  <block id="679e4bcf838658cd92da7b790636390a" category="list-text">次の権限は、Azureから別のクラウドストレージの場所への同期関係で継続的な同期設定を有効にする場合にのみ必要です。</block>
   <block id="040d8eaecb72efcfd5cfbf281e33f7f3" category="list-text">'microsoft.StorageAccounts/read'、</block>
   <block id="bb845a3086db2f3f9168d3ee193d482b" category="list-text">'microsoft.EventGrid/systemTopics/eventSubscriptions/write'、</block>
   <block id="3a66417bd558ccb9a044b88d6ad406c3" category="list-text">'microsoft.EventGrid/systemTopics/eventSubscriptions/read'、</block>
@@ -1848,4 +1842,37 @@
   <block id="4f63dcacb975691fb706f866f5467707" category="paragraph">アクセスキーを提供しない場合は、ページの下部にあるリンクを選択して、代わりにCloudFormationテンプレートを使用します。このオプションを使用する場合は、 AWS に直接ログインするため、クレデンシャルを指定する必要はありません。</block>
   <block id="417a67ddf3f7a9afe391dcd0968ded03" category="list-text">データブローカーが利用可能になったら、BlueXPのコピーと同期で*[続行]*を選択します。</block>
   <block id="8f1cf53c93c91532c10f4779cc067c94" category="list-text">[データブローカーグループ]*ページで、*[データブローカーの作成]*を選択し、*[オンプレミスのデータブローカー]*を選択します。</block>
+  <block id="bab4e38718dde50e9ad958813bb0a976" category="paragraph">local.jsonファイルを更新したら、再起動します。<block ref="2f136f2d74a38a78be0b7195f88db46b" prefix=" " category="inline-code"></block>。</block>
+  <block id="5ea651ef425fc06946414f157ea0d12c" category="section-title">Google Cloudバケットの暗号化</block>
+  <block id="f1e18b3eb6f07ac95f361dfb4823b062" category="paragraph">お客様が管理するKMSキーまたはGoogleが管理するデフォルトのキーを使用して、ターゲットのGoogle Cloudバケットを暗号化できます。バケットにKMS暗号化がすでに追加されている場合は、Googleが管理するデフォルトの暗号化よりも優先されます。</block>
+  <block id="db1a392dfa5212eeb3e27c6081ac7f8d" category="inline-link">正しい権限</block>
+  <block id="1c50758d669eeda9eb73db1fcfa0337e" category="paragraph">お客様が管理するKMSキーを追加するには、<block ref="d26dd36e82dda30790e792c4d360acdb" category="inline-link-rx"></block>、およびキーはバケットと同じリージョンに存在する必要があります。</block>
+  <block id="e77af68d35ae8ec20bd34ccab89589cd" category="list-text">Google Storageバケットが同期関係のターゲットである場合は、デフォルトのGoogle管理暗号化キーを使用するか、独自のKMSキーを使用するかを選択できます。</block>
+  <block id="840b9dee68db7a324a5a0492f3ec3063" category="inline-link">連続同期設定</block>
+  <block id="1c366467112a2f5e725cd0beef639204" category="list-text">次の権限は、<block ref="be291bc0a12dc8676089f7080ad738cb" category="inline-link-rx"></block> Azureから別のクラウドストレージの場所への同期関係で次の手順を実行します。</block>
+  <block id="0a00035cb030ae4c07809a2b29294403" category="list-text">次の権限は、データブローカーの作成に独自のセキュリティを選択する場合にのみ必要です。</block>
+  <block id="40ab692bf1bd50c2b8af00a0f842eae1" category="list-text">Microsoft.Network/networkSecurityGroups/securityRules/read"</block>
+  <block id="382fee949ad334bb4c7112f8925c1a73" category="list-text">Microsoft.Network/networkSecurityGroups/read"</block>
+  <block id="1f5117611a312137ed84c1a822386066" category="paragraph"><block ref="1f5117611a312137ed84c1a822386066" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9dfa9e8f416f9e7e5830a3abefdd03e2" category="list-text">「cloudkms.cryptoKeys.list」権限と「cloudkms.keyrings.list」権限は、ターゲットのGoogle Cloud Storageバケットで顧客管理KMSキーを使用する場合にのみ必要です。</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="a57bb636c3624bebb972f007b21fd8fb" category="section-title">2023年8月6日</block>
+  <block id="56a559acc9f9bd2fc9cf51154aef7ce5" category="section-title">データブローカーの作成時に既存のAzureセキュリティグループを使用する</block>
+  <block id="bf4bc301ccb8b2b21ef394a22e4afef6" category="paragraph">データブローカーの作成時に既存のAzureセキュリティグループを使用できるようになりました。</block>
+  <block id="fd514a292e754d2839b0e90da5ac3514" category="paragraph">データブローカーの作成時に使用するサービスアカウントには、次の権限が必要です。</block>
+  <block id="223263a27baa6e1ed1653cabb17bae1a" category="inline-link">Azureでデータブローカーを作成する方法については、こちらをご覧ください。</block>
+  <block id="dd28ab2cc4abd312627d50ae74f70a47" category="paragraph"><block ref="dd28ab2cc4abd312627d50ae74f70a47" category="inline-link-rx"></block></block>
+  <block id="523a4e14cf869e980cae59f341235b4d" category="section-title">Google Storageへの同期時にデータを暗号化する</block>
+  <block id="f30fd3a2e1153daad9771810719ad64c" category="paragraph">Google Storageバケットをターゲットとする同期関係を作成するときに、ユーザが管理する暗号化キーを指定できるようになりました。キーは手動で入力することも、1つのリージョン内のキーのリストから選択することもできます。</block>
+  <block id="822dcaf9e20737313f761f80cc25031f" category="list-text">cloudkms.cryptoKeys.list</block>
+  <block id="67c2b48a02a1206b0cf882e5b8d15ad2" category="list-text">cloudkms.keyrings.list</block>
+  <block id="2f582d8c48ea99c7b932fa712f18e592" category="inline-link">Google Cloud Storageバケットの要件については、こちらをご覧ください。</block>
+  <block id="32a658d78cdd354c1492f2b54191e16d" category="paragraph"><block ref="32a658d78cdd354c1492f2b54191e16d" category="inline-link-rx"></block></block>
 </blocks>

@@ -101,6 +101,8 @@ BlueXPのコピーと同期でAzureにデータブローカーを導入すると
                     "Microsoft.Storage/storageAccounts/write"
                     "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/read"
                     "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/write"
+                    "Microsoft.Network/networkSecurityGroups/securityRules/read",
+        	        "Microsoft.Network/networkSecurityGroups/read",
 ----
 ....
     ],
@@ -112,7 +114,7 @@ BlueXPのコピーと同期でAzureにデータブローカーを導入すると
 ....
 注：
 
-. 次の権限は、Azureから別のクラウドストレージの場所への同期関係で継続的な同期設定を有効にする場合にのみ必要です。
+. 次の権限は、 https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["連続同期設定"] Azureから別のクラウドストレージの場所への同期関係で次の手順を実行します。
 +
 ** 'microsoft.StorageAccounts/read'、
 ** 'microsoft.EventGrid/systemTopics/eventSubscriptions/write'、
@@ -130,9 +132,13 @@ BlueXPのコピーと同期でAzureにデータブローカーを導入すると
 +
 また、AzureにContinuous Syncを実装する場合は、割り当て可能な範囲をサブスクリプションの範囲に設定し、*リソースグループの範囲ではない*に設定する必要があります。
 
+. 次の権限は、データブローカーの作成に独自のセキュリティを選択する場合にのみ必要です。
++
+** Microsoft.Network/networkSecurityGroups/securityRules/read"
+** Microsoft.Network/networkSecurityGroups/read"
 
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["Continuous Syncの詳細については、こちらをご覧ください"]。
+
 
 
 
@@ -165,7 +171,7 @@ image:screenshot-azure.png["AWS 、 Azure 、 Google Cloud 、オンプレミス
 
 . データブローカーの場所を選択し、仮想マシンに関する基本的な詳細を入力します。
 +
-image:screenshot_azure_data_broker.gif["「サブスクリプション、 Azure リージョン、 VNet 、サブネット、 VM 名、ユーザ名、認証方法、およびリソースグループの各フィールドを示す、 Azure 導入ページのスクリーンショット」"]
+image:screenshot_azure_data_broker.png["「サブスクリプション、 Azure リージョン、 VNet 、サブネット、 VM 名、ユーザ名、認証方法、およびリソースグループの各フィールドを示す、 Azure 導入ページのスクリーンショット」"]
 
 +
 
