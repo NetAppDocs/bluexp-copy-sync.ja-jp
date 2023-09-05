@@ -103,7 +103,8 @@ image:diagram_networking_onprem.png["BlueXPのコピーと同期サービス、�
 | \ https://fedoraproject.org | インストールおよび更新中にデータブローカー仮想マシンに 7z をインストールするには、AutoSupport メッセージをネットアップテクニカルサポートに送信するには 7z が必要です。 
 
 
-| \ https://sts.amazonaws.com | データブローカーが AWS に導入されたときや、オンプレミスに導入されて AWS のクレデンシャルが指定されたときに、 AWS のクレデンシャルを確認することができます。データブローカーは、導入時、更新時、および再起動時にこのエンドポイントにアクセスします。 
+| \https://sts.amazonaws.com
+\https://sts.us-east-1.amazonaws.com | データブローカーが AWS に導入されたときや、オンプレミスに導入されて AWS のクレデンシャルが指定されたときに、 AWS のクレデンシャルを確認することができます。データブローカーは、導入時、更新時、および再起動時にこのエンドポイントにアクセスします。 
 
 
 | ¥https://console.bluexp.netapp.com/¥https://netapp-cloud-account.auth0.com | 新しい同期関係のソースファイルを分類を使用して選択する場合に、BlueXPの分類に連絡します。 

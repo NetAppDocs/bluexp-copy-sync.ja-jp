@@ -167,7 +167,6 @@
   <block id="1c3e0d66ceb2ba1955fa5d6c931788cd" category="list-text">ソースからファイルが削除された場合は、ターゲットの場所からファイルを削除することを選択します。デフォルトでは、ターゲットの場所からファイルが削除されることはありません。</block>
   <block id="f12b42eece54a56ffab836a42eb37488" category="list-text">ファイルの種類</block>
   <block id="ab02bb0c1a43b674af1de544e1af3831" category="list-text">ファイル拡張子を除外します</block>
-  <block id="3ac7c94d925c145faa4e821d6da327ac" category="list-text">ファイル拡張子を入力し、 * Enter * キーを押して、同期から除外するファイル拡張子を指定します。たとえば、「 _LOG_OR_.log_ 」と入力すると、 *.log ファイルが除外されます。複数の拡張子に区切り文字は必要ありません。次のビデオでは、簡単なデモを紹介しています。</block>
   <block id="a00fe904aecabd4bff74d8776e6da2c5" category="list-text">ファイルサイズ</block>
   <block id="9c8cecb2075d9547b74e5e71bf16ab79" category="list-text">サイズに関係なくすべてのファイルを同期するか、特定のサイズ範囲のファイルのみを同期するかを選択します。</block>
   <block id="80ccccd39ce6134340fccbf76eb379ae" category="list-text">変更日</block>
@@ -764,7 +763,6 @@
   <block id="c825d05ceebe5978107395d2dffdbcff" category="cell">同期関係に BYOL ライセンスを使用する場合は、ネットアップのサポートにお問い合わせください。</block>
   <block id="cabe1b04cc3c96ae849f8fd810dfecdb" category="cell">\ https://fedoraproject.org</block>
   <block id="ebd974875888e4cb1567f55e3466cda1" category="cell">インストールおよび更新中にデータブローカー仮想マシンに 7z をインストールするには、AutoSupport メッセージをネットアップテクニカルサポートに送信するには 7z が必要です。</block>
-  <block id="6af6c652626660023ec712f6c15bbc0a" category="cell">\ https://sts.amazonaws.com</block>
   <block id="89100474e7faee0c34727c4b2b471007" category="cell">データブローカーが AWS に導入されたときや、オンプレミスに導入されて AWS のクレデンシャルが指定されたときに、 AWS のクレデンシャルを確認することができます。データブローカーは、導入時、更新時、および再起動時にこのエンドポイントにアクセスします。</block>
   <block id="6a3cdc9a7bccf7b319d4cd575bb3b01f" category="section-title">Web ブラウザエンドポイント</block>
   <block id="fd0cb271f0ac093ecb033a2bfea34fbd" category="paragraph">トラブルシューティングの目的でログをダウンロードするには、 Web ブラウザから次のエンドポイントにアクセスする必要があります。</block>
@@ -1884,4 +1882,17 @@
   <block id="04a9fd8958892dd025a4cc8dbf674cd3" category="list-text">sudo PM2 start all</block>
   <block id="536e5d919b8f1f2a0ce12ecc4d2a34c7" category="list-text">関連する外部バケットとの継続的な同期関係を作成します。</block>
   <block id="e08fb6f08b7850e04ea43026fc6e9def" category="admonition">外部バケットとの継続的な同期関係の作成に使用したデータブローカーでは、プロジェクト内のバケットとの間に別の継続的同期関係を作成することはできません。</block>
+  <block id="feb32d3372b2c412782aaf89f4c3468c" category="list-text">同期から除外する正規表現またはファイル拡張子を指定するには、ファイル拡張子を入力して*Enter*キーを押します。たとえば、「 _LOG_OR_.log_ 」と入力すると、 *.log ファイルが除外されます。複数の拡張子に区切り文字は必要ありません。次のビデオでは、簡単なデモを紹介しています。</block>
+  <block id="e8896d6ca3648d230a610f352be679de" category="admonition">正規表現（正規表現）は、ワイルドカードやglob式とは異なります。この機能*only*は正規表現で動作します。</block>
+  <block id="2869c1b7d6055fd39cb65435bce896fd" category="cell">\https://sts.amazonaws.com
+\https://sts.us-east-1.amazonaws.com</block>
+  <block id="3034670f33afeb69347c1f076680bc54" category="list-text">「 * Continue * 」を選択します。データブローカーにS3権限を追加する場合は、AWSのアクセスキーとシークレットキーを入力します。</block>
+  <block id="18cf4605db6670514e116119da7de0a0" category="section-title">2023年9月3日</block>
+  <block id="84a4e9be01e1e0b2123f0992743bb3be" category="section-title">正規表現でファイルを除外</block>
+  <block id="8a2aa0d6caae0bb9fe34491d59f66a36" category="paragraph">ユーザはregexを使用してファイルを除外するオプションを使用できるようになりました。</block>
+  <block id="1f3154fef8201e2bc88bd5111528535c" category="inline-link">*ファイル拡張子を除外*機能の詳細については、こちらをご覧ください。</block>
+  <block id="8ca7330f80b3c6b405f94cdadf97a80c" category="paragraph"><block ref="8ca7330f80b3c6b405f94cdadf97a80c" category="inline-link-rx"></block></block>
+  <block id="f32e3be81b145c34740db00a44c46e93" category="section-title">Azureデータブローカー作成時にS3キーを追加</block>
+  <block id="7631c04fd88511e09fd26f0ce9f65ce1" category="paragraph">Azureデータブローカーの作成時にAWS S3のアクセスキーとシークレットキーを追加できるようになりました。</block>
+  <block id="0aa08047034186671d34875b5617b057" category="paragraph"><block ref="0aa08047034186671d34875b5617b057" category="inline-link-rx"></block></block>
 </blocks>
