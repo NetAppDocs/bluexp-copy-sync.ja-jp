@@ -18,6 +18,32 @@ BlueXPのコピーと同期の新機能をご紹介します。
 
 
 
+== 2023年11月26日
+
+
+
+=== Azure Blobに対するコールドストレージクラスのサポート
+
+同期関係の作成時にコールドストレージのAzure Blob階層を使用できるようになりました。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["同期関係の作成について詳しくは、こちらをご覧ください。"]
+
+
+
+=== AWSデータブローカーでのTel Avivリージョンのサポート
+
+AWSでデータブローカーを作成する際に、テルアビブがサポートされるリージョンになりました。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating-the-data-broker["AWSでデータブローカーを作成する方法については、こちらをご覧ください"]。
+
+
+
+=== データブローカーのノードバージョンの更新
+
+これで、すべての新しいデータブローカーでノードバージョン21.2.0が使用されます。この更新プログラムと互換性のないデータブローカー（CentOS 7.0やUbuntu Server 18.0など）は、BlueXPのコピーと同期では使用できなくなります。
+
+
+
 == 2023年9月3日
 
 

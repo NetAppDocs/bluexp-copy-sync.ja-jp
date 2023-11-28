@@ -1698,7 +1698,6 @@
   <block id="bac04a3b125486e43e5adcb9275b0cb7" category="inline-link">[オブジェクトのコピー]設定の詳細については、こちらを参照してください</block>
   <block id="b9101f79b22863de2373d338b3f2fd49" category="paragraph"><block ref="61cd45fc857d1053eae8b58e970eda27" category="inline-link-rx"></block>。</block>
   <block id="b9a11b90960ff803269429887ab4cff3" category="admonition">ユーザはローカルユーザである必要があります。ドメインユーザはサポートされません。</block>
-  <block id="c6d95123ce00e1d2940e9547ed9e800e" category="list-text">* Node.jsとの互換性*：v20</block>
   <block id="029bf19b5ab4e2409feefba3e8d94200" category="section-title">BlueXPのコピーと同期を設定してACLをコピー</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">作業を開始する前に</block>
   <block id="31bea9e85b096361bd5e056000e559fa" category="list-text">BlueXPのコピーと同期で、*[Create New Sync]*を選択します。</block>
@@ -1711,7 +1710,6 @@
   <block id="7c2e6ea8a3aea68b51b8b85907eabea5" category="section-title">SMB共有間でACLを手動でコピーします</block>
   <block id="59e767a49496d7be5777e4cf48d4105c" category="list-text">関係の作成時または関係の作成後に設定を有効にして、ACLのみ、ファイルのみ、またはACLとファイルをSMBサーバからコピーします。</block>
   <block id="e0c7c4832f74beb01a9b0b7f4ceb62b9" category="list-text">Node.jsとの互換性</block>
-  <block id="8286e09aa759584d6fd8292ccdc241cc" category="list-text">V20</block>
   <block id="e0536b4ae9bb49a9633b77ce78d68e0a" category="section-title">同期のパフォーマンスを高速化</block>
   <block id="baf8ddab0e1f4d03b84d74129178e3e2" category="section-title">UpdateCredentials</block>
   <block id="11d4a32f12cfcb43ae53ae70017809c1" category="section-title">通知を設定する</block>
@@ -1897,4 +1895,15 @@
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">クラウドプロバイダのファイルサービスとそのインフラ、またはサービスを使用する解決策に関連するテクニカルサポートについては、該当する製品のBlueXPドキュメントの「困ったときは」を参照してください。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXPおよびそのストレージソリューションとサービスに固有のテクニカルサポートを受けるには、以下に記載されているサポートオプションを使用してください。</block>
   <block id="78e61c832f461b7daf55a1dcd92749e0" category="list-text">Red Hat Enterprise Linux 8.0、8.5、および8.8</block>
+  <block id="a76b69f0eac891a6dad210c8c894f70c" category="section-title">2023年11月26日</block>
+  <block id="5dbbe39e8d4eedbcb5aafdf7e0e66a80" category="section-title">Azure Blobに対するコールドストレージクラスのサポート</block>
+  <block id="2be7473e47d2102f9d51ff1a3cd36305" category="paragraph">同期関係の作成時にコールドストレージのAzure Blob階層を使用できるようになりました。</block>
+  <block id="6e90305f3ad22c32d20c662a0bb06726" category="inline-link">同期関係の作成について詳しくは、こちらをご覧ください。</block>
+  <block id="2bfe6803528ed3d1b4758e7bc6eb4cb6" category="paragraph"><block ref="2bfe6803528ed3d1b4758e7bc6eb4cb6" category="inline-link-rx"></block></block>
+  <block id="e35f035cdd0e53d6ac8e57e89c9a3994" category="section-title">AWSデータブローカーでのTel Avivリージョンのサポート</block>
+  <block id="bc601240bd77a257f82ad29245da02ee" category="paragraph">AWSでデータブローカーを作成する際に、テルアビブがサポートされるリージョンになりました。</block>
+  <block id="e24f754057dce2d0f9791240fec7d494" category="section-title">データブローカーのノードバージョンの更新</block>
+  <block id="a020a6afcaa5c0d333b5cfb93c8d4d79" category="paragraph">これで、すべての新しいデータブローカーでノードバージョン21.2.0が使用されます。この更新プログラムと互換性のないデータブローカー（CentOS 7.0やUbuntu Server 18.0など）は、BlueXPのコピーと同期では使用できなくなります。</block>
+  <block id="067302a61f4ac3cb10bab96cf4753092" category="list-text">v21.2.0</block>
+  <block id="3677e4449a81dc7f1c8db056eade76dd" category="list-text">* Node.jsとの互換性*：v21.2.0</block>
 </blocks>
