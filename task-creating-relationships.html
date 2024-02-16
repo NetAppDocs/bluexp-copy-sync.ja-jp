@@ -1,0 +1,1920 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head class="at-element-marker">
+  <title>同期関係を作成する | NetApp Documentation</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="同期関係を作成する | NetApp Documentation" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/ja-jp/bluexp-copy-sync/task-creating-relationships.html" />
+	<meta property="og:description" content="同期関係を作成すると、BlueXPのコピーおよび同期サービスによってソースからターゲットにファイルがコピーされます。最初のコピーの後、変更されたデータは 24 時間ごとに同期されます。" />
+  <meta property="og:image" content="https://docs.netapp.com/ja-jp/bluexp-copy-sync/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="同期関係を作成すると、BlueXPのコピーおよび同期サービスによってソースからターゲットにファイルがコピーされます。最初のコピーの後、変更されたデータは 24 時間ごとに同期されます。">
+  <meta name="keywords" content=" sync, relationship, create, tags, settings, create a relationship, creating relationships, bucket setup, tags"><!-- Icons -->
+  <link rel="icon" href="/ja-jp/bluexp-copy-sync/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed --><link rel="alternate" type="application/rss+xml" title="NetApp Documentation" href="/ja-jp/bluexp-copy-sync/feed.xml"><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/ja-jp/bluexp-copy-sync/css/ie-netappdocs.css">
+
+  
+  <link rel="stylesheet" href="/ja-jp/bluexp-copy-sync/css/ie-landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/ja-jp/bluexp-copy-sync/css/ie-tabbed-blocks.css" type="text/css">
+  <!-- Canonical url -->
+  <link rel="canonical" href="https://docs.netapp.com/ja-jp/bluexp-copy-sync/task-creating-relationships.html" />
+  <link rel="alternate" hreflang="x-default" href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html" />
+  <link rel="alternate" hreflang="ja" href="https://docs.netapp.com/ja-jp/bluexp-copy-sync/task-creating-relationships.html" />
+  <link rel="alternate" hreflang="en" href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html" />
+  <link rel="alternate" hreflang="ko" href="https://docs.netapp.com/ko-kr/bluexp-copy-sync/task-creating-relationships.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://docs.netapp.com/zh-cn/bluexp-copy-sync/task-creating-relationships.html" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://docs.netapp.com/zh-tw/bluexp-copy-sync/task-creating-relationships.html" />
+  <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/bluexp-copy-sync/task-creating-relationships.html" />
+  <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/bluexp-copy-sync/task-creating-relationships.html" />
+  <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/bluexp-copy-sync/task-creating-relationships.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/bluexp-copy-sync/task-creating-relationships.html" />
+  <!-- Top level site integrations -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/72570c5c-fe30-465f-b0e0-b77f7fb4ae34/OtAutoBlock.js"></script>
+    <script type="text/javascript" src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" charset="UTF-8" data-document-language="true" data-domain-script="72570c5c-fe30-465f-b0e0-b77f7fb4ae34"></script>
+    <script type="text/javascript">function OptanonWrapper() { }</script>
+    <script type="text/plain" class="optanon-category-C0002" src="https://assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js"></script>
+    <script class="optanon-category-C0001">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.setAttributeNode(d.createAttribute('data-ot-ignore'));j.setAttribute('class','optanon-category-C0001');j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MD73T9M');</script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+      const MASTHEAD_OFFSET = 65;
+      const SECTIONS = $("main h2, main h3");
+      // PAGE NAV - Init
+      if (SECTIONS.length == 0) {
+        // remove if there is no elements
+        /*
+        $("#ie-right-navbar").remove();
+        $("#ie-right-navbar-collapse").remove();
+        */
+      } else {
+        $(".page-nav-title").css('display', 'block');
+        for (var i = 0; i < SECTIONS.length; i++) {
+          var sectionId = $(SECTIONS[i]).attr('id');
+          var sectionName = $(SECTIONS[i]).text();
+          var subClass = $(SECTIONS[i]).is("h3") ? ' page-nav__sublink' : '';
+          $("#page-menu").append('<li class="page-nav-item"><a href="#' + sectionId + '" class="page-nav__link' + subClass + '">' + sectionName + '</a></li>');
+        }
+      }
+    });
+  </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ja-jp/bluexp-copy-sync/js/na-search.js'></script><script src='/ja-jp/bluexp-copy-sync/js/ie-clouddocs.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><script>
+    /*
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+      */
+  </script>
+  <script src='/ja-jp/bluexp-copy-sync/js/custom-dropdown.js'></script>
+  <script src='/ja-jp/bluexp-copy-sync/js/FileSaver.min.js'></script>
+  <script src='/ja-jp/bluexp-copy-sync/js/jszip-utils.min.js'></script>
+  <script src='/ja-jp/bluexp-copy-sync/js/jszip.min.js'></script><script src='/ja-jp/bluexp-copy-sync/js/ie-pdf-ux.js'></script></head>
+
+
+  <body class role="document" data-flavor="">
+    <div class="skip-to-main">
+      <a href="#main" >Skip to main content</a>
+    </div><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD73T9M"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="page" class="">
+      <div id="ie-phone-menu" class=""></div>
+      <div id="ie-content-wrap" class="">
+        <nav id="ie-new-header">
+    <ul>
+        <li id="ie-phone-menu-button">
+            <a href="#">
+                <image id="" src="/ja-jp/bluexp-copy-sync/images/hamburger.svg" alt="menu" />
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.netapp.com/ja/">
+                <image id="ie-header-logo" src="/ja-jp/bluexp-copy-sync/images/netapp_logo.svg" alt="netapp" />
+            </a>
+        </li>
+        <li id="ie-header-docs">
+            <a href="https://www.netapp.com/ja/support-and-training/documentation/">ドキュメント</a>
+        </li>
+
+        <!-- Empty container to push header left with or without lang selector -->
+        <li id="empty-container" style="margin-left: auto">
+        </li>
+        <!-- Start Language Selector --><li id="ie-language-dropdown">
+            <div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+                <div class="custom-dropdown-select custom-dropdown-select-lang">
+                    <img src="/ja-jp/bluexp-copy-sync/images/language_white_24dp.svg" class="n-globe__icon" />
+                    <span class="lang-name">日本語</span>
+                    <img src="/ja-jp/bluexp-copy-sync/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/ja-jp/bluexp-copy-sync/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu"><li>
+                        <a href="https://docs.netapp.com/ja-jp/bluexp-copy-sync/task-creating-relationships.html"
+                            target="_self"><span translate="no" class="notranslate">日本語</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html"
+                            target="_self"><span translate="no" class="notranslate">English</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ko-kr/bluexp-copy-sync/task-creating-relationships.html"
+                            target="_self"><span translate="no" class="notranslate">한국어</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-cn/bluexp-copy-sync/task-creating-relationships.html"
+                            target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-tw/bluexp-copy-sync/task-creating-relationships.html"
+                            target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/de-de/bluexp-copy-sync/task-creating-relationships.html"
+                            target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/es-es/bluexp-copy-sync/task-creating-relationships.html"
+                            target="_self"><span translate="no" class="notranslate">Español</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/fr-fr/bluexp-copy-sync/task-creating-relationships.html"
+                            target="_self"><span translate="no" class="notranslate">Français</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/it-it/bluexp-copy-sync/task-creating-relationships.html"
+                            target="_self"><span translate="no" class="notranslate">Italiano</span></a>
+                    </li></ul>
+            </div>
+            </li>
+        <!-- End Language Selector -->
+
+
+        <li id="ie-allnetapp">
+            <div id="allnetapp-dropdown" class="custom-dropdown custom-dropdown-allnetapp">
+                <div class="custom-dropdown-select custom-dropdown-select-allnetapp">
+                    <img src="/ja-jp/bluexp-copy-sync/images/apps_white_24dp.svg" alt="" class="allnetapp-icon" />
+                    <span class="allnetapp-name">すべてのNetApp</span>
+                    <img src="/ja-jp/bluexp-copy-sync/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/ja-jp/bluexp-copy-sync/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu allnetapp-dropdown">
+                    <li>
+                        <a href="https://bluexp.netapp.com/ja/"
+                            target="_self"><span translate="no" class="notranslate">BlueXP</span></a>
+                    </li>
+                    <li>
+                        <a href="https://mysupport.netapp.com/site/"
+                            target="_self"><span translate="no" class="notranslate">サポート</span></a>
+                    </li>
+                    <li>
+                        <a href="https://kb-ja.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">ナレッジ ベース</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.netapp.com/support-and-training/netapp-learning-services/"
+                            target="_self"><span translate="no" class="notranslate">トレーニング</span></a>
+                    </li>
+                </ul>
+            </div>
+
+        </li>
+
+    </ul>
+</nav>
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+
+<div id="ie-new-sidebar-collapse" style="display: none">
+    <img id="sidebar-expand" class="ie-searchbox-icon" src="/ja-jp/bluexp-copy-sync/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-new-sidebar">
+    <div id="ie-product-identity-lockup">
+        <div id="sidebar-collapse" class="">
+            <img src="/ja-jp/bluexp-copy-sync/images/double_arrow.svg" alt="" />
+        </div>
+        <div id="ie-breadcrumb" class="">
+  <ul class="ie-breadcrumb">
+    <li class="">
+      <a href="https://docs.netapp.com">すべてのドキュメント</a>
+    </li>
+    
+    
+    <li class="">
+      <a href="https://docs.netapp.com/us-en/cloud/">クラウド ドキュメント</a>
+    </li>
+    
+
+    
+    <li class="">
+      <a href="https://docs.netapp.com/ja-jp/bluexp-family/">
+        BlueXP
+      </a>
+    </li>
+    
+  </ul>
+  
+  <div class="ie-product-name" >
+    <!--<a href="/ja-jp/bluexp-copy-sync/">-->
+      BlueXP copy and sync
+    <!--</a>-->
+  </div>
+</div>
+
+            
+
+        
+        
+
+<div id="ie-searchbox" class="ie-searchbox-sidebar ">
+    <img class="ie-searchbox-icon" src="/ja-jp/bluexp-copy-sync/images/loupe.svg" alt=""/>
+    <div id="react-search" 
+        data-search-html="/ja-jp/bluexp-copy-sync/search.html" 
+        data-type="widget"
+        data-placeholder="ドキュメントを検索"
+        data-no-results-found="{query}に一致する結果は見つかりませんでした"
+        data-did-you-mean="{suggestion}で検索しています。"
+        data-no-results-found-did-you-mean="{query}に一致する結果は見つかりませんでした。{suggestion}で検索しますか？"
+        data-results-found="{hitCount}件の結果が見つかりました"
+        data-error-message="エラーが発生しました。もう一度お試しください。"
+        data-error-reset="検索をリセット"
+        data-sk-es-pf-indexes="" 
+        data-flavor="">
+    </div>
+</div>
+        
+    </div>
+    <div id="ie-new-toc"><script>
+  let sidebarAccordion = true;
+
+  /* specific css rules for Mac */
+  if(navigator.platform.match('Mac') !== null) {
+    document.body.setAttribute('class', 'OSX');
+  }
+
+</script>
+
+<div id="ie-sidebar-container">
+  <ul id="ie-sidebar-list" ><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXPのコピーと同期のドキュメント"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/index.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/ja-jp/bluexp-copy-sync/index.html">
+        BlueXPのコピーと同期のドキュメント
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="リリースノート"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> リリースノート</div>-->
+         リリースノート
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="新機能"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/whats-new.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/bluexp-copy-sync/whats-new.html">
+        新機能
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="制限"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/reference-limitations.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/bluexp-copy-sync/reference-limitations.html">
+        制限
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="はじめに"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> はじめに</div>-->
+         はじめに
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXPのコピーと同期について説明します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/concept-cloud-sync.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/bluexp-copy-sync/concept-cloud-sync.html">
+        BlueXPのコピーと同期について説明します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="クイックスタート"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/task-quick-start.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/bluexp-copy-sync/task-quick-start.html">
+        クイックスタート
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="サポートされている同期関係を表示する"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/reference-supported-relationships.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/bluexp-copy-sync/reference-supported-relationships.html">
+        サポートされている同期関係を表示する
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ソースとターゲットを準備します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/reference-requirements.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/bluexp-copy-sync/reference-requirements.html">
+        ソースとターゲットを準備します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ネットワークを準備"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/reference-networking.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/bluexp-copy-sync/reference-networking.html">
+        ネットワークを準備
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="データブローカーをインストール"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> データブローカーをインストール</div>-->
+         データブローカーをインストール
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="AWS にインストールします"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/task-installing-aws.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ja-jp/bluexp-copy-sync/task-installing-aws.html">
+        AWS にインストールします
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Azure にインストール"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/task-installing-azure.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ja-jp/bluexp-copy-sync/task-installing-azure.html">
+        Azure にインストール
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Google Cloud にインストールします"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/task-installing-gcp.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ja-jp/bluexp-copy-sync/task-installing-gcp.html">
+        Google Cloud にインストールします
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Linux ホストにをインストールします"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/task-installing-linux.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ja-jp/bluexp-copy-sync/task-installing-linux.html">
+        Linux ホストにをインストールします
+      </a></li></ul></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXPのコピーと同期を使用"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> BlueXPのコピーと同期を使用</div>-->
+         BlueXPのコピーと同期を使用
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ソースとターゲットの間でデータを同期します"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> ソースとターゲットの間でデータを同期します</div>-->
+         ソースとターゲットの間でデータを同期します
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="同期関係を作成します"
+      data-li-level="3#" 
+      class="  ie-sidebar-selected    "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/task-creating-relationships.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ja-jp/bluexp-copy-sync/task-creating-relationships.html">
+        同期関係を作成します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="SMB 共有から ACL をコピーする"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/task-copying-acls.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ja-jp/bluexp-copy-sync/task-copying-acls.html">
+        SMB 共有から ACL をコピーする
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="転送中の NFS データを暗号化"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/task-nfs-encryption.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ja-jp/bluexp-copy-sync/task-nfs-encryption.html">
+        転送中の NFS データを暗号化
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="橋本からの秘密を使用してください"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/task-external-vault.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ja-jp/bluexp-copy-sync/task-external-vault.html">
+        橋本からの秘密を使用してください
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ライセンスをセットアップする"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/task-licensing.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/bluexp-copy-sync/task-licensing.html">
+        ライセンスをセットアップする
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="同期関係を管理します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/task-managing-relationships.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/bluexp-copy-sync/task-managing-relationships.html">
+        同期関係を管理します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="データブローカーの管理"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/task-managing-data-brokers.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/bluexp-copy-sync/task-managing-data-brokers.html">
+        データブローカーの管理
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="レポートを表示して、設定を調整します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/task-managing-reports.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/bluexp-copy-sync/task-managing-reports.html">
+        レポートを表示して、設定を調整します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="データブローカーをアンインストール"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/task-uninstalling.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/bluexp-copy-sync/task-uninstalling.html">
+        データブローカーをアンインストール
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="REST API で自動化"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/api-sync.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/ja-jp/bluexp-copy-sync/api-sync.html">
+        REST API で自動化
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="概念"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 概念</div>-->
+         概念
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ライセンス"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/concept-licensing.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/bluexp-copy-sync/concept-licensing.html">
+        ライセンス
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="データのプライバシー"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/concept-privacy.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/bluexp-copy-sync/concept-privacy.html">
+        データのプライバシー
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="よく寄せられる質問"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/faq.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/bluexp-copy-sync/faq.html">
+        よく寄せられる質問
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="知識とサポート"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ja-jp/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ja-jp/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 知識とサポート</div>-->
+         知識とサポート
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="サポートに登録します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/task-support-registration.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/bluexp-copy-sync/task-support-registration.html">
+        サポートに登録します
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ヘルプを表示します"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/task-get-help.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ja-jp/bluexp-copy-sync/task-get-help.html">
+        ヘルプを表示します
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="法的通知"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/task-creating-relationships.html" 
+      dale-entry-url="/legal-notices.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/ja-jp/bluexp-copy-sync/legal-notices.html">
+        法的通知
+      </a></li></ul>
+</div>
+<script>
+
+  $(".ie-sidebar-button").click(function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    expandedLI = $('li.ie-sidebar-expand')
+
+    const li = $(this).closest("li");
+
+    const parentsLI = $(li).parents('li');
+
+    expandedLI.map(element => {
+      if (sidebarAccordion && !li.hasClass('ie-sidebar-expand') && jQuery.inArray(expandedLI[element], parentsLI) == -1) {
+        $(expandedLI[element]).toggleClass('ie-sidebar-expand');
+        $(expandedLI[element]).children("ul").animate({ height: 'toggle' }, 400, function () {
+          $(li).children("ul").toggleClass('ie-sidebar-open');
+
+        })
+      }
+
+    })
+
+    $(li).toggleClass('ie-sidebar-expand');
+    $(li).children("ul").animate({ height: 'toggle' }, 400, function () {
+      $(li).children("ul").toggleClass('ie-sidebar-open');
+    })
+  });
+
+
+  
+    $("li.ie-sidebar-selected").parents('ul').toggleClass("ie-sidebar-open");
+    $("li.ie-sidebar-selected").toggleClass("ie-sidebar-expand")
+    $("ul.ie-sidebar-open").parent().toggleClass("ie-sidebar-expand");
+    $("li.ie-sidebar-selected").children('ul').toggleClass("ie-sidebar-open")
+  
+  
+</script>
+    </div>
+</div>
+<script>
+
+    
+    let sidebarScrollTopPosition = 0;
+    $("#ie-new-toc").on("scroll", function () {
+        if (sidebarScrollTopPosition == 0) {
+            $.cookie("sidebarScroll", $("#ie-new-toc").scrollTop(), {
+                path: "/ja-jp/bluexp-copy-sync"
+            });
+        }
+
+        if ($("#ie-new-toc").scrollTop() > 0) {
+            $('#ie-product-identity-lockup').addClass('ie-addShadow');
+        } else {
+            $('#ie-product-identity-lockup').removeClass('ie-addShadow');
+        }
+    });
+
+    $(function () {
+        if ($.cookie("sidebarScroll")) {
+            $("#ie-new-toc").scrollTop($.cookie("sidebarScroll"));
+        }
+    });
+
+    function setSidebarBottom() {
+        const footerGap = PXinViewport($(".n-footer"));
+        document.getElementById("ie-new-sidebar").style.bottom = Math.max(0, footerGap) + "px";
+    }
+
+    window.onscroll = () => {
+        setSidebarBottom();
+    };
+
+    $("#sidebar-collapse").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        if ($.cookie("sidebarScroll")) {
+            sidebarScrollTopPosition = $.cookie("sidebarScroll");
+        }
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 350, function () {
+            $("#ie-new-sidebar-collapse").show();
+            $("#ie-new-sidebar").removeClass("open")
+            $("#ie-new-sidebar").addClass("close")
+            $("#ie-new-sidebar").removeAttr("style")
+        });
+        $(".ie-content-pane").animate({ width: (width + sidebarWidth), marginLeft: (marginLeft - sidebarWidth) }, 350, function () {
+            resizeContent()
+        })
+
+    });
+    $("#sidebar-expand").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 250, function () {
+            $('#ie-new-sidebar').css('display', 'flex');
+            $("#ie-new-sidebar-collapse").hide();
+            $("#ie-new-sidebar").removeClass("close")
+            $("#ie-new-sidebar").addClass("open")
+            setSidebarBottom();
+
+            if (sidebarScrollTopPosition != 0) {
+                $.cookie("sidebarScroll", sidebarScrollTopPosition, {
+                    path: "/ja-jp/bluexp-copy-sync"
+                })
+                $("#ie-new-toc").scrollTop(sidebarScrollTopPosition);
+                sidebarScrollTopPosition = 0;
+            }
+        });
+        $(".ie-content-pane").animate({ width: (width - sidebarWidth), 'marginLeft': (marginLeft + sidebarWidth) }, 250, function () {
+            resizeContent()
+        })
+    });
+    function resizeContent() {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        const rightNavbarVisible =  $("#ie-right-navbar").css('display') && $("#ie-right-navbar").css('display') != 'none';
+        const sidebarVisible = $("#ie-new-sidebar").css('display') != 'none';
+        const rightNavbarWidth = $("#ie-right-navbar").width();
+        const rightNavbarCollapseWidth = $("#ie-right-navbar-collapse").width();
+        const rightNavbarCollapseVisible = $("#ie-right-navbar-collapse").css('display') && $("#ie-right-navbar-collapse").css('display') != 'none';
+        
+        if (rightNavbarVisible && sidebarVisible) {
+            $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarWidth}px)`)
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+        } else if (sidebarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarCollapseWidth}px)`)
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar").width()}px)`)
+            }
+
+        } else if (rightNavbarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            $(".ie-content-pane").width(`calc(100% - ${rightNavbarWidth}px)`)
+        } else {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${rightNavbarCollapseWidth}px)`);
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar-collapse").width()}px) `);
+            }
+            
+        }
+    }
+    $(window).on("resize load", function () {
+        setSidebarBottom();
+        resizeContent()
+    });
+
+
+</script>
+
+<div class="ie-content-pane ie-component-detail-content ie-component-detail-content--show-code">
+    <!-- Begin of page container --><article class="page-content" id="main">
+      <!-- include utility.html -->
+      <div class="ie-info-disclaimer">
+    <span>
+      <div class="ie-info-disclaimer-container">
+        <div class="ie-info-disclaimer-icon">
+          <img src="/ja-jp/bluexp-copy-sync/images/notification-icons.svg" class="luci-icon" alt="" />
+        </div>
+        <div class="ie-info-disclaimer-content">
+          <span> 日本語は機械翻訳による参考訳です。内容に矛盾や不一致があった場合には、英語の内容が優先されます。 </span>
+        </div>
+        <div style="clear:both;"></div>
+      </div>
+    </span>
+  </div><div class="ie-component-detail-heading-wrap">
+  <h1 class="ie-component-detail-heading">同期関係を作成する</h1>
+</div>
+
+<div id="ie-byline">
+  
+<div class="page-details">
+    
+        
+            <time datetime="2024-02-16 21:02:35 +0000">02/16/2024</time>
+        
+    
+    
+        <span>共同作成者
+        </span>
+    
+    
+</div>
+<div class="page-controls">
+    <div id="contribute-dropdown" class="custom-dropdown custom-dropdown-contrib" >
+        <div class="custom-dropdown-select custom-dropdown-select-contrib">
+        <span class="contrib-name"><img src="/ja-jp/bluexp-copy-sync/images/discuss-sm.svg" alt="" class="github-icon" />変更を提案</span>
+        <img src="/ja-jp/bluexp-copy-sync/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown invisible" />
+        <img src="/ja-jp/bluexp-copy-sync/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup" />
+        </div>
+        <ul class="custom-dropdown-menu suggested-changes-dropdown"><li>
+                <a target="_blank" href="https://github.com/NetAppDocs/bluexp-copy-sync.ja-jp/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/ja-jp/bluexp-copy-sync/task-creating-relationships.html&page-title=同期関係を作成する" class="page-nav-contribute-link" role="button">ドキュメントの変更をリクエスト</a>
+            </li><li> 
+                <a target="_blank" href="https://github.com/NetAppDocs/bluexp-copy-sync/blob/main/task-creating-relationships.adoc" class="page-nav-contribute-link" role="button">このページを編集</a>
+            </li><li><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  >フィードバックを送るには</a></li>
+        </ul>
+    </div>
+    <div id="pdf-control-container">
+        <div class="n-pdf-header">
+            <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+                <img class="adobe-icon" src="/ja-jp/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>PDF<img src="/ja-jp/bluexp-copy-sync/images/dropdown-arrow.svg" class="custom-icon" alt="" />
+            </a>
+        </div>
+        <div class="n-pdf-body-container">
+            <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+                    
+                    
+                    
+                    <a target="_blank" class="pdf-download-link" href="/ja-jp/bluexp-copy-sync/pdfs/fullsite-sidebar/BlueXPのコピーと同期に関するドキュメント.pdf" >
+                    <img src="/ja-jp/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>このドキュメント ページのPDF</a>
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/bluexp-copy-sync/pdfs/sidebar/リリースノート.pdf" 
+            
+          >
+            <img src="/ja-jp/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            リリースノート
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/bluexp-copy-sync/pdfs/sidebar/はじめに.pdf" 
+            
+          >
+            <img src="/ja-jp/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            はじめに
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/bluexp-copy-sync/pdfs/sidebar/データブローカーをインストール.pdf" 
+            
+          >
+            <img src="/ja-jp/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            データブローカーをインストール
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/bluexp-copy-sync/pdfs/sidebar/BlueXPのコピーと同期を使用.pdf" 
+            
+          >
+            <img src="/ja-jp/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            BlueXPのコピーと同期を使用
+          </a>
+          
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/bluexp-copy-sync/pdfs/sidebar/ソースとターゲットの間でデータを同期します.pdf" 
+            
+          >
+            <img src="/ja-jp/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            ソースとターゲットの間でデータを同期します
+          </a>
+          
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
+  
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/bluexp-copy-sync/pdfs/sidebar/概念.pdf" 
+            
+          >
+            <img src="/ja-jp/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            概念
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ja-jp/bluexp-copy-sync/pdfs/sidebar/知識とサポート.pdf" 
+            
+          >
+            <img src="/ja-jp/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            知識とサポート
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+</li></ul>
+            <div class="zip-pdf-link-container" style="display: none;">   
+                <a href="#" id="zipPdf">
+                <img src="/ja-jp/bluexp-copy-sync/images/pdf-zip.png" alt="" width="16" height="16"/>
+                <pre>PDF版ドキュメントのセット<span class="zip-size"></span></pre>
+                </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+        </div>
+    </div>        
+<script>
+$("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+$("#toggleButtonPdf").on('click', function(e){ 
+    e.stopPropagation();
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+});
+
+//hide is by clicking outside pdfcontainer
+$(document).on('click', function (e) {
+    if ($('#toggleContainerPdf').is(':visible') && !$('.n-pdf-body-container').is(e.target) && !$('.n-pdf-body-container').has(e.target).length)  {
+        
+        $("#toggleContainerPdf").toggle('display');
+        $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+        $("#toggleButtonPdf").removeClass("active");
+    }
+});
+</script>
+<script>
+    function getPdfLocation() {
+        const pdfLocation = window.scrollX + document.querySelector('#pdf-control-container').getBoundingClientRect().left
+        if (pdfLocation < 450) {
+            $(".n-pdf-body-container").addClass("block")
+        } else {
+            $(".n-pdf-body-container").removeClass("block")
+        }
+    
+    }
+    $( window ).on( "resize", function() {
+        getPdfLocation()
+} );
+</script>
+<script>
+    const pdfButtonWidth =  $(".n-pdf-header").width();
+    const pdfMenuWidth = $(".n-pdf-body-container").width();
+    $(".n-pdf-body-container").css('margin-left', `calc(${pdfButtonWidth - pdfMenuWidth}px)`);
+</script>
+</div>
+
+    
+
+</div>
+
+
+
+
+<div class="content-to-index">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>同期関係を作成すると、BlueXPのコピーおよび同期サービスによってソースからターゲットにファイルがコピーされます。最初のコピーの後、変更されたデータは 24 時間ごとに同期されます。</p>
+</div>
+<div class="paragraph">
+<p>一部の種類の同期関係を作成する前に、まずBlueXPで作業環境を作成する必要があります。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="特定のタイプの作業環境の同期関係を作成します">特定のタイプの作業環境の同期関係を作成します</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>次のいずれかの同期関係を作成する場合は、最初に作業環境を作成または検出する必要があります。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>ONTAP 対応の Amazon FSX</p>
+</li>
+<li>
+<p>Azure NetApp Files の特長</p>
+</li>
+<li>
+<p>Cloud Volumes ONTAP</p>
+</li>
+<li>
+<p>オンプレミスの ONTAP クラスタ</p>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">手順</div>
+<ol class="arabic">
+<li>
+<p>作業環境を作成または検出します。</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/task-getting-started-fsx.html" target="_blank" rel="noopener">"ONTAP 作業環境用の Amazon FSX を作成します"</a></p>
+</li>
+<li>
+<p><a href="https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-quick-start.html" target="_blank" rel="noopener">"Azure NetApp Files をセットアップおよび検出しています"</a></p>
+</li>
+<li>
+<p><a href="https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-aws.html" target="_blank" rel="noopener">"AWS での Cloud Volumes ONTAP の起動"</a></p>
+</li>
+<li>
+<p><a href="https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-azure.html" target="_blank" rel="noopener">"Azure で Cloud Volumes ONTAP を起動します"</a></p>
+</li>
+<li>
+<p><a href="https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html" target="_blank" rel="noopener">"Google Cloud で Cloud Volumes ONTAP を起動しています"</a></p>
+</li>
+<li>
+<p><a href="https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-adding-systems.html" target="_blank" rel="noopener">"既存の Cloud Volumes ONTAP システムの追加"</a></p>
+</li>
+<li>
+<p><a href="https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html" target="_blank" rel="noopener">"ONTAP クラスタの検出"</a></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>[キャンバス]*を選択します。</p>
+</li>
+<li>
+<p>上記のいずれかのタイプに一致する作業環境を選択してください。</p>
+</li>
+<li>
+<p>[ 同期 ] の横のアクションメニューを選択します。</p>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_sync_we.gif" alt="作業環境を選択した後の同期メニューで使用可能なアクションを示すスクリーンショット。"></span></p>
+</div>
+</li>
+<li>
+<p>この場所から * データを同期 * または * この場所へのデータの同期 * を選択し、プロンプトに従って同期関係を設定します。</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="他のタイプの同期関係を作成します">他のタイプの同期関係を作成します</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>ONTAP 、 Azure NetApp Files 、 Cloud Volumes ONTAP 、オンプレミスの ONTAP クラスタで、 Amazon FSX 以外のサポートされているストレージタイプとの間でデータを同期するには、次の手順を実行します。以下の手順は、 NFS サーバから S3 バケットへの同期関係を設定する方法の例を示しています。</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>BlueXPで、* Sync *を選択します。</p>
+</li>
+<li>
+<p>[ 同期関係の定義 *] ページで、ソースとターゲットを選択します。</p>
+<div class="paragraph">
+<p>次の手順では、 NFS サーバから S3 バケットへの同期関係を作成する方法の例を示します。</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_nfs_to_s3.png" alt="新しい同期関係で、ソースとして NFS 、ターゲットとして S3 を表示するスクリーンショット。"></span></p>
+</div>
+</li>
+<li>
+<p>NFS Server * ページで、 AWS と同期する NFS サーバの IP アドレスまたは完全修飾ドメイン名を入力します。</p>
+</li>
+<li>
+<p>[<strong>Data Broker Group</strong>] ページで、プロンプトに従って AWS 、 Azure 、または Google Cloud Platform にデータブローカー仮想マシンを作成するか、データブローカーソフトウェアを既存の Linux ホストにインストールします。</p>
+<div class="paragraph">
+<p>詳細については、次のページを参照してください。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="task-installing-aws.html">"AWS にデータブローカーを作成"</a></p>
+</li>
+<li>
+<p><a href="task-installing-azure.html">"Azure でデータブローカーを作成"</a></p>
+</li>
+<li>
+<p><a href="task-installing-gcp.html">"Google Cloud でデータブローカーを作成"</a></p>
+</li>
+<li>
+<p><a href="task-installing-linux.html">"Linux ホストへのデータブローカーのインストール"</a></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>データブローカーをインストールしたら、*[続行]*を選択します。</p>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot-data-broker-group.png" alt="このスクリーンショットは、正常に導入されたインスタンスを示していますこのインターフェイスには、 AWS ネットワーキングを含むインスタンスの詳細が表示されます。"></span></p>
+</div>
+</li>
+<li>
+<p><a id="filter"></a> [<strong>Directories</strong> ] ページで、最上位のディレクトリまたはサブディレクトリを選択します。</p>
+<div class="paragraph">
+<p>BlueXPのコピーと同期でエクスポートを取得できない場合は、*[エクスポートを手動で追加]*を選択し、NFSエクスポートの名前を入力します。</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/bluexp-copy-sync/images/note.svg" alt="メモ">
+</td>
+<td class="content">
+NFS サーバ上の複数のディレクトリを同期する場合は、同期関係を作成してから同期関係を作成する必要があります。
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>「 * AWS S3 Bucket * 」ページで、バケットを選択します。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ドリルダウンして、バケット内の既存のフォルダを選択するか、バケット内に作成した新しいフォルダを選択します。</p>
+</li>
+<li>
+<p>[リストに追加]*を選択して、AWSアカウントに関連付けられていないS3バケットを選択します。 <a href="reference-requirements.html#s3">"S3 バケットには特定の権限を適用する必要があります。"</a>。</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>[* Bucket Setup* ] ページで、バケットを設定します。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>S3 バケットの暗号化を有効にするかどうかを選択し、 AWS KMS キーの ARN を入力するか、 AES-256 暗号化を選択します。</p>
+</li>
+<li>
+<p>S3 ストレージクラスを選択します。 <a href="reference-supported-relationships.html#storage-classes">"サポートされているストレージクラスを表示します。"</a>。</p>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_bucket_setup.gif" alt="このスクリーンショットは、バケットのセットアップページを示しています。このページでは、暗号化についてははいまたはいいえを選択し、同期されたデータ用の特定の S3 ストレージクラスを選択できます。"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><a id="settings"></a> * ページで、ソースファイルとフォルダーを同期してターゲットの場所に保持する方法を定義します。</p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">スケジュール</dt>
+<dd>
+<p>以降の同期に対して繰り返し実行するスケジュールを選択するか、同期スケジュールをオフにします。データを 1 分ごとに同期するように関係をスケジュールできます。</p>
+</dd>
+<dt class="hdlist1">同期タイムアウト</dt>
+<dd>
+<p>指定した時間、時間、または日数内に同期が完了していない場合に、BlueXPのコピーと同期をキャンセルするかどうかを定義します。</p>
+</dd>
+<dt class="hdlist1">通知</dt>
+<dd>
+<p>BlueXPのコピーと同期の通知をBlueXPの通知センターで受け取るかどうかを選択できます。データの同期が成功した場合、データの同期が失敗した場合、データの同期がキャンセルされた場合の通知を有効にできます。</p>
+</dd>
+<dt class="hdlist1">再試行</dt>
+<dd>
+<p>BlueXPのコピーと同期がファイルの同期をスキップするまでに再試行する回数を定義します。</p>
+</dd>
+<dt class="hdlist1">継続的同期</dt>
+<dd>
+<p>初回のデータ同期後、BlueXPのコピーと同期はソースのS3バケットまたはGoogle Cloud Storageバケットに対する変更をリスンし、ターゲットへの変更が発生したときに継続的に同期します。ソースを定期的に再スキャンする必要はありません。</p>
+<div class="openblock">
+<div class="content">
+<div class="paragraph">
+<p>この設定は、同期関係を作成する場合、およびS3バケットまたはGoogle Cloud StorageからAzure BLOBストレージ、CIFS、Google Cloud Storage、IBM Cloud Object Storage、NFS、S3のデータを同期する場合にのみ使用できます。 Azure Blob StorageからAzure Blob Storage、CIFS、Google Cloud Storage、IBM Cloud Object Storage、NFS、StorageGRID へのStorageGRID <strong>または</strong>。</p>
+</div>
+<div class="paragraph">
+<p>この設定を有効にすると、他の機能に次のように影響します。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>同期スケジュールが無効になっています。</p>
+</li>
+<li>
+<p>次の設定がデフォルト値に戻ります。同期タイムアウト、最近変更されたファイル、更新日。</p>
+</li>
+<li>
+<p>S3がソースの場合、サイズでのフィルタはコピーイベントに対してのみアクティブになります（削除イベントではアクティブになりません）。</p>
+</li>
+<li>
+<p>関係を作成したあとは、関係を高速化または削除する必要があります。同期の中止、設定の変更、レポートの表示はできません。</p>
+<div class="paragraph">
+<p>外部バケットとの間で継続的な同期関係を作成することができます。これを行うには、次の手順を実行します。</p>
+</div>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>外部バケットのプロジェクトのGoogle Cloudコンソールに移動します。</p>
+</li>
+<li>
+<p>[クラウドストレージ]&gt;[設定]&gt;[クラウドストレージサービスアカウント]*に移動します。</p>
+</li>
+<li>
+<p>local.jsonファイルを更新します。</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-json" data-lang="json">{
+"protocols": {
+    "gcp": {
+        "storage-account-email": &lt;storage account email&gt;
+}
+}
+}</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>データブローカーを再起動します。</p>
+<div class="olist upperalpha">
+<ol class="upperalpha" type="A">
+<li>
+<p>sudo PM2 STOP ALL</p>
+</li>
+<li>
+<p>sudo PM2 start all</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>関連する外部バケットとの継続的な同期関係を作成します。</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/bluexp-copy-sync/images/note.svg" alt="メモ">
+</td>
+<td class="content">
+外部バケットとの継続的な同期関係の作成に使用したデータブローカーでは、プロジェクト内のバケットとの間に別の継続的同期関係を作成することはできません。
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ol>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</dd>
+<dt class="hdlist1">で比較してください</dt>
+<dd>
+<p>ファイルやディレクトリが変更されたかどうか、再同期が必要かどうかを判断する際に、BlueXPのコピーと同期を比較するかどうかを選択します。</p>
+<div class="openblock">
+<div class="content">
+<div class="paragraph">
+<p>これらの属性のチェックを外しても、BlueXPのコピーと同期ではパス、ファイルサイズ、ファイル名がチェックされてソースとターゲットが比較されます。変更がある場合は、それらのファイルとディレクトリが同期されます。</p>
+</div>
+<div class="paragraph">
+<p>BlueXPのコピーと同期を有効または無効にして、次の属性を比較することができます。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>mtime</strong>: ファイルの最終変更時刻。この属性はディレクトリに対しては無効です。</p>
+</li>
+<li>
+<p><strong>uid</strong> 、 <strong>gid * 、および * mode</strong> ： Linux の権限フラグ。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</dd>
+<dt class="hdlist1">オブジェクトのコピー</dt>
+<dd>
+<p>オブジェクトストレージのメタデータとタグをコピーする場合は、このオプションを有効にします。ユーザがソースのメタデータを変更した場合、BlueXPのコピーと同期は次回の同期でこのオブジェクトをコピーしますが、ユーザが（データ自体ではなく）ソースのタグを変更した場合、BlueXPのコピーと同期は次回の同期でオブジェクトをコピーしません。</p>
+<div class="openblock">
+<div class="content">
+<div class="paragraph">
+<p>関係の作成後にこのオプションを編集することはできません。</p>
+</div>
+<div class="paragraph">
+<p>ターゲットにAzure BlobまたはS3互換エンドポイント（S3、StorageGRID 、IBM Cloud Object Storage）を含む同期関係では、タグのコピーがサポートされます。</p>
+</div>
+<div class="paragraph">
+<p>メタデータのコピーは、次のいずれかのエンドポイント間の「クラウド間」関係でサポートされます。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>AWS S3</p>
+</li>
+<li>
+<p>Azure Blob の略</p>
+</li>
+<li>
+<p>Google クラウドストレージ</p>
+</li>
+<li>
+<p>IBM クラウドオブジェクトストレージ</p>
+</li>
+<li>
+<p>StorageGRID</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</dd>
+<dt class="hdlist1">最近変更されたファイル</dt>
+<dd>
+<p>スケジュールされた同期よりも前に最近変更されたファイルを除外するように選択します。</p>
+</dd>
+<dt class="hdlist1">ソース上のファイルを削除します</dt>
+<dd>
+<p>BlueXPのコピーと同期でターゲットの場所にファイルがコピーされたあとに、ソースの場所からファイルを削除するように選択します。このオプションには、コピー後にソースファイルが削除されるため、データ損失のリスクも含まれます。</p>
+<div class="openblock">
+<div class="content">
+<div class="paragraph">
+<p>このオプションを有効にする場合は、データブローカーで local.json ファイルのパラメータも変更する必要があります。ファイルを開き、次のように更新します。</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-json" data-lang="json">{
+"workers":{
+"transferrer":{
+"delete-on-source": true
+}
+}
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>local.jsonファイルを更新したら、再起動します。 <code>pm2 restart all</code>。</p>
+</div>
+</div>
+</div>
+</dd>
+<dt class="hdlist1">ターゲット上のファイルを削除します</dt>
+<dd>
+<p>ソースからファイルが削除された場合は、ターゲットの場所からファイルを削除することを選択します。デフォルトでは、ターゲットの場所からファイルが削除されることはありません。</p>
+</dd>
+<dt class="hdlist1">ファイルの種類</dt>
+<dd>
+<p>各同期に含めるファイルタイプ（ファイル、ディレクトリ、シンボリックリンク、ハードリンク）を定義します。</p>
+<div class="openblock">
+<div class="content">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/bluexp-copy-sync/images/note.svg" alt="メモ">
+</td>
+<td class="content">
+ハードリンクは、セキュリティ保護されていないNFSからNFSへの関係でのみ使用できます。ユーザーは1つのスキャナプロセスと1つのスキャナ同時実行に制限され、スキャンはルートディレクトリから実行する必要があります。
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</dd>
+<dt class="hdlist1">ファイル拡張子を除外します</dt>
+<dd>
+<p>同期から除外する正規表現またはファイル拡張子を指定するには、ファイル拡張子を入力して*Enter*キーを押します。たとえば、「 <em>LOG_OR</em>.log_ 」と入力すると、 *.log ファイルが除外されます。複数の拡張子に区切り文字は必要ありません。次のビデオでは、簡単なデモを紹介しています。</p>
+<div class="openblock">
+<div class="content">
+<div class="videoblock">
+<div class="content">
+<video src="./media/video_file_extensions.mp4" width="840" height="240" controls>
+Your browser does not support the video tag.
+</video>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/bluexp-copy-sync/images/note.svg" alt="メモ">
+</td>
+<td class="content">
+正規表現（正規表現）は、ワイルドカードやglob式とは異なります。この機能*only*は正規表現で動作します。
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</dd>
+<dt class="hdlist1">ディレクトリを除外します</dt>
+<dd>
+<p>同期から除外する正規表現またはディレクトリの名前またはフルパスを入力して*Enter*キーを押し、最大15個の正規表現またはディレクトリを指定します。デフォルトでは、.copy-Offload、.snapshot、~snapshotディレクトリが除外されます。</p>
+<div class="openblock">
+<div class="content">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/bluexp-copy-sync/images/note.svg" alt="メモ">
+</td>
+<td class="content">
+正規表現（正規表現）は、ワイルドカードやglob式とは異なります。この機能*only*は正規表現で動作します。
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</dd>
+<dt class="hdlist1">ファイルサイズ</dt>
+<dd>
+<p>サイズに関係なくすべてのファイルを同期するか、特定のサイズ範囲のファイルのみを同期するかを選択します。</p>
+</dd>
+<dt class="hdlist1">変更日</dt>
+<dd>
+<p>最後に変更した日付、特定の日付以降に変更されたファイル、特定の日付より前、または期間に関係なく、すべてのファイルを選択します。</p>
+</dd>
+<dt class="hdlist1">作成日</dt>
+<dd>
+<p>SMB サーバがソースの場合、この設定を使用すると、指定した日付の前、特定の日付の前、または特定の期間の間に作成されたファイルを同期できます。</p>
+</dd>
+<dt class="hdlist1">[ACL] - アクセスコントロールリスト</dt>
+<dd>
+<p>関係の作成時または関係の作成後に設定を有効にして、ACLのみ、ファイルのみ、またはACLとファイルをSMBサーバからコピーします。</p>
+</dd>
+</dl>
+</div>
+</li>
+<li>
+<p>* Tags/Metadata* ページで、 S3 バケットに転送されたすべてのファイルにキーと値のペアをタグとして保存するか、すべてのファイルにメタデータのキーと値のペアを割り当てるかを選択します。</p>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_relationship_tags.png" alt="Amazon S3 との同期関係を作成する際のタグ / メタデータページを示すスクリーンショット。"></span></p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/bluexp-copy-sync/images/tip.svg" alt="ヒント">
+</td>
+<td class="content">
+この機能は、 StorageGRID と IBM Cloud Object Storage にデータを同期する場合にも使用できます。Azure と Google Cloud Storage では、メタデータオプションのみを使用できます。
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>同期関係の詳細を確認し、*[関係の作成]*を選択します。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>結果 *</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>BlueXPのコピーと同期で、ソースとターゲット間のデータの同期が開始されます。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="bluexpの分類から同期関係を作成">BlueXPの分類から同期関係を作成</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>BlueXPのコピーと同期はBlueXPの分類機能に統合されています。BlueXPの分類から、BlueXPのコピーと同期を使用して、ターゲットの場所に同期するソースファイルを選択できます。</p>
+</div>
+<div class="paragraph">
+<p>BlueXPの分類からデータの同期を開始すると、すべてのソース情報が1つの手順で格納され、重要な詳細情報をいくつか入力するだけで済みます。その後、新しい同期関係の作成先を選択します。</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot-sync-data-sense.png" alt="BlueXPの分類から直接新しい同期を開始したあとに表示されるBlueXPの分類の統合ページを示すスクリーンショット。"></span></p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-classification/task-managing-highlights.html#copying-and-synchronizing-source-files-to-a-target-system" target="_blank" rel="noopener">"BlueXPの分類から同期関係を開始する方法"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <!-- Start Page Toolbar -->
+<div id="ie-right-navbar-collapse" class="close">
+  <img id="navbar-expand" class="ie-searchbox-icon" src="/ja-jp/bluexp-copy-sync/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-right-navbar" class="open">
+  <div id="right-navbar-collapse">
+    <img src="/ja-jp/bluexp-copy-sync/images/double_arrow.svg" alt="" />
+  </div>
+  <div class="page-nav-container">
+    <nav class="page-nav-fixed">
+      <div class="page-nav-title">このページ</div>
+      <div class="page-nav-links">
+        <ul class="page-nav-inner" id="page-menu"></ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+<script>
+  resizeContent();
+  function setRightBarHeight() {
+    var h = 0;
+
+    // header 1
+    h += PXinViewport($('.n-footer'));
+    h += PXinViewport($('#ie-new-header'));
+
+    if ($('#ie-right-navbar').length) {
+      $('#ie-right-navbar').css({ height: `calc(100vh - ${h}px)` });
+    }
+    if ($('.page-nav-links').length) {
+      h += 98;
+      $('.page-nav-links').css({ height: `calc(100vh - ${h}px)` });
+    }
+  }
+
+  $(document).ready(function () {
+    // PAGE NAV - Click
+    const MASTHEAD_OFFSET = 65;
+    const SECTIONS = $("main h2, main h3");
+    let calculateActiveSection = false;
+    setTimeout(() => {
+      calculateActiveSection = true;
+    }, 100)
+
+    $(".page-nav__link").click(function (event) {
+      calculateActiveSection = false;
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      var target = $(event.target);
+      target.addClass('page-nav__link--active');
+      location.hash = event.target.hash;
+      setTimeout(() => {
+        calculateActiveSection = true;
+      }, 100)
+
+    });
+
+    // PAGE NAV - Scroll
+    $(window).on('resize scroll', function () {
+      if (calculateActiveSection) {
+        var activeSection = getActiveSection(SECTIONS, MASTHEAD_OFFSET);
+        if (activeSection) {
+          var activeHref = $(activeSection).attr('id');
+          $(".page-nav__link").removeClass('page-nav__link--active');
+          $("#page-menu a[href=#" + activeHref + "]").addClass('page-nav__link--active');
+          if (location.hash != "#" + activeHref) {
+            if (history.replaceState) {
+              history.replaceState(null, null, "#" + activeHref);
+            }
+          }
+        }
+      }
+    });
+
+    $(".n-pdf-button").click(function () {
+      $(this).toggleClass("active");
+    });
+
+    $.fn.isVisibleAndInViewport = function () {
+      var elementTop = $(this).offset().top;
+      var elementBottom = elementTop + $(this).outerHeight();
+
+      var viewportTop = $(window).scrollTop();
+      var viewportBottom = viewportTop + $(window).height();
+
+      return elementBottom > viewportTop && elementTop < viewportBottom && $(this).is(":visible");
+    };
+
+
+    $(window).on('resize scroll', function () {
+      setRightBarHeight();
+    });
+
+    $(window).trigger('resize');
+
+
+  });
+
+  $("#right-navbar-collapse").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 350, function () {
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+    });
+    $(".ie-content-pane").animate({ width: (width + rightNavbarWidth) }, 350, function () {
+      resizeContent()
+      setSidebarBottom();
+    })
+
+  });
+  $("#navbar-expand").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 250, function () {
+      $("#ie-right-navbar-collapse").removeClass("open")
+      $("#ie-right-navbar-collapse").addClass("close")
+      $("#ie-right-navbar").removeClass("close")
+      $("#ie-right-navbar").addClass("open")
+      setRightBarHeight();
+      setSidebarBottom();
+    });
+    $(".ie-content-pane").animate({ width: (width - rightNavbarWidth) }, 250, function () {
+      resizeContent()
+    })
+  });
+
+  function navbarResize() {
+    const rightNavbarResized = $("#ie-right-navbar-collapse").hasClass('resized');
+    if (window.innerWidth < 1024) {
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+      $("#ie-right-navbar").removeAttr("style")
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar-collapse").addClass("resized")
+    } else {
+      if (rightNavbarResized) {
+        $('#ie-right-navbar').removeClass('close');
+        $('#ie-right-navbar').addClass('open');
+        $("#ie-right-navbar-collapse").removeClass("resized")
+        $("#ie-right-navbar-collapse").removeClass("open")
+        $("#ie-right-navbar-collapse").addClass("close")
+      }
+    }
+    resizeContent()
+  }
+  navbarResize();
+  $(window).on('resize load', function () {
+    navbarResize()
+  });
+
+  function getActiveSection(sections, offset) {
+    var scrollPosition = $(window).scrollTop() + offset + 5;
+    var activeSection;
+    for (var i = 0; i < sections.length; i++) {
+      var el = $(sections[i]);
+      var activePosition = el.offset().top;
+      if (activePosition > scrollPosition) {
+        break;
+      }
+
+      activeSection = sections[i];
+    }
+
+    return activeSection;
+  }
+
+  $("a[href*=#]:not([href=#])").click(function () {
+    setTimeout(() => {
+      $(window).trigger('scroll');
+    }, 105)
+  })
+
+  const hashOnLoad = location.href.split("#")[1];
+  setTimeout(function () {
+    if (hashOnLoad) {
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      $("#page-menu a[href=#" + hashOnLoad + "]").addClass('page-nav__link--active');
+    }
+  }, 100)
+
+</script>
+
+
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+        <div class="n-footer__left">
+          <li class="n-footer__copyright-link">
+                    <a href="https://www.netapp.com/company/legal/copyright/">© 2024 NetApp, Inc.</a>
+          </li>
+        </div>
+        <div class="n-footer__center">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">ご利用規約</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">プライバシー ポリシー</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">クッキー ポリシー</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a class="ot-sdk-show-settings">クッキーの設定</a>
+            </li>
+          </ul>
+       </div>
+        <div class="n-footer__right">
+              <li class="n-footer__copyright-link">
+                <a target="_self" href="javascript:netapp_mailto()">このページに関するフィードバックをお寄せください</a>
+              </li>
+        </div>
+     </div>
+  </div>
+</footer>
+
+      </div><!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/ja-jp/bluexp-copy-sync/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/ja-jp/bluexp-copy-sync/js/prism.js'></script>
+      <script type="text/javascript" src='/ja-jp/bluexp-copy-sync/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/ja-jp/bluexp-copy-sync/js/ie-tabbed-blocks.js'></script>
+    <script src='/ja-jp/bluexp-copy-sync/js/ie-sidebar.js'></script>
+  </body>
+
+</html>
