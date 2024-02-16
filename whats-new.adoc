@@ -18,6 +18,18 @@ BlueXPのコピーと同期の新機能をご紹介します。
 
 
 
+== 2024年2月11日
+
+
+
+=== 正規表現でディレクトリをフィルタリング
+
+ユーザはregexを使用してディレクトリをフィルタリングできるようになりました。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships["*ディレクトリを除外*機能の詳細については、こちらを参照してください。"]
+
+
+
 == 2023年11月26日
 
 

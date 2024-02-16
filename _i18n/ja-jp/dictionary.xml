@@ -1013,9 +1013,6 @@
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="sidebar">ライセンス</block>
   <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">よく寄せられる質問</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識とサポート</block>
-  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">ブログコミュニティ</block>
-  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">ネットアップコミュニティ</block>
-  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
   <block id="ca08c96498d9894503ce9e420ef6d436" category="section-title">データブローカーグループの仕組み</block>
   <block id="247ec76f61baa3930d7923ec714c899c" category="paragraph">データブローカーグループには、 1 つ以上のデータブローカーを含めることができます。データブローカーをグループ化すると、同期関係のパフォーマンスを向上させることができます。</block>
   <block id="c73532751f2f234c7f0d9ca93cb4b15b" category="section-title">グループ内のデータブローカーの数</block>
@@ -1070,7 +1067,6 @@
   <block id="60c52bea153a81519d33048970ec1005" category="list-text">S3 ストレージクラスを選択します。 <block ref="b6b337d654785cb938f2cf9fb35baf0c" category="inline-link-macro-rx"></block>。</block>
   <block id="586301717819197e24001cac47efdaaa" category="section-title">2022 年 1 月 2 日</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">[ ヘルプ ] メニューのスクリーンショット。サポートは最初に表示されるオプションです</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">ネットアップは、サポートとライセンスに固有の認証サービスのアイデンティティプロバイダとして Microsoft Azure Active Directory を使用しています。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">ログインページで、ネットアップサポートサイトの登録 E メールアドレスとパスワードを入力して認証プロセスを実行します。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">著作権に関する声明、商標、特許などにアクセスできます。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
@@ -1086,7 +1082,6 @@
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">コミュニティ</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">ドキュメント</block>
-  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com [ フィードバックメール ]</block>
   <block id="c07503bbdaf42732886b6b9f136d9eb0" category="list-text">ボックス ^1</block>
   <block id="c01bb6a5867adae467a31539eda72b37" category="cell">SFTP^2^</block>
   <block id="81fb4d1570abd75a1e2945d1f1c9f8cc" category="section-title">2022年5月1日</block>
@@ -1270,7 +1265,6 @@
   <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">BlueXPナレッジベースで問題のトラブルシューティングに役立つ記事を検索します。</block>
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">BlueXPコミュニティに参加して、進行中のディスカッションをフォローしたり、新しいディスカッションを作成したりできます。</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">現在表示しているBlueXPのマニュアル。</block>
-  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">お客様のご意見をお考えください。フィードバックを送信して、BlueXPの改善に役立ててください。</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Service*:問題 が関連付けられているサービスを選択します。たとえば、サービス内のワークフローまたは機能を備えたテクニカルサポート問題 に固有のBlueXPなどです。</block>
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したBlueXPアカウント、ワークスペース、コネクタの範囲内にあります。</block>
   <block id="255fe345cf98c4cc1d97da3902877f73" category="list-text">ユーザートークンとBlueXPアカウントIDを取得するには <block ref="270dc47ac77b7bdcd0ca5fb87f7199b0" category="inline-link-macro-rx"></block>。</block>
@@ -1284,7 +1278,6 @@
   <block id="c2c0cee3ff43b2b22931517d0aff1423" category="paragraph">新しい* Notifications *設定を同期関係に使用できるようになりました。この設定では、BlueXPの通知センターでCloud Sync 通知を受信するかどうかを選択できます。データの同期が成功した場合、データの同期が失敗した場合、データの同期がキャンセルされた場合の通知を有効にできます。</block>
   <block id="e0c9c98f02dabde677a2634ba4ffa251" category="paragraph">スタンドアロンの Cloud Sync サービスは廃止されました。Cloud Sync にはBlueXPから直接アクセスできるようになりました。BlueXPでは、同じ機能をすべて利用できます。</block>
   <block id="2120ca0a41cdfe67b77a3af2e3123d51" category="paragraph">BlueXPにログインした後、上部の[同期]タブに切り替えて、以前と同様に関係を表示できます。</block>
-  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXPブログ</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
   <block id="e7972d5601badb4c5fcefad96c59c2fc" category="cell">¥https://console.bluexp.netapp.com/¥https://netapp-cloud-account.auth0.com</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することはできますが、お客様レベルのアカウントと一緒に追加することはできません。</block>
@@ -1399,7 +1392,6 @@
   <block id="36df1b975561708b246ef1801ea416e5" category="list-text">FSX for ONTAP の略</block>
   <block id="a37b0a91d7c4d8ac6ce924a7f8e1ce5a" category="list-text">On-Prem ONTAP の略</block>
   <block id="9e1b606dc521567131be8e8f6b621511" category="list-text">ディレクトリを除外します</block>
-  <block id="303de3e45b2f15b7f37aa50b2824f981" category="list-text">同期から除外するディレクトリを最大15個指定します。指定するには、名前またはディレクトリのフルパスを入力し、* Enter *を押します。デフォルトでは、.copy-Offload、.snapshot、~snapshotディレクトリが除外されます。これらの情報を同期に含めたい場合は、こちらまでお問い合わせください。</block>
   <block id="c7326baf2ea51b61fafa4f4680d916c0" category="section-title">2023年4月2日</block>
   <block id="9c305cf5f9f8051acc945eda0fc8a1be" category="section-title">Azure Data Lake Storage Gen2関係のサポートが追加されました</block>
   <block id="61babc330ca2ea0af752965dd3965d41" category="paragraph">Azure Data Lake Storage Gen2をソースおよびターゲットとして使用し、以下を使用して同期関係を作成できるようになりました。</block>
@@ -1906,4 +1898,11 @@
   <block id="a020a6afcaa5c0d333b5cfb93c8d4d79" category="paragraph">これで、すべての新しいデータブローカーでノードバージョン21.2.0が使用されます。この更新プログラムと互換性のないデータブローカー（CentOS 7.0やUbuntu Server 18.0など）は、BlueXPのコピーと同期では使用できなくなります。</block>
   <block id="067302a61f4ac3cb10bab96cf4753092" category="list-text">v21.2.0</block>
   <block id="3677e4449a81dc7f1c8db056eade76dd" category="list-text">* Node.jsとの互換性*：v21.2.0</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetAppでは、サポートとライセンスに固有の認証サービスのIDプロバイダとしてMicrosoftエントラIDを使用します。</block>
+  <block id="4b51a8df678b7448fbc55b79ad365ed7" category="section-title">2024年2月11日</block>
+  <block id="66a743c4896414f00b485685ab377a19" category="section-title">正規表現でディレクトリをフィルタリング</block>
+  <block id="df5c4f17d479f00c828a9edc617f2277" category="paragraph">ユーザはregexを使用してディレクトリをフィルタリングできるようになりました。</block>
+  <block id="32d736bf69b032967c9ca2f284cd6218" category="inline-link">*ディレクトリを除外*機能の詳細については、こちらを参照してください。</block>
+  <block id="9afa1c757f9d9c1d7a951ff852629645" category="paragraph"><block ref="9afa1c757f9d9c1d7a951ff852629645" category="inline-link-rx"></block></block>
+  <block id="65f2edc14f4a65d07600885b4ca1a56f" category="list-text">同期から除外する正規表現またはディレクトリの名前またはフルパスを入力して*Enter*キーを押し、最大15個の正規表現またはディレクトリを指定します。デフォルトでは、.copy-Offload、.snapshot、~snapshotディレクトリが除外されます。</block>
 </blocks>
