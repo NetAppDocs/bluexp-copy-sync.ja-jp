@@ -13,6 +13,7 @@ summary: Amazon S3、Azure、またはGoogle Cloudのクレデンシャルを必
 :imagesdir: ./media/
 
 
+[role="lead"]
 Amazon S3、Azure、またはGoogle Cloudのクレデンシャルを必要とする同期関係を作成する場合は、BlueXPのコピーと同期のユーザインターフェイスまたはAPIでクレデンシャルを指定する必要があります。別の方法として、外部の橋本社ボールトから直接クレデンシャル（または _secrets_） にアクセスするようにデータブローカーグループを設定する方法もあります。
 
 この機能は、Amazon S3、Azure、Google Cloudのクレデンシャルを必要とする同期関係を備えたBlueXPのコピーおよび同期APIでサポートされます。

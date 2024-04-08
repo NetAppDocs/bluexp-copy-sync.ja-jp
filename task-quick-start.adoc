@@ -13,6 +13,7 @@ summary: BlueXPのコピーと同期サービスは、いくつかの手順で�
 :imagesdir: ./media/
 
 
+[role="lead"]
 BlueXPのコピーと同期サービスは、いくつかの手順で開始できます。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1つ"] ログインしてBlueXPをセットアップします

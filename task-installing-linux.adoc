@@ -27,7 +27,7 @@ summary: 新しいデータブローカーを作成する場合は、オンプ�
 +
 CentOS ストリームはサポートされていません。
 
-** Red Hat Enterprise Linux 8.0、8.5、および8.8
+** Red Hat Enterprise Linux 8.5、8.8、および8.9
 ** Rocky Linux 9
 ** Ubuntu Server 20.04 LTS の場合は
 ** SUSE Linux Enterprise Server 15 SP1

@@ -18,6 +18,18 @@ BlueXPのコピーと同期の新機能をご紹介します。
 
 
 
+== 2024年4月8日
+
+
+
+=== RHEL 8.9のサポート
+
+データブローカーがRed Hat Enterprise Linux 8.9を実行するホストでサポートされるようになりました。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-host-requirements["Linuxホストの要件の表示"]。
+
+
+
 == 2024年2月11日
 
 
