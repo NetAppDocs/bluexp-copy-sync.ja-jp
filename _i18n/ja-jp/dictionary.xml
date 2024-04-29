@@ -555,7 +555,6 @@
   <block id="f68b92ee815675ae3018eca060b553b7" category="summary">レポートを作成して表示すると、 NetApp の担当者がデータブローカーの構成を調整し、パフォーマンスを向上させるために役立つ情報を入手できます。</block>
   <block id="66a57cf55e06ad77b01c27e38766b83a" category="doc">レポートを作成および表示して、設定を調整します</block>
   <block id="428c9ca45dc8f0b8e1eda231aef5b08f" category="paragraph">レポートを作成して表示すると、ネットアップの担当者が支援する情報を入手して、データブローカーの設定を調整し、パフォーマンスを向上させることができます。</block>
-  <block id="d065612e0b27393ca9ed8b8e18bc869f" category="paragraph">各レポートには、同期関係にあるパスに関する詳細情報が表示されます。たとえば、ファイルシステムのレポートには、ディレクトリとファイルの数、ファイルサイズの分布、ディレクトリの深さと幅などが表示されます。</block>
   <block id="0389649d1c6e65625a57cd6c84149999" category="section-title">レポートの作成</block>
   <block id="26126443d44ba2723fb7a7ede8dda75c" category="paragraph">同期関係のそれぞれのパス（ソースまたはターゲット）が表形式で表示されます。</block>
   <block id="94954fba60bab7206fb4f66c4a7750cb" category="paragraph">ファイルシステムパスのサンプルレポートを次に示します。</block>
@@ -1278,7 +1277,6 @@
   <block id="c2c0cee3ff43b2b22931517d0aff1423" category="paragraph">新しい* Notifications *設定を同期関係に使用できるようになりました。この設定では、BlueXPの通知センターでCloud Sync 通知を受信するかどうかを選択できます。データの同期が成功した場合、データの同期が失敗した場合、データの同期がキャンセルされた場合の通知を有効にできます。</block>
   <block id="e0c9c98f02dabde677a2634ba4ffa251" category="paragraph">スタンドアロンの Cloud Sync サービスは廃止されました。Cloud Sync にはBlueXPから直接アクセスできるようになりました。BlueXPでは、同じ機能をすべて利用できます。</block>
   <block id="2120ca0a41cdfe67b77a3af2e3123d51" category="paragraph">BlueXPにログインした後、上部の[同期]タブに切り替えて、以前と同様に関係を表示できます。</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
   <block id="e7972d5601badb4c5fcefad96c59c2fc" category="cell">¥https://console.bluexp.netapp.com/¥https://netapp-cloud-account.auth0.com</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することはできますが、お客様レベルのアカウントと一緒に追加することはできません。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">サポート登録ページでアカウントIDのシリアル番号を確認します。</block>
@@ -1483,7 +1481,6 @@
   <block id="ba1c1b5e23e3b5a8fddd3f7c246ef506" category="list-text">BlueXPのコピーと同期でターゲットの場所にファイルがコピーされたあとに、ソースの場所からファイルを削除するように選択します。このオプションには、コピー後にソースファイルが削除されるため、データ損失のリスクも含まれます。</block>
   <block id="d00f5267d50bd8fc291109206d3ad858" category="list-text">各同期に含めるファイルタイプ（ファイル、ディレクトリ、シンボリックリンク、ハードリンク）を定義します。</block>
   <block id="e6bb715f6ce6607fa13566339effdb48" category="admonition">ハードリンクは、セキュリティ保護されていないNFSからNFSへの関係でのみ使用できます。ユーザーは1つのスキャナプロセスと1つのスキャナ同時実行に制限され、スキャンはルートディレクトリから実行する必要があります。</block>
-  <block id="c81b15466cc89faa99024d734f63d070" category="paragraph">BlueXPのコピーと同期で、ソースとターゲット間のデータの同期が開始されます。</block>
   <block id="4a8110d7baed5bb188d9ea48ab78e0e6" category="summary">ネットアップでは、BlueXPのコピーと同期サービスの使用中に提供されたクレデンシャルには一切アクセスできません。クレデンシャルは、ネットワーク内のデータブローカーマシンに直接保存されます。</block>
   <block id="bad5b485fd3620e21ec885f8037708e8" category="paragraph">選択した構成によっては、BlueXPのコピーと同期で、新しい関係の作成時にクレデンシャルの入力を求められることがあります。たとえば、 SMB サーバを含む関係を設定する場合や、 AWS にデータブローカーを導入する場合などです。</block>
   <block id="48fdd045e3712fe8b8bf348baef2a5e3" category="summary">新しいデータブローカーを作成する場合、 Google Cloud Data Broker オプションを選択して、 VPC 内の新しい仮想マシンインスタンスにデータブローカーソフトウェアを導入します。BlueXPのコピーと同期の手順に従ってインストールプロセスを実行できますが、インストールの準備に役立つように、このページでは要件と手順を繰り返します。</block>
@@ -1910,4 +1907,13 @@
   <block id="403a870c3777a3434883cf3338197e1e" category="inline-link">Linuxホストの要件の表示</block>
   <block id="33437394afeba112bc78a89e1164345e" category="paragraph"><block ref="bddca2b75222059ea164cace70f493c0" category="inline-link-rx"></block>。</block>
   <block id="62839d4e5d5a9de91b6f7d896439934b" category="list-text">Red Hat Enterprise Linux 8.5、8.8、および8.9</block>
+  <block id="0d76b6f5f7ef4feb4ba34ba4dc8a3356" category="section-title">オブジェクトストレージのメタデータを保持する同期関係はどのようなものですか？</block>
+  <block id="b0f6c5b9e24f06b742cf40691ecda0a1" category="section-title">NFSまたはSMBがソースである同期中にレプリケートされるメタデータの種類</block>
+  <block id="fca3645c4b9c57a087d67f345e46b21a" category="paragraph">ユーザID、更新日時、アクセス時間、GIDなどのメタデータはデフォルトでレプリケートされます。ユーザは、同期関係の作成時にACLを必須としてマークすることで、CIFSからACLをレプリケートすることを選択できます。</block>
+  <block id="7051698c4825bdf5a52d58a440b9a6da" category="inline-link">トウキカンケイ</block>
+  <block id="5c4c20a350a01bcba51403b5971c1e55" category="inline-link">データブローカーの管理</block>
+  <block id="81671387dfc9496bbb584683131ed0ba" category="inline-link">パフォーマンスと構成を最適化するレポートの作成</block>
+  <block id="67eba5ff5953726e26983c2f64f794dc" category="paragraph">BlueXPのコピーと同期で、ソースとターゲット間のデータの同期が開始されます。同期にかかった時間、停止したかどうか、コピー、スキャン、または削除されたファイルの数に関する同期統計情報が表示されます。これにより、<block ref="036850536ef01bc8377a10d87d2c60f6" category="inline-link-rx"></block>、<block ref="afaf0e8700f6eb5774590916b99650a2" category="inline-link-rx"></block>または<block ref="04f03004f9e0603b9348762faa7e67f2" category="inline-link-rx"></block>。</block>
+  <block id="b9f1a0da291ab3c6b115c407d28d1ab9" category="inline-link">同期の正常な作成と完了</block>
+  <block id="62ef189d2125efd4e054bda2fe60e56f" category="paragraph">各レポートには、同期関係にあるパスに関する詳細情報が表示されます。ディレクトリ、ファイル、シンボリックリンクの数、ファイルサイズの分布、ディレクトリの深さと幅、変更時刻、アクセス時間などが含まれます。これは、以降にダッシュボードで使用できるSync Staticsとは異なります。<block ref="633d339dd1720ad54a63284823a9045d" category="inline-link-rx"></block>。</block>
 </blocks>

@@ -5,15 +5,12 @@ keywords: manage data brokers, manage data broker groups, data broker performanc
 summary: データブローカーは、ソースの場所からターゲットの場所にデータを同期します。作成する同期関係ごとにデータブローカーが必要です。データブローカーを管理するには、新しいデータブローカーをグループに追加し、データブローカーに関する情報を表示します。 
 ---
 = データブローカーグループの管理
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

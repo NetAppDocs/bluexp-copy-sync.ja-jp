@@ -245,7 +245,7 @@ TIP: この機能は、 StorageGRID と IBM Cloud Object Storage にデータを
 
 * 結果 *
 
-BlueXPのコピーと同期で、ソースとターゲット間のデータの同期が開始されます。
+BlueXPのコピーと同期で、ソースとターゲット間のデータの同期が開始されます。同期にかかった時間、停止したかどうか、コピー、スキャン、または削除されたファイルの数に関する同期統計情報が表示されます。これにより、 https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html["トウキカンケイ"]、 https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html["データブローカーの管理"]または https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html#creating-reports["パフォーマンスと構成を最適化するレポートの作成"]。
 
 
 
