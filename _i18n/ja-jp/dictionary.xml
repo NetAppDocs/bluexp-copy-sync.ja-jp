@@ -1916,4 +1916,8 @@
   <block id="67eba5ff5953726e26983c2f64f794dc" category="paragraph">BlueXPのコピーと同期で、ソースとターゲット間のデータの同期が開始されます。同期にかかった時間、停止したかどうか、コピー、スキャン、または削除されたファイルの数に関する同期統計情報が表示されます。これにより、<block ref="036850536ef01bc8377a10d87d2c60f6" category="inline-link-rx"></block>、<block ref="afaf0e8700f6eb5774590916b99650a2" category="inline-link-rx"></block>または<block ref="04f03004f9e0603b9348762faa7e67f2" category="inline-link-rx"></block>。</block>
   <block id="b9f1a0da291ab3c6b115c407d28d1ab9" category="inline-link">同期の正常な作成と完了</block>
   <block id="62ef189d2125efd4e054bda2fe60e56f" category="paragraph">各レポートには、同期関係にあるパスに関する詳細情報が表示されます。ディレクトリ、ファイル、シンボリックリンクの数、ファイルサイズの分布、ディレクトリの深さと幅、変更時刻、アクセス時間などが含まれます。これは、以降にダッシュボードで使用できるSync Staticsとは異なります。<block ref="633d339dd1720ad54a63284823a9045d" category="inline-link-rx"></block>。</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">ブログとコミュニティ</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">ネットアップコミュニティ</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXPブログ</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
 </blocks>

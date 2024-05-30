@@ -1,0 +1,31 @@
+---
+indexpage:
+  title: BlueXPのコピーと同期に関するドキュメント
+  summary: BlueXPのコピーと同期は、オンプレミスとクラウドのオブジェクトストア間でNASデータを転送するためのクラウドレプリケーションおよび同期サービスです。
+  keywords: bluexp-family, documentation, cloud
+  lead: BlueXPのコピーと同期は、オンプレミスとクラウドのオブジェクトストア間でNASデータを転送するためのクラウドレプリケーションおよび同期サービスです。
+  tiles:
+  - title: はじめに
+    links:
+    - title: BlueXPのコピーと同期の概要
+      url: concept-cloud-sync.html
+    - title: クイックスタート
+      url: task-quick-start.html
+    - title: よく寄せられる質問
+      url: faq.html
+  - title: BlueXPのコピーと同期を使用
+    links:
+    - title: 同期関係を作成します
+      url: task-creating-relationships.html
+    - title: ライセンスをセットアップする
+      url: task-licensing.html
+    - title: データブローカーグループの管理
+      url: task-managing-data-brokers.html
+  - title: ブログとコミュニティ
+    links:
+    - title: ネットアップコミュニティ
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXPブログ
+      url: https://cloud.netapp.com/blog
+    - title: クラウドに関する Web セミナー
+      url: https://cloud.netapp.com/events
