@@ -46,6 +46,8 @@ sidebar:
     entries:
     - title: ソースとターゲットの間でデータを同期します
       entries:
+      - title: オブジェクトストレージ間でデータを同期するためのデータブローカーの準備
+        url: "/task-prepare-object-storage.html"
       - title: 同期関係を作成します
         url: "/task-creating-relationships.html"
       - title: SMB 共有から ACL をコピーする
