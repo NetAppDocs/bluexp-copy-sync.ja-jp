@@ -206,7 +206,7 @@ BlueXPのコピーと同期は、ベーシック認証の有無にかかわら�
 
 データブローカーグループは、 1 つのファイルの転送が失敗してもタイムアウトしません。代わりに、データブローカーグループは、ファイルをスキップする前に 3 回再試行します。再試行値は、同期関係の設定で設定できます。
 
-link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["同期関係の設定を変更する方法について説明します。"]。
+link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["同期関係の設定を変更する方法について説明します。"]です。
 
 
 
@@ -360,7 +360,7 @@ https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-ser
 
 そのため、ネットワークのパフォーマンスとターゲットのディスクスループットを確認してください。
 
-次に、グループにデータブローカーを追加してその関係の負荷を共有することで、同期パフォーマンスを高速化することを検討します。 link:task-managing-relationships.html#accelerating-sync-performance["同期のパフォーマンスを高速化する方法について説明します。"]。
+次に、グループにデータブローカーを追加してその関係の負荷を共有することで、同期パフォーマンスを高速化することを検討します。link:task-managing-relationships.html#accelerate-sync-performance["同期のパフォーマンスを高速化する方法について説明します。"]です。
 
 
 
@@ -380,7 +380,7 @@ https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-ser
 
 デフォルトでは、 Active Sync 関係がある場合、ソースサーバ上で削除されたアイテムは、次回の同期時にターゲットから削除されません。ただし、関係ごとの同期設定にはオプションがあり、BlueXPのコピーと同期でターゲットの場所にあるファイルがソースから削除された場合に削除されるように定義できます。
 
-link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["同期関係の設定を変更する方法について説明します。"]。
+link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["同期関係の設定を変更する方法について説明します。"]です。
 
 
 

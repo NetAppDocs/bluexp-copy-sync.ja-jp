@@ -4,7 +4,7 @@ permalink: task-copying-acls.html
 keywords: permissions, access control list, acls, ntfs, cifs, smb, shares, robocopy, copy, transfer, activate, operating system, os, ram, cpu, networking, copy acls to the target 
 summary: BlueXPのコピーと同期では、SMB共有間、およびSMB共有とオブジェクトストレージ（ONTAP S3を除く）間でAccess Control List（ACL；アクセス制御リスト）をコピーできます。必要に応じて、 Robocopy を使用して SMB 共有間の ACL を手動で保持することもできます。 
 ---
-= SMB 共有から ACL をコピーする
+= SMB共有からACLをコピー
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -17,8 +17,8 @@ summary: BlueXPのコピーと同期では、SMB共有間、およびSMB共有�
 BlueXPのコピーと同期では、SMB共有間、およびSMB共有とオブジェクトストレージ（ONTAP S3を除く）間でAccess Control List（ACL；アクセス制御リスト）をコピーできます。必要に応じて、 Robocopy を使用して SMB 共有間の ACL を手動で保持することもできます。
 
 .選択肢
-* <<Setting up BlueXP copy and sync to copy ACLs from an SMB server,ACLを自動的にコピーするようにBlueXPのコピーと同期を設定>>
-* <<Manually copying ACLs between SMB shares,SMB 共有間で ACL を手動でコピーします>>
+* <<BlueXPのコピーと同期を設定してACLをコピー,ACLを自動的にコピーするようにBlueXPのコピーと同期を設定>>
+* <<SMB共有間でACLを手動でコピーします,SMB 共有間で ACL を手動でコピーします>>
 
 
 

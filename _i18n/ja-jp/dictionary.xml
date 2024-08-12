@@ -87,10 +87,8 @@
   <block id="b4d5fd65d29290d42a4161d3362d1326" category="list-text">各 API 呼び出しの Authorization ヘッダーにユーザトークンとアカウント ID を追加します。</block>
   <block id="938f1047c15f00fdd0cbfc8e4cfa15e1" category="paragraph">* 例 *</block>
   <block id="b55b4937f8ff2471222d040f06b7807e" category="paragraph">次の例は、 Microsoft Azure でデータブローカーを作成するための API 呼び出しを示しています。&lt;user_token&gt; と &lt;accountId&gt; は、前の手順で取得したトークンと ID で置き換えます。</block>
-  <block id="d6f4f4fada8d5c3952a90492c3138e97" category="sidebar-title">トークンの有効期限が切れた場合はどうすればよいですか。</block>
   <block id="5c5cd253b66501facf455779c806ee88" category="paragraph">API 応答には、トークンの有効期限を示す「 expires_in 」フィールドが含まれています。</block>
   <block id="19ec08da81a826d919d64ab860845c04" category="section-title">API リファレンス</block>
-  <block id="92e2b06a1709caf91e74da4a3fb021fe" category="section-title">List API の使用</block>
   <block id="89b39aae22e72765b6582ae0db1ba186" category="paragraph">list API は非同期 API であるため ' 結果はすぐには返されません ( たとえば 'get/data-colders/{id}/list-nfs-export-folders' と 'get/data-colders/{id}/list-s3-bas' など )サーバからの応答は、 HTTP ステータス 202 だけです。実際の結果を得るには 'get/mmessages/client'api を使用する必要があります</block>
   <block id="6d89cb53dacaf941bbf56d09d3dc21de" category="list-text">使用するリスト API を呼び出します。</block>
   <block id="50879b5593dd20bf23b085383f4beb91" category="list-text">オペレーションの結果を表示するには 'get/mmessages/client'API を使用します</block>
@@ -179,11 +177,9 @@
   <block id="3b2c91269ae0c67c26fe59bbb10eb6a2" category="admonition">この機能は、 StorageGRID と IBM Cloud Object Storage にデータを同期する場合にも使用できます。Azure と Google Cloud Storage では、メタデータオプションのみを使用できます。</block>
   <block id="600901e70afccc50e18676048766ba78" category="paragraph">* 結果 *</block>
   <block id="f3b62c43bc969f6b5b30d96b8171a06d" category="inline-image-macro">Cloud Data Sense から直接新しい同期を開始した後に表示される Data Sense Integration ページを示すスクリーンショット。</block>
-  <block id="34a36f0a41c390743b7c28311304c570" category="doc">外部の橋本社ボールトを使用するようにデータブローカーグループを設定する</block>
   <block id="2428fdd39f5ab3cbda5b5bac12ab8f84" category="paragraph">URL を設定して、データブローカーグループにクレデンシャルを提供するようにヴォールトを準備します。ボールトのシークレットの URL は、 _creds__ で終わる必要があります。</block>
   <block id="e0e88dfcd253d5d5ea89a9985f2101cf" category="paragraph">グループ内の各データブローカーのローカル構成ファイルを変更して、外部ボルトからクレデンシャルを取得するようにデータブローカーグループを準備します。</block>
   <block id="f3a79eb1d3d4b75537affb3a4efa8775" category="paragraph">すべての設定が完了したら、 API 呼び出しを送信して、ヴォールトを使用してシークレットを取得する同期関係を作成できます。</block>
-  <block id="7fe706ca34bea852c8a7b5a01aac8705" category="section-title">ヴォールトを準備しています</block>
   <block id="b97d94a4af6f2da3a68d05d4577e517f" category="paragraph">URL は次のように設定する必要があります。</block>
   <block id="011dd3c441f07d89289a23db496f2046" category="paragraph">「 /&lt;path&gt;/&lt;RequestID&gt;/&lt;endpoint-protocol&gt; creds 」を指定します</block>
   <block id="ac70412e939d72a9234cdebb1af5867b" category="list-text">パス</block>
@@ -203,7 +199,6 @@
   <block id="01bcd05b36ee78f5e7558380e1c441c1" category="list-text">ターゲットクレデンシャルの完全な URL とパスの例</block>
   <block id="2af8dca9bc89c0d31fe796e59b5f370e" category="list-text">\ http://example.vault.com:8200/my-path/all-secrets/n32hcbnejk2/AZURECreds</block>
   <block id="3aefad44bc64b2ff412966cd4518c970" category="paragraph">プレフィックスパスは _/my-path/all-secrets/_ 、要求 ID は _n32hcbnejk2_、 ターゲットエンドポイントは Azure です。</block>
-  <block id="6bdc241f7d9a3a1b035cb0ebe9d563d1" category="section-title">データブローカーグループを準備しています</block>
   <block id="e53c4e755ce10f21750aef31f9cb474c" category="list-text">グループ内のデータブローカーへの SSH 接続</block>
   <block id="57e9628679cc186593a986def13cfc2b" category="list-text">/opt/netapp/databroker/config にある local.json ファイルを編集します。</block>
   <block id="d04d9c6e802e9e399fbf311275a4e180" category="list-text">enable を * true * に設定し、 _external-m積分 .hashicorp_as の下に config パラメータフィールドを設定します。</block>
@@ -233,7 +228,6 @@
   <block id="1151673efbf1139445cf28b9c2a5e870" category="list-text">グループ内の他のすべてのデータブローカーについて、上記の手順を繰り返します。</block>
   <block id="df538d67a969b99ad10c96736d0e3de8" category="section-title">AWS ロール認証の例</block>
   <block id="7464ab636ff7b666832693357d2dae63" category="section-title">GCP - IAM 認証の例</block>
-  <block id="c4e8f9bc954572562912e03c9f2fbe19" category="section-title">GCP - IAM 認証を使用する場合に権限を設定します</block>
   <block id="e32a252e42df40beaff7e5a1ce821572" category="paragraph">_GCP-AM_authentication メソッドを使用している場合、データブローカーには次の GCP 権限が必要です。</block>
   <block id="b872e6417139366489f4ec46ed47e57d" category="inline-link-macro">データブローカーの GCP 権限要件の詳細については、こちらをご覧ください</block>
   <block id="6c6f477f7b70d038eaa27d83b51ba533" category="paragraph"><block ref="e85dc3fc664e427ab39e5c87730a03a3" category="inline-link-macro-rx"></block>。</block>
@@ -265,14 +259,12 @@
   <block id="6b130e03ee8c8d322a6174a591d2b774" category="inline-link-macro">ライセンスの仕組みをご確認ください</block>
   <block id="3b1417e2cc8a651004ff0099ad870a73" category="paragraph"><block ref="e8ff8b95d6e71d0badc3862de8130ad6" category="inline-link-macro-rx"></block>。</block>
   <block id="3d4a1e312061c2a0e1171d137dc166dd" category="summary">必要に応じて、アンインストールスクリプトを実行し、データブローカーのインストール時に作成されたデータブローカーとパッケージおよびディレクトリを削除します。</block>
-  <block id="e6f506127d5f6704ecc31da23c753df9" category="doc">データブローカーのアンインストール</block>
   <block id="dd8a8a39c3cdcebc155728bf563bc1e1" category="paragraph">必要に応じて、アンインストールスクリプトを実行して、データブローカー、およびデータブローカーのインストール時に作成されたパッケージとディレクトリを削除します。</block>
   <block id="1216bef3d5a3c80340882e3c0b1b21f1" category="list-text">データブローカーホストにログインします。</block>
   <block id="c3007d2919ca918bead8275d47f7541a" category="list-text">データ・ブローカー・ディレクトリ（ /opt/NetApp/databroker' ）に変更します</block>
   <block id="62e3899fe2adfc651dc44b617edd0895" category="list-text">次のコマンドを実行します。</block>
   <block id="3b06e3c95384b14b7af959fa5c562aff" category="paragraph">chmod +x アンインストーラ - databroker.sh`./uninstaller - databroker.sh`</block>
   <block id="7af2a6b72c67250458118d65cec3d103" category="list-text">「 y 」を押してアンインストールを確定します。</block>
-  <block id="8268a9d045ec667e304233d6a99374e0" category="doc">AWS に新しいデータブローカーを作成</block>
   <block id="c43a6988e9fb943699097296d5eabba0" category="paragraph">また、クラウド内または社内の既存の Linux ホストにデータブローカーをインストールすることもできます。 <block ref="556c1c240ec0090f5d153e6b793bb5bc" category="inline-link-macro-rx"></block>。</block>
   <block id="af7680d24e7ce67fad6006c6fc467b53" category="section-title">サポートされている AWS リージョン</block>
   <block id="f94a220e5e098d02bd2706d4a8e698bd" category="paragraph">中国地域を除くすべての地域がサポートされています。</block>
@@ -288,7 +280,6 @@
   <block id="ea85396da38480bdcd66e09456ac3fd4" category="inline-link-macro">この JSON ファイルで定義されている権限</block>
   <block id="8e4350880011b411db7b27aa380a60d0" category="list-text"><block ref="1a8d8995001884ca8ca83a93f0897f4a" category="inline-link-macro-rx"></block> データブローカーが正しく機能するように、 IAM ロールに関連付ける必要があります。</block>
   <block id="63430717bb1e3b33a858e3661c1627a0" category="paragraph">データブローカーを導入する際に IAM ロールを指定するには、次の手順に従います。</block>
-  <block id="9727c41167b4d3a89168d9e2a6bf1fbe" category="section-title">データブローカーの作成</block>
   <block id="c371ecc54445590f3e356493638d02db" category="paragraph">新しいデータブローカーを作成する方法はいくつかあります。以下の手順では、同期関係を作成する際にデータブローカーを AWS にインストールする方法について説明します。</block>
   <block id="f0fff4676c779987735fc7ee633da03c" category="paragraph">「 * データブローカーグループ * 」ページが表示されるまで、手順を完了します。</block>
   <block id="0fc6ea2f37f8948c8630ffb60d5e0265" category="inline-image-macro">AWS 、 Azure 、 Google Cloud 、オンプレミスのデータブローカーを選択できるデータブローカーページのスクリーンショット。</block>
@@ -314,7 +305,6 @@
   <block id="c03f3cc8275a0a87d7784cf12a264c0b" category="list-text">ディスクのサイズとタイプ</block>
   <block id="c5a333964ee323aaba5e5b42ff247d6b" category="list-text">10GB gp2 SSD です</block>
   <block id="71904eaffc2ec470e49ce1a710f5e878" category="summary">セキュリティポリシーが厳格な場合は、データインフライト暗号化を使用して、異なるネットワーク内の NFS サーバ間でデータを同期します。</block>
-  <block id="8df3b832ae4d464c11ed34e0c6f3da2f" category="doc">転送中のデータ暗号化を使用した NFS データの同期</block>
   <block id="72bf4a1584bf5735615bab52725bb4a4" category="paragraph">厳格なセキュリティポリシーを適用している場合は、転送中データの暗号化を使用して NFS データを同期できます。この機能は、 NFS サーバから別の NFS サーバ、および Azure NetApp Files から Azure NetApp Files へサポートされます。</block>
   <block id="81c917d52736001d7efd43b0f0ddc92c" category="paragraph">たとえば、異なるネットワークにある 2 つの NFS サーバ間でデータを同期できます。また、サブネットやリージョン間で Azure NetApp Files 上のデータをセキュアに転送しなければならない場合もあります。</block>
   <block id="d6dc650d0d220e29e9345f6a653d7ec3" category="section-title">データインフライト暗号化の仕組み</block>
@@ -330,7 +320,6 @@
   <block id="9ebc239fb878b360de7460c36e393e15" category="list-text">ターゲットのデータブローカーは、ターゲットに送信する前にデータを復号化します。</block>
   <block id="09cf96cd35454a72d72eda24f5a5324a" category="list-text">最初のコピーの後、変更されたデータは 24 時間ごとに同期されます。同期するデータがある場合は、イニシエータが他のデータブローカーとの暗号化された接続を開いてプロセスが開始されます。</block>
   <block id="aaf881bd7230ab8408f75fc7a5701e2e" category="inline-link-macro">スケジュールは関係の作成後に変更することができます</block>
-  <block id="06a32f9c3008d75facbe41d9e59fdb13" category="paragraph">データをより頻繁に同期する場合は、 <block ref="8047278fff8ae1b9eca053a56dd7adfd" category="inline-link-macro-rx"></block>。</block>
   <block id="4f6582928260ec95d5382830f415104b" category="section-title">サポートされている NFS のバージョン</block>
   <block id="30fe527571ab3736d66f7bc649438aab" category="list-text">NFS サーバでは、データ転送時の暗号化が NFS バージョン 3 、 4.0 、 4.1 、 4.2 でサポートされています。</block>
   <block id="e58f770a9e62d5d72c5f922745500d31" category="list-text">Azure NetApp Files では、 NFS バージョン 3 および 4.1 でデータ転送時の暗号化がサポートされます。</block>
@@ -412,7 +401,6 @@
   <block id="ba898f89df5c39db3aedca30b0dd9585" category="paragraph">拡張した Cloud Sync ライセンスを更新できるようになりました。</block>
   <block id="9c36a4a5f20a34725e3200409f20a65a" category="paragraph">ネットアップから購入した Cloud Sync ライセンスを延長した場合は、ライセンスを再度追加して有効期限を更新できます。</block>
   <block id="e8b8928cc2b3188c3209a7c67ffeb87a" category="inline-link-macro">ライセンスを更新する方法について説明します</block>
-  <block id="38e00e64912a31a6e9ba56d502615fce" category="paragraph"><block ref="c554cb9dd2842cfffcc3e3678513553a" category="inline-link-macro-rx"></block>。</block>
   <block id="625212f75a40ffe67e47fee287c2f6b1" category="section-title">Box の資格情報を更新します</block>
   <block id="9b441f4afbb53f4c8d5b7fc8bc6b9301" category="paragraph">既存の同期関係の Box クレデンシャルを更新できるようになりました。</block>
   <block id="b4ef038c5650fac60f2434cad75645e5" category="inline-link-macro">クレデンシャルを更新する方法について説明します</block>
@@ -489,7 +477,6 @@
   <block id="3f31cdfbb217ec6fa9a858a46cfd3290" category="paragraph">同期関係ごとに新しい * Compare by * 設定を使用できるようになりました。</block>
   <block id="dabc7e1b7880be887fd2898786c6c925" category="paragraph">この詳細設定では、ファイルまたはディレクトリが変更されたために再度同期する必要があるかどうかを判断するときに、 Cloud Sync で特定の属性を比較するかどうかを選択できます。</block>
   <block id="21a5968447686d2d79ece94fc6ab0653" category="inline-link-macro">同期関係の設定の変更の詳細については、こちらをご覧ください</block>
-  <block id="1df5e86c2f922b55e7a126736aa3fdc8" category="paragraph"><block ref="4d121b48d2c287fff78a725ca3d42ec9" category="inline-link-macro-rx"></block>。</block>
   <block id="13c380d451c296cda1d1289b9dc25114" category="section-title">2021 年 4 月 11 日</block>
   <block id="5e224a35cc2a8810465ced83c84d4a8b" category="section-title">スタンドアロンの Cloud Sync サービスは廃止されました</block>
   <block id="e192b538b406b93c179453039f37bbe7" category="section-title">さまざまなプロジェクトで Google Cloud バケットを使用できます</block>
@@ -506,7 +493,6 @@
   <block id="d5544bca7e8644a200250b7adde1bebe" category="paragraph">Cloud Sync は、データブローカーで最新のソフトウェアリリースが実行されていないことを確認できるようになりました。このメッセージは、最新の機能を確実に利用するために役立ちます。</block>
   <block id="45829fc5241b4b6d0ef08aa6c9b72758" category="inline-image-macro">ダッシュボードでデータブローカーを表示したときに警告が表示されるスクリーンショット。</block>
   <block id="8af1e3719b0b0b728508006245dc9abb" category="paragraph"><block ref="8af1e3719b0b0b728508006245dc9abb" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="bc3f4614483a5cee9737e251b527f30b" category="doc">Google Cloud で新しいデータブローカーを作成</block>
   <block id="bdbd44585d11046b8db390866b7172bb" category="section-title">サポートされている Google Cloud リージョン</block>
   <block id="24935d18f8d82ccfcd2bd35b5d5d7a58" category="paragraph">すべてのリージョンがサポートされています。</block>
   <block id="23c5a36a4e18015e399e97b3a48f2255" category="section-title">Google Cloud にデータブローカーを導入するための権限が必要です</block>
@@ -524,7 +510,6 @@
   <block id="dde6927c09ef26c282cb0cbb7b055953" category="paragraph"><block ref="dde6927c09ef26c282cb0cbb7b055953" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2a38666aae985ff4945ff1199551e9d0" category="paragraph">インターネットアクセスにプロキシが必要な場合は、データブローカーと同じサービスアカウントを Google Cloud で使用してプロキシを設定する必要があります。</block>
   <block id="ed7160396fcfefca3c1997b02ccbe37c" category="paragraph">Google Cloud にデータブローカーを導入し、新しい同期関係を作成しました。このデータブローカーは、追加の同期関係とともに使用できます。</block>
-  <block id="8743cf4fd5bd75723f626be1d4af6bb5" category="section-title">他の Google Cloud プロジェクトでバケットを使用する権限を付与する</block>
   <block id="6ab8649cc222312c90daa98ef292a592" category="list-text">Google Cloud Platform コンソールを開き、 Cloud Storage サービスをロードします。</block>
   <block id="75d2935b39ceeb13d10ba4ced792a75b" category="list-text">データブローカーのサービスアカウントの名前を入力します。</block>
   <block id="bee41d170929fb7fc4e79dde87e71a86" category="inline-xref">上記と同じ権限</block>
@@ -552,9 +537,7 @@
   <block id="358b02ae4c5737f45e3823c255aeb87e" category="list-text">ソースからファイルが削除された場合は、ターゲットの場所からファイルを削除することを選択します。デフォルトでは、ターゲットの場所からファイルが削除されることはありません。</block>
   <block id="f493e490805f4eb86f124bae3d9da833" category="paragraph">ソースとターゲットの間でデータを同期する必要がなくなった場合は、同期関係を削除できます。このアクションでは、データブローカーグループ（または個々のデータブローカーインスタンス）は削除されず、ターゲットからデータが削除されることもありません。</block>
   <block id="f68b92ee815675ae3018eca060b553b7" category="summary">レポートを作成して表示すると、 NetApp の担当者がデータブローカーの構成を調整し、パフォーマンスを向上させるために役立つ情報を入手できます。</block>
-  <block id="66a57cf55e06ad77b01c27e38766b83a" category="doc">レポートを作成および表示して、設定を調整します</block>
   <block id="428c9ca45dc8f0b8e1eda231aef5b08f" category="paragraph">レポートを作成して表示すると、ネットアップの担当者が支援する情報を入手して、データブローカーの設定を調整し、パフォーマンスを向上させることができます。</block>
-  <block id="0389649d1c6e65625a57cd6c84149999" category="section-title">レポートの作成</block>
   <block id="26126443d44ba2723fb7a7ede8dda75c" category="paragraph">同期関係のそれぞれのパス（ソースまたはターゲット）が表形式で表示されます。</block>
   <block id="94954fba60bab7206fb4f66c4a7750cb" category="paragraph">ファイルシステムパスのサンプルレポートを次に示します。</block>
   <block id="3cd71212de067629b841a10ceaf4f32f" category="inline-image-macro">同期アイテムの量、ファイルサイズ、最大値、アクセス時間、変更時間、および変更時間を表示するレポート。</block>
@@ -562,16 +545,13 @@
   <block id="92e47f2f14756e088762306ae29dfb31" category="paragraph">次に、オブジェクトストレージに関するレポートの例を示します。</block>
   <block id="321073ad07dd4a09f0eaadfb4561181a" category="inline-image-macro">パス項目数、オブジェクトサイズ、変更時刻、およびストレージクラスを表示するレポート。</block>
   <block id="a9c50da4c27210dd95cbf6916b6c3b34" category="paragraph"><block ref="a9c50da4c27210dd95cbf6916b6c3b34" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="03901baec19e5e2a784f13acaa06127a" category="section-title">レポートのダウンロード</block>
   <block id="f0d2e62b1c7572c743aab0d7c9b969c5" category="paragraph">レポートを PDF 形式でダウンロードして、オフラインで表示したり共有したりできます。</block>
-  <block id="90e1319509db72baceccb5d8f4c2c472" category="section-title">レポートエラーの表示</block>
   <block id="d86cb2fe66402168c1c894043151d228" category="paragraph">エラーのリストを確認したら、問題に対処してからレポートを再実行できます。</block>
   <block id="57ba4added426d6aea423b1e70f1b94c" category="list-text">[ エラー *] 列で、レポートにエラーがあるかどうかを確認します。</block>
   <block id="d029ebc8f7b2e2aa789dc0e27797846f" category="inline-image-macro">エラーの数を示す [Paths] テーブルのスクリーンショット。 [Errors] 列にはクリック可能な小さな矢印が表示されています。</block>
   <block id="e01f862fe61f1c44179e61c69a18938d" category="paragraph"><block ref="e01f862fe61f1c44179e61c69a18938d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="591d860278697b4e6dbce26639961630" category="list-text">エラーの情報を使用して、問題を修正します。</block>
   <block id="aa8765cc437da97ac36fcf5b9e8bd67c" category="paragraph">問題を解決すると、次回レポートを実行したときにエラーが表示されなくなります。</block>
-  <block id="1b3463b3026822e4c8d6ad54c16a507a" category="section-title">レポートの削除</block>
   <block id="37100a26242d4deb28feac7db8d366de" category="paragraph">修正したエラーが含まれているレポートや、削除した同期関係に関連するレポートを削除することができます。</block>
   <block id="4051a60e091a5882a67c28985f8c22c7" category="list-text">レポートを削除することを確認します。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを表示します</block>
@@ -641,7 +621,6 @@
   <block id="bdc71bda13a615bcc29169c368c82126" category="section-title">データブローカーグループは、ファイルの同期に失敗したときに再試行しますか。またはタイムアウトしますか？</block>
   <block id="486538f3b2cf30dbac185ae48dbcd398" category="paragraph">データブローカーグループは、 1 つのファイルの転送が失敗してもタイムアウトしません。代わりに、データブローカーグループは、ファイルをスキップする前に 3 回再試行します。再試行値は、同期関係の設定で設定できます。</block>
   <block id="16577fe9b5ad3fc74ec2a37327b4f98f" category="inline-link-macro">同期関係の設定を変更する方法について説明します。</block>
-  <block id="13b1f6a5b87aad329fe4a0f0b0a24671" category="paragraph"><block ref="4b47cfecc7a5fed36fcab91191b9686f" category="inline-link-macro-rx"></block>。</block>
   <block id="e7fc2a48e6896c10c00e2e0d0f42df0a" category="section-title">非常に大規模なデータセットがある場合はどうすればよいですか。</block>
   <block id="1a76a33306f63cd222193be36e2aab28" category="paragraph">1 つのディレクトリに 60 万以上のファイルが含まれている場合は、データブローカーグループを設定してペイロードを処理できるように、 mailto ： ng-cloudsync-support@netapp.com [ お問い合わせ ] をご利用ください。データブローカーグループにメモリを追加しなければならない場合があります。</block>
   <block id="5272c1335a923889fee61138f9c644e0" category="paragraph">マウントポイント内のファイルの総数に制限はありません。上位ディレクトリやサブディレクトリの階層のレベルに関係なく、 600 、 000 以上のファイルを含む大規模なディレクトリには、追加のメモリが必要です。</block>
@@ -691,7 +670,6 @@
   <block id="c6bdda7b88c4f51edb4d0ca671f8c528" category="paragraph">データ転送のパフォーマンスには、複数の要因が影響します。全体的な同期パフォーマンスは、ネットワーク帯域幅、レイテンシ、ネットワークトポロジ、データブローカー VM の仕様、ストレージシステムのパフォーマンスによって影響を受ける可能性があります。たとえば、グループ内の単一のデータブローカーが 100MB/s に達することはありますが、ターゲットのディスクスループットでは 64MB/s しか許可されませんその結果、データブローカーグループはデータのコピーを試行し続けますが、ターゲットではデータブローカーグループのパフォーマンスを達成できません。</block>
   <block id="7d222e095bb95fdb1e26be04106ab252" category="paragraph">そのため、ネットワークのパフォーマンスとターゲットのディスクスループットを確認してください。</block>
   <block id="6f22195a8ef8575adc498fb44d8a075c" category="inline-link-macro">同期のパフォーマンスを高速化する方法について説明します。</block>
-  <block id="0154df452f9453f942ba55a04f2fdbee" category="paragraph">次に、グループにデータブローカーを追加してその関係の負荷を共有することで、同期パフォーマンスを高速化することを検討します。 <block ref="355055ed36bda4d96dcf1f665e0d51c2" category="inline-link-macro-rx"></block>。</block>
   <block id="e5fbd5081321543a8bad7a8d1fea419c" category="section-title">項目を削除する</block>
   <block id="1d341849ed5b4388c424bd97c39d9c07" category="paragraph">次の質問は、ソースとターゲットから同期関係とデータを削除することに関連しています。</block>
   <block id="0ddb89dbe2d4246b5b4b6dca2aa8a808" category="paragraph">関係を削除すると、以降のすべてのデータの同期が停止し、支払いが終了します。ターゲットに同期されたデータはそのまま残ります。</block>
@@ -710,10 +688,8 @@
   <block id="56eeabb4a00fbcd2e27e55831df62209" category="list-text">データブローカーソフトウェアは、自動的に最新バージョンにアップグレードします。</block>
   <block id="da5fad1df140da3fbc300e41e0a200d4" category="list-text">データブローカーは、 AWS SQS を信頼性の高い安全な通信チャネルとして使用し、制御と監視を行います。SQS は永続性レイヤも提供します。</block>
   <block id="836d2627946ada039a9486c82ce99884" category="list-text">データブローカーをグループに追加することで、転送速度を向上させ、高可用性を追加することができます。1 つのデータブローカーに障害が発生した場合、サービスの耐障害性があります</block>
-  <block id="64d7746bed65d4dc86191fc514e7ebbf" category="doc">SMB 共有から ACL をコピーする</block>
   <block id="6ef697f11922be2e4de0971f7d70997f" category="list-title">選択肢</block>
   <block id="3ac19332a9012b7586dca2b8b7c57b58" category="inline-xref">SMB 共有間で ACL を手動でコピーします</block>
-  <block id="6690de55a41e5eebc0f748de2f508fb2" category="list-text"><block ref="677048ca203ed360a1f7fefc6961b7a3" category="inline-xref-macro-rx"></block></block>
   <block id="e9e23d944b5ba04f7bd10800f3536393" category="inline-link-macro">サポートされているオペレーティングシステム</block>
   <block id="b82aab2ce8ba96a1adcef93a4d0f2e7a" category="paragraph">この機能は、 _any_type のデータブローカー（ AWS 、 Azure 、 Google Cloud Platform 、オンプレミスのデータブローカー）と連携します。オンプレミスのデータブローカーを実行できます <block ref="21c422ddfc59d696be9e90956009904f" category="inline-link-macro-rx"></block>。</block>
   <block id="38ab7ff3062aba8e3cff5bda4cd76234" category="list-title">新しい関係の手順</block>
@@ -764,7 +740,6 @@
   <block id="6a3cdc9a7bccf7b319d4cd575bb3b01f" category="section-title">Web ブラウザエンドポイント</block>
   <block id="fd0cb271f0ac093ecb033a2bfea34fbd" category="paragraph">トラブルシューティングの目的でログをダウンロードするには、 Web ブラウザから次のエンドポイントにアクセスする必要があります。</block>
   <block id="c964e3aec545a38db906e6bb0b6a705f" category="paragraph">logs.cloudsync.netapp.com:443</block>
-  <block id="540d36f51d945cde427519036203dde6" category="doc">Azure に新しいデータブローカーを作成</block>
   <block id="455aadf3bd22f71973763b3cdc7db550" category="section-title">サポートされている Azure リージョン</block>
   <block id="df8514e24a07bfd81c667163f17fbec0" category="paragraph">中国、米国政府、米国国防総省を除くすべての地域がサポートされます。</block>
   <block id="38354aeafcfd5993a9d65d97514a8e3d" category="section-title">認証方式</block>
@@ -846,7 +821,6 @@
   <block id="9ecbc2d9f6b6ab0392906cca0b95b920" category="list-text">転送元同時実行数</block>
   <block id="ac0fac9f0c454d2eb07769d1359bbe40" category="list-text">転送元プロセスの制限</block>
   <block id="ec7e38030033a02298c5a717c0397281" category="inline-link-macro">データブローカーグループのユニファイド構成を定義する方法について説明します</block>
-  <block id="f34ca0a61f713db3f7223ea730746e00" category="paragraph"><block ref="76b1d1355d80ad25cf7c1c2af9610053" category="inline-link-macro-rx"></block>。</block>
   <block id="017c5900c1d43fddb24f60e2fcc3f6fc" category="paragraph">Google クラウドストレージバケットが次の要件を満たしていることを確認します。</block>
   <block id="e649787bac6e0b31cc56d488858d8e89" category="section-title">Google クラウドストレージでサポートされるデータブローカーの場所</block>
   <block id="31891805e49d1c8e637b40a3a036d1cd" category="inline-link-macro">Google Cloud データブローカーの導入方法をご確認ください</block>
@@ -911,7 +885,6 @@
   <block id="a43f5cf69d6af0c6e17bed7ff726625e" category="list-text">Linux ホストは、ソースとターゲットに接続されている必要があります。</block>
   <block id="e7b55bccb60334ca631527b050553022" category="list-text">ファイルサーバが Linux ホストにエクスポートへのアクセスを許可している必要があります。</block>
   <block id="7bea0411e1c1d113bc62197206637112" category="list-text">AWS へのアウトバウンドトラフィック（データブローカーは常に Amazon SQS サービスと通信）を処理するために、 Linux ホストでポート 443 が開いている必要があります。</block>
-  <block id="c9e33dfa8b5904f2c5eeefbab35a3d9b" category="section-title">AWS へのアクセスを有効化</block>
   <block id="21182c7c99920ebad46cc371d317499a" category="paragraph">S3 バケットを含む同期関係でデータブローカーを使用する場合は、 Linux ホストで AWS にアクセスする準備をしておく必要があります。データブローカーをインストールする際、プログラム経由のアクセス権と特定の権限を持つ AWS ユーザに対して AWS キーを提供する必要があります。</block>
   <block id="8668bc285e00b6f9e578112045a4865d" category="list-text">を使用して、 IAM ポリシーを作成します<block ref="6d7c79584b67fdfc254e7699a61c1e8d" category="inline-link-rx"></block></block>
   <block id="f9b866c4ff602b4a3215745c79cfe7e4" category="inline-link">AWS の手順を表示します。</block>
@@ -919,7 +892,6 @@
   <block id="b3c98a582bb953058ccaf9a71307fa93" category="list-text">プログラムによるアクセス権を持つ IAM ユーザを作成します。</block>
   <block id="dd9d9810864a1e7938f32b3eaa8dd049" category="paragraph"><block ref="dd9d9810864a1e7938f32b3eaa8dd049" category="inline-link-rx"></block></block>
   <block id="564482440eb08d11894ec114af427f21" category="paragraph">データブローカーソフトウェアをインストールするときに AWS キーを指定する必要があるため、必ず AWS キーをコピーしてください。</block>
-  <block id="71921838fce69c9d045aeb2ad30c1eb5" category="section-title">Google Cloud へのアクセスを有効にします</block>
   <block id="9bb2d547aba26d64f54ee705473214d6" category="paragraph">Google Cloud Storage バケットを含む同期関係でデータブローカーを使用する場合は、 Google Cloud アクセス用の Linux ホストを準備しておく必要があります。データブローカーをインストールする場合、特定の権限を持つサービスアカウントにキーを提供する必要があります。</block>
   <block id="3c5f750427f50f4edf7cb574473c42a8" category="list-text">Storage Admin の権限がない Google Cloud サービスアカウントを作成します。</block>
   <block id="6cb9b02ae49aa68f97de615d923b228a" category="list-text">JSON 形式で保存されたサービスアカウントキーを作成します。</block>
@@ -928,9 +900,7 @@
   <block id="902d86db753e123639feaba47a0e34ff" category="paragraph">このファイルには、少なくとも「 project_id 」、「 private_key 」、および「 client_email 」というプロパティを含める必要があります。</block>
   <block id="a6c2835cfd7f21086d62be199ba39d44" category="admonition">キーを作成すると、ファイルが生成され、マシンにダウンロードされます。</block>
   <block id="be2c33a07b84816f411d04d45ac1e4a3" category="list-text">JSON ファイルを Linux ホストに保存します。</block>
-  <block id="8269fd6e9d75dd954301e8ba35641805" category="section-title">Microsoft Azure へのアクセスを有効にしています</block>
   <block id="7af7eb8440af6bb7f9ffd64569367b5b" category="paragraph">Azure へのアクセスは、関係ごとに定義されます。そのためには、同期関係ウィザードでストレージアカウントと接続文字列を指定します。</block>
-  <block id="b6e5e048443785c8f424048cf1b9e40e" category="section-title">データブローカーのインストール</block>
   <block id="1944006c73d02c718c69408861e1307c" category="paragraph">同期関係を作成するときに、 Linux ホストにデータブローカーをインストールできます。</block>
   <block id="df89dda1d1c7ea3cd71a127402ea04d7" category="paragraph"><block ref="df89dda1d1c7ea3cd71a127402ea04d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8020038698547625e7abf1eda36c8877" category="admonition">このオプションには「 * _ オンプレミス _ データブローカー * 」というラベルが付けられていますが、オンプレミスまたはクラウド上の Linux ホストにも該当します。</block>
@@ -958,11 +928,8 @@
   <block id="2d9b81de771115c9968d6eabf73e8b3f" category="paragraph">「 sudo -s chmod +x data_broker_installer.sh 」 / data_broker_installer.sh - A &lt;AWS_access_key&gt; -s &lt;AWS_secret_key&gt; -g &lt;absolute_path-to-the _json _file&gt; -h &lt;proxy_host&gt; -p &lt;proxy_port&gt; -u &lt;proxy_username&gt; -w &lt;proxy_password&gt;</block>
   <block id="e656cb1ebc2e559e3bcc2002585434ed" category="list-text">AWS キー</block>
   <block id="18bbccaaba098ea1a676d4d7e5810ac9" category="inline-xref">次の手順を実行します</block>
-  <block id="d60ded7a040145d82fa326559c4753bf" category="list-text">これらはユーザに適切なキーです 準備しておきます <block ref="a969db4de6d1a440b2352a74869c6d78" category="inline-xref-macro-rx"></block>。AWS のキーはデータブローカーに格納され、オンプレミスネットワークやクラウドネットワークで実行されます。ネットアップでは、データブローカー以外でキーを使用していません。</block>
   <block id="a6c9e3a7671c1fd9d7328c3be5d107b5" category="list-text">JSON ファイル</block>
-  <block id="40a402e2af1a2cefda63b0a1c268470d" category="list-text">この JSON ファイルにサービスアカウントが含まれています 準備しておく必要があるキー <block ref="7d6ea8fc5746e04de57c4e2ea5f20d13" category="inline-xref-macro-rx"></block>。</block>
   <block id="febdb5376a041b31f655e631de8dd5d8" category="summary">14 日間の無料トライアル終了後に、同期関係の料金を支払う方法は 2 通りあります。最初のオプションは従量課金制です。2 つ目の選択肢は、ネットアップから直接ライセンスを購入することです。</block>
-  <block id="4ecb33900aad1706afbc34f19bd2f2e9" category="doc">無料トライアルの終了後に同期関係の料金を支払う</block>
   <block id="97a214da03586723b3eda5c2057276c9" category="paragraph">AWS Marketplace または Azure Marketplace からサブスクライブできます。両方から購読することはできません。</block>
   <block id="55430fccd9c75a6ec1bc44bb1d637619" category="paragraph">Marketplace サブスクリプションを使用して、ネットアップからライセンスを使用することもできます。たとえば、 25 の同期関係がある場合は、ライセンスを使用して最初の 20 の同期関係に料金を支払い、残りの 5 つの同期関係を持つ AWS または Azure から従量課金制で支払うことができます。</block>
   <block id="eee2650e10b32734e3b3f1bc627337f5" category="inline-link-macro">ライセンスの仕組みについては、こちらをご覧ください。</block>
@@ -982,7 +949,6 @@
   <block id="0f5161c9e18f97b653442fef34de1024" category="list-text">mailto ： ng-cloudsync-contact@netapp.com ？ subject= Cloud %20Sync%20Service%20-%20BYOL %20License%20Purchase%20Request までにライセンスを購入してください。 [Contacting NetApp] 。</block>
   <block id="a7a65c558a31a52f3a2570581f5170c2" category="list-text">シリアル番号を入力します。</block>
   <block id="441eaafe617acae90fac942cbac1d2a0" category="list-text">追加するライセンスに関連付けられているネットアップサポートサイトのアカウントを選択します。</block>
-  <block id="e0fd71ec05fc637037be9da3ff2103b0" category="section-title">ライセンスの更新</block>
   <block id="83893211fb004302e2b1216eda1eb1f8" category="list-text">追加するライセンスに関連付けられているネットアップサポートサイトのアカウントを選択します。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">サポートに登録します</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリースノート</block>
@@ -1266,9 +1232,6 @@
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したBlueXPアカウント、ワークスペース、コネクタの範囲内にあります。</block>
   <block id="255fe345cf98c4cc1d97da3902877f73" category="list-text">ユーザートークンとBlueXPアカウントIDを取得するには <block ref="270dc47ac77b7bdcd0ca5fb87f7199b0" category="inline-link-macro-rx"></block>。</block>
   <block id="8d91fda63040409e75bebd4d14b9a825" category="list-text">アカウントがBlueXPにすでに追加されている場合は、ドロップダウンリストから選択します。</block>
-  <block id="b53e2cff9f1417fcc84365e2d567011e" category="list-text">NetApp BlueXPからユーザートークンを取得します。</block>
-  <block id="415019870d0741b8c872f4ef1a528769" category="list-text">BlueXpアカウントIDを取得します</block>
-  <block id="79eae7ffaa22e2815a503a0776cb13d0" category="paragraph">NetApp BlueXpのユーザトークンには有効期限があります。トークンを更新するには、手順 1 から API を再度呼び出す必要があります。</block>
   <block id="f3347c5f92241e385b544f1b53daa14d" category="inline-image-macro">BlueXPの通知センターを示すスクリーンショット</block>
   <block id="beee0e2c828d5d7a17dcb84704a1dd82" category="paragraph">電子メールで通知を受信するには、同期関係で*Notification*設定を有効にしてから、BlueXPでAlerts and Notification設定を構成する必要があります。</block>
   <block id="75a84cecb34ecabf76f44935f66b67eb" category="paragraph">BlueXPのCanvasから同期関係を直接設定する方法が追加されました。</block>
@@ -1297,8 +1260,6 @@
   <block id="07c04fea0b1e27f12c0ac9f6c5f76af6" category="section-title">[[Google]] Google Cloud Storageバケットの要件</block>
   <block id="9bbb347fbd183c9b759619011e925584" category="section-title">[IAM ] AWSデータブローカーで独自のIAMロールを使用する必要があります</block>
   <block id="d59db7846bd10b6d60d21543df9faa9e" category="paragraph-title">必要なもの</block>
-  <block id="ed14d70dad7ae627497350bc4e3868e5" category="section-title">[AWS] AWSからサブスクライブしています</block>
-  <block id="b6a5a78c3221a73b92bf2f602e64a9cc" category="section-title">[[azure]] Azureから購読しています</block>
   <block id="5912630061434e78e733b8d5e5e3dc88" category="section-title">2022年12月11日</block>
   <block id="9709c6ba9ff4b10cb5ec3f4f956d3226" category="section-title">ディレクトリを名前でフィルタリングします</block>
   <block id="84a8ea117dd9c6b8ddbbe8f47665f923" category="inline-link">[ディレクトリ名を除外する]設定の詳細を確認してください</block>
@@ -1503,10 +1464,8 @@
   <block id="52c793499d4fd02f2f2330b970f6162b" category="summary">新しいデータブローカーを作成する場合は、オンプレミスのデータブローカーオプションを選択して、オンプレミスの Linux ホストまたはクラウド内の既存の Linux ホストにデータブローカーソフトウェアをインストールします。BlueXPのコピーと同期の手順に従ってインストールプロセスを実行できますが、インストールの準備に役立つように、このページでは要件と手順を繰り返します。</block>
   <block id="890130d57677e99876dfa01749264d4d" category="paragraph">新しいデータブローカーグループを作成する場合は、オンプレミスのデータブローカーオプションを選択して、オンプレミスの Linux ホストまたはクラウド内の既存の Linux ホストにデータブローカーソフトウェアをインストールします。BlueXPのコピーと同期の手順に従ってインストールプロセスを実行できますが、インストールの準備に役立つように、このページでは要件と手順を繰り返します。</block>
   <block id="43fa66f5d7cb7b0c6940f346a2840e44" category="inline-xref">BlueXPのコピーと同期からURIを取得するには、次の手順を実行します</block>
-  <block id="fdf038d5164429a9481528d1a4ae0b9a" category="list-text">BlueXPのコピーと同期の手順ページにインストールファイルのURIが表示されます。プロンプトに従ってオンプレミスのデータブローカーを導入すると、このURIがロードされます。この URI はリンクが動的に生成され、 1 回しか使用できないため、ここでは繰り返し使用されません。 <block ref="0c33a94f9c890b9aae239faccb0a58b1" category="inline-xref-macro-rx"></block>。</block>
   <block id="d4dc0f2ea6e5e1538c8a19c6a4577fd8" category="summary">BlueXPのコピーと同期では、SMB共有間、およびSMB共有とオブジェクトストレージ（ONTAP S3を除く）間でAccess Control List（ACL；アクセス制御リスト）をコピーできます。必要に応じて、 Robocopy を使用して SMB 共有間の ACL を手動で保持することもできます。</block>
   <block id="81a977665d31d193ae870e9766c60880" category="inline-xref">ACLを自動的にコピーするようにBlueXPのコピーと同期を設定</block>
-  <block id="d19dc7040ab8dc466773d35695363957" category="list-text"><block ref="55b2d1445c700d9bab1004cc9ff792c1" category="inline-xref-macro-rx"></block></block>
   <block id="25aad67dfa80ebe55925aa72bc94b583" category="paragraph">BlueXPのコピーと同期では、データの同期時にソースとターゲットの間のACLが保持されます。</block>
   <block id="40074d699c28eac9b0a231e26a10dbb8" category="list-text">BlueXPのコピーと同期から、ソースとターゲットのSMB共有間に新しい関係を作成するか、既存の関係を同期します。</block>
   <block id="1c21a7ebb7b558a51c4ebb47b152cbeb" category="paragraph">BlueXPのコピーと同期によって、関係のデータ同期プロセスが開始されます。</block>
@@ -1548,7 +1507,6 @@
   <block id="f34b6d76110ab7661039d45200f420f5" category="paragraph">BlueXPのコピーと同期では、次のストレージタイプがサポートされます。</block>
   <block id="a9645f9fd5c738babcb0a0b7564fafa8" category="paragraph">BlueXPのコピーと同期の使用に関連するコストには、リソース料金とサービス料金の2種類があります。</block>
   <block id="6169c8d461dd7f9996b17fcf210180a3" category="list-text">AWS Marketplaceから登録し、BlueXPのコピー&amp;同期サービスに再度ログインして登録を完了します。</block>
-  <block id="b5ee50058b36eec1b9d5e452251d8123" category="section-title">[[licenses]ネットアップからライセンスを購入し、BlueXPのコピーと同期に追加します</block>
   <block id="a1c678174ddff43ed8cf229a96c7a003" category="paragraph">同期関係の料金を事前に支払うには、1つ以上のライセンスを購入してBlueXPのコピーおよび同期サービスに追加する必要があります。</block>
   <block id="b69b60c6eae94cb020b628bd40e1db2a" category="paragraph">ネットアップから購入したBlueXPのコピーと同期のライセンスを延長した場合、BlueXPのコピーと同期で新しい有効期限が自動的に更新されません。有効期限を更新するには、ライセンスを再度追加する必要があります。ライセンスの管理には、BlueXPのコピーと同期、または該当するWebサイトを使用する必要があります。デジタルウォレットを使用することはできません*。</block>
   <block id="a6aa4333de4bce96807c6d015f47bea5" category="paragraph">BlueXPのコピーと同期により、既存のライセンスが新しい有効期限に更新されます。</block>
@@ -1628,7 +1586,6 @@
   <block id="01523e5fc16052f503921585b0698ab3" category="paragraph"><block ref="ee9222b07587eb2c3ffe563d1a2c6106" category="inline-link-rx"></block>。</block>
   <block id="5272ee17dd9d75e3474f45c3e2ce72c0" category="paragraph"><block ref="5272ee17dd9d75e3474f45c3e2ce72c0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="404965498641a1a56cc0fa3373515d7a" category="paragraph"><block ref="404965498641a1a56cc0fa3373515d7a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="246b0e9609672cddcf038daaa946671b" category="paragraph"><block ref="bbd18c81f756c2aa65d18a49f39abc0e" category="inline-link-rx"></block>。</block>
   <block id="b4e33a0f7ed5ccdaa3ecce4c47daf31f" category="paragraph"><block ref="b4e33a0f7ed5ccdaa3ecce4c47daf31f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="858b6b26381ac0e28fd0ab2919dbe947" category="paragraph"><block ref="0e57eb14c04befe90ef141b40df96648" category="inline-link-rx"></block>。</block>
   <block id="607c524b181fcf51f1c3bf2bd8544f62" category="paragraph"><block ref="607c524b181fcf51f1c3bf2bd8544f62" category="inline-image-macro-rx" type="image"></block></block>
@@ -1938,4 +1895,47 @@
   <block id="c28d873efe941bde2e3f61ce0bfc122b" category="paragraph">設定したデータブローカーグループを使用して、オブジェクトストレージ間の同期関係を作成できるようになりました。</block>
   <block id="9fc076386261ca80bfc67f7f57c641d3" category="section-title">2024年7月14日</block>
   <block id="c18c776847f6d7588ddeab0632527364" category="paragraph">BlueXPのコピーおよび同期サービスとデータブローカーを更新し、いくつかのバグを修正しました。新しいデータブローカーのバージョンは1.0.53です。</block>
+  <block id="688afeddfca9191ad2c185d0d60558c9" category="list-text">BlueXP  からユーザートークンを取得します。</block>
+  <block id="8ce9552d4501ab462ee2bb5bc9e6477c" category="list-text">BlueXPアカウントIDを取得します</block>
+  <block id="c9abe9ccf2c537d5ccca15e2909fe38c" category="paragraph">BlueXP  のユーザートークンには有効期限があります。トークンを更新するには、手順 1 から API を再度呼び出す必要があります。</block>
+  <block id="70eae86d00c0e60d5d2336fb08d92f98" category="section-title">リストAPIの使用</block>
+  <block id="0be41d4f1d149c5666f23118d262e4bf" category="paragraph"><block ref="aab50d0c938d39ea193b352a6eaceb1a" category="inline-link-macro-rx"></block>です。</block>
+  <block id="b3df85a57daa191df008fcf99148c146" category="paragraph">次に、グループにデータブローカーを追加してその関係の負荷を共有することで、同期パフォーマンスを高速化することを検討します。<block ref="c6533be9d7045c2121f63bb9e696588d" category="inline-link-macro-rx"></block>です。</block>
+  <block id="9e98e2282b4f1a041c72ac033de7f22a" category="paragraph"><block ref="abdcd6d0b6bdd2b55e8073eafc2a0a0e" category="inline-link-macro-rx"></block>です。</block>
+  <block id="fae10cbd0637c2a3b4fb64d15eceda07" category="doc">SMB共有からACLをコピー</block>
+  <block id="9d0b349dc26d3347b52099aea6d0df8a" category="list-text"><block ref="88aa7b5029e91473e8ba3a71d0a852b3" category="inline-xref-macro-rx"></block></block>
+  <block id="980591db29a9690a93f634902684c663" category="list-text"><block ref="4bcbb68a064879ef2119198c0f50e143" category="inline-xref-macro-rx"></block></block>
+  <block id="b3f60c33ab58886b68b322d1b01f37bf" category="doc">外部のHashiCorp Vaultを使用するようにデータブローカーグループを設定する</block>
+  <block id="1cecbb005f6de325852717fe83c80fd0" category="section-title">ボルトを準備します</block>
+  <block id="ec6e3650e66c60637209ea5c501ac6fc" category="section-title">データブローカーグループを準備</block>
+  <block id="10d5963a9f08d8ec5852d2bfb5d2b1b5" category="section-title">GCP-IAM認証を使用する場合の権限の設定</block>
+  <block id="484f1332663a70bcce7f8a43073b4e93" category="doc">AWSで新しいデータブローカーを作成</block>
+  <block id="c40f18ad7e0d1fbd9bc3465015dbf13c" category="section-title">データブローカーを作成</block>
+  <block id="1c87bfdc8a1515b9980559428b3741a1" category="doc">Azureで新しいデータブローカーを作成</block>
+  <block id="a2094db7080bd56823e029ea04ef4e75" category="doc">Google Cloudで新しいデータブローカーを作成</block>
+  <block id="f653c6f4c0e09b6ff0ca76fdc83f8972" category="section-title">他のGoogle Cloudプロジェクトでバケットを使用する権限を提供する</block>
+  <block id="00ceb73d9f24801bad28c1c27a9659a3" category="doc">Linuxホストへのデータブローカーのインストール</block>
+  <block id="78d8524b476ff2ade5b94c9c29b7fb4f" category="section-title">AWSへのアクセスを有効にする</block>
+  <block id="97cf58702dd7c3aca1a35f9563af69e3" category="section-title">Google Cloudへのアクセスを有効にする</block>
+  <block id="294480d8cbf4410fbc88cfbb4e3ce0cd" category="section-title">Microsoft Azureへのアクセスを有効にする</block>
+  <block id="dc06ddbd32d43560edacfaa29183ccbc" category="section-title">データブローカーをインストール</block>
+  <block id="85dd96f2329cfefba214bd7ea96ccfa4" category="list-text">BlueXPのコピーと同期の手順ページにインストールファイルのURIが表示されます。プロンプトに従ってオンプレミスのデータブローカーを導入すると、このURIがロードされます。この URI はリンクが動的に生成され、 1 回しか使用できないため、ここでは繰り返し使用されません。<block ref="0bcf9f6d0f5343297a10b1cf9ff5c95a" category="inline-xref-macro-rx"></block>です。</block>
+  <block id="86e1fbfc21141a428e91434596659972" category="list-text">これらは、準備しておく必要があるユーザ用のキーです <block ref="402ff04efabc9c4f56b72b684c2e10c6" category="inline-xref-macro-rx"></block>。AWS のキーはデータブローカーに格納され、オンプレミスネットワークやクラウドネットワークで実行されます。ネットアップでは、データブローカー以外でキーを使用していません。</block>
+  <block id="da71e727ce602ce0df332bf7acd04f2b" category="list-text">これは、用意しておく必要があるサービスアカウントキーが含まれているJSONファイルです <block ref="8e7eb0db1ee4fd6a97230ce733e6c0b1" category="inline-xref-macro-rx"></block>。</block>
+  <block id="5a0b6969e1a00c9d4229b18d599f709e" category="doc">無償トライアルの終了後に同期関係の料金を支払う</block>
+  <block id="e028f7fc834047902996d4b3faec74ef" category="section-title">[[AWS]] AWSからサブスクライブ</block>
+  <block id="930f43b5351f67a33978fe5e38509494" category="section-title">[[Azure]Azureからサブスクライブ</block>
+  <block id="8b677a97b89f60dc6d50f9e94c7d249b" category="section-title">[[licenses] NetAppからライセンスを購入し、BlueXP  コピーと同期に追加する</block>
+  <block id="6c1c5737355a8b30e87ad5d7c6da9553" category="section-title">ライセンスを更新します</block>
+  <block id="5a93bfc26914da58fc866410768013aa" category="doc">設定を調整するためのレポートの作成と表示</block>
+  <block id="ef7a7b1bec08bef324977926c1fc910c" category="section-title">レポートを作成します</block>
+  <block id="df6e3c89245cdc5bf0a7191c642d6997" category="section-title">レポートのダウンロード</block>
+  <block id="4e81b9817b77a04417209233aa6770e7" category="section-title">レポートエラーの表示</block>
+  <block id="cbb776f3d96dc88fa5b9bf1fc5bdb830" category="section-title">レポートの削除</block>
+  <block id="3a6eb754876597bc8ab6133e13e9140a" category="doc">転送中データの暗号化を使用してNFSデータを同期</block>
+  <block id="5143828323383cafd31bc198ee983675" category="paragraph">より頻繁にデータを同期する場合は、を参照してください <block ref="ab2166e3b7a3bfd46d319139e30ee953" category="inline-link-macro-rx"></block>。</block>
+  <block id="b82bc2fd6e7ab1667187072565c0de89" category="doc">データブローカーをアンインストール</block>
+  <block id="5b34dda5c871fed8b9821e47e0d34ede" category="paragraph"><block ref="9ff383ddf2525d802b02fb0151232700" category="inline-link-rx"></block>です。</block>
+  <block id="24410e37408a11f41e4c63fb9cc48dd1" category="paragraph"><block ref="25a5ae570a2c9cafee62695215e5e759" category="inline-link-macro-rx"></block>です。</block>
+  <block id="cf2c9be412cc589b7ecf399ad3d2b5c5" category="paragraph"><block ref="ae034bb53c84075bda58d513fc152e63" category="inline-link-macro-rx"></block>です。</block>
 </blocks>

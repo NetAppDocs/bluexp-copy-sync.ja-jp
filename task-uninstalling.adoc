@@ -4,7 +4,7 @@ permalink: task-uninstalling.html
 keywords: uninstall, uninstall data broker, remove data broker 
 summary: 必要に応じて、アンインストールスクリプトを実行し、データブローカーのインストール時に作成されたデータブローカーとパッケージおよびディレクトリを削除します。 
 ---
-= データブローカーのアンインストール
+= データブローカーをアンインストール
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

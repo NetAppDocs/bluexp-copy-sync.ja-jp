@@ -4,7 +4,7 @@ permalink: task-nfs-encryption.html
 keywords: encryption, in flight, data in flight, in-flight, data-in-flight, nfs, initiator, listener, port 
 summary: セキュリティポリシーが厳格な場合は、データインフライト暗号化を使用して、異なるネットワーク内の NFS サーバ間でデータを同期します。 
 ---
-= 転送中のデータ暗号化を使用した NFS データの同期
+= 転送中データの暗号化を使用してNFSデータを同期
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -38,7 +38,7 @@ image:diagram_nfs_encryption.gif["2 つの NFS サーバと 2 つのデータブ
 . ターゲットのデータブローカーは、ターゲットに送信する前にデータを復号化します。
 . 最初のコピーの後、変更されたデータは 24 時間ごとに同期されます。同期するデータがある場合は、イニシエータが他のデータブローカーとの暗号化された接続を開いてプロセスが開始されます。
 +
-データをより頻繁に同期する場合は、 link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["スケジュールは関係の作成後に変更することができます"]。
+より頻繁にデータを同期する場合は、を参照してください link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["スケジュールは関係の作成後に変更することができます"]。
 
 
 
@@ -85,7 +85,7 @@ image:diagram_nfs_encryption.gif["2 つの NFS サーバと 2 つのデータブ
 
 
 
-== 転送中のデータ暗号化を使用した NFS データの同期
+== 転送中データの暗号化を使用してNFSデータを同期
 
 2 つの NFS サーバ間または Azure NetApp Files 間で新しい同期関係を作成し、転送中の暗号化オプションを有効にして、画面の指示に従います。
 

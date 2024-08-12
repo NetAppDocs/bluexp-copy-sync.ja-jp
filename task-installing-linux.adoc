@@ -4,7 +4,7 @@ permalink: task-installing-linux.html
 keywords: data broker, install, linux, on-prem data broker, on-prem, on prem, on premises, networking, permissions, os, operating system, rhel, red hat, ram, cpu, disk space, install data broker, installing data broker, install a data broker, data broker installation, linux installation, linux operating system, aws access, aws keys, keys, gcp access, aws permissions, gcp permissions, google permissions 
 summary: 新しいデータブローカーを作成する場合は、オンプレミスのデータブローカーオプションを選択して、オンプレミスの Linux ホストまたはクラウド内の既存の Linux ホストにデータブローカーソフトウェアをインストールします。BlueXPのコピーと同期の手順に従ってインストールプロセスを実行できますが、インストールの準備に役立つように、このページでは要件と手順を繰り返します。 
 ---
-= Linux ホストへのデータブローカーのインストール
+= Linuxホストへのデータブローカーのインストール
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -66,7 +66,7 @@ SELinux では、データブローカーソフトウェアの更新をブロッ
 
 
 
-== AWS へのアクセスを有効化
+== AWSへのアクセスを有効にする
 
 S3 バケットを含む同期関係でデータブローカーを使用する場合は、 Linux ホストで AWS にアクセスする準備をしておく必要があります。データブローカーをインストールする際、プログラム経由のアクセス権と特定の権限を持つ AWS ユーザに対して AWS キーを提供する必要があります。
 
@@ -86,7 +86,7 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html["AWS の�
 
 
 
-== Google Cloud へのアクセスを有効にします
+== Google Cloudへのアクセスを有効にする
 
 Google Cloud Storage バケットを含む同期関係でデータブローカーを使用する場合は、 Google Cloud アクセス用の Linux ホストを準備しておく必要があります。データブローカーをインストールする場合、特定の権限を持つサービスアカウントにキーを提供する必要があります。
 
@@ -108,13 +108,13 @@ NOTE: キーを作成すると、ファイルが生成され、マシンにダ�
 
 
 
-== Microsoft Azure へのアクセスを有効にしています
+== Microsoft Azureへのアクセスを有効にする
 
 Azure へのアクセスは、関係ごとに定義されます。そのためには、同期関係ウィザードでストレージアカウントと接続文字列を指定します。
 
 
 
-== データブローカーのインストール
+== データブローカーをインストール
 
 同期関係を作成するときに、 Linux ホストにデータブローカーをインストールできます。
 
@@ -163,7 +163,7 @@ curl <uri>-o data_broker_installer.sh -x <proxy_host>: <proxy_port>`
 curl <uri>-o data_broker_installer.sh -x <proxy_username>:<proxy_password>@<proxy_host>:<proxy_port>`
 
 +
-URI:: BlueXPのコピーと同期の手順ページにインストールファイルのURIが表示されます。プロンプトに従ってオンプレミスのデータブローカーを導入すると、このURIがロードされます。この URI はリンクが動的に生成され、 1 回しか使用できないため、ここでは繰り返し使用されません。 <<データブローカーのインストール,BlueXPのコピーと同期からURIを取得するには、次の手順を実行します>>。
+URI:: BlueXPのコピーと同期の手順ページにインストールファイルのURIが表示されます。プロンプトに従ってオンプレミスのデータブローカーを導入すると、このURIがロードされます。この URI はリンクが動的に生成され、 1 回しか使用できないため、ここでは繰り返し使用されません。<<データブローカーをインストール,BlueXPのコピーと同期からURIを取得するには、次の手順を実行します>>です。
 
 
 
@@ -187,8 +187,8 @@ NOTE: 以下に示す各コマンドには、 AWS アクセスと Google Cloud �
 「 sudo -s chmod +x data_broker_installer.sh 」 / data_broker_installer.sh - A <AWS_access_key> -s <AWS_secret_key> -g <absolute_path-to-the _json _file> -h <proxy_host> -p <proxy_port> -u <proxy_username> -w <proxy_password>
 
 +
-AWS キー:: これらはユーザに適切なキーです 準備しておきます <<AWS へのアクセスを有効化,次の手順を実行します>>。AWS のキーはデータブローカーに格納され、オンプレミスネットワークやクラウドネットワークで実行されます。ネットアップでは、データブローカー以外でキーを使用していません。
-JSON ファイル:: この JSON ファイルにサービスアカウントが含まれています 準備しておく必要があるキー <<Google Cloud へのアクセスを有効にします,次の手順を実行します>>。
+AWS キー:: これらは、準備しておく必要があるユーザ用のキーです <<AWSへのアクセスを有効にする,次の手順を実行します>>。AWS のキーはデータブローカーに格納され、オンプレミスネットワークやクラウドネットワークで実行されます。ネットアップでは、データブローカー以外でキーを使用していません。
+JSON ファイル:: これは、用意しておく必要があるサービスアカウントキーが含まれているJSONファイルです <<Google Cloudへのアクセスを有効にする,次の手順を実行します>>。
 
 
 

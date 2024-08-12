@@ -4,7 +4,7 @@ permalink: task-installing-aws.html
 keywords: data broker, install, aws, networking, permissions, regions, install data broker in aws, install in aws, deploy in aws, deploy data broker in aws, cft, template, iam role, use your own iam role, regions, supported regions, networking requirements, port, ports, 443, port 443, ntp, network time protocol, permissions, iam role, iam permissions, aws data broker 
 summary: 新しいデータブローカーを作成するときは、 AWS のデータブローカーオプションを選択して、 VPC 内の新しい EC2 インスタンスにデータブローカーソフトウェアを導入します。BlueXPのコピーと同期の手順に従ってインストールプロセスを実行できますが、インストールの準備に役立つように、このページでは要件と手順を繰り返します。 
 ---
-= AWS に新しいデータブローカーを作成
+= AWSで新しいデータブローカーを作成
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -66,7 +66,7 @@ IAM ロールは、次の要件を満たす必要があります。
 
 
 
-== データブローカーの作成
+== データブローカーを作成
 
 新しいデータブローカーを作成する方法はいくつかあります。以下の手順では、同期関係を作成する際にデータブローカーを AWS にインストールする方法について説明します。
 

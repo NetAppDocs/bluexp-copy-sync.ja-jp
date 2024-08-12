@@ -23,7 +23,7 @@ Web UIから利用できるBlueXPのコピーと同期の機能は、RESTful API
 BlueXPのコピーと同期APIの使用を開始するには、ユーザトークンとBlueXPアカウントIDを取得する必要があります。API 呼び出しを行うときは、トークンとアカウント ID を Authorization ヘッダーに追加する必要があります。
 
 .手順
-. NetApp BlueXPからユーザートークンを取得します。
+. BlueXP  からユーザートークンを取得します。
 +
 [source, http]
 ----
@@ -39,12 +39,11 @@ Body:
               "password": "<user_password>"
 }
 ----
-
-
++
 
 NOTE: クライアントIDのない個人用メールアカウントを使用している場合は、デフォルトのクライアントID「QC3AgHk6qdbmC7Yr82ApBwaaJLwRNO」を使用できます。
 
-. BlueXpアカウントIDを取得します
+. BlueXPアカウントIDを取得します
 +
 [source, http]
 ----
@@ -83,22 +82,14 @@ Body: { "name": "databroker1", "type": "AZURE" }
 ----
 
 
-.トークンの有効期限が切れた場合はどうすればよいですか。
-****
-NetApp BlueXpのユーザトークンには有効期限があります。トークンを更新するには、手順 1 から API を再度呼び出す必要があります。
+.次の手順
+BlueXP  のユーザートークンには有効期限があります。トークンを更新するには、手順 1 から API を再度呼び出す必要があります。
 
 API 応答には、トークンの有効期限を示す「 expires_in 」フィールドが含まれています。
 
-****
 
 
-== API リファレンス
-
-BlueXPのコピーと同期の各APIのドキュメントは、から入手できます https://api.cloudsync.netapp.com/docs[]。
-
-
-
-== List API の使用
+== リストAPIの使用
 
 list API は非同期 API であるため ' 結果はすぐには返されません ( たとえば 'get/data-colders/{id}/list-nfs-export-folders' と 'get/data-colders/{id}/list-s3-bas' など )サーバからの応答は、 HTTP ステータス 202 だけです。実際の結果を得るには 'get/mmessages/client'api を使用する必要があります
 
@@ -192,3 +183,8 @@ x-account-id: <accountId>
     }
 ]
 ----
+
+
+== API リファレンス
+
+BlueXPのコピーと同期の各APIのドキュメントは、から入手できます https://api.cloudsync.netapp.com/docs[]。

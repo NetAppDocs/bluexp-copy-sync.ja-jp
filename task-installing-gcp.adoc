@@ -4,7 +4,7 @@ permalink: task-installing-gcp.html
 keywords: data broker, install, gcp, google, networking, permissions, regions, install data broker in gcp, install in gcp, deploy in gcp, deploy data broker in gcp, install data broker in google, install in google, deploy in google, deploy data broker in google, networking requirements, port, ports, 443, port 443, ntp, network time protocol, gcp data broker, service account 
 summary: 新しいデータブローカーを作成する場合、 Google Cloud Data Broker オプションを選択して、 VPC 内の新しい仮想マシンインスタンスにデータブローカーソフトウェアを導入します。BlueXPのコピーと同期の手順に従ってインストールプロセスを実行できますが、インストールの準備に役立つように、このページでは要件と手順を繰り返します。 
 ---
-= Google Cloud で新しいデータブローカーを作成
+= Google Cloudで新しいデータブローカーを作成
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -101,7 +101,7 @@ BlueXPのコピーと同期でGoogle Cloudにデータブローカーを導入�
 
 
 
-== データブローカーの作成
+== データブローカーを作成
 
 新しいデータブローカーを作成する方法はいくつかあります。以下の手順では、同期関係を作成するときにデータブローカーを Google Cloud にインストールする方法について説明します。
 
@@ -143,7 +143,7 @@ Google Cloud にデータブローカーを導入し、新しい同期関係を�
 
 
 
-== 他の Google Cloud プロジェクトでバケットを使用する権限を付与する
+== 他のGoogle Cloudプロジェクトでバケットを使用する権限を提供する
 
 同期関係を作成し、ソースまたはターゲットとしてGoogle Cloud Storageを選択すると、BlueXPのコピーと同期では、データブローカーのサービスアカウントに使用する権限があるバケットから選択できます。デフォルトでは、これにはデータブローカーサービスアカウントと同じ _PROJECT に含まれるバケットが含まれます。ただし、必要な権限を指定した場合は、 _other_projects からバケットを選択できます。
 

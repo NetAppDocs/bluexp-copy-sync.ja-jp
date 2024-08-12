@@ -4,7 +4,7 @@ permalink: task-installing-azure.html
 keywords: data broker, install, azure, networking, permissions, regions, install data broker in azure, install in azure, deploy in azure, deploy data broker in azure, networking requirements, port, ports, 443, port 443, ntp, network time protocol, azure data broker 
 summary: 新しいデータブローカーを作成する場合、 Azure のデータブローカーオプションを選択して、 VNet 内の新しい仮想マシンにデータブローカーソフトウェアを導入します。BlueXPのコピーと同期の手順に従ってインストールプロセスを実行できますが、インストールの準備に役立つように、このページでは要件と手順を繰り返します。 
 ---
-= Azure に新しいデータブローカーを作成
+= Azureで新しいデータブローカーを作成
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -150,7 +150,7 @@ BlueXPのコピーと同期でAzureにデータブローカーを導入すると
 
 
 
-== データブローカーの作成
+== データブローカーを作成
 
 新しいデータブローカーを作成する方法はいくつかあります。以下の手順では、同期関係を作成する際にデータブローカーを Azure にインストールする方法について説明します。
 
