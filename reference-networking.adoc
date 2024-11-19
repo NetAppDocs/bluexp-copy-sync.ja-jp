@@ -107,7 +107,7 @@ image:diagram_networking_onprem.png["BlueXPのコピーと同期サービス、�
 \https://sts.us-east-1.amazonaws.com | データブローカーが AWS に導入されたときや、オンプレミスに導入されて AWS のクレデンシャルが指定されたときに、 AWS のクレデンシャルを確認することができます。データブローカーは、導入時、更新時、および再起動時にこのエンドポイントにアクセスします。 
 
 
-| ¥https://console.bluexp.netapp.com/¥https://netapp-cloud-account.auth0.com | 新しい同期関係のソースファイルを分類を使用して選択する場合に、BlueXPの分類に連絡します。 
+| https://api。BlueXP 。NetApp .com。https：// NetApp -cloud-account.auth0.com | 新しい同期関係のソースファイルを分類を使用して選択する場合に、BlueXPの分類に連絡します。 
 
 
 | \ https://pubsub.googleapis.com | Googleストレージアカウントから継続的な同期関係を作成する場合。 

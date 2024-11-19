@@ -42,7 +42,7 @@ Red Hat Enterprise Linux システムは、 Red Hat サブスクリプション�
 * * RAM * ： 16GB
 * * CPU * ： 4 コア
 * * 空きディスク容量 * ： 10 GB
-* * SELinux * ：無効にすることをお勧めします https://selinuxproject.org/["SELinux"^] ホスト。
+* * SELinux *：ホストでSELinuxを無効にすることをお勧めします。
 +
 SELinux では、データブローカーソフトウェアの更新をブロックし、通常運用に必要なエンドポイントにデータブローカーがアクセスできないようにするポリシーが適用されます。
 
