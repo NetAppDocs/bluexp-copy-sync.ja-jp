@@ -1942,4 +1942,6 @@
   <block id="2a81eb3b4a7f22fb1fdb159561b71f3f" category="doc">バグ修正</block>
   <block id="60b6724cc91011c88aedcdfe5a1554f0" category="cell">https://api。BlueXP 。NetApp .com。https：// NetApp -cloud-account.auth0.com</block>
   <block id="6a16108e082698a01703a8570c1c83ab" category="list-text">* SELinux *：ホストでSELinuxを無効にすることをお勧めします。</block>
+  <block id="43cb17f8c706e2a2a7e4c81a5cb2d17b" category="paragraph">BlueXPのコピーおよび同期サービスとデータブローカーを更新し、いくつかのバグを修正しました。新しいデータブローカーのバージョンは1.0.56です。</block>
+  <block id="b6eaf938209a57174cf0c8478fbb177d" category="section-title">2024年10月27日</block>
 </blocks>
