@@ -934,7 +934,6 @@
   <block id="f65ca7baf45cc92aec55770c0b36841f" category="paragraph"><block ref="7cfabb5964e9e36c902fe67d3082ea34" category="inline-link-macro-rx"></block>。</block>
   <block id="7f1e5fcf21192da891eea1c1f4f6e6f0" category="paragraph">AWS を使用すると、従量課金制または年払いが可能です。</block>
   <block id="f06e94914580a228484d54783ffeb2bb" category="list-title">従量課金制の手順</block>
-  <block id="af3298973678fbb2b80974a8030f07ac" category="list-text">「 * AWS * 」を選択します</block>
   <block id="03909f0465e674709c33e446a2657166" category="paragraph">次のビデオは、プロセスを示しています。</block>
   <block id="d95d2545b9702aaa44811f90fd798b70" category="list-title">年間の支払い手順</block>
   <block id="b857da0ad28712a25e73c0907a2b3740" category="inline-link">AWS Marketplace ページに移動します。</block>
@@ -1721,14 +1720,12 @@
   <block id="f8149e5272474293b308b5387c6e0eab" category="list-text">プロンプトが表示されたら、 Microsoft アカウントにログインします。プロンプトが表示されない場合は、* Azureにログイン*を選択します。</block>
   <block id="62aca030fc0ae0886728293f4df155b2" category="list-text">[続行]*を選択し、展開が完了するまでページを開いたままにします。</block>
   <block id="ad16396812bea804a1980d079b968f53" category="list-text">BlueXPのコピーと同期で、データブローカーが利用可能になったら*[続行]*を選択します。</block>
-  <block id="b9c67bb0bae9993217d3413e493a9d52" category="list-text">[同期]&gt;[ライセンス]*を選択します。</block>
   <block id="a5fb6f9fbd972c02e5329e1ff986d9d5" category="list-text">[サブスクライブ]*を選択し、*[続行]*を選択します。</block>
   <block id="9afef6b2e6bfae3c1516f6a5615e147a" category="list-text">[*購読を続行する*]を選択します。</block>
   <block id="7d5dc2ab8bafad8f8a587f44b30dc6f0" category="list-text">契約オプションを選択し、*契約の作成*を選択します。</block>
   <block id="8bf624ad0ff2e9fd580f8cf2ccbfb01b" category="list-text">Azureポータルで、*[作成]*を選択し、オプションを選択して*[サブスクライブ]*を選択します。</block>
   <block id="50663aa7afb45a9a800941c0bc89dcf1" category="list-text">導入が完了したら、通知ポップアップでSaaSリソースの名前を選択します。</block>
   <block id="610e8ce14d61f13ee15be5f296487890" category="list-text">BlueXPのコピーと同期に戻るには、[アカウントの設定]*を選択します。</block>
-  <block id="8a16f41efcb781e6645783df6cb0e97b" category="list-text">BlueXPで、*[同期]&gt;[ライセンス]*を選択します。</block>
   <block id="0be0367eff89e989e3751d45bd6caf93" category="list-text">[ライセンスの追加]*を選択し、必要な情報を追加します。</block>
   <block id="46d344ee2c7e916b914b2b031a79a880" category="list-text">アカウントがまだ追加されていない場合は、*[Add NSS Credentials]*を選択し、ユーザ名とパスワードを入力して*[Register]*を選択し、ドロップダウンリストから選択します。</block>
   <block id="6a44822bf57bcae55604cb610b227f67" category="paragraph">[ソースオブジェクトのフィルタ]*を選択して、ソースファイルとフォルダをターゲットの場所で同期および維持する方法を定義する設定を変更します。</block>
@@ -1944,4 +1941,11 @@
   <block id="6a16108e082698a01703a8570c1c83ab" category="list-text">* SELinux *：ホストでSELinuxを無効にすることをお勧めします。</block>
   <block id="43cb17f8c706e2a2a7e4c81a5cb2d17b" category="paragraph">BlueXPのコピーおよび同期サービスとデータブローカーを更新し、いくつかのバグを修正しました。新しいデータブローカーのバージョンは1.0.56です。</block>
   <block id="b6eaf938209a57174cf0c8478fbb177d" category="section-title">2024年10月27日</block>
+  <block id="4fa4cb31b90bbe492aedd2e14cab7850" category="video-title">同期関係のファイル拡張子を除外する</block>
+  <block id="befcd22ee9f31ea0976355003e77715b" category="list-text">BlueXP  のナビゲーションメニューから、*モビリティ&gt;コピーと同期*を選択します。</block>
+  <block id="f8b6a77f9bfe4363519793574823fcdf" category="video-title">AWS CloudFormationテンプレートからデータブローカーを起動</block>
+  <block id="fdd0629e14af63efd824f165e5349337" category="list-text">[ライセンス]*を選択します。</block>
+  <block id="734a65eeb41483b7a636c9cf13e4aad7" category="list-text">「* AWS *」を選択します。</block>
+  <block id="045842584f2fd61a80d6c55f49bd1f4f" category="video-title">AWS MarketplaceからのBlueXP  コピーと同期の配信登録</block>
+  <block id="09cf0bd8febab038e59733b8d4ac6505" category="video-title">Azure MarketplaceでBlueXP  のコピーと同期をサブスクライブ</block>
 </blocks>
