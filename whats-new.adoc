@@ -18,6 +18,18 @@ BlueXPのコピーと同期の新機能をご紹介します。
 
 
 
+== 2025年2月2日
+
+
+
+=== データブローカーの新しいOSサポート
+
+Red Hat Enterprise 9.4、Ubuntu 23.04、およびUbuntu 24.04を実行するホストでデータブローカーがサポートされるようになりました。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-host-requirements["Linuxホストの要件の表示"]。
+
+
+
 == 2024年10月27日
 
 
