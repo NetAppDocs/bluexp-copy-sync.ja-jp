@@ -28,7 +28,6 @@ BlueXPのコピーと同期を使用すると、ソースからターゲット�
 * Azure Blob の略
 * Azure NetApp Files の特長
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google クラウドストレージ
 * IBM クラウドオブジェクトストレージ
 * NFS サーバ
@@ -47,7 +46,6 @@ BlueXPのコピーと同期を使用すると、ソースからターゲット�
 * Azure Data Lake Storage Gen2
 * Azure NetApp Files の特長
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google クラウドストレージ
 * IBM クラウドオブジェクトストレージ
 * NFS サーバ
@@ -67,7 +65,6 @@ BlueXPのコピーと同期を使用すると、ソースからターゲット�
 * Azure NetApp Files の特長
 * ボックス ^1
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google クラウドストレージ
 * IBM クラウドオブジェクトストレージ
 * NFS サーバ
@@ -86,7 +83,6 @@ BlueXPのコピーと同期を使用すると、ソースからターゲット�
 * Azure Blob の略
 * Azure NetApp Files の特長
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google クラウドストレージ
 * IBM クラウドオブジェクトストレージ
 * NFS サーバ
@@ -119,7 +115,6 @@ BlueXPのコピーと同期を使用すると、ソースからターゲット�
 * Azure Data Lake Storage Gen2
 * Azure NetApp Files の特長
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google クラウドストレージ
 * IBM クラウドオブジェクトストレージ
 * NFS サーバ
@@ -151,25 +146,6 @@ BlueXPのコピーと同期を使用すると、ソースからターゲット�
 * Azure Data Lake Storage Gen2
 * Azure NetApp Files の特長
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
-* Google クラウドストレージ
-* IBM クラウドオブジェクトストレージ
-* NFS サーバ
-* オンプレミスのONTAPクラスタ（NFSまたはSMB）
-* SMB サーバ
-* StorageGRID
-
-
-
-
-| Cloud Volumes Service  a| 
-* Amazon EFS
-* ONTAP 対応の Amazon FSX
-* Amazon S3
-* Azure Blob の略
-* Azure NetApp Files の特長
-* Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google クラウドストレージ
 * IBM クラウドオブジェクトストレージ
 * NFS サーバ
@@ -187,7 +163,6 @@ BlueXPのコピーと同期を使用すると、ソースからターゲット�
 * Azure Blob の略
 * Azure NetApp Files の特長
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google クラウドストレージ
 * IBM クラウドオブジェクトストレージ
 * NFS サーバ
@@ -215,7 +190,6 @@ BlueXPのコピーと同期を使用すると、ソースからターゲット�
 * Azure NetApp Files の特長
 * ボックス ^1
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google クラウドストレージ
 * IBM クラウドオブジェクトストレージ
 * NFS サーバ
@@ -234,7 +208,6 @@ BlueXPのコピーと同期を使用すると、ソースからターゲット�
 * Azure Data Lake Storage Gen2
 * Azure NetApp Files の特長
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google クラウドストレージ
 * Googleドライブ
 * IBM クラウドオブジェクトストレージ
@@ -255,7 +228,6 @@ BlueXPのコピーと同期を使用すると、ソースからターゲット�
 * Azure Data Lake Storage Gen2
 * Azure NetApp Files の特長
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google クラウドストレージ
 * IBM クラウドオブジェクトストレージ
 * NFS サーバ
@@ -289,7 +261,6 @@ BlueXPのコピーと同期を使用すると、ソースからターゲット�
 * Azure Data Lake Storage Gen2
 * Azure NetApp Files の特長
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google クラウドストレージ
 * Googleドライブ
 * IBM クラウドオブジェクトストレージ
@@ -311,7 +282,6 @@ BlueXPのコピーと同期を使用すると、ソースからターゲット�
 * Azure NetApp Files の特長
 * ボックス ^1
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google クラウドストレージ
 * IBM クラウドオブジェクトストレージ
 * NFS サーバ

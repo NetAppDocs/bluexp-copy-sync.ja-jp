@@ -245,7 +245,6 @@
   <block id="f7b96044a16becafecad63df1725e9c8" category="list-text">Amazon EFS</block>
   <block id="270fcb785810d0206945029bb05f4e97" category="list-text">Amazon S3</block>
   <block id="ad1b29fd112650803371dd1a913315af" category="list-text">Box （プレビュー版として利用可能）</block>
-  <block id="200b74de2e12f861dad63aa0de84ec6c" category="list-text">Cloud Volumes Service</block>
   <block id="0ef90fde5440e5fbd859cb4d59f76f2c" category="list-text">オンプレミスの ONTAP クラスタ</block>
   <block id="a68d8b6ae92fdf98aa74ce8cfe41a27f" category="list-text">ONTAP S3 ストレージ</block>
   <block id="f24618724fdf35af4baff29a5d306a3f" category="list-text">SFTP （ API のみを使用）</block>
@@ -662,9 +661,6 @@
   <block id="9812e4bcf0263cfa80fdd8c8a789a255" category="paragraph">同期パフォーマンスを向上させるには、サービスレベルを Premium または Ultra に変更します。</block>
   <block id="94e12c4a58e36c62d41d5c7ea1f166f7" category="inline-link">Azure NetApp Files のサービスレベルとスループットの詳細については、こちらをご覧ください</block>
   <block id="8c7b3ed9d7207fdbe57540ab6cd5e1e7" category="paragraph"><block ref="bc692a932f7211cd1ab661879beac160" category="inline-link-rx"></block>。</block>
-  <block id="06dd90f0736ba00a0e3050c043c11683" category="section-title">Cloud Volumes Service for AWS でパフォーマンスが低下するのはなぜですか。</block>
-  <block id="37bbffa966391c253fd64fcdf3509afa" category="paragraph">クラウドボリュームとの間でデータを同期する場合、クラウドボリュームのパフォーマンスレベルが標準の場合は、障害やパフォーマンスの問題が発生することがあります。</block>
-  <block id="305fa2f993292af4e7b31404440f0f2e" category="paragraph">サービスレベルを Premium または Extreme に変更して、同期のパフォーマンスを向上させます。</block>
   <block id="a74feaca0228e843c01e1cc6a5a7a4da" category="section-title">1 つのグループに必要なデータブローカーの数</block>
   <block id="6d0c6fb653b3e1d2a836e0b86dabea25" category="paragraph">新しい関係を作成する場合は、 1 つのデータブローカーを 1 つのグループで開始します（アクセラレーション同期関係に属する既存のデータブローカーを選択した場合を除く）。多くの場合、 1 つのデータブローカーで同期関係のパフォーマンス要件を満たすことができます。同期されていない場合は、データブローカーをグループに追加することで、同期パフォーマンスを高速化できます。ただし、まず、同期のパフォーマンスに影響を与える可能性のある他の要因を確認する必要があります。</block>
   <block id="c6bdda7b88c4f51edb4d0ca671f8c528" category="paragraph">データ転送のパフォーマンスには、複数の要因が影響します。全体的な同期パフォーマンスは、ネットワーク帯域幅、レイテンシ、ネットワークトポロジ、データブローカー VM の仕様、ストレージシステムのパフォーマンスによって影響を受ける可能性があります。たとえば、グループ内の単一のデータブローカーが 100MB/s に達することはありますが、ターゲットのディスクスループットでは 64MB/s しか許可されませんその結果、データブローカーグループはデータのコピーを試行し続けますが、ターゲットではデータブローカーグループのパフォーマンスを達成できません。</block>
@@ -1361,7 +1357,6 @@
   <block id="58d5764081980d61dc580371a7f7d817" category="paragraph">BlueXPのコピーと同期の使用に関連するコストには、サービス料金とリソース料金の2種類があります。</block>
   <block id="d70cc4cc828a890527496d140a0c2410" category="paragraph">従量課金制の場合、BlueXPのコピー/同期サービスは、作成する同期関係の数に基づいて時間単位で料金が発生します。</block>
   <block id="6de51c73db055b72838083b7da60e27e" category="paragraph">BlueXPのコピーライセンスと同期ライセンスは、ネットアップの担当者からも入手できます。各ライセンスでは、 12 カ月間で 20 の同期関係が有効になります。</block>
-  <block id="49f3a6d816929e060637c72d117a2ab1" category="admonition">Cloud Volumes Service とAzure NetApp Files では、BlueXPのコピー関係と同期関係を無料で利用できます。</block>
   <block id="01396bcd8023631c1f74003124e865f5" category="section-title">BlueXPのコピーと同期の請求方法とサブスクリプションの管理方法を教えてください。</block>
   <block id="1c9fb78d365658e23fd1a1120743c672" category="paragraph">14 日間の無料トライアル終了後に、同期関係の料金を支払う方法は 2 通りあります。最初のオプションは、 AWS または Azure から購読することです。 AWS または Azure を使用すると、従量課金制または年払いが可能になります。2 つ目の選択肢は、ネットアップから直接ライセンスを購入することです。いずれの場合も、サブスクリプションはプロバイダのマーケットプレイスを通じて管理され、BlueXPのコピーと同期のユーザインターフェイスでは*管理されません。</block>
   <block id="27092823e2230caab83a388839b4dfeb" category="section-title">BlueXPのコピーと同期をクラウド外で使用できますか？</block>
@@ -1951,4 +1946,5 @@
   <block id="87a7ac9f5b2ba3fbc595d73b0c0dc71c" category="list-text">Red Hat Enterprise Linux 8.5、8.8、8.9、および9.4</block>
   <block id="62c1014736e4269f295e55cd59d3a0ec" category="list-text">Ubuntu Server 20.04 LTS、23.04 LTS、および24.04 LTS</block>
   <block id="723559e2f2e86e612c412da00a435eea" category="section-title">2025年2月2日</block>
+  <block id="3de4ee14f1b1d0abe0ecac5872f26c6c" category="admonition">Azure NetApp Filesでは、BlueXP  のコピー関係と同期関係を無料で利用できます。</block>
 </blocks>

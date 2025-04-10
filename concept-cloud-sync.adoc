@@ -52,7 +52,6 @@ BlueXPのコピーと同期では、次のストレージタイプがサポー�
 * Azure Data Lake Storage Gen2
 * Azure NetApp Files の特長
 * Box （プレビュー版として利用可能）
-* Cloud Volumes Service
 * Cloud Volumes ONTAP
 * Google クラウドストレージ
 * Googleドライブ

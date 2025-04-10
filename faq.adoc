@@ -58,7 +58,7 @@ BlueXPのコピーライセンスと同期ライセンスは、ネットアッ�
 link:concept-licensing.html["ライセンスの詳細については、こちらをご覧ください。"]。
 
 
-NOTE: Cloud Volumes Service とAzure NetApp Files では、BlueXPのコピー関係と同期関係を無料で利用できます。
+NOTE: Azure NetApp Filesでは、BlueXP  のコピー関係と同期関係を無料で利用できます。
 
 * リソース料金 *
 
@@ -341,14 +341,6 @@ Azure NetApp Files との間でデータを同期する際、ディスクのサ�
 同期パフォーマンスを向上させるには、サービスレベルを Premium または Ultra に変更します。
 
 https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-service-levels#throughput-limits["Azure NetApp Files のサービスレベルとスループットの詳細については、こちらをご覧ください"^]。
-
-
-
-=== Cloud Volumes Service for AWS でパフォーマンスが低下するのはなぜですか。
-
-クラウドボリュームとの間でデータを同期する場合、クラウドボリュームのパフォーマンスレベルが標準の場合は、障害やパフォーマンスの問題が発生することがあります。
-
-サービスレベルを Premium または Extreme に変更して、同期のパフォーマンスを向上させます。
 
 
 
